@@ -1,21 +1,21 @@
 import './App.css';
 import React, {Component} from "react";
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
-import {Layout} from "./UI/Layout";
-import {Home} from "./UI/Home";
-import {About} from "./UI/About";
-import {Contact} from "./UI/Contact";
-import {NoMatch} from "./UI/NoMatch";
-import {NavigationBar} from "./UI/NavigationBar"
-import {Jumbotron} from "./UI/Jumbotron";
+import {Layout} from "./components/Layout";
+import {Home} from "./pages/Home";
+import {About} from "./pages/About";
+import {Contact} from "./pages/Contact";
+import {NoMatch} from "./components/NoMatch";
+import {NavigationBar} from "./components/NavigationBar"
+import {Jumbotron} from "./components/Jumbotron";
+import {Footer} from "./components/Footer";
 
 class App extends Component {
     render() {
         return (
-            <React.Fragment>
+            <>
                 <Router>
                     <NavigationBar/>
-                    <Jumbotron />
                     <Layout>
                         <Switch>
                             <Route exact path="/" component={Home}/>
@@ -24,8 +24,9 @@ class App extends Component {
                             <Route path={NoMatch}/>
                         </Switch>
                     </Layout>
+                    <Footer/>
                 </Router>
-            </React.Fragment>
+            </>
         );
     }
 }

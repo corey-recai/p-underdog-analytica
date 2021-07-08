@@ -4,17 +4,17 @@ import styled from 'styled-components'
 import {Link} from "react-router-dom";
 
 const Styles = styled.div`
-    .navbar {
-      background-color: #222;
-    }
-  
-    .navbar-brand, .navbar-nav .nav-link {
-      color: #bbb;
+  .navbar {
+    background-color: rgba(0, 102, 255, 0.91);
+  }
 
-      &:hover {
-        color: white;
-      }
+  .navbar-brand, .navbar-nav .nav-link {
+    color: #bbb;
+
+    &:hover {
+      color: white;
     }
+  }
 `;
 
 export const NavigationBar = () => (
@@ -22,21 +22,21 @@ export const NavigationBar = () => (
         <Navbar expand="lg">
             <Navbar.Brand href="">UA</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navabr-nav">
+            <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto">
                     <Nav.Item>
-                        <Nav.Link>
-                            <Link to="/">Home</Link>
+                        <Nav.Link as={Link} to={"/"}>
+                            Home
                         </Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link>
-                            <Link to="/about">About</Link>
+                        <Nav.Link as={Link} to={"/about"}>
+                            About
                         </Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link>
-                            <Link to="/contact">Contact</Link>
+                        <Nav.Link as={Link} to={"/contact"}>
+                            Contact Us
                         </Nav.Link>
                     </Nav.Item>
                 </Nav>
