@@ -42,6 +42,11 @@ export default class nav extends Component {
                                       Contact Us
                                   </Nav.Link>
                               </Nav.Item>
+                              <Nav.Item>
+                                  <Nav.Link as={Link} to={"/betting"}>
+                                      Betting 101
+                                  </Nav.Link>
+                              </Nav.Item>
                           </Nav>
                       </Navbar.Collapse>
                   </Navbar>
