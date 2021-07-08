@@ -6,16 +6,15 @@ import {Home} from "./pages/Home";
 import {About} from "./pages/About";
 import {Contact} from "./pages/Contact";
 import {NoMatch} from "./components/NoMatch";
-import {NavigationBar} from "./components/NavigationBar"
-import {Jumbotron} from "./components/Jumbotron";
 import {Footer} from "./components/Footer";
+import Nav from "./components/ui/nav";
 
 class App extends Component {
     render() {
         return (
             <>
                 <Router>
-                    <NavigationBar/>
+                    <Nav/>
                     <Layout>
                         <Switch>
                             <Route exact path="/" component={Home}/>
