@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Layout } from "../components/Layout";
-import { Row, Col } from "react-bootstrap";
+import { Row, Col, Button, Card } from "react-bootstrap";
+
 
 export default class home extends Component {
     render() {
@@ -8,17 +9,27 @@ export default class home extends Component {
           <>
               <Layout>
                   <Row>
-                      {/*Chart Display*/}
-                      <Col xs={12} md={8}>
-                          <h1>This is chart side</h1>
+
+                      <Col xs={12} md={5}>
+                          <Card bg="dark">
+                              <Card.Body>
+                                  <h2 className="text-white">Landing Page</h2>
+                                  <Button className="btn-success">Signup</Button>
+                                  <Button className="btn-info">Login</Button>
+                              </Card.Body>
+                          </Card>
+
                       </Col>
 
-                      <Col xs={12} md={4}>
-                          <h2>Accordion with picks</h2>
+                      <Col xs={12} md={7}>
+                          <Card>
+                              <Card.Body>
+                                  <h2>Show picks and product</h2>
+                              </Card.Body>
+                          </Card>
                       </Col>
 
                   </Row>
-                  <h2>Landing Page</h2>
               </Layout>
           </>
         );

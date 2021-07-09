@@ -5,7 +5,10 @@ import {Link} from "react-router-dom";
 
 const Styles = styled.div`
   .navbar {
-    background-color: rgba(0, 102, 255, 0.91);
+    width: 100%;
+    //position: fixed;
+    //top: 0;
+    margin-bottom: 2%;
   }
 
   .navbar-brand, .navbar-nav .nav-link {
@@ -22,7 +25,7 @@ export default class nav extends Component {
         return (
           <>
               <Styles>
-                  <Navbar expand="lg">
+                  <Navbar bg="dark" expand="lg">
                       <Navbar.Brand href="">UA</Navbar.Brand>
                       <Navbar.Toggle aria-controls="basic-navbar-nav" />
                       <Navbar.Collapse id="basic-navbar-nav">
