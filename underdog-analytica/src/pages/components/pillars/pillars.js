@@ -1,4 +1,4 @@
-import {Button, CardDeck} from "react-bootstrap";
+import { CardDeck } from "react-bootstrap";
 import React, {Component} from "react";
 import { Card } from "react-bootstrap";
 
@@ -6,6 +6,7 @@ export default class pillars extends Component {
     render() {
         return (
             <>
+                <h2 className="justify-content-center">Why Underdog Analytica?</h2>
                 <CardDeck>
                     <Card>
                         <Card.Img variant="top" src="https://via.placeholder.com/140x100" />

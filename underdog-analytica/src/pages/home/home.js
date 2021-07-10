@@ -4,6 +4,8 @@ import { Row, Col, Card } from "react-bootstrap";
 import SignUp from '../components/signup/signup'
 import Login from '../components/login/login'
 import Pillars from '../components/pillars/pillars'
+import StockMarketCompare from '../components/comparisonGraph/comparisonGraph'
+import AccountTiers from '../components/accountTiers/accountTiers'
 
 export default class home extends Component {
     render() {
@@ -41,8 +43,16 @@ export default class home extends Component {
 
                   </Row>
                   {/* TODO Why Underdog Pillars*/}
-                  <Row>
+                  <Row className="mt-4">
                       <Pillars />
+                  </Row>
+
+                  <Row className="mt-4">
+                    <StockMarketCompare />
+                  </Row>
+
+                  <Row className="mt-4">
+                      <AccountTiers />
                   </Row>
               </Layout>
           </>

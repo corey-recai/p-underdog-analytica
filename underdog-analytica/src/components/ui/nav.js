@@ -26,7 +26,7 @@ export default class nav extends Component {
           <>
               <Styles>
                   <Navbar bg="dark" expand="lg">
-                      <Navbar.Brand href="">UA</Navbar.Brand>
+                      <Navbar.Brand href="">Underdog Analytica</Navbar.Brand>
                       <Navbar.Toggle aria-controls="basic-navbar-nav" />
                       <Navbar.Collapse id="basic-navbar-nav">
                           <Nav className="ml-auto">

@@ -3,8 +3,8 @@ import React, {Component} from "react";
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import {Layout} from "./components/ui/Layout";
 import Home from "./pages/home/home";
-import {About} from "./pages/About";
-import {Contact} from "./pages/Contact";
+import About from "./pages/about/About";
+import {Contact} from "./pages/contact/Contact";
 import {NoMatch} from "./components/NoMatch";
 import {Footer} from "./components/Footer";
 import Nav from "./components/ui/nav";
