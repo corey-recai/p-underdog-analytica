@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import { Layout } from "../components/Layout";
+import { Layout } from "../../components/ui/Layout";
 import { Row, Col, Button, Card } from "react-bootstrap";
-
+import SignUp from './signup/signup'
 
 export default class home extends Component {
     render() {
@@ -10,18 +10,11 @@ export default class home extends Component {
               <Layout>
                   <Row>
 
-                      <Col xs={12} md={5}>
-                          <Card bg="dark">
-                              <Card.Body>
-                                  <h2 className="text-white">Landing Page</h2>
-                                  <Button className="btn-success">Signup</Button>
-                                  <Button className="btn-info">Login</Button>
-                              </Card.Body>
-                          </Card>
-
+                      <Col xs={12} md={6}>
+                          <SignUp />
                       </Col>
 
-                      <Col xs={12} md={7}>
+                      <Col xs={12} md={6}>
                           <Card>
                               <Card.Body>
                                   <h4>Save time and bet smarter with data-driven football match predictions delivered weekly.</h4>

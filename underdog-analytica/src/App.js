@@ -1,8 +1,8 @@
 import './App.css';
 import React, {Component} from "react";
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
-import {Layout} from "./components/Layout";
-import Home from "./pages/Home";
+import {Layout} from "./components/ui/Layout";
+import Home from "./pages/home/home";
 import {About} from "./pages/About";
 import {Contact} from "./pages/Contact";
 import {NoMatch} from "./components/NoMatch";
