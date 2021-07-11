@@ -12,12 +12,12 @@ export default class Navigation extends Component {
       <>
         <Navbar className="py-3 ua-nav" sticky="top" expand="lg">
           <Container fluid className="nav-container">
-            <Navbar.Brand href="#home" className="me-auto">
+            <Navbar.Brand href="#home" id="navbar-brand" className="me-auto">
               <img src={logos.logoTransparentNoText} className="nav-logo" />
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
-              <Nav className="ms-auto">
+              <Nav id="nav-link-list" className="ms-auto">
                 <Nav.Link className="px-3" href="#home">
                   Bet History
                 </Nav.Link>
