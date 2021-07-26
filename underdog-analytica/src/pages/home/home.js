@@ -205,8 +205,8 @@ export default class Home extends Component {
               </Col>
               <Col className="pt-5" sm={12} md={12} lg={4}>
                 <div className="home-section-4-tier px-5">
-                  <h1 className="pt-4 bold home-section-4-title">Skeleton</h1>
-                  <h1 className="bold pt-4 home-section-4-pricing">$0/month</h1>
+                  <h1 className="pt-4 bold home-section-4-title">New Bettor</h1>
+                  <h1 className="bold pt-4 home-section-4-pricing">Free</h1>
                   <hr className="home-section-4-separator" />
                   <p className="home-section-4-text text-start pt-4 mx-auto">
                     <span className="highlight">
@@ -242,7 +242,9 @@ export default class Home extends Component {
               </Col>
               <Col className="pt-5" sm={12} md={12} lg={4}>
                 <div className="home-section-4-tier px-5">
-                  <h1 className="pt-4 bold home-section-4-title">Starter</h1>
+                  <h1 className="pt-4 bold home-section-4-title">
+                    Sharp Player
+                  </h1>
                   <h1 className="bold pt-4 home-section-4-pricing">
                     &euro;10/month*
                   </h1>
