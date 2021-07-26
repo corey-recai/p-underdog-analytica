@@ -10,10 +10,10 @@ export default class Navigation extends Component {
   render() {
     return (
       <>
-        <Navbar className="py-3 ua-nav" sticky="top" expand="lg">
+        <Navbar className="py-3 ua-nav" id="ua-nav" sticky="top" expand="lg">
           <Container fluid className="nav-container">
             <Navbar.Brand href="#home" id="navbar-brand" className="me-auto">
-              <img src={logos.logoTransparentNoText} className="nav-logo" />
+              <img src={logos.logoTransparentHd} className="nav-logo" />
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">

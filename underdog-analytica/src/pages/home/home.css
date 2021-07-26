@@ -1,5 +1,5 @@
 body {
-  font-family: "Cairo", sans-serif;
+  font-family: "Athletics" !important;
   overflow-x: hidden !important;
 }
 
@@ -20,7 +20,7 @@ body {
 }
 
 .custom-bullet li:before {
-  content: "\2013" !important;
+  content: "\2713" !important;
   font-family: "Glyphicons Halflings" !important;
   font-size: 1rem !important;
   margin-left: -1rem !important;
@@ -37,11 +37,15 @@ body {
 }
 
 .ua-nav {
-  background-color: #ffffff !important;
-  background-image: url("../../assets/images/bg.svg") !important;
+  background-color: #ffff !important;
   background-attachment: fixed !important;
   background-size: cover !important;
   background-position: center !important;
+}
+
+.ua-nav-scrolled {
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.06) !important;
+          box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.06) !important;
 }
 
 .nav-container {
@@ -50,7 +54,7 @@ body {
 
 .nav-logo {
   height: auto !important;
-  width: 25% !important;
+  width: 30% !important;
 }
 
 .navbar-expand-lg .navbar-collapse {
@@ -59,20 +63,17 @@ body {
 }
 
 .nav-link {
-  color: #ffff !important;
   font-weight: bold;
   font-size: 1.25rem !important;
 }
 
 .nav-link:hover {
-  color: #2383cc !important;
-  text-decoration: overline !important;
-  text-shadow: 2px 2px rgba(255, 255, 255, 0.7) !important;
+  text-decoration: underline !important;
+  text-shadow: 2px 2px rgba(33, 37, 41, 0.3) !important;
 }
 
 .home-section-1 {
-  background-color: #ffffff !important;
-  background-image: url("../../assets/images/bg.svg") !important;
+  background-color: #ffff !important;
   background-attachment: fixed !important;
   background-size: cover !important;
   background-position: center !important;
@@ -91,44 +92,46 @@ body {
 
 .home-section-1-h1-text {
   font-size: 2.5rem !important;
-  text-shadow: 5px 4px rgba(255, 255, 255, 0.3) !important;
+}
+
+.signup-btn-logo {
+  width: 20%;
+  background-color: #fff;
+  border-radius: 50%;
 }
 
 .home-section-1-signup-btn {
-  background-color: #af35ba !important;
+  background-color: #2383cc !important;
   border-color: transparent transparent !important;
   outline-color: transparent transparent !important;
   border: 0px solid transparent !important;
-  border-radius: 0% !important;
-  -webkit-box-shadow: 5px 4px rgba(255, 255, 255, 0.3) !important;
-          box-shadow: 5px 4px rgba(255, 255, 255, 0.3) !important;
+  border-radius: 30px !important;
+  -webkit-box-shadow: 5px 4px rgba(0, 0, 0, 0.3) !important;
+          box-shadow: 5px 4px rgba(0, 0, 0, 0.3) !important;
 }
 
 .home-section-1-signup-btn:hover {
-  -webkit-box-shadow: 9px 8px rgba(255, 255, 255, 0.3) !important;
-          box-shadow: 9px 8px rgba(255, 255, 255, 0.3) !important;
+  -webkit-box-shadow: 9px 8px rgba(0, 0, 0, 0.3) !important;
+          box-shadow: 9px 8px rgba(0, 0, 0, 0.3) !important;
 }
 
 .home-section-1-h2-text {
-  color: rgba(255, 255, 255, 0.9) !important;
   font-size: 2rem !important;
 }
 
 .highlight {
   padding-top: 6rem !important;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(90%, transparent), color-stop(90%, rgba(255, 255, 255, 0.2))) !important;
-  background-image: linear-gradient(transparent 90%, rgba(255, 255, 255, 0.2) 90%) !important;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(90%, transparent), color-stop(90%, rgba(35, 131, 204, 0.2))) !important;
+  background-image: linear-gradient(transparent 90%, rgba(35, 131, 204, 0.2) 90%) !important;
 }
 
 .home-section-1-big-board-chart-container {
-  background-color: rgba(255, 255, 255, 0.9) !important;
-  -webkit-box-shadow: 9px 8px rgba(255, 255, 255, 0.3) !important;
-          box-shadow: 9px 8px rgba(255, 255, 255, 0.3) !important;
+  -webkit-box-shadow: rgba(35, 131, 204, 0.15) 8px 8px 4px;
+          box-shadow: rgba(35, 131, 204, 0.15) 8px 8px 4px;
 }
 
 .home-section-2-h1-text {
   font-size: 2.5rem !important;
-  text-shadow: 5px 4px rgba(175, 53, 186, 0.3) !important;
 }
 
 .home-section-2-icon {
@@ -137,16 +140,19 @@ body {
 }
 
 .home-section-2-subtitle {
-  text-shadow: 5px 4px rgba(175, 53, 186, 0.3) !important;
+  text-shadow: 5px 4px rgba(35, 131, 204, 0.3) !important;
 }
 
 .home-section-2-text {
   width: 60% !important;
 }
 
+.home-section-2-text-subtext {
+  font-size: 0.5rem;
+}
+
 .home-section-3 {
   background-color: #ffffff !important;
-  background-image: url("../../assets/images/bg.svg") !important;
   background-attachment: fixed !important;
   background-size: cover !important;
   background-position: center !important;
@@ -155,83 +161,74 @@ body {
 }
 
 .home-section-3-h1-text {
-  color: rgba(255, 255, 255, 0.9) !important;
   font-size: 2.5rem !important;
-  text-shadow: 5px 4px rgba(255, 255, 255, 0.3) !important;
 }
 
 .home-section-3-chart-container {
-  background-color: rgba(255, 255, 255, 0.9) !important;
-  -webkit-box-shadow: 9px 8px rgba(255, 255, 255, 0.3) !important;
-          box-shadow: 9px 8px rgba(255, 255, 255, 0.3) !important;
+  -webkit-box-shadow: rgba(35, 131, 204, 0.15) 8px 8px 4px;
+          box-shadow: rgba(35, 131, 204, 0.15) 8px 8px 4px;
 }
 
 .home-section-4-h1-text {
   font-size: 2.5rem !important;
-  text-shadow: 5px 4px rgba(175, 53, 186, 0.3) !important;
 }
 
 .home-section-4-h2-text {
   font-size: 2rem !important;
 }
 
-.purple-highlight {
-  padding-top: 6rem !important;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(90%, transparent), color-stop(90%, rgba(175, 53, 186, 0.3))) !important;
-  background-image: linear-gradient(transparent 90%, rgba(175, 53, 186, 0.3) 90%) !important;
-}
-
 .home-section-4-tier {
+  position: relative !important;
   height: 100% !important;
-  -webkit-box-shadow: 6px 1px 8px 6px rgba(175, 53, 186, 0.3) !important;
-          box-shadow: 6px 1px 8px 6px rgba(175, 53, 186, 0.3) !important;
+  -webkit-box-shadow: rgba(35, 131, 204, 0.15) 8px 8px 4px;
+          box-shadow: rgba(35, 131, 204, 0.15) 8px 8px 4px;
 }
 
 .home-section-4-title {
-  text-shadow: 5px 4px rgba(175, 53, 186, 0.3) !important;
-}
-
-.home-section-4-border-right {
-  border-right: 1px solid #af35ba !important;
-}
-
-.home-section-4-text {
-  width: 60% !important;
+  text-shadow: 5px 4px rgba(35, 131, 204, 0.3) !important;
 }
 
 .home-section-4-pricing {
-  text-shadow: 5px 4px rgba(175, 53, 186, 0.3) !important;
+  text-shadow: 5px 4px rgba(35, 131, 204, 0.3) !important;
+}
+
+.home-section-4-separator {
+  border: 2px solid black !important;
+}
+
+.home-section-4-text {
+  width: 90% !important;
+}
+
+.red-highlight {
+  padding-top: 6rem !important;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(90%, transparent), color-stop(90%, rgba(245, 65, 75, 0.2))) !important;
+  background-image: linear-gradient(transparent 90%, rgba(245, 65, 75, 0.2) 90%) !important;
+}
+
+.home-section-4-tier .bottom {
+  position: absolute !important;
+  bottom: 0 !important;
+  width: 80% !important;
 }
 
 .home-section-4-signup-btn {
-  background-color: #000 !important;
+  background-color: #2383cc !important;
   border-color: transparent transparent !important;
   outline-color: transparent transparent !important;
   border: 0px solid transparent !important;
-  border-radius: 0% !important;
-  -webkit-box-shadow: 5px 4px rgba(175, 53, 186, 0.3) !important;
-          box-shadow: 5px 4px rgba(175, 53, 186, 0.3) !important;
+  border-radius: 30px !important;
+  -webkit-box-shadow: 5px 4px rgba(0, 0, 0, 0.3) !important;
+          box-shadow: 5px 4px rgba(0, 0, 0, 0.3) !important;
 }
 
 .home-section-4-signup-btn:hover {
-  -webkit-box-shadow: 9px 8px rgba(175, 53, 186, 0.3) !important;
-          box-shadow: 9px 8px rgba(175, 53, 186, 0.3) !important;
-}
-
-.home-section-4-pricing-card {
-  width: 60% !important;
-  height: 100% !important;
-  -webkit-box-shadow: 6px 1px 8px 6px rgba(175, 53, 186, 0.3) !important;
-          box-shadow: 6px 1px 8px 6px rgba(175, 53, 186, 0.3) !important;
-}
-
-.home-section-4-pricing-card-text {
-  text-shadow: 5px 4px rgba(175, 53, 186, 0.3) !important;
+  -webkit-box-shadow: 9px 8px rgba(0, 0, 0, 0.3) !important;
+          box-shadow: 9px 8px rgba(0, 0, 0, 0.3) !important;
 }
 
 .home-section-5 {
   background-color: #ffffff !important;
-  background-image: url("../../assets/images/bg.svg") !important;
   background-attachment: fixed !important;
   background-size: cover !important;
   background-position: center !important;
@@ -240,18 +237,14 @@ body {
 }
 
 .home-section-5-h1-text {
-  color: rgba(255, 255, 255, 0.9) !important;
   font-size: 2.5rem !important;
-  text-shadow: 5px 4px rgba(255, 255, 255, 0.3) !important;
 }
 
-.table-dark {
-  --bs-table-bg: rgba(33, 37, 41, 0.4) !important;
-  --bs-table-striped-bg: rgba(44, 48, 52, 0.4) !important;
+.table {
   border-color: transparent !important;
   width: 95% !important;
-  -webkit-box-shadow: 9px 8px rgba(255, 255, 255, 0.3) !important;
-          box-shadow: 9px 8px rgba(255, 255, 255, 0.3) !important;
+  -webkit-box-shadow: rgba(35, 131, 204, 0.15) 8px 8px 4px;
+          box-shadow: rgba(35, 131, 204, 0.15) 8px 8px 4px;
 }
 
 footer {
@@ -312,10 +305,10 @@ footer {
 }
 
 .footer-separator {
-  margin: 0 !important;
+  margin-top: 0 !important;
   background-color: #f9f9f9 !important;
   border-top: 3px solid #000 !important;
-  width: 95% !important;
+  width: 90% !important;
 }
 
 .footer-copyright-section {

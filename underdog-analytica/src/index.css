@@ -1,3 +1,23 @@
+@font-face {
+  font-family: "Athletics";
+  src: local("Athletics"),
+    url("./assets/fonts/Athletics-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Athletics";
+  src: local("Athletics"),
+    url("./assets/fonts/Athletics-Bold.woff2") format("woff2");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Glyphicons Halflings";
+
+  src: local("Glyphicons Halflings"),
+    url("./assets/fonts/glyphicons-halflings-regular.woff") format("woff");
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",

@@ -12,6 +12,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDoubleRight } from "@fortawesome/free-solid-svg-icons";
 import "./home.css";
 import homeIcons from "./icons/homeIcons";
+import logos from "../../assets/logos/logos";
 
 export default class Home extends Component {
   componentDidMount() {
@@ -42,7 +43,9 @@ export default class Home extends Component {
         this.homeSectionThreeChart.classList.add("px-5", "py-5");
       }
     };
-
+    window.onscroll = () => {
+      this.scrollFunction();
+    };
     this.checkWidth(this.mobileView);
     this.mobileView.addListener(this.checkWidth);
   }
@@ -50,6 +53,17 @@ export default class Home extends Component {
   componentWillUnmount() {
     this.mobileView.removeListener(this.checkWidth);
   }
+
+  scrollFunction = () => {
+    if (
+      document.body.scrollTop > 50 ||
+      document.documentElement.scrollTop > 50
+    ) {
+      document.getElementById("ua-nav").classList.add("ua-nav-scrolled");
+    } else {
+      document.getElementById("ua-nav").classList.remove("ua-nav-scrolled");
+    }
+  };
   render() {
     return (
       <>
@@ -66,9 +80,9 @@ export default class Home extends Component {
           >
             <Row>
               <Col className="pt-5" sm={12} md={12} lg={6}>
-                <div className="home-section-1-cta-text">
+                <div className="home-section-1-cta-text mt-5">
                   <h1 className="bold home-section-1-h1-text">
-                    TRANSPARENT &amp; HASSLE FREE SPORTS BETTING PREDICTIONS
+                    Transparent &amp; Hassle Free Sports Betting Predictions
                   </h1>
                   <span className="home-section-1-h2-text highlight">
                     Honesty and clarity meets real-time, data-driven European
@@ -80,8 +94,7 @@ export default class Home extends Component {
                     className="home-section-1-signup-btn bold px-5 py-3"
                     size="lg"
                   >
-                    SIGN UP NOW &nbsp;&nbsp;
-                    <FontAwesomeIcon size="sm" icon={faAngleDoubleRight} />
+                    Sign Up Now
                   </Button>
                 </div>
               </Col>
@@ -94,7 +107,7 @@ export default class Home extends Component {
               >
                 <div
                   id="home-section-1-big-board-chart-container"
-                  className="home-section-1-big-board-chart-container px-5 py-5"
+                  className="home-section-1-big-board-chart-container px-5 my-5"
                 >
                   <LineChart />
                 </div>
@@ -112,12 +125,13 @@ export default class Home extends Component {
               </Col>
               <Col className="text-center pt-5" sm={12} md={12} lg={3}>
                 <img className="home-section-2-icon" src={homeIcons.honesty} />
-                <h2 className="pt-4 bold home-section-2-subtitle">Honesty</h2>
+                <h2 className="pt-4 bold home-section-2-subtitle">
+                  Transparency
+                </h2>
                 <p className="home-section-2-text pt-4 mx-auto">
-                  Competitors rarely make thier returns clear and
-                  understandable. Thats why all our bets are available for
-                  review in <a href="#">BET HISTORY</a> before you make an
-                  account.
+                  All our previous recommendation data available for review in{" "}
+                  <a href="#">BET HISTORY</a> before you even make an account
+                  because you deserve a handicapper with integrity.
                 </p>
               </Col>
               <Col className="text-center pt-5" sm={12} md={12} lg={3}>
@@ -126,9 +140,9 @@ export default class Home extends Component {
                   Wealth Management
                 </h2>
                 <p className="home-section-2-text pt-4 mx-auto">
-                  Sports Betting, when done by the numbers, is an investment
-                  strategy. Using efficient bankroll management, consistent
-                  monthly returns are possible... WORKSHOP
+                  Incorporating sports betting* into your wealth management
+                  strategy is an exciting way to diversify and grow your assets.
+                  We provide tools to manage those assets throughout the season.
                 </p>
               </Col>
               <Col className="text-center pt-5" sm={12} md={12} lg={3}>
@@ -137,9 +151,9 @@ export default class Home extends Component {
                   Data Driven
                 </h2>
                 <p className="home-section-2-text pt-4 mx-auto">
-                  We are not your cousin's friend who has a "good read" on the
-                  matches. We use a machine learning algorithm to generate
-                  emotionless predictions.
+                  A machine learning algorithm generates emotionless predictions
+                  based on historical performance and key metrics. Select your
+                  next winners with data, not “feeling!”
                 </p>
               </Col>
               <Col className="text-center pt-5" sm={12} md={12} lg={3}>
@@ -148,9 +162,9 @@ export default class Home extends Component {
                   Accessibilty
                 </h2>
                 <p className="home-section-2-text pt-4 mx-auto">
-                  We are priced for everyone at all ages and experience levels
-                  at 60 cents per pick on average. Who wants to use $200 of
-                  their bank roll on a picks subscription?
+                  High-quality picks and outstanding customer service now come
+                  in free and paid tiers, so sports bettors with any size
+                  bankroll can bet with more confidence.
                 </p>
               </Col>
             </Row>
@@ -183,30 +197,40 @@ export default class Home extends Component {
                   Handicapping Service Tiers
                 </h1>
                 <p className="home-section-4-h2-text-wrapper mx-auto">
-                  <span className="home-section-4-h2-text purple-highlight">
+                  <span className="home-section-4-h2-text highlight">
                     "Handicapping" is the term for selling sports Betting
                     predictions
                   </span>
                 </p>
               </Col>
-              <Col className="text-center pt-5" sm={12} md={12} lg={4}>
-                <div className="home-section-4-tier">
+              <Col className="pt-5" sm={12} md={12} lg={4}>
+                <div className="home-section-4-tier px-5">
                   <h1 className="pt-4 bold home-section-4-title">Skeleton</h1>
-                  <p className="bold pt-4 home-section-4-text mx-auto">
-                    5 picks at a time
-                  </p>
+                  <h1 className="bold pt-4 home-section-4-pricing">$0/month</h1>
+                  <hr className="home-section-4-separator" />
                   <p className="home-section-4-text text-start pt-4 mx-auto">
-                    Access to sports Betting educational articles
+                    <span className="highlight">
+                      Best for beginner betting:
+                    </span>
+                    <br />
+                    Develop sports betting experience and determine your unit
+                    size with free picks and educational resources
                     <ul className="custom-bullet">
                       <li>
-                        Learn how to bet on European football, how to manage a
-                        bank roll, and how sports Betting affects taxes (USA
-                        only)
+                        Data-driven, machine learning algorithm generated
+                        predictions
                       </li>
+                      <li>Transparent results in real time</li>
+                      <li>Empathetic customer service</li>
+                      <li>
+                        Automated email/Twitter notifications when board updates
+                      </li>
+                      <li>Educational resources and articles</li>
+                      <li>33% of match predictions</li>
                     </ul>
                   </p>
-                  <h1 className="bold pt-4 home-section-4-pricing">$0/month</h1>
-                  <div className="py-4">
+
+                  <div className="bottom text-center py-4">
                     <Button
                       className="home-section-4-signup-btn bold px-5 py-3"
                       size="lg"
@@ -217,26 +241,49 @@ export default class Home extends Component {
                   </div>
                 </div>
               </Col>
-              <Col className="text-center pt-5 " sm={12} md={12} lg={4}>
-                <div className="home-section-4-tier">
+              <Col className="pt-5" sm={12} md={12} lg={4}>
+                <div className="home-section-4-tier px-5">
                   <h1 className="pt-4 bold home-section-4-title">Starter</h1>
-                  <p className="bold pt-4 home-section-4-text mx-auto">
-                    Access to all picks on the board
-                  </p>
-                  <p className="home-section-4-text text-start pt-4 mx-auto">
-                    Curated list of cportswriter content
+                  <h1 className="bold pt-4 home-section-4-pricing">
+                    &euro;10/month*
+                  </h1>
+                  <hr className="home-section-4-separator" />
+                  <p className="home-section-4-text pt-4">
+                    <span className="highlight">
+                      Best for consistent betting:
+                    </span>
+                    <br />
+                    Build your bankroll with steady wagers using the entire
+                    prediction board while enjoying filtered international
+                    football blog posts
                     <ul className="custom-bullet">
                       <li>
-                        Track your favorite leagues through internationally
-                        followed writers
+                        Data-driven, machine learning algorithm generated
+                        predictions
+                      </li>
+                      <li>Transparent results in real time</li>
+                      <li>Empathetic customer service</li>
+                      <li>
+                        Automated email/Twitter notifications when board updates
+                      </li>
+                      <li>Educational resources and articles</li>
+                      <li>
+                        <span className="highlight">
+                          100% of match predictions
+                        </span>
+                      </li>
+                      <li>
+                        <span className="highlight">
+                          Curated international football news feed from top
+                          bloggers
+                        </span>
                       </li>
                     </ul>
-                    Automatied email notifications when the board changes
+                    <span className="red-highlight">
+                      *25% off a yearly subsription
+                    </span>
                   </p>
-                  <h1 className="bold pt-4 home-section-4-pricing">
-                    $10/month
-                  </h1>
-                  <div className="py-4">
+                  <div className="bottom text-center py-4 ">
                     <Button
                       className="home-section-4-signup-btn bold px-5 py-3"
                       size="lg"
@@ -247,25 +294,51 @@ export default class Home extends Component {
                   </div>
                 </div>
               </Col>
-              <Col className="text-center pt-5 " sm={12} md={12} lg={4}>
-                <div className="home-section-4-tier">
+              <Col className="pt-5" sm={12} md={12} lg={4}>
+                <div className="home-section-4-tier px-5">
                   <h1 className="pt-4 bold home-section-4-title">
                     High Roller
                   </h1>
-                  <p className="bold pt-4 home-section-4-text mx-auto">
-                    Starter +
-                  </p>
-                  <p className="home-section-4-text text-start pt-4 mx-auto">
-                    Portfolio manager
-                    <ul className="custom-bullet">
-                      <li>Track your bankroll throughout the season</li>
-                    </ul>
-                    Automatied email notifications when the board changes
-                  </p>
                   <h1 className="bold pt-4 home-section-4-pricing">
-                    $25/month
+                    &euro;25/month*
                   </h1>
-                  <div className="py-4">
+                  <p></p>
+                  <hr className="home-section-4-separator" />
+                  <p className="home-section-4-text text-start pt-4 mx-auto">
+                    <span className="highlight">
+                      Best for strategic betting:
+                    </span>
+                    <br />
+                    Allocate your assets effectively with our premier wealth
+                    management tool, Sports Portfolio Manager
+                    <ul className="custom-bullet">
+                      <li>
+                        Data-driven, machine learning algorithm generated
+                        predictions
+                      </li>
+                      <li>Transparent results in real time</li>
+                      <li>Empathetic customer service</li>
+                      <li>
+                        Automated email/Twitter notifications when board updates
+                      </li>
+                      <li>Educational resources and articles</li>
+                      <li>100% of match predictions</li>
+                      <li>
+                        Curated international football news feed from top
+                        bloggers
+                      </li>
+                      <li>
+                        <span className="highlight">
+                          Sports Portfolio Manager bankroll tracking software
+                        </span>
+                      </li>
+                    </ul>
+                    <span className="red-highlight">
+                      *25% off a yearly subsription
+                    </span>
+                  </p>
+
+                  <div className="text-center py-4">
                     <Button
                       className="home-section-4-signup-btn bold px-5 py-3"
                       size="lg"
@@ -273,18 +346,6 @@ export default class Home extends Component {
                       BECOME A <br /> HIGH ROLLER
                     </Button>
                   </div>
-                </div>
-              </Col>
-              <Col className="text-center pt-5" sm={12} md={12} lg={12}>
-                <h1 className="bold home-section-4-h1-text mx-auto">Pricing</h1>
-              </Col>
-              <Col className="text-center py-4" sm={12} md={12} lg={12}>
-                <div className="home-section-4-pricing-card mx-auto px-5 py-5">
-                  <h2 className="bold home-section-4-pricing-card-text">
-                    Once you select a package you want from the previous slide
-                    we offer a 25% discount on the value of 10 months of service
-                    if you pay up front for an annual pass.
-                  </h2>
                 </div>
               </Col>
             </Row>

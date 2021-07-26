@@ -11,15 +11,15 @@ export default class CompetetionComparison extends Component {
           striped
           bordered
           hover
-          variant="dark"
+          // variant="dark"
         >
           <thead>
             <tr>
               <th></th>
-              <th>Underdog Analytica</th>
-              <th>#BettingTwitter</th>
-              <th>Action Network(Football)</th>
-              <th>"Experts" at Sportsmemo.com</th>
+              <th className="text-center">Underdog Analytica</th>
+              <th className="text-center">#BettingTwitter</th>
+              <th className="text-center">Action Network(Football)</th>
+              <th className="text-center">"Experts" at Sportsmemo.com</th>
             </tr>
           </thead>
           <tbody>

@@ -109,7 +109,7 @@ export default class footer extends Component {
                 </div>
               </Col>
               <Col sm={12} md={12} lg={4}>
-                <span className="bold purple-highlight">
+                <span className="bold highlight">
                   Sign Up for Our Newsletter
                 </span>
                 <div className="footer-signup-section">
