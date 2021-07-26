@@ -235,8 +235,7 @@ export default class Home extends Component {
                       className="home-section-4-signup-btn bold px-5 py-3"
                       size="lg"
                     >
-                      GET TO KNOW <br />
-                      UNDERDOG ANALYTICA
+                      Get Started
                     </Button>
                   </div>
                 </div>
@@ -288,8 +287,7 @@ export default class Home extends Component {
                       className="home-section-4-signup-btn bold px-5 py-3"
                       size="lg"
                     >
-                      JOIN THE <br />
-                      STARTER PROGRAM
+                      Join Now
                     </Button>
                   </div>
                 </div>
@@ -343,7 +341,7 @@ export default class Home extends Component {
                       className="home-section-4-signup-btn bold px-5 py-3"
                       size="lg"
                     >
-                      BECOME A <br /> HIGH ROLLER
+                      Join Now
                     </Button>
                   </div>
                 </div>
