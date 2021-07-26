@@ -79,6 +79,12 @@ export default class Home extends Component {
             className="content-container"
           >
             <Row>
+              {/*<button*/}
+              {/*    onClick={() =>*/}
+              {/*        (window.location = "http://localhost:1337/connect/google")*/}
+              {/*    }*/}
+              {/*> Login via Google*/}
+              {/*</button>*/}
               <Col className="pt-5" sm={12} md={12} lg={6}>
                 <div className="home-section-1-cta-text mt-5">
                   <h1 className="bold home-section-1-h1-text">
