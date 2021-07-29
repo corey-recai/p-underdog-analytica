@@ -3,8 +3,9 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Container from "react-bootstrap/Container";
-
+import LoginModal from "./user-accounts/loginModal";
 import logos from "../../assets/logos/logos";
+
 
 export default class Navigation extends Component {
   render() {
@@ -27,9 +28,7 @@ export default class Navigation extends Component {
                 <Nav.Link className="px-3" href="#home">
                   Sign Up
                 </Nav.Link>
-                <Nav.Link className="px-3" href="#link">
-                  Login
-                </Nav.Link>
+                  <LoginModal />
               </Nav>
             </Navbar.Collapse>
           </Container>
