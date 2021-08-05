@@ -16,43 +16,22 @@ import logos from "../../assets/logos/logos";
 
 export default class Home extends Component {
   componentDidMount() {
-    this.mobileView = window.matchMedia("(max-width: 767.98px)");
-    this.homeBigBoardCol = document.getElementById(
-      "home-section-1-big-board-col"
-    );
-    this.homeSectionOneContainer = document.getElementById(
-      "home-section-1-container"
-    );
-    this.homeBigBoardChart = document.getElementById(
-      "home-section-1-big-board-chart-container"
-    );
-
-    this.homeSectionThreeChart = document.getElementById(
-      "home-section-3-chart-container"
-    );
-    this.checkWidth = (e) => {
-      if (e.matches) {
-        this.homeBigBoardCol.classList.add("pt-5");
-        this.homeSectionOneContainer.classList.add("py-5");
-        this.homeBigBoardChart.classList.remove("px-5", "py-5");
-        this.homeSectionThreeChart.classList.remove("px-5", "py-5");
-      } else {
-        this.homeBigBoardCol.classList.remove("pt-5");
-        this.homeSectionOneContainer.classList.remove("py-5");
-        this.homeBigBoardChart.classList.add("px-5", "py-5");
-        this.homeSectionThreeChart.classList.add("px-5", "py-5");
-      }
-    };
+    this.resizeCards();
+    window.addEventListener("resize", () => this.resizeCards());
     window.onscroll = () => {
       this.scrollFunction();
     };
-    this.checkWidth(this.mobileView);
-    this.mobileView.addListener(this.checkWidth);
   }
 
-  componentWillUnmount() {
-    this.mobileView.removeListener(this.checkWidth);
-  }
+  resizeCards = () => {
+    let cardHeight = document.getElementById("high-roller-tier").offsetHeight;
+    document.getElementById(
+      "new-bettor-tier"
+    ).style.height = `${cardHeight}px !important`;
+    document.getElementById(
+      "sharp-player-tier"
+    ).style.height = `${cardHeight}px !important`;
+  };
 
   scrollFunction = () => {
     if (
@@ -82,7 +61,7 @@ export default class Home extends Component {
               <Col className="pt-5" sm={12} md={12} lg={6}>
                 <div className="home-section-1-cta-text mt-5">
                   <h1 className="bold home-section-1-h1-text">
-                    Transparent &amp; Hassle Free Sports Betting Predictions
+                    Transparent &amp; Hassle-Free Sports Betting Predictions
                   </h1>
                   <span className="home-section-1-h2-text highlight">
                     Honesty and clarity meets real-time, data-driven European
@@ -100,15 +79,12 @@ export default class Home extends Component {
               </Col>
               <Col
                 id="home-section-1-big-board-col"
-                className="text center "
+                className="d-flex align-items-center justify-content-center"
                 sm={12}
                 md={12}
                 lg={6}
               >
-                <div
-                  id="home-section-1-big-board-chart-container"
-                  className="home-section-1-big-board-chart-container px-5 my-5"
-                >
+                <div className="home-section-1-big-board-chart-container d-flex align-items-center justify-content-center mt-5">
                   <LineChart />
                 </div>
               </Col>
@@ -179,10 +155,7 @@ export default class Home extends Component {
                 </h1>
               </Col>
               <Col className="text-center" sm={12} md={12} lg={12}>
-                <div
-                  id="home-section-3-chart-container"
-                  className="home-section-3-chart-container px-5 py-5"
-                >
+                <div className="home-section-3-chart-container">
                   <LineChart />
                 </div>
               </Col>
@@ -204,7 +177,7 @@ export default class Home extends Component {
                 </p>
               </Col>
               <Col className="pt-5" sm={12} md={12} lg={4}>
-                <div className="home-section-4-tier px-5">
+                <div id="new-bettor-tier" className="home-section-4-tier px-5">
                   <h1 className="pt-4 bold home-section-4-title">New Bettor</h1>
                   <h1 className="bold pt-4 home-section-4-pricing">Free</h1>
                   <hr className="home-section-4-separator" />
@@ -241,7 +214,10 @@ export default class Home extends Component {
                 </div>
               </Col>
               <Col className="pt-5" sm={12} md={12} lg={4}>
-                <div className="home-section-4-tier px-5">
+                <div
+                  id="sharp-player-tier"
+                  className="home-section-4-tier px-5"
+                >
                   <h1 className="pt-4 bold home-section-4-title">
                     Sharp Player
                   </h1>
@@ -295,7 +271,7 @@ export default class Home extends Component {
                 </div>
               </Col>
               <Col className="pt-5" sm={12} md={12} lg={4}>
-                <div className="home-section-4-tier px-5">
+                <div id="high-roller-tier" className="home-section-4-tier px-5">
                   <h1 className="pt-4 bold home-section-4-title">
                     High Roller
                   </h1>
@@ -329,7 +305,7 @@ export default class Home extends Component {
                       </li>
                       <li>
                         <span className="highlight">
-                          Sports Portfolio Manager bankroll tracking software
+                          Portfolio Manager for bankroll tracking
                         </span>
                       </li>
                     </ul>
@@ -356,6 +332,18 @@ export default class Home extends Component {
             <Row>
               <Col className="text-center pt-5" sm={12} md={12} lg={12}>
                 <h1 className="bold home-section-5-h1-text mx-auto">
+                  How it Works
+                </h1>
+              </Col>
+              <Col sm={12} md={12} lg={12}></Col>
+            </Row>
+          </Container>
+        </div>
+        <div className="home-section-6">
+          <Container fluid className="content-container">
+            <Row>
+              <Col className="text-center pt-5" sm={12} md={12} lg={12}>
+                <h1 className="bold home-section-6-h1-text mx-auto">
                   Underdog Analytica vs The Competition
                 </h1>
               </Col>

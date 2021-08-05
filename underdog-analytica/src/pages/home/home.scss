@@ -40,6 +40,7 @@ body {
     background-attachment: fixed !important;
     background-size: cover !important;
     background-position: center !important;
+    height: 9.375rem !important;
 }
 
 .ua-nav-scrolled {
@@ -76,7 +77,7 @@ body {
     background-size: cover !important;
     background-position: center !important;
     height: auto !important;
-    min-height: 100vh !important;
+    min-height: calc(100vh - 9.375rem) !important;
     width: 100% !important;
 }
 .content-container {
@@ -86,7 +87,7 @@ body {
     width: 90% !important;
 }
 .home-section-1-h1-text {
-    font-size: 2.5rem !important;
+    font-size: 5rem !important;
 }
 .signup-btn-logo {
     width: 20%;
@@ -115,7 +116,11 @@ body {
 }
 
 .home-section-1-big-board-chart-container {
-    box-shadow: rgba(35, 131, 204, 0.15) 8px 8px 4px;
+    height: auto !important;
+    width: 100% !important;
+    border-radius: 10px !important;
+    padding: 1rem !important;
+    box-shadow: rgba(35, 131, 204, 0.12) 0px 1px 3px, rgba(35, 131, 204, 0.24) 0px 1px 2px !important;
 }
 
 .home-section-2-h1-text {
@@ -154,7 +159,9 @@ body {
 }
 
 .home-section-3-chart-container {
-    box-shadow: rgba(35, 131, 204, 0.15) 8px 8px 4px;
+    border-radius: 10px !important;
+    padding: 1rem !important;
+    box-shadow: rgba(35, 131, 204, 0.12) 0px 1px 3px, rgba(35, 131, 204, 0.24) 0px 1px 2px !important;
 }
 
 .home-section-4-h1-text {
@@ -167,8 +174,11 @@ body {
 
 .home-section-4-tier {
     position: relative !important;
+    display: flex !important;
+    flex-direction: column !important;
     height: 100% !important;
-    box-shadow: rgba(35, 131, 204, 0.15) 8px 8px 4px;
+    border-radius: 10px !important;
+    box-shadow: rgba(35, 131, 204, 0.12) 0px 1px 3px, rgba(35, 131, 204, 0.24) 0px 1px 2px !important;
 }
 
 .home-section-4-title {
@@ -193,9 +203,8 @@ body {
 }
 
 .home-section-4-tier .bottom {
-    position: absolute !important;
-    bottom: 0 !important;
-    width: 80% !important;
+    box-sizing: border-box !important;
+    margin-top: auto !important;
 }
 
 .home-section-4-signup-btn {
@@ -211,16 +220,110 @@ body {
 }
 
 .home-section-5 {
-    background-color: #ffffff !important;
-    // background-image: $background-image !important;
-    background-attachment: fixed !important;
-    background-size: cover !important;
-    background-position: center !important;
     height: auto !important;
     width: 100% !important;
 }
 
 .home-section-5-h1-text {
+    font-size: 2.5rem !important;
+}
+
+.home-section-5-how-it-works-container {
+    border-radius: 5px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
+    box-sizing: border-box !important;
+}
+
+.home-section-5-step-container div {
+    line-height: 2 !important;
+    background: #fff !important;
+    padding: 1.2rem 1rem !important;
+    border-radius: 4px !important;
+    box-shadow: rgba(35, 131, 204, 0.15) 8px 8px 4px !important;
+}
+
+.home-section-5-step-container {
+    padding: 10vh 10vw !important;
+    border-radius: 8px !important;
+    background: #f9f9f9 !important;
+    position: relative !important;
+}
+
+.home-section-5-step-container div {
+    margin: 2rem 0 !important;
+}
+
+.home-section-5-step-title {
+    text-shadow: 5px 4px rgba(35, 131, 204, 0.3) !important;
+}
+.home-section-5-step-subtitle {
+    width: 70% !important;
+    text-shadow: 5px 4px rgba(35, 131, 204, 0.3) !important;
+    margin: 0 auto !important;
+}
+
+.home-section-5-twitter-icon {
+    width: 10%;
+    height: auto;
+}
+
+.home-section-5-svg-container {
+    width: 1%;
+}
+
+.home-section-5-how-it-works-flow-chart svg {
+    height: 5rem !important;
+}
+.home-section-5-how-it-works-flow-chart svg line {
+    stroke: #2383cc !important;
+    stroke-width: 3px !important;
+    stroke-linecap: round !important;
+    stroke-dasharray: 2px 20px !important;
+    animation: animateline 5s linear both infinite !important;
+}
+
+@-moz-keyframes animateline {
+    from {
+        stroke-dashoffset: 0;
+    }
+    to {
+        stroke-dashoffset: -5rem;
+    }
+}
+@-webkit-keyframes animateline {
+    from {
+        stroke-dashoffset: 0;
+    }
+    to {
+        stroke-dashoffset: -5rem;
+    }
+}
+@-o-keyframes animateline {
+    from {
+        stroke-dashoffset: 0;
+    }
+    to {
+        stroke-dashoffset: -5rem;
+    }
+}
+@keyframes animateline {
+    from {
+        stroke-dashoffset: 0;
+    }
+    to {
+        stroke-dashoffset: -5rem;
+    }
+}
+
+.home-section-6 {
+    height: auto !important;
+    width: 100% !important;
+}
+
+.home-section-6-h1-text {
     font-size: 2.5rem !important;
 }
 
@@ -356,8 +459,12 @@ footer {
     .home-section-4-h2-text-wrapper {
         width: 30% !important;
     }
-
     .home-section-5-h1-text {
+        font-size: 5rem !important;
+        width: 50% !important;
+    }
+
+    .home-section-6-h1-text {
         font-size: 5rem !important;
         width: 50% !important;
     }
