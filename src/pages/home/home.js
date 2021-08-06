@@ -13,6 +13,7 @@ import { faAngleDoubleRight } from "@fortawesome/free-solid-svg-icons";
 import "./home.css";
 import homeIcons from "./icons/homeIcons";
 import logos from "../../assets/logos/logos";
+import Chart from "./components/charting/chartContainer";
 
 export default class Home extends Component {
   componentDidMount() {
@@ -156,7 +157,7 @@ export default class Home extends Component {
               </Col>
               <Col className="text-center" sm={12} md={12} lg={12}>
                 <div className="home-section-3-chart-container">
-                  <LineChart />
+                  <Chart />
                 </div>
               </Col>
             </Row>

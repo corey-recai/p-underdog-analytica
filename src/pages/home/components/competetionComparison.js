@@ -46,7 +46,7 @@ export default class CompetetionComparison extends Component {
             </tr>
             <tr>
               <td>Monthly cost</td>
-              <td className="text-center">$0 - $20</td>
+              <td className="text-center">$0 - $25</td>
               <td className="text-center">$25 - $300</td>
               <td className="text-center">$60</td>
               <td className="text-center">$200</td>

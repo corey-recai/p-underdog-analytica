@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import classes from "./dashboard.module.css";
+import classes from "./chartContainer.module.css";
 import LineChart from "./lineChart";
-import { underdogAnalyticaData, SPY500_ACTIVE_DATA, STOX_ACTIVE_DATA, UA_ACTIVE_DATA, weeklyLabels, managerQuarterData, nationalAverageQuarterData, monthlyLabels } from "./performanceData";
+import { underdogAnalyticaData, SPY500_DATA, SPY500_ACTIVE_DATA, STOX_ACTIVE_DATA, UA_ACTIVE_DATA, weeklyLabels, managerQuarterData, nationalAverageQuarterData, monthlyLabels } from "./performanceData";
 
 export default class ChartContainer extends Component {
     state = {
@@ -18,7 +18,7 @@ export default class ChartContainer extends Component {
         const newData = isWeekly ? UA_ACTIVE_DATA : underdogAnalyticaData;
         const newStoxData = isWeekly ? STOX_ACTIVE_DATA : managerQuarterData;
         const newLabels = isWeekly ? weeklyLabels : monthlyLabels;
-        const newAverage = isWeekly ? SPY500_ACTIVE_DATA : nationalAverageQuarterData;
+        const newAverage = isWeekly ? SPY500_ACTIVE_DATA : SPY500_DATA;
 
         this.setState({
             data: newData,
@@ -48,7 +48,7 @@ export default class ChartContainer extends Component {
                     </button>
                 </div>
 
-                <LineGraph
+                <LineChart
                     data={data}
                     stox={stox}
                     average={average}

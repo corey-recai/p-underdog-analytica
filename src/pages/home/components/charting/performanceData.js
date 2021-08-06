@@ -1,4 +1,4 @@
-/ Underdog Analytica Data
+//Underdog Analytica Data
 export const underdogAnalyticaData = [
     0.00,14.40,6.40,4.90,-1.20,0.20,22.1,40.4,31.9,34.5,26.00,20.50,25.60
 ];
