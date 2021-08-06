@@ -14,6 +14,9 @@ import "./home.css";
 import homeIcons from "./icons/homeIcons";
 import logos from "../../assets/logos/logos";
 import Chart from "./components/charting/chartContainer";
+import {Display} from "./components/picks/display";
+import {DisplayDogs} from "./components/picks/displayDogs";
+
 
 export default class Home extends Component {
   componentDidMount() {
@@ -86,7 +89,8 @@ export default class Home extends Component {
                 lg={6}
               >
                 <div className="home-section-1-big-board-chart-container d-flex align-items-center justify-content-center mt-5">
-                  <LineChart />
+                  {/*<Display />*/}
+                  <DisplayDogs />
                 </div>
               </Col>
             </Row>
