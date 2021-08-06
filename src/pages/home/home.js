@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Helmet } from "react-helmet";
 import Navigation from "../components/nav";
-import CompetetionComparison from "./components/competetionComparison";
+import CompetitionComparison from "./components/competitionComparison";
 import Footer from "../components/footer";
 import LineChart from "./components/lineChart";
 import Container from "react-bootstrap/Container";
@@ -13,6 +13,12 @@ import { faAngleDoubleRight } from "@fortawesome/free-solid-svg-icons";
 import "./home.css";
 import homeIcons from "./icons/homeIcons";
 import logos from "../../assets/logos/logos";
+import Chart from "./components/charting/chartContainer";
+import {Display} from "./components/picks/display";
+import {DisplayDogs} from "./components/picks/displayDogs";
+import SubscribeBtn from "../components/subscribeBtn";
+
+
 
 export default class Home extends Component {
   componentDidMount() {
@@ -61,20 +67,15 @@ export default class Home extends Component {
               <Col className="pt-5" sm={12} md={12} lg={6}>
                 <div className="home-section-1-cta-text mt-5">
                   <h1 className="bold home-section-1-h1-text">
-                    Transparent &amp; Hassle-Free Sports Betting Predictions
+                    Data-driven predictions and transparent results
+                    {/*Transparent &amp; Hassle-Free Sports Betting Predictions*/}
                   </h1>
                   <span className="home-section-1-h2-text highlight">
-                    Honesty and clarity meets real-time, data-driven European
-                    football predictions
+                    Profit on European football by betting on underdogs. Our algorithm makes the calculations, you make the cash. Start for free today.
                   </span>
                 </div>
                 <div className="py-3">
-                  <Button
-                    className="home-section-1-signup-btn bold px-5 py-3"
-                    size="lg"
-                  >
-                    Sign Up Now
-                  </Button>
+                  <SubscribeBtn />
                 </div>
               </Col>
               <Col
@@ -85,7 +86,8 @@ export default class Home extends Component {
                 lg={6}
               >
                 <div className="home-section-1-big-board-chart-container d-flex align-items-center justify-content-center mt-5">
-                  <LineChart />
+                  {/*<Display />*/}
+                  <DisplayDogs />
                 </div>
               </Col>
             </Row>
@@ -105,7 +107,7 @@ export default class Home extends Component {
                   Transparency
                 </h2>
                 <p className="home-section-2-text pt-4 mx-auto">
-                  All our previous recommendation data available for review in{" "}
+                  All of our previous recommendation data available for review in{" "}
                   <a href="#">BET HISTORY</a> before you even make an account
                   because you deserve a handicapper with integrity.
                 </p>
@@ -113,10 +115,10 @@ export default class Home extends Component {
               <Col className="text-center pt-5" sm={12} md={12} lg={3}>
                 <img className="home-section-2-icon" src={homeIcons.wealth} />
                 <h2 className="pt-4 bold home-section-2-subtitle">
-                  Wealth Management
+                  Hassle Free
                 </h2>
                 <p className="home-section-2-text pt-4 mx-auto">
-                  Incorporating sports betting* into your wealth management
+                  Incorporating sports betting into your wealth management
                   strategy is an exciting way to diversify and grow your assets.
                   We provide tools to manage those assets throughout the season.
                 </p>
@@ -127,7 +129,7 @@ export default class Home extends Component {
                   Data Driven
                 </h2>
                 <p className="home-section-2-text pt-4 mx-auto">
-                  A machine learning algorithm generates emotionless predictions
+                  Our machine learning algorithm generates emotionless predictions
                   based on historical performance and key metrics. Select your
                   next winners with data, not “feeling!”
                 </p>
@@ -135,7 +137,7 @@ export default class Home extends Component {
               <Col className="text-center pt-5" sm={12} md={12} lg={3}>
                 <img className="home-section-2-icon" src={homeIcons.access} />
                 <h2 className="pt-4 bold home-section-2-subtitle">
-                  Accessibilty
+                  Accessibility
                 </h2>
                 <p className="home-section-2-text pt-4 mx-auto">
                   High-quality picks and outstanding customer service now come
@@ -156,7 +158,7 @@ export default class Home extends Component {
               </Col>
               <Col className="text-center" sm={12} md={12} lg={12}>
                 <div className="home-section-3-chart-container">
-                  <LineChart />
+                  <Chart />
                 </div>
               </Col>
             </Row>
@@ -171,7 +173,7 @@ export default class Home extends Component {
                 </h1>
                 <p className="home-section-4-h2-text-wrapper mx-auto">
                   <span className="home-section-4-h2-text highlight">
-                    "Handicapping" is the term for selling sports Betting
+                    "Handicapping" is the term for selling sports betting
                     predictions
                   </span>
                 </p>
@@ -196,7 +198,7 @@ export default class Home extends Component {
                       <li>Transparent results in real time</li>
                       <li>Empathetic customer service</li>
                       <li>
-                        Automated email/Twitter notifications when board updates
+                        Automated email/Twitter notifications when Bet Board updates
                       </li>
                       <li>Educational resources and articles</li>
                       <li>33% of match predictions</li>
@@ -208,7 +210,7 @@ export default class Home extends Component {
                       className="home-section-4-signup-btn bold px-5 py-3"
                       size="lg"
                     >
-                      Get Started
+                      Bet Smarter
                     </Button>
                   </div>
                 </div>
@@ -257,7 +259,7 @@ export default class Home extends Component {
                       </li>
                     </ul>
                     <span className="red-highlight">
-                      *25% off a yearly subsription
+                      *25% off annual subscription
                     </span>
                   </p>
                   <div className="bottom text-center py-4 ">
@@ -265,7 +267,7 @@ export default class Home extends Component {
                       className="home-section-4-signup-btn bold px-5 py-3"
                       size="lg"
                     >
-                      Join Now
+                      Bet Strategically
                     </Button>
                   </div>
                 </div>
@@ -310,7 +312,7 @@ export default class Home extends Component {
                       </li>
                     </ul>
                     <span className="red-highlight">
-                      *25% off a yearly subsription
+                      *25% off a annual subscription
                     </span>
                   </p>
 
@@ -319,7 +321,7 @@ export default class Home extends Component {
                       className="home-section-4-signup-btn bold px-5 py-3"
                       size="lg"
                     >
-                      Join Now
+                      Bet Professionally
                     </Button>
                   </div>
                 </div>
@@ -348,7 +350,7 @@ export default class Home extends Component {
                 </h1>
               </Col>
               <Col className="py-4" sm={12} md={12} lg={12}>
-                <CompetetionComparison />
+                <CompetitionComparison />
               </Col>
             </Row>
           </Container>

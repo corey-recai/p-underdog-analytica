@@ -24,12 +24,12 @@ export default class Navigation extends Component {
                 <Nav.Link className="px-3" href="#link">
                   About Us
                 </Nav.Link>
-                <Nav.Link className="px-3" href="#home">
-                  Sign Up
-                </Nav.Link>
-                <Nav.Link className="px-3" href="#link">
-                  Login
-                </Nav.Link>
+                {/*<Nav.Link className="px-3" href="#home">*/}
+                {/*  Sign Up*/}
+                {/*</Nav.Link>*/}
+                {/*<Nav.Link className="px-3" href="#link">*/}
+                {/*  Login*/}
+                {/*</Nav.Link>*/}
               </Nav>
             </Navbar.Collapse>
           </Container>
