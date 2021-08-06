@@ -19,6 +19,7 @@ import {DisplayDogs} from "./components/picks/displayDogs";
 import SubscribeBtn from "../components/subscribeBtn";
 
 
+
 export default class Home extends Component {
   componentDidMount() {
     this.resizeCards();

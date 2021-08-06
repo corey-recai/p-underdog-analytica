@@ -4,7 +4,7 @@ import React, {Component} from 'react';
 export default class SubscribeBtn extends Component{
     render() {
         return (
-            <ScriptTag async src="https://eomail5.com/form/fb7c90bf-f65d-11eb-96e5-06b4694bee2a.js" data-form="fb7c90bf-f65d-11eb-96e5-06b4694bee2a" />
+            <ScriptTag script src="https://eomail5.com/form/171a4085-f6a8-11eb-96e5-06b4694bee2a.js" data-form="171a4085-f6a8-11eb-96e5-06b4694bee2a" />
         );
     }
 }
