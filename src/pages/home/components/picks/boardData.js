@@ -116,6 +116,7 @@ export const columns = [
     }
 ];
 
+
 export const defaultSorted = [
     {
         dataField: 'division',

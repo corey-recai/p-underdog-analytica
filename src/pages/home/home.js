@@ -76,12 +76,6 @@ export default class Home extends Component {
                 </div>
                 <div className="py-3">
                   <SubscribeBtn />
-                  {/*<Button*/}
-                  {/*  className="home-section-1-signup-btn bold px-5 py-3"*/}
-                  {/*  size="lg"*/}
-                  {/*>*/}
-                  {/*  Sign Up Now*/}
-                  {/*</Button>*/}
                 </div>
               </Col>
               <Col

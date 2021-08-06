@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import classes from "./chartContainer.module.css";
 import LineChart from "./lineChart";
-import { underdogAnalyticaData, SPY500_DATA, SPY500_ACTIVE_DATA, STOX_ACTIVE_DATA, UA_ACTIVE_DATA, weeklyLabels, managerQuarterData, nationalAverageQuarterData, monthlyLabels } from "./performanceData";
+import { underdogAnalyticaData, SPY500_DATA, SPY500_ACTIVE_DATA, STOXX600_ACTIVE_DATA, UA_ACTIVE_DATA, weeklyLabels, managerQuarterData, nationalAverageQuarterData, monthlyLabels } from "./performanceData";
 
 export default class ChartContainer extends Component {
     state = {
-        data: UA_ACTIVE_DATA,
-        average: SPY500_ACTIVE_DATA,
-        stox: STOX_ACTIVE_DATA,
+        ua: UA_ACTIVE_DATA,
+        spy500: SPY500_ACTIVE_DATA,
+        stoxx600: STOXX600_ACTIVE_DATA,
         labels: weeklyLabels
     }
 
@@ -16,20 +16,20 @@ export default class ChartContainer extends Component {
         const isWeekly = value === "weekly";
 
         const newData = isWeekly ? UA_ACTIVE_DATA : underdogAnalyticaData;
-        const newStoxData = isWeekly ? STOX_ACTIVE_DATA : managerQuarterData;
+        const newStoxData = isWeekly ? STOXX600_ACTIVE_DATA : managerQuarterData;
         const newLabels = isWeekly ? weeklyLabels : monthlyLabels;
         const newAverage = isWeekly ? SPY500_ACTIVE_DATA : SPY500_DATA;
 
         this.setState({
-            data: newData,
-            stox: newStoxData,
-            average: newAverage,
+            ua: newData,
+            stoxx600: newStoxData,
+            spy500: newAverage,
             labels: newLabels
         })
     }
 
     render() {
-        const { data, average, stox, labels } = this.state;
+        const { ua, spy500, stoxx600, labels } = this.state;
         return (
             <div className={classes.container}>
                 <div className={classes.buttonContainer}>
@@ -49,9 +49,9 @@ export default class ChartContainer extends Component {
                 </div>
 
                 <LineChart
-                    data={data}
-                    stox={stox}
-                    average={average}
+                    ua={ua}
+                    stoxx600={stoxx600}
+                    spy500={spy500}
                     labels={labels}
                 />
 

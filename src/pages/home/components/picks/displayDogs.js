@@ -8,7 +8,7 @@ const CustomToggleList = ({
                               onColumnToggle,
                               toggles
                           }) => (
-    <div className="btn-group btn-group-toggle btn-group-vertical" data-toggle="buttons">
+    <div className="btn-group btn-group-toggle" data-toggle="buttons">
         {
             columns
                 .map(column => ({

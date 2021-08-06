@@ -17,7 +17,7 @@ export default class LineGraph extends Component {
 
     buildChart = () => {
         const myChartRef = this.chartRef.current.getContext("2d");
-        const {data, average, stox, labels} = this.props;
+        const {ua, spy500, stoxx600, labels} = this.props;
 
         if (typeof myLineChart !== "undefined") myLineChart.destroy();
 
@@ -29,21 +29,21 @@ export default class LineGraph extends Component {
                 datasets: [
                     {
                         label: "Underdog Analytica",
-                        data: data,
+                        data: ua,
                         fill: false,
                         backgroundColor: "rgb(35, 131, 204)",
                         borderColor: "rgba(35, 131, 204, 0.2)",
                     },
                     {
                         label: "S&P 500",
-                        data: average,
+                        data: spy500,
                         fill: false,
                         backgroundColor: "rgb(255, 99, 132)",
                         borderColor: "rgba(255, 99, 132, 0.2)",
                     },
                     {
-                        label: "STOX",
-                        data: stox,
+                        label: "STOXX 600",
+                        data: stoxx600,
                         fill: false,
                         backgroundColor: "rgba(99,255,185,0.63)" ,
                         borderColor: "rgb(99,255,200)",
