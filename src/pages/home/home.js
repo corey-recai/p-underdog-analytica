@@ -65,7 +65,8 @@ export default class Home extends Component {
               <Col className="pt-5" sm={12} md={12} lg={6}>
                 <div className="home-section-1-cta-text mt-5">
                   <h1 className="bold home-section-1-h1-text">
-                    Transparent &amp; Hassle-Free Sports Betting Predictions
+                    Data-Driven Predictions &amp; Transparent Results
+                    {/*Transparent &amp; Hassle-Free Sports Betting Predictions*/}
                   </h1>
                   <span className="home-section-1-h2-text highlight">
                     Honesty and clarity meets real-time, data-driven European

@@ -1,5 +1,5 @@
 import BootstrapTable from 'react-bootstrap-table-next';
-import {boardData} from "./boardData";
+import {columns, picks, defaultSorted} from "./boardData";
 
 export const Display = () => {
     return (
@@ -9,9 +9,9 @@ export const Display = () => {
                 striped
                 hover
                 keyField="homeTeam"
-                data={boardData.picks}
-                columns={boardData.columns}
-                defaultSorted={boardData.defaultSorted}
+                data={ picks }
+                columns={ columns }
+                defaultSorted={ defaultSorted }
             />
         </>
     );
