@@ -8,8 +8,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAngleDoubleRight } from "@fortawesome/free-solid-svg-icons";
+import { ReactSmartScroller } from "react-smart-scroller";
 import "./home.css";
 import homeIcons from "./icons/homeIcons";
 import logos from "../../assets/logos/logos";
@@ -337,7 +336,37 @@ export default class Home extends Component {
                   How it Works
                 </h1>
               </Col>
-              <Col sm={12} md={12} lg={12}></Col>
+              <Col sm={12} md={12} lg={12}>
+                <ReactSmartScroller vertical>
+                  <div
+                    style={{
+                      width: "100%",
+                      height: 300,
+                      objectFit: "cover",
+                    }}
+                  >
+                    Step One
+                  </div>
+                  <div
+                    style={{
+                      width: "100%",
+                      height: 300,
+                      objectFit: "cover",
+                    }}
+                  >
+                    Step Two
+                  </div>
+                  <div
+                    style={{
+                      width: "100%",
+                      height: 300,
+                      objectFit: "cover",
+                    }}
+                  >
+                    Step Three
+                  </div>
+                </ReactSmartScroller>
+              </Col>
             </Row>
           </Container>
         </div>
