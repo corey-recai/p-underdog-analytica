@@ -8,35 +8,26 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
-import { ReactSmartScroller } from "react-smart-scroller";
+import { Swiper, SwiperSlide } from "swiper/react";
+import SwiperCore, { Mousewheel } from "swiper/core";
+import "swiper/swiper.min.css";
 import "./home.css";
 import homeIcons from "./icons/homeIcons";
 import logos from "../../assets/logos/logos";
 import Chart from "./components/charting/chartContainer";
-import {Display} from "./components/picks/display";
-import {DisplayDogs} from "./components/picks/displayDogs";
+import { Display } from "./components/picks/display";
+import { DisplayDogs } from "./components/picks/displayDogs";
 import SubscribeBtn from "../components/subscribeBtn";
 
-
+SwiperCore.use([Mousewheel]);
 
 export default class Home extends Component {
   componentDidMount() {
-    this.resizeCards();
-    window.addEventListener("resize", () => this.resizeCards());
+    // window.addEventListener("resize", () => this.resizeCards());
     window.onscroll = () => {
       this.scrollFunction();
     };
   }
-
-  resizeCards = () => {
-    let cardHeight = document.getElementById("high-roller-tier").offsetHeight;
-    document.getElementById(
-      "new-bettor-tier"
-    ).style.height = `${cardHeight}px !important`;
-    document.getElementById(
-      "sharp-player-tier"
-    ).style.height = `${cardHeight}px !important`;
-  };
 
   scrollFunction = () => {
     if (
@@ -44,10 +35,14 @@ export default class Home extends Component {
       document.documentElement.scrollTop > 50
     ) {
       document.getElementById("ua-nav").classList.add("ua-nav-scrolled");
-    } else {
+    } else if (
+      document.body.scrollTop < 50 ||
+      document.documentElement.scrollTop < 50
+    ) {
       document.getElementById("ua-nav").classList.remove("ua-nav-scrolled");
     }
   };
+
   render() {
     return (
       <>
@@ -70,7 +65,9 @@ export default class Home extends Component {
                     {/*Transparent &amp; Hassle-Free Sports Betting Predictions*/}
                   </h1>
                   <span className="home-section-1-h2-text highlight">
-                    Profit on European football by betting on underdogs. Our algorithm makes the calculations, you make the cash. Start for free today.
+                    Profit on European football by betting on underdogs. Our
+                    algorithm makes the calculations, you make the cash. Start
+                    for free today.
                   </span>
                 </div>
                 <div className="py-3">
@@ -106,8 +103,8 @@ export default class Home extends Component {
                   Transparency
                 </h2>
                 <p className="home-section-2-text pt-4 mx-auto">
-                  All of our previous recommendation data available for review in{" "}
-                  <a href="#">BET HISTORY</a> before you even make an account
+                  All of our previous recommendation data available for review
+                  in <a href="#">BET HISTORY</a> before you even make an account
                   because you deserve a handicapper with integrity.
                 </p>
               </Col>
@@ -128,9 +125,9 @@ export default class Home extends Component {
                   Data Driven
                 </h2>
                 <p className="home-section-2-text pt-4 mx-auto">
-                  Our machine learning algorithm generates emotionless predictions
-                  based on historical performance and key metrics. Select your
-                  next winners with data, not “feeling!”
+                  Our machine learning algorithm generates emotionless
+                  predictions based on historical performance and key metrics.
+                  Select your next winners with data, not “feeling!”
                 </p>
               </Col>
               <Col className="text-center pt-5" sm={12} md={12} lg={3}>
@@ -197,7 +194,8 @@ export default class Home extends Component {
                       <li>Transparent results in real time</li>
                       <li>Empathetic customer service</li>
                       <li>
-                        Automated email/Twitter notifications when Bet Board updates
+                        Automated email/Twitter notifications when Bet Board
+                        updates
                       </li>
                       <li>Educational resources and articles</li>
                       <li>33% of match predictions</li>
@@ -219,6 +217,11 @@ export default class Home extends Component {
                   id="sharp-player-tier"
                   className="home-section-4-tier px-5"
                 >
+                  <div className="home-section-4-coming-soon-cover">
+                    <span className="home-section-4-coming-soon-text">
+                      Coming Soon
+                    </span>
+                  </div>
                   <h1 className="pt-4 bold home-section-4-title">
                     Sharp Player
                   </h1>
@@ -261,6 +264,7 @@ export default class Home extends Component {
                       *25% off annual subscription
                     </span>
                   </p>
+
                   <div className="bottom text-center py-4 ">
                     <Button
                       className="home-section-4-signup-btn bold px-5 py-3"
@@ -273,6 +277,11 @@ export default class Home extends Component {
               </Col>
               <Col className="pt-5" sm={12} md={12} lg={4}>
                 <div id="high-roller-tier" className="home-section-4-tier px-5">
+                  <div className="home-section-4-coming-soon-cover">
+                    <span className="home-section-4-coming-soon-text">
+                      Coming Soon
+                    </span>
+                  </div>
                   <h1 className="pt-4 bold home-section-4-title">
                     High Roller
                   </h1>
@@ -314,7 +323,9 @@ export default class Home extends Component {
                       *25% off a annual subscription
                     </span>
                   </p>
-
+                  <div className="home-section-4-coming-soon-banner">
+                    <span>Coming Soon</span>
+                  </div>
                   <div className="text-center py-4">
                     <Button
                       className="home-section-4-signup-btn bold px-5 py-3"
@@ -337,35 +348,29 @@ export default class Home extends Component {
                 </h1>
               </Col>
               <Col sm={12} md={12} lg={12}>
-                <ReactSmartScroller vertical>
-                  <div
-                    style={{
-                      width: "100%",
-                      height: 300,
-                      objectFit: "cover",
-                    }}
-                  >
-                    Step One
-                  </div>
-                  <div
-                    style={{
-                      width: "100%",
-                      height: 300,
-                      objectFit: "cover",
-                    }}
-                  >
-                    Step Two
-                  </div>
-                  <div
-                    style={{
-                      width: "100%",
-                      height: 300,
-                      objectFit: "cover",
-                    }}
-                  >
-                    Step Three
-                  </div>
-                </ReactSmartScroller>
+                <Swiper
+                  direction={"vertical"}
+                  mousewheel={true}
+                  className="mySwiper"
+                >
+                  <SwiperSlide>
+                    Slide 1
+                    <div class="scroll-indicator-container">
+                      <div class="scroll-indicator-chevron"></div>
+                      <div class="scroll-indicator-chevron"></div>
+                      <div class="scroll-indicator-chevron"></div>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    Slide 2
+                    <div class="scroll-indicator-container">
+                      <div class="scroll-indicator-chevron"></div>
+                      <div class="scroll-indicator-chevron"></div>
+                      <div class="scroll-indicator-chevron"></div>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>Slide 3</SwiperSlide>
+                </Swiper>
               </Col>
             </Row>
           </Container>

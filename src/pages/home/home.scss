@@ -70,6 +70,64 @@ body {
     text-shadow: 2px 2px rgba(33, 37, 41, 0.3) !important;
 }
 
+.inline-container {
+    padding: 0 !important;
+    border: none !important;
+}
+.inline-container .form-container {
+    margin: 0 !important;
+}
+
+.inline-container .inner {
+    display: none !important;
+}
+
+.inline-container .mastfoot.text-center.no-bg {
+    display: none !important;
+}
+
+.inline-container div.text-center {
+    display: none !important;
+}
+.eo-form-wrapper > div:nth-child(3) {
+    display: none !important;
+}
+
+.emailoctopus-form .main-form {
+    display: flex !important;
+}
+
+.emailoctopus-form .main-form .emailoctopus-form-row {
+    flex: 70% !important;
+    min-width: 0 !important;
+}
+
+.emailoctopus-form .main-form .emailoctopus-form-row input {
+    border-radius: 0px !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-top: none !important;
+    border-bottom: 3px solid #000 !important;
+}
+
+.emailoctopus-form .main-form .emailoctopus-form-row input:focus {
+    box-shadow: none !important;
+}
+
+.emailoctopus-form .main-form input.btn {
+    flex: 30% !important;
+    background-color: #2383cc !important;
+    border-color: transparent transparent !important;
+    outline-color: transparent transparent !important;
+    border: 0px solid transparent !important;
+    border-radius: 30px !important;
+    box-shadow: 5px 4px rgba(0, 0, 0, 0.3) !important;
+}
+
+.emailoctopus-form .main-form input.btn:hover {
+    box-shadow: 9px 8px rgba(0, 0, 0, 0.3) !important;
+}
+
 .home-section-1 {
     background-color: #ffff !important;
     // background-image: $background-image !important;
@@ -219,6 +277,25 @@ body {
     box-shadow: 9px 8px rgba(0, 0, 0, 0.3) !important;
 }
 
+.home-section-4-coming-soon-cover {
+    position: absolute !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    background-color: rgba(0, 0, 0, 0.3) !important;
+    border-radius: 10px !important;
+    height: 100% !important;
+    width: 100% !important;
+    left: 0 !important;
+}
+
+.home-section-4-coming-soon-text {
+    font-size: 6rem !important;
+    text-align: center !important;
+    color: #ffff !important;
+    text-shadow: 5px 4px rgba(245, 65, 75, 0.2) !important;
+}
+
 .home-section-5 {
     height: auto !important;
     width: 100% !important;
@@ -226,6 +303,76 @@ body {
 
 .home-section-5-h1-text {
     font-size: 2.5rem !important;
+}
+
+.swiper-container {
+    height: 600px !important;
+}
+
+.scroll-indicator-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+$chevron-base: 0.6rem;
+
+.scroll-indicator-chevron {
+    position: absolute;
+    width: $chevron-base * 3.5;
+    height: $chevron-base * 0.8;
+    opacity: 0;
+    transform: scale(0.3);
+    animation: move-chevron 3s ease-out infinite;
+}
+
+.scroll-indicator-chevron:first-child {
+    animation: move-scroll-indicator-chevron 3s ease-out 1s infinite;
+}
+
+.scroll-indicator-chevron:nth-child(2) {
+    animation: move-scroll-indicator-chevron 3s ease-out 2s infinite;
+}
+
+.scroll-indicator-chevron:before,
+.scroll-indicator-chevron:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    background: #2c3e50;
+}
+
+.scroll-indicator-chevron:before {
+    left: 0;
+    transform: skewY(30deg);
+}
+
+.scroll-indicator-chevron:after {
+    right: 0;
+    width: 50%;
+    transform: skewY(-30deg);
+}
+
+@keyframes move-scroll-indicator-chevron {
+    25% {
+        opacity: 1;
+    }
+    33.3% {
+        opacity: 1;
+        transform: translateY($chevron-base * 3.8);
+    }
+    66.6% {
+        opacity: 1;
+        transform: translateY($chevron-base * 5.2);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY($chevron-base * 8) scale(0.5);
+    }
 }
 
 .home-section-5-twitter-icon {
@@ -374,6 +521,7 @@ footer {
     .home-section-4-h2-text-wrapper {
         width: 30% !important;
     }
+
     .home-section-5-h1-text {
         font-size: 5rem !important;
         width: 50% !important;
