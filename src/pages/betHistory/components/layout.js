@@ -3,6 +3,8 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import {ResultTable} from "./resultTable";
 import Nav from '../../components/nav';
+import {AccordionTable} from "./accordianTable";
+
 
 export default class Layout extends Component{
     render () {
@@ -17,6 +19,6 @@ export default class Layout extends Component{
                     </Container>
                 </div>
             </>
-        )
+        );
     }
 }

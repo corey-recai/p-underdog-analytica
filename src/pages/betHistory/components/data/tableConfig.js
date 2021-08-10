@@ -1,16 +1,22 @@
+
 export const columns = [
+    // {
+    //     dataField: 'id',
+    //     text: 'ID',
+    //     hidden: true
+    // },
     {
-        dataField: 'division',
-        text: 'Division',
+        dataField: 'league',
+        text: 'League',
         sort: true,
     },
     {
         dataField: 'homeTeam',
-        text: 'HomeTeam',
+        text: 'Home\nTeam',
     },
     {
         dataField: 'awayTeam',
-        text: 'AwayTeam',
+        text: 'Away Team',
     },
     {
         dataField: 'prediction',
@@ -21,23 +27,55 @@ export const columns = [
     {
         dataField: 'odds',
         text: 'Odds',
-        // sort: true,
+        sort: true,
         align: 'center'
     },
     {
         dataField: 'result',
         text: 'Result',
         sort: true,
+        style: (cell) => {
+            if (cell === 'Win') {
+                return {
+                    backgroundColor: '#c8e6c9',
+                    color: 'green',
+                };
+            }else if (cell === 'Loss') {
+                return {
+                    backgroundColor: 'rgba(245,124,124,0.69)',
+                    color: 'red',
+                };
+            }
+            return {
+                backgroundColor: '#94c3f3'
+            };
+        }
     },
     {
         dataField: 'netUnits',
-        text: 'Units Won/Loss',
+        text: 'Units +/-',
         sort: true,
+        style: (cell) => {
+            if (cell > 0) {
+                return {
+                    backgroundColor: '#c8e6c9',
+                    color: 'green',
+                };
+            } else if(cell < 0) {
+                return {
+                    backgroundColor: 'rgba(245,124,124,0.69)',
+                    color: 'red',
+                };
+            }
+            return {
+                backgroundColor: '#94c3f3'
+            };
+
+        }
     },
     {
         dataField: 'date',
         text: 'Date',
-        sort: true,
     }
 ];
 
