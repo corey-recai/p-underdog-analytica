@@ -1,7 +1,7 @@
 import BootstrapTable from 'react-bootstrap-table-next';
-import {columns, defaultSorted} from "./tableConfig";
-import {april16, april24} from "./data/april2021/aprilResults";
-import {may1_3, may7_10, may14_16, may22_23} from "./data/may2021/mayResults";
+import {columns, defaultSorted} from "./data/tableConfig";
+import {april16, april24} from "./data/aprilResults";
+import {may1_3, may7_10, may14_16, may22_23} from "./data/mayResults";
 
 export const ResultTable = () => {
     return (
