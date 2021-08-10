@@ -11,7 +11,7 @@ export const ResultTable = () => {
             <div>
                 <h1>April 2021</h1>
                 <div className="bet-history-tables">
-                    <h2>April 16</h2>
+                    <h2>April 16-18</h2>
                     <BootstrapTable
                         striped
                         bordered={false}

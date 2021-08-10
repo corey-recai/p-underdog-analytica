@@ -4,6 +4,7 @@ import Row from "react-bootstrap/Row";
 import {ResultTable} from "./resultTable";
 import Nav from '../../components/nav';
 import {AccordionTable} from "./accordianTable";
+import MyResponsiveGrid from "./responsiveGrid";
 
 
 export default class Layout extends Component{
@@ -14,7 +15,8 @@ export default class Layout extends Component{
                 <div className="bet-history-container pt-5">
                     <Container>
                         <Row>
-                            <ResultTable />
+                            {/*<ResultTable />*/}
+                            <AccordionTable />
                         </Row>
                     </Container>
                 </div>

@@ -110,7 +110,7 @@ export const may1_3 = [
         netUnits: -1
     },
     {
-        league: 'PrimeiraLiga',
+        league: 'Primeira Liga',
         homeTeam: 'Portimonense',
         awayTeam: 'Rio Ave',
         prediction: "X",
@@ -120,7 +120,7 @@ export const may1_3 = [
         netUnits: 2.18
     },
     {
-        league: 'PrimeiraLiga',
+        league: 'Primeira Liga',
         homeTeam: 'Santa Clara',
         awayTeam: 'Boavista ',
         prediction: "X",
@@ -296,7 +296,7 @@ export const may7_10 = [
         netUnits: -1
     },
     {
-        league: 'PrimeiraLiga',
+        league: 'Primeira Liga',
         homeTeam: 'Pacos Ferreira',
         awayTeam: 'Maritimo',
         prediction: "X",
@@ -306,7 +306,7 @@ export const may7_10 = [
         netUnits: 2.3
     },
     {
-        league: 'PrimeiraLiga',
+        league: 'Primeira Liga',
         homeTeam: 'Famalicao',
         awayTeam: 'Santa Clara',
         prediction: "X",
@@ -420,7 +420,7 @@ export const may14_16 = [
         netUnits: 2.45
     },
     {
-        league: 'PrimeiraLiga',
+        league: 'Primeira Liga',
         homeTeam: 'Maritimo',
         awayTeam: 'Guimaraes',
         prediction: "X",
@@ -430,7 +430,7 @@ export const may14_16 = [
         netUnits: 2.11
     },
     {
-        league: 'PrimeiraLiga',
+        league: 'Primeira Liga',
         homeTeam: 'Belenenses',
         awayTeam: 'Santa Clara',
         prediction: "2",
@@ -440,7 +440,7 @@ export const may14_16 = [
         netUnits: 1.5
     },
     {
-        league: 'PrimeiraLiga',
+        league: 'Primeira Liga',
         homeTeam: 'Pacos Ferreira',
         awayTeam: 'Gil Vicente',
         prediction: "X",
@@ -563,7 +563,7 @@ export const may22_23 = [
         netUnits: 2.53
     },
     {
-        league: 'PremierLeague',
+        league: 'Premier League',
         homeTeam: 'Wolves',
         awayTeam: 'Man United',
         prediction: "2",
