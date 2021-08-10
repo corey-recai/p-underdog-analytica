@@ -21,7 +21,7 @@ export const columns = [
     {
         dataField: 'odds',
         text: 'Odds',
-        sort: true,
+        // sort: true,
         align: 'center'
     },
     {
