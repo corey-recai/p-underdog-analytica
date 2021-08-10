@@ -1,6 +1,7 @@
 import BootstrapTable from 'react-bootstrap-table-next';
-import {columns, picks, defaultSorted} from "./boardData";
-import paginationFactory from 'react-bootstrap-table2-paginator';
+import {columns, defaultSorted} from "../../../betHistory/components/data/tableConfig";
+import {may22_23} from "../../../betHistory/components/data/mayResults";
+
 
 export const Display = () => {
     return (
@@ -10,7 +11,7 @@ export const Display = () => {
                 striped
                 hover
                 keyField="homeTeam"
-                data={ picks }
+                data={ may22_23 }
                 columns={ columns }
                 defaultSorted={ defaultSorted }
             />
