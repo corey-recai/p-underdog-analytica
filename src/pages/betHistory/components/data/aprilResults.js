@@ -1,6 +1,6 @@
 export const april16 = [
     {
-        division: 'Bundesliga',
+        league: 'Bundesliga',
         homeTeam: 'Union Berlin',
         awayTeam: 'Stuttgart',
         prediction: 'X'	,
@@ -10,7 +10,7 @@ export const april16 = [
         netUnits: -1
     },
     {
-        division: 'Liga',
+        league: 'Liga',
         homeTeam: 'Alaves',
         awayTeam: 'Alaves',
         prediction: '2'	,
@@ -20,7 +20,7 @@ export const april16 = [
         netUnits: -1
     },
     {
-        division: 'Liga',
+        league: 'Liga',
         homeTeam: 'Betis',
         awayTeam: 'Valencia',
         prediction: 'X'	,
@@ -30,7 +30,7 @@ export const april16 = [
         netUnits: 2.73
     },
     {
-        division: 'Ligue1',
+        league: 'Ligue1',
         homeTeam: 'Angers',
         awayTeam: 'Rennes',
         prediction: 'X'	,
@@ -40,7 +40,7 @@ export const april16 = [
         netUnits: -1
     },
     {
-        division: 'Ligue1',
+        league: 'Ligue1',
         homeTeam: 'Brest',
         awayTeam: 'Lens',
         prediction: 'X'	,
@@ -50,7 +50,7 @@ export const april16 = [
         netUnits: 2.35
     },
     {
-        division: 'Ligue1',
+        league: 'Ligue1',
         homeTeam: 'Marseille',
         awayTeam: 'Lorient',
         prediction: 'X'	,
@@ -60,7 +60,7 @@ export const april16 = [
         netUnits: -1
     },
     {
-        division: 'Ligue1',
+        league: 'Ligue1',
         homeTeam: 'Nimes',
         awayTeam: 'Strasbourg',
         prediction: 'X'	,
@@ -70,7 +70,7 @@ export const april16 = [
         netUnits: 2.64
     },
     {
-        division: 'Ligue1',
+        league: 'Ligue1',
         homeTeam: 'Reims',
         awayTeam: 'Metz',
         prediction: '2'	,
@@ -80,7 +80,7 @@ export const april16 = [
         netUnits: -1
     },
     {
-        division: 'PremierLeague',
+        league: 'Premier League',
         homeTeam: 'Arsenal',
         awayTeam: 'Fulham',
         prediction: 'X'	,
@@ -90,7 +90,7 @@ export const april16 = [
         netUnits: 2.75
     },
     {
-        division: 'PrimeiraLiga',
+        league: 'Primeira Liga',
         homeTeam: 'Guimaraes',
         awayTeam: 'Santa Clara',
         prediction: '2'	,
@@ -100,7 +100,7 @@ export const april16 = [
         netUnits: -1
     },
     {
-        division: 'PrimeiraLiga',
+        league: 'PrimeiraLiga',
         homeTeam: 'Boavista',
         awayTeam: 'Pacos Ferreira',
         prediction: 'X'	,
@@ -110,7 +110,7 @@ export const april16 = [
         netUnits: -1
     },
     {
-        division: 'SerieA',
+        league: 'SerieA',
         homeTeam: 'Napoli',
         awayTeam: 'Inter',
         prediction: 'X'	,
@@ -120,7 +120,7 @@ export const april16 = [
         netUnits: 2.63
     },
     {
-        division: 'SerieA',
+        league: 'SerieA',
         homeTeam: 'Sassuolo',
         awayTeam: 'Fiorentina',
         prediction: 'X'	,
@@ -130,7 +130,7 @@ export const april16 = [
         netUnits: -1
     },
     {
-        division: 'SerieA',
+        league: 'SerieA',
         homeTeam: 'Bologna',
         awayTeam: 'Spezia',
         prediction: '1'	,
@@ -140,7 +140,7 @@ export const april16 = [
         netUnits: 1.03
     },
     {
-        division: 'SerieA',
+        league: 'SerieA',
         homeTeam: 'Cagliari',
         awayTeam: 'Parma',
         prediction: 'X'	,
@@ -150,7 +150,7 @@ export const april16 = [
         netUnits: -1
     },
     {
-        division: 'SerieA',
+        league: 'SerieA',
         homeTeam: 'Atalanta',
         awayTeam: 'Juventus',
         prediction: 'X'	,
@@ -163,7 +163,7 @@ export const april16 = [
 
 export const april24 = [
     {
-        division: 'Bundesliga',
+        league: 'Bundesliga',
         homeTeam: 'Freiburg',
         awayTeam: 'Hoffenheim',
         prediction: '2'	,
@@ -173,7 +173,7 @@ export const april24 = [
         netUnits: -1
     },
     {
-        division: 'Bundesliga',
+        league: 'Bundesliga',
         homeTeam: 'Union Berlin',
         awayTeam: 'Werder Bremen',
         prediction: 'X'	,
@@ -183,7 +183,7 @@ export const april24 = [
         netUnits: -1
     },
     {
-        division: 'Eredivisie',
+        league: 'Eredivisie',
         homeTeam: 'FC Emmen',
         awayTeam: 'Heracles',
         prediction: 'X'	,
@@ -193,7 +193,7 @@ export const april24 = [
         netUnits: -1
     },
     {
-        division: 'Liga',
+        league: 'Liga',
         homeTeam: 'Ath Bilbao',
         awayTeam: 'Ath Madrid',
         prediction: 'X'	,
@@ -203,7 +203,7 @@ export const april24 = [
         netUnits: -1
     },
     {
-        division: 'Liga',
+        league: 'Liga',
         homeTeam: 'Huesca',
         awayTeam: 'Getafe',
         prediction: 'X'	,
@@ -213,7 +213,7 @@ export const april24 = [
         netUnits: -1
     },
     {
-        division: 'Liga',
+        league: 'Liga',
         homeTeam: 'Valladolid',
         awayTeam: 'Cadiz',
         prediction: 'X'	,
@@ -223,17 +223,17 @@ export const april24 = [
         netUnits: 2.39
     },
     {
-        division: 'Liga',
+        league: 'Liga',
         homeTeam: 'Valencia',
         awayTeam: 'Alaves',
         prediction: '1'	,
         odds: 2.16,
         date: '24/4/2021',
-        result: 'Win',
-        netUnits: 2.16
+        result: 'Loss',
+        netUnits: -1
     },
     {
-        division: 'Ligue1',
+        league: 'Ligue1',
         homeTeam: 'St Etienne',
         awayTeam: 'Brest',
         prediction: 'X'	,
@@ -243,7 +243,7 @@ export const april24 = [
         netUnits: -1
     },
     {
-        division: 'Ligue1',
+        league: 'Ligue1',
         homeTeam: 'Lyon',
         awayTeam: 'Lille',
         prediction: '1'	,
@@ -253,7 +253,7 @@ export const april24 = [
         netUnits: -1
     },
     {
-        division: 'Ligue1',
+        league: 'Ligue1',
         homeTeam: 'Lens',
         awayTeam: 'Nimes',
         prediction: 'X'	,
@@ -263,7 +263,7 @@ export const april24 = [
         netUnits: -1
     },
     {
-        division: 'Ligue1',
+        league: 'Ligue1',
         homeTeam: 'Nice',
         awayTeam: 'Montpellier',
         prediction: '2'	,
@@ -273,17 +273,17 @@ export const april24 = [
         netUnits: -1
     },
     {
-        division: 'PremierLeague',
+        league: 'Premier League',
         homeTeam: 'Wolves',
         awayTeam: 'Burnley',
         prediction: '1'	,
         odds: 2.12,
         date: '25/4/2021',
         result: 'Loss',
-        netUnits: 2.75
+        netUnits: -1
     },
     {
-        division: 'PrimeiraLiga',
+        league: 'PrimeiraLiga',
         homeTeam: 'Belenenses',
         awayTeam: 'Gil Vicente',
         prediction: 'X'	,
@@ -293,7 +293,7 @@ export const april24 = [
         netUnits: -1
     },
     {
-        division: 'PrimeiraLiga',
+        league: 'PrimeiraLiga',
         homeTeam: 'Nacional',
         awayTeam: 'Guimaraes',
         prediction: 'X'	,
@@ -303,7 +303,7 @@ export const april24 = [
         netUnits: -1
     },
     {
-        division: 'PrimeiraLiga',
+        league: 'PrimeiraLiga',
         homeTeam: 'Rio Ave',
         awayTeam: 'Pacos Ferreira',
         prediction: 'X'	,
@@ -313,7 +313,7 @@ export const april24 = [
         netUnits: 2.38
     },
     {
-        division: 'PrimeiraLiga',
+        league: 'PrimeiraLiga',
         homeTeam: 'Boavista',
         awayTeam: 'Maritimo',
         prediction: 'X'	,
@@ -323,7 +323,7 @@ export const april24 = [
         netUnits: -1
     },
     {
-        division: 'SerieA',
+        league: 'SerieA',
         homeTeam: 'Benevento',
         awayTeam: 'Udinese',
         prediction: '2'	,

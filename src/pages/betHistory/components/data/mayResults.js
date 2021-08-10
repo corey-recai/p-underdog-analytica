@@ -1,6 +1,6 @@
 export const may1_3 = [
     {
-        division: 'Bundesliga',
+        league: 'Bundesliga',
         homeTeam: 'Mainz',
         awayTeam: 'Hertha',
         prediction: "2",
@@ -10,7 +10,7 @@ export const may1_3 = [
         netUnits: -1.00
     },
     {
-        division: 'Eredivisie',
+        league: 'Eredivisie',
         homeTeam: 'Groningen',
         awayTeam: 'Sparta Rotterdam',
         prediction: "X",
@@ -20,17 +20,17 @@ export const may1_3 = [
         netUnits: -1
     },
     {
-        division: 'Liga',
+        league: 'Liga',
         homeTeam: 'Eibar',
         awayTeam: 'Alaves',
         prediction: "1",
         odds: 2.59,
         date: '1/5/2021',
         result: 'Win',
-        netUnits: -1.59
+        netUnits: 1.59
     },
     {
-        division: 'Ligue1',
+        league: 'Ligue1',
         homeTeam: 'Monaco',
         awayTeam: 'Lyon',
         prediction: "2",
@@ -40,7 +40,7 @@ export const may1_3 = [
         netUnits: 2.06
     },
     {
-        division: 'Ligue1',
+        league: 'Ligue1',
         homeTeam: 'Montpellier',
         awayTeam: 'St Etienne',
         prediction: "X",
@@ -50,7 +50,7 @@ export const may1_3 = [
         netUnits: -1
     },
     {
-        division: 'Ligue1',
+        league: 'Ligue1',
         homeTeam: 'Nimes',
         awayTeam: 'Reims',
         prediction: "X",
@@ -60,7 +60,7 @@ export const may1_3 = [
         netUnits: 2.45
     },
     {
-        division: 'PremierLeague',
+        league: 'Premier League',
         homeTeam: 'West Brom',
         awayTeam: 'Wolves',
         prediction: "2",
@@ -70,7 +70,7 @@ export const may1_3 = [
         netUnits: -1
     },
     {
-        division: 'PremierLeague',
+        league: 'Premier League',
         homeTeam: 'Everton',
         awayTeam: 'Aston Villa',
         prediction: "X",
@@ -80,7 +80,7 @@ export const may1_3 = [
         netUnits: -1
     },
     {
-        division: 'PremierLeague',
+        league: 'Premier League',
         homeTeam: 'Everton',
         awayTeam: 'Aston Villa',
         prediction: "2",
@@ -90,17 +90,17 @@ export const may1_3 = [
         netUnits: 2.72
     },
     {
-        division: 'PremierLeague',
+        league: 'Premier League',
         homeTeam: 'Man United',
         awayTeam: 'Liverpool',
         prediction: "X",
         odds: 3.65,
         date: '2/5/2021',
         result: 'Postponed',
-        netUnits: 'N/a'
+        netUnits: 'N/A'
     },
     {
-        division: 'PremierLeague',
+        league: 'Premier League',
         homeTeam: 'Brighton',
         awayTeam: 'Leeds',
         prediction: "X",
@@ -110,7 +110,7 @@ export const may1_3 = [
         netUnits: -1
     },
     {
-        division: 'PrimeiraLiga',
+        league: 'PrimeiraLiga',
         homeTeam: 'Portimonense',
         awayTeam: 'Rio Ave',
         prediction: "X",
@@ -120,7 +120,7 @@ export const may1_3 = [
         netUnits: 2.18
     },
     {
-        division: 'PrimeiraLiga',
+        league: 'PrimeiraLiga',
         homeTeam: 'Santa Clara',
         awayTeam: 'Boavista ',
         prediction: "X",
@@ -130,7 +130,7 @@ export const may1_3 = [
         netUnits: 2.24
     },
     {
-        division: 'ScottishPL',
+        league: 'ScottishPL',
         homeTeam: 'Rangers',
         awayTeam: 'Celtic',
         prediction: "X",
@@ -140,7 +140,7 @@ export const may1_3 = [
         netUnits: -1
     },
     {
-        division: 'ScottishPL',
+        league: 'ScottishPL',
         homeTeam: 'Dundee United',
         awayTeam: 'Ross County',
         prediction: "X",
@@ -150,7 +150,7 @@ export const may1_3 = [
         netUnits: -1
     },
     {
-        division: 'ScottishPL',
+        league: 'ScottishPL',
         homeTeam: 'Motherwell',
         awayTeam: 'Kilmarnock',
         prediction: "X",
@@ -160,7 +160,7 @@ export const may1_3 = [
         netUnits: -1
     },
     {
-        division: 'ScottishPL',
+        league: 'ScottishPL',
         homeTeam: 'Hibernian',
         awayTeam: 'St Johnstone',
         prediction: "X",
@@ -170,7 +170,7 @@ export const may1_3 = [
         netUnits: -1
     },
     {
-        division: 'ScottishPL',
+        league: 'ScottishPL',
         homeTeam: 'St Mirren',
         awayTeam: 'Hamilton',
         prediction: "X",
@@ -183,17 +183,17 @@ export const may1_3 = [
 
 export const may7_10 = [
     {
-        division: 'Bundesliga',
+        league: 'Bundesliga',
         homeTeam: 'Stuttgart',
         awayTeam: 'Augsburg',
         prediction: "1",
         odds: 2.33,
         date: '7/5/2021',
-        result: "Loss",
+        result: "Win",
         netUnits: 1.33
     },
     {
-        division: 'Bundesliga',
+        league: 'Bundesliga',
         homeTeam: 'Dortmund',
         awayTeam: 'RB Leipzig',
         prediction: "1",
@@ -203,7 +203,7 @@ export const may7_10 = [
         netUnits: -1.00
     },
     {
-        division: 'Eredivisie',
+        league: 'Eredivisie',
         homeTeam: 'FC Emmen',
         awayTeam: 'Groningen',
         prediction: "X",
@@ -213,7 +213,7 @@ export const may7_10 = [
         netUnits: -1.00
     },
     {
-        division: 'Eredivisie',
+        league: 'Eredivisie',
         homeTeam: 'Twente',
         awayTeam: 'Heracles',
         prediction: "X",
@@ -223,17 +223,20 @@ export const may7_10 = [
         netUnits: 2.56
     },
     {
-        division: 'Eredivisie',
+        league: 'Eredivisie',
         homeTeam: 'VVV Venlo',
         awayTeam: 'Waalwijk',
         prediction: "2",
         odds: 3,
         date: '8/5/2021',
         result: "Loss",
-        netUnits: -1.00
+        netUnits: -1.00,
+        editCellStyle: {
+            backgroundColor: '#20B2AA'
+        }
     },
     {
-        division: 'Liga',
+        league: 'Liga',
         homeTeam: 'Cadiz',
         awayTeam: 'Huesca',
         prediction: "X",
@@ -243,7 +246,7 @@ export const may7_10 = [
         netUnits: -1.00
     },
     {
-        division: 'Liga',
+        league: 'Liga',
         homeTeam: 'Getafe',
         awayTeam: 'Eibar',
         prediction: "X",
@@ -253,7 +256,7 @@ export const may7_10 = [
         netUnits: -1.00
     },
     {
-        division: 'Liga',
+        league: 'Liga',
         homeTeam: 'Valencia',
         awayTeam: 'Valladolid',
         prediction: "X",
@@ -263,7 +266,7 @@ export const may7_10 = [
         netUnits: -1.00
     },
     {
-        division: 'Ligue1',
+        league: 'Ligue1',
         homeTeam: 'Nice',
         awayTeam: 'Brest',
         prediction: "X",
@@ -273,7 +276,7 @@ export const may7_10 = [
         netUnits: -1.00
     },
     {
-        division: 'PremierLeague',
+        league: 'Premier League',
         homeTeam: 'Fulham',
         awayTeam: 'Burnley',
         prediction: "X",
@@ -283,7 +286,7 @@ export const may7_10 = [
         netUnits: -1
     },
     {
-        division: 'PremierLeague',
+        league: 'Premier League',
         homeTeam: 'Man City',
         awayTeam: 'Chelsea',
         prediction: "X",
@@ -293,17 +296,17 @@ export const may7_10 = [
         netUnits: -1
     },
     {
-        division: 'PrimeiraLiga',
+        league: 'PrimeiraLiga',
         homeTeam: 'Pacos Ferreira',
         awayTeam: 'Maritimo',
         prediction: "X",
         odds: 3.3,
         date: '9/5/2021',
         result: 'Win',
-        netUnits: -1
+        netUnits: 2.3
     },
     {
-        division: 'PrimeiraLiga',
+        league: 'PrimeiraLiga',
         homeTeam: 'Famalicao',
         awayTeam: 'Santa Clara',
         prediction: "X",
@@ -313,7 +316,7 @@ export const may7_10 = [
         netUnits: -1
     },
     {
-        division: 'SerieA',
+        league: 'SerieA',
         homeTeam: 'Verona',
         awayTeam: 'Torino',
         prediction: 'X'	,
@@ -326,7 +329,7 @@ export const may7_10 = [
 
 export const may14_16 = [
     {
-        division: 'Bundesliga',
+        league: 'Bundesliga',
         homeTeam: 'RB Leipzig',
         awayTeam: 'Wolfsburg',
         prediction: "1",
@@ -336,7 +339,7 @@ export const may14_16 = [
         netUnits: -1
     },
     {
-        division: 'Bundesliga',
+        league: 'Bundesliga',
         homeTeam: 'Hertha',
         awayTeam: 'FC Koln',
         prediction: "1",
@@ -346,7 +349,7 @@ export const may14_16 = [
         netUnits: -1.00
     },
     {
-        division: 'Bundesliga',
+        league: 'Bundesliga',
         homeTeam: 'Bielefeld',
         awayTeam: 'Hoffenheim',
         prediction: "2",
@@ -356,17 +359,17 @@ export const may14_16 = [
         netUnits: -1.00
     },
     {
-        division: 'Eredivisie',
+        league: 'Eredivisie',
         homeTeam: 'Zwolle',
         awayTeam: 'Groningen',
         prediction: "X",
         odds: 3.43,
         date: '16/5/2021',
-        result: "Win",
+        result: "Loss",
         netUnits: -1
     },
     {
-        division: 'Eredivisie',
+        league: 'Eredivisie',
         homeTeam: 'Utrecht',
         awayTeam: 'PSV Eindhoven',
         prediction: "X",
@@ -376,7 +379,7 @@ export const may14_16 = [
         netUnits: 2.75
     },
     {
-        division: 'Ligue1',
+        league: 'Ligue1',
         homeTeam: 'Nice',
         awayTeam: 'Strasbourg',
         prediction: "X",
@@ -386,7 +389,7 @@ export const may14_16 = [
         netUnits: -1.00
     },
     {
-        division: 'Ligue1',
+        league: 'Ligue1',
         homeTeam: 'Bordeaux',
         awayTeam: 'Lens',
         prediction: "X",
@@ -397,7 +400,7 @@ export const may14_16 = [
     },
 
     {
-        division: 'PremierLeague',
+        league: 'Premier League',
         homeTeam: 'Crystal Palace',
         awayTeam: 'Aston Villa',
         prediction: "2",
@@ -407,7 +410,7 @@ export const may14_16 = [
         netUnits: -1
     },
     {
-        division: 'PremierLeague',
+        league: 'Premier League',
         homeTeam: 'Brighton',
         awayTeam: 'West Ham',
         prediction: "X",
@@ -417,7 +420,7 @@ export const may14_16 = [
         netUnits: 2.45
     },
     {
-        division: 'PrimeiraLiga',
+        league: 'PrimeiraLiga',
         homeTeam: 'Maritimo',
         awayTeam: 'Guimaraes',
         prediction: "X",
@@ -427,7 +430,7 @@ export const may14_16 = [
         netUnits: 2.11
     },
     {
-        division: 'PrimeiraLiga',
+        league: 'PrimeiraLiga',
         homeTeam: 'Belenenses',
         awayTeam: 'Santa Clara',
         prediction: "2",
@@ -437,7 +440,7 @@ export const may14_16 = [
         netUnits: 1.5
     },
     {
-        division: 'PrimeiraLiga',
+        league: 'PrimeiraLiga',
         homeTeam: 'Pacos Ferreira',
         awayTeam: 'Gil Vicente',
         prediction: "X",
@@ -447,7 +450,7 @@ export const may14_16 = [
         netUnits: -1
     },
     {
-        division: 'ScottishPL',
+        league: 'ScottishPL',
         homeTeam: 'St Mirren',
         awayTeam: 'Dundee United',
         prediction: "1",
@@ -457,7 +460,7 @@ export const may14_16 = [
         netUnits: -1
     },
     {
-        division: 'ScottishPL',
+        league: 'ScottishPL',
         homeTeam: 'St Johnstone',
         awayTeam: 'Livingston',
         prediction: "1",
@@ -467,7 +470,7 @@ export const may14_16 = [
         netUnits: -1
     },
     {
-        division: 'SerieA',
+        league: 'SerieA',
         homeTeam: 'Udinese',
         awayTeam: 'Sampdoria',
         prediction: '1'	,
@@ -477,7 +480,7 @@ export const may14_16 = [
         netUnits: -1
     },
     {
-        division: 'SerieA',
+        league: 'SerieA',
         homeTeam: 'Spezia',
         awayTeam: 'Torino',
         prediction: '2'	,
@@ -487,20 +490,20 @@ export const may14_16 = [
         netUnits: -1
     },
     {
-        division: 'SerieA',
+        league: 'SerieA',
         homeTeam: 'Juventus',
         awayTeam: 'Inter',
         prediction: 'X'	,
         odds: 3.61,
         date: '15/5/2021',
-        result: 'Win',
+        result: 'Loss',
         netUnits: -1
     },
 ];
 
 export const may22_23 = [
     {
-        division: 'Bundesliga',
+        league: 'Bundesliga',
         homeTeam: 'Stuttgart',
         awayTeam: 'Bielefeld',
         prediction: "1",
@@ -510,7 +513,7 @@ export const may22_23 = [
         netUnits: -1.00
     },
     {
-        division: 'Bundesliga',
+        league: 'Bundesliga',
         homeTeam: 'Werder Bremen',
         awayTeam: 'M\'gladbach',
         prediction: "2",
@@ -520,7 +523,7 @@ export const may22_23 = [
         netUnits: 1.43
     },
     {
-        division: 'Bundesliga',
+        league: 'Bundesliga',
         homeTeam: 'Union Berlin',
         awayTeam: 'RB Leipzig',
         prediction: "2",
@@ -530,7 +533,7 @@ export const may22_23 = [
         netUnits: -1.00
     },
     {
-        division: 'Liga',
+        league: 'Liga',
         homeTeam: 'Granada',
         awayTeam: 'Getafe',
         prediction: "X",
@@ -540,7 +543,7 @@ export const may22_23 = [
         netUnits: 2.37
     },
     {
-        division: 'Ligue1',
+        league: 'Ligue1',
         homeTeam: 'Reims',
         awayTeam: 'Bordeaux',
         prediction: "2",
@@ -550,7 +553,7 @@ export const may22_23 = [
         netUnits: 2.22
     },
     {
-        division: 'Ligue1',
+        league: 'Ligue1',
         homeTeam: 'Metz',
         awayTeam: 'Marseille',
         prediction: "X",
@@ -560,7 +563,7 @@ export const may22_23 = [
         netUnits: 2.53
     },
     {
-        division: 'PremierLeague',
+        league: 'PremierLeague',
         homeTeam: 'Wolves',
         awayTeam: 'Man United',
         prediction: "2",
