@@ -63,7 +63,12 @@ export default class LineGraph extends Component {
                     text:'Underdog Analaytica vs. S&P 500 vs STOXX 600',
                     fontSize: 25,
                     fontColor: 'red'
-
+                },
+                elements: {
+                    line: {
+                        // TODO Review w/ UI advice
+                        tension: 0.4
+                    }
                 },
                 responsive: true,
                 maintainAspectRatio: false,
@@ -80,11 +85,59 @@ export default class LineGraph extends Component {
                     intersect: false,
                 },
                 stacked: false,
-
                 hover: {
                     mode: 'nearest',
                     intersect: true
                 },
+                scales: {
+                    y: {
+                        title: {
+                            display: true,
+                            text: 'ROI %',
+                            color: 'black',
+                        },
+                        type: 'linear',
+                        grace: '5%',
+                        ticks: {
+                            stepSize: 5,
+                            callback: function(value, index, values) {
+                                return value + ' %';
+                            }
+                        },
+
+                    },
+                    x: {
+                        max: '06/21',
+                        title: {
+                            display: true,
+                            text: 'Timeline',
+                            color: 'black'
+                        },
+                    },
+                },
+                plugins: {
+                    legend: true
+                },
+                show: {
+                    animations: {
+                        x: {
+                            from: 0
+                        },
+                        y: {
+                            from: 0
+                        }
+                    }
+                },
+                hide: {
+                    animations: {
+                        x: {
+                            to: 0
+                        },
+                        y: {
+                            to: 0
+                        }
+                    }
+                }
             }
         });
     }
