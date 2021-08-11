@@ -1,7 +1,16 @@
 import React, { Component } from 'react';
 import classes from "./chartContainer.module.css";
 import LineChart from "./lineChart";
-import { underdogAnalyticaData, SPY500_DATA, SPY500_ACTIVE_DATA, STOXX600_ACTIVE_DATA, UA_ACTIVE_DATA, weeklyLabels, managerQuarterData, nationalAverageQuarterData, monthlyLabels } from "./performanceData";
+import {
+    SPY500_ACTIVE_DATA,
+    STOXX600_ACTIVE_DATA,
+    UA_ACTIVE_DATA,
+    UA_MONTHLY_ROI,
+    weeklyLabels,
+    monthlyLabels,
+    STOXX_MONTHLY_ROI,
+    SPY500_MONTHLY_ROI
+} from "./performanceData";
 
 export default class ChartContainer extends Component {
     state = {
@@ -15,10 +24,10 @@ export default class ChartContainer extends Component {
         const { value } = e.target;
         const isWeekly = value === "weekly";
 
-        const newData = isWeekly ? UA_ACTIVE_DATA : underdogAnalyticaData;
-        const newStoxData = isWeekly ? STOXX600_ACTIVE_DATA : managerQuarterData;
+        const newData = isWeekly ? UA_ACTIVE_DATA : UA_MONTHLY_ROI;
+        const newStoxData = isWeekly ? STOXX600_ACTIVE_DATA : STOXX_MONTHLY_ROI;
         const newLabels = isWeekly ? weeklyLabels : monthlyLabels;
-        const newAverage = isWeekly ? SPY500_ACTIVE_DATA : SPY500_DATA;
+        const newAverage = isWeekly ? SPY500_ACTIVE_DATA : SPY500_MONTHLY_ROI;
 
         this.setState({
             ua: newData,

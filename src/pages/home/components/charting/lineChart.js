@@ -2,6 +2,8 @@ import React, {Component} from 'react'
 import {Chart} from "chart.js";
 import classes from "./lineChart.module.css";
 
+
+
 let myLineChart;
 
 export default class LineGraph extends Component {
@@ -32,7 +34,11 @@ export default class LineGraph extends Component {
                         data: ua,
                         fill: false,
                         backgroundColor: "rgb(35, 131, 204)",
+                        borderWidth: 4,
                         borderColor: "rgba(35, 131, 204, 0.2)",
+                        // hoverBorderWidth: 3,
+                        // hoverBorderColor: '#000',
+
                     },
                     {
                         label: "S&P 500",
@@ -52,12 +58,19 @@ export default class LineGraph extends Component {
             },
             options: {
                 //Customize chart options
+                title: {
+                    display: true,
+                    text:'Underdog Analaytica vs. S&P 500 vs STOXX 600',
+                    fontSize: 25,
+                    fontColor: 'red'
+
+                },
                 responsive: true,
                 maintainAspectRatio: false,
                 layout: {
                     padding: {
                         top: 5,
-                        left: 15,
+                        left: 30,
                         right: 15,
                         bottom: 15
                     }
@@ -67,39 +80,17 @@ export default class LineGraph extends Component {
                     intersect: false,
                 },
                 stacked: false,
-                plugins: {
-                    title: {
-                        display: true,
-                        text: 'Underdog Analytica vs S&P 500 & STOX',
-                        position: 'top'
-                    }
-                },
+
                 hover: {
                     mode: 'nearest',
                     intersect: true
                 },
-                // scales: {
-                //     xAxes: [
-                //         {
-                //         display: true,
-                //         scaleLabel: {
-                //             display: true,
-                //             labelString: 'Month'
-                //         }
-                //     }],
-                //     yAxes: [{
-                //         display: true,
-                //         scaleLabel: {
-                //             display: true,
-                //             labelString: 'Value'
-                //         }
-                //     }]
-                // }
             }
         });
     }
 
     render() {
+
 
         return (
             <div className={classes.graphContainer}>
