@@ -6,7 +6,6 @@ import React from 'react';
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-import MoveableGrid from "./pages/betHistory/components/moveableGrid";
 import ResponsiveGrid from "./pages/betHistory/components/responsiveGrid";
 import {Results} from "./pages/betHistory/results";
 
