@@ -36,8 +36,8 @@ export default class LineGraph extends Component {
                         backgroundColor: "rgb(35, 131, 204)",
                         borderWidth: 4,
                         borderColor: "rgba(35, 131, 204, 0.2)",
-                        hoverBorderWidth: 3,
-                        hoverBorderColor: '#000',
+                        // hoverBorderWidth: 3,
+                        // hoverBorderColor: '#000',
 
                     },
                     {

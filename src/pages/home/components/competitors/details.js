@@ -2,7 +2,7 @@ export const competitionColumns = [
     {
         dataField: 'id',
         text: '         ',
-        align:'center'
+        align:'left'
     },
     {
         dataField: 'ua',
@@ -43,10 +43,10 @@ export const uaBenefits = [
     },
     {
         id: 'Monthly Cost',
-        ua: '&euro;0 - &euro;15',
-        betTwitter: '&euro;25 - &euro;300',
-        actionNetwork: 'euro;60',
-        sportsMemo: '&euro;200',
+        ua: '\u20ac0 - \u20ac15',
+        betTwitter: '\u20ac25 - \u20ac300',
+        actionNetwork: '\u20ac60',
+        sportsMemo: '\u20ac200',
     },
     {
         id: 'Integrity promise',
