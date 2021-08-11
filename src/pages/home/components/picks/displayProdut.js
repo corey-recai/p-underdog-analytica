@@ -1,7 +1,7 @@
 import BootstrapTable from 'react-bootstrap-table-next';
 import ToolkitProvider from 'react-bootstrap-table2-toolkit';
-import {columns, defaultSorted} from "../../../betHistory/components/data/tableConfig";
-import {may22_23} from "../../../betHistory/components/data/mayResults";
+import {columns, defaultSorted} from "../../../betHistory/data/tableConfig";
+import {may22_23} from "../../../betHistory/data/mayResults";
 
 
 const CustomToggleList = ({
@@ -33,7 +33,7 @@ const CustomToggleList = ({
 );
 
 
-export const DisplayDogs = () => {
+export const DisplayProdut = () => {
     return (
         <>
             <ToolkitProvider

@@ -1,10 +1,10 @@
 
 export const columns = [
-    // {
-    //     dataField: 'id',
-    //     text: 'ID',
-    //     hidden: true
-    // },
+    {
+        dataField: 'id',
+        text: 'ID',
+        hidden: true
+    },
     {
         dataField: 'league',
         text: 'League',
@@ -12,7 +12,7 @@ export const columns = [
     },
     {
         dataField: 'homeTeam',
-        text: 'Home\nTeam',
+        text: 'Home Team',
     },
     {
         dataField: 'awayTeam',
