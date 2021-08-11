@@ -1,6 +1,6 @@
 import BootstrapTable from 'react-bootstrap-table-next';
-import {april16} from "./data/aprilResults";
-import {columns} from "./data/tableConfig";
+import {april16} from "../data/aprilResults";
+import {columns} from "../data/tableConfig";
 
 
 export const AccordionTable = () => {

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Helmet } from "react-helmet";
 import Navigation from "../components/nav";
-import CompetitionComparison from "./components/competitionComparison";
+import CompetitionComparison from "./components/competitors/competitionComparison";
 import Footer from "../components/footer";
 import LineChart from "./components/lineChart";
 import Container from "react-bootstrap/Container";
@@ -15,8 +15,7 @@ import "./home.css";
 import homeIcons from "./icons/homeIcons";
 import logos from "../../assets/logos/logos";
 import Chart from "./components/charting/chartContainer";
-import { Display } from "./components/picks/display";
-import { DisplayDogs } from "./components/picks/displayDogs";
+import { DisplayProdut } from "./components/picks/displayProdut";
 import SubscribeBtn from "../components/subscribeBtn";
 
 SwiperCore.use([Mousewheel]);
@@ -83,7 +82,7 @@ export default class Home extends Component {
               >
                 <div className="home-section-1-big-board-chart-container d-flex align-items-center justify-content-center mt-5">
                   {/*<Display />*/}
-                  <DisplayDogs />
+                  <DisplayProdut />
                 </div>
               </Col>
             </Row>
