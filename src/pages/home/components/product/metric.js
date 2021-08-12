@@ -6,9 +6,10 @@ export const Metric = (props) => {
         <>
             <Box width={1} px={2} py={2}>
                 <Text p={1} color='background' bg='primary'>
-
+                    {props.content}
                 </Text>
             </Box>
         </>
     )
 }
+
