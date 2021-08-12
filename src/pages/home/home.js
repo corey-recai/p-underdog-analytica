@@ -323,9 +323,7 @@ export default class Home extends Component {
                       *25% off a annual subscription
                     </span>
                   </p>
-                  <div className="home-section-4-coming-soon-banner">
-                    <span>Coming Soon</span>
-                  </div>
+
                   <div className="text-center py-4">
                     <Button
                       className="home-section-4-signup-btn bold px-5 py-3"
