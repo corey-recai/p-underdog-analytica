@@ -17,6 +17,7 @@ import logos from "../../assets/logos/logos";
 import Chart from "./components/charting/chartContainer";
 import { DisplayProdut } from "./components/picks/displayProdut";
 import SubscribeBtn from "../components/subscribeBtn";
+import {DisplayContainer} from "./components/product/displayContainer";
 
 SwiperCore.use([Mousewheel]);
 
@@ -81,8 +82,8 @@ export default class Home extends Component {
                 lg={6}
               >
                 <div className="home-section-1-big-board-chart-container d-flex align-items-center justify-content-center mt-5">
-                  {/*<Display />*/}
-                  <DisplayProdut />
+                  <DisplayContainer />
+                  {/*<DisplayProdut />*/}
                 </div>
               </Col>
             </Row>

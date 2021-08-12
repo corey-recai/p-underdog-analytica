@@ -1,6 +1,6 @@
 import BootstrapTable from 'react-bootstrap-table-next';
-import {april16} from "../data/aprilResults";
 import {columns} from "../data/tableConfig";
+import {may22_23} from "../data/mayResults";
 
 
 export const AccordionTable = () => {
@@ -33,7 +33,7 @@ export const AccordionTable = () => {
                 striped
                 hover
                 keyField='homeTeam'
-                data={ april16 }
+                data={ may22_23 }
                 columns={ columns }
                 expandRow={ expandRow }
             />
