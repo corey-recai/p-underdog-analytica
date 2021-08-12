@@ -15,7 +15,6 @@ import "./home.css";
 import homeIcons from "./icons/homeIcons";
 import logos from "../../assets/logos/logos";
 import Chart from "./components/charting/chartContainer";
-import { DisplayProdut } from "./components/picks/displayProdut";
 import SubscribeBtn from "../components/subscribeBtn";
 import DisplayContainer from "./components/product/displayContainer";
 

@@ -5,9 +5,9 @@ export const Metrics = () => {
     return (
         <>
             <Flex>
-                <Metric content="This is the content" />
-                <Metric content="This number 2" />
-                <Metric content="This is 3" />
+                <Metric title="Win %" content="Metric 1" />
+                <Metric title="Units +/-" content="8" />
+                <Metric title="ROI %" content="118%" />
             </Flex>
         </>
     );

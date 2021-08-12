@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import { Flex, Box  } from 'rebass';
-import {AccordionTable} from "./accordianTable";
+import {Accordion} from "../../../components/tables/accordion";
 
 export default class ResponsiveGrid extends Component {
     render() {
@@ -18,7 +18,7 @@ export default class ResponsiveGrid extends Component {
                         width={1/2}
                         color='black'
                         bg='secondary'>
-                        <AccordionTable />
+                        <Accordion />
                     </Box>
                 </Flex>
             </>
