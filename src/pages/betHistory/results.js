@@ -15,16 +15,16 @@ export const Results = () => {
             <div className="bet-history-container pt-5">
                 <Container>
                     <Row>
-                        <MonthTitle month="April 2021"/>
-                        <WeeklyResult data={april16}/>
-                        <WeeklyResult data={april24}/>
+                        <MonthTitle month="May 2021"/>
+                        <WeeklyResult data={may22_23}/>
+                        <WeeklyResult data={may14_16}/>
+                        <WeeklyResult data={may7_10}/>
+                        <WeeklyResult data={may1_3}/>
                     </Row>
                     <Row>
-                        <MonthTitle month="May 2021"/>
-                        <WeeklyResult data={may1_3}/>
-                        <WeeklyResult data={may7_10}/>
-                        <WeeklyResult data={may14_16}/>
-                        <WeeklyResult data={may22_23}/>
+                        <MonthTitle month="April 2021"/>
+                        <WeeklyResult data={april24}/>
+                        <WeeklyResult data={april16}/>
                     </Row>
                 </Container>
             </div>

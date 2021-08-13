@@ -1,14 +1,14 @@
 import React from "react";
-import {Box, Flex} from "rebass";
+import {Box} from "rebass";
 import {Accordion} from "../../../../components/tables/accordion";
-import {may, prodCols} from "./data";
+import {may, columns} from "./data";
 
 export const Picks = () => {
     return (
-        <Flex mx={-2}>
-            <Box width={1}>
-                <Accordion data={may} columns={prodCols}/>
+        <>
+            <Box>
+                <Accordion data={ may } columns={ columns }/>
             </Box>
-        </Flex>
+        </>
     );
 }

@@ -1,13 +1,17 @@
 import BootstrapTable from "react-bootstrap-table-next";
+import { Flex, Box } from "rebass";
 
 export const Accordion = (props) => {
     const expandRow = {
         renderer: row => (
-            <div>
-                <p>{ `This Expand row is belong to rowKey ${props.homeTeam}` }</p>
-                <p>You can render anything here, also you can add additional data on every row object</p>
-                <p>expandRow.renderer callback will pass the origin row object to you</p>
-            </div>
+            <Flex>
+                <Box width={1/2}>
+
+                </Box>
+                <Box width={1/2}>
+
+                </Box>
+            </Flex>
         ),
         showExpandColumn: true,
         onExpand: (row, isExpand, rowIndex, e) => {
