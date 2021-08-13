@@ -9,9 +9,13 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Mousewheel } from "swiper/core";
 import "swiper/swiper.min.css";
+=======
+import { ReactSmartScroller } from "react-smart-scroller";
+>>>>>>> Stashed changes
 =======
 import { ReactSmartScroller } from "react-smart-scroller";
 >>>>>>> Stashed changes
@@ -387,6 +391,7 @@ export default class Home extends Component {
               </Col>
               <Col sm={12} md={12} lg={12}>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                 <Swiper
                   direction={"vertical"}
                   mousewheel={true}
@@ -411,6 +416,8 @@ export default class Home extends Component {
                   <SwiperSlide>Slide 3</SwiperSlide>
                 </Swiper>
 =======
+=======
+>>>>>>> Stashed changes
                 <ReactSmartScroller vertical>
                   <div
                     style={{
@@ -440,6 +447,9 @@ export default class Home extends Component {
                     Step Three
                   </div>
                 </ReactSmartScroller>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
               </Col>
             </Row>
