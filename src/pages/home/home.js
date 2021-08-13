@@ -8,9 +8,13 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
+<<<<<<< Updated upstream
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Mousewheel } from "swiper/core";
 import "swiper/swiper.min.css";
+=======
+import { ReactSmartScroller } from "react-smart-scroller";
+>>>>>>> Stashed changes
 import "./home.css";
 import homeIcons from "./icons/homeIcons";
 import logos from "../../assets/logos/logos";
@@ -346,6 +350,7 @@ export default class Home extends Component {
                 </h1>
               </Col>
               <Col sm={12} md={12} lg={12}>
+<<<<<<< Updated upstream
                 <Swiper
                   direction={"vertical"}
                   mousewheel={true}
@@ -369,6 +374,37 @@ export default class Home extends Component {
                   </SwiperSlide>
                   <SwiperSlide>Slide 3</SwiperSlide>
                 </Swiper>
+=======
+                <ReactSmartScroller vertical>
+                  <div
+                    style={{
+                      width: "100%",
+                      height: 300,
+                      objectFit: "cover",
+                    }}
+                  >
+                    Step One
+                  </div>
+                  <div
+                    style={{
+                      width: "100%",
+                      height: 300,
+                      objectFit: "cover",
+                    }}
+                  >
+                    Step Two
+                  </div>
+                  <div
+                    style={{
+                      width: "100%",
+                      height: 300,
+                      objectFit: "cover",
+                    }}
+                  >
+                    Step Three
+                  </div>
+                </ReactSmartScroller>
+>>>>>>> Stashed changes
               </Col>
             </Row>
           </Container>
