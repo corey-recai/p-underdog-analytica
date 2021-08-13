@@ -1,0 +1,153 @@
+export const leagueColumns = [
+    {
+        dataField: 'id',
+        text: 'ID',
+        hidden: true
+    },
+    {
+        dataField: 'homeTeam',
+        text: 'H',
+    },
+    {
+        dataField: 'awayTeam',
+        text: 'A',
+    },
+    {
+        dataField: 'prediction',
+        text: 'Prediction',
+        align: 'center'
+    },
+    {
+        dataField: 'odds',
+        text: 'Odds',
+        align: 'center'
+    },
+    {
+        dataField: 'result',
+        text: 'Result',
+        sort: true,
+        style: (cell) => {
+            if (cell === 'Win') {
+                return {
+                    backgroundColor: '#c8e6c9',
+                    color: 'green',
+                };
+            } else if (cell === 'Loss') {
+                return {
+                    backgroundColor: 'rgba(245,124,124,0.69)',
+                    color: 'red',
+                };
+            }
+            return {
+                backgroundColor: '#94c3f3'
+            };
+        }
+    },
+    {
+        dataField: 'netUnits',
+        text: 'Units +/-',
+        sort: true,
+        style: (cell) => {
+            if (cell > 0) {
+                return {
+                    backgroundColor: '#c8e6c9',
+                    color: 'green',
+                };
+            } else if (cell < 0) {
+                return {
+                    backgroundColor: 'rgba(245,124,124,0.69)',
+                    color: 'red',
+                };
+            }
+            return {
+                backgroundColor: '#94c3f3'
+            };
+
+        }
+    },
+    {
+        dataField: 'date',
+        text: 'Date',
+    }
+];
+
+export const latestPicks = [
+    {
+        id: 1,
+        league: 'Bundesliga',
+        homeTeam: 'Stuttgart',
+        awayTeam: 'Bielefeld',
+        prediction: "1",
+        odds: 2.41,
+        date: '5/22/2021',
+        result: "Loss",
+        netUnits: -1.00
+    },
+    {
+        id: 2,
+        league: 'Bundesliga',
+        homeTeam: 'Werder Bremen',
+        awayTeam: 'M\'gladbach',
+        prediction: "2",
+        odds: 2.43,
+        date: '5/22/2021',
+        result: 'Win',
+        netUnits: 1.43
+    },
+    {
+        id: 3,
+        league: 'Bundesliga',
+        homeTeam: 'Union Berlin',
+        awayTeam: 'RB Leipzig',
+        prediction: "2",
+        odds: 2.21,
+        date: '5/22/2021',
+        result: 'Loss',
+        netUnits: -1.00
+    },
+    {
+        id: 4,
+        league: 'Liga',
+        homeTeam: 'Granada',
+        awayTeam: 'Getafe',
+        prediction: "X",
+        odds: 3.37,
+        date: '5/23/2021',
+        result: 'Win',
+        netUnits: 2.37
+    },
+    {
+        id: 5,
+        league: 'Ligue 1',
+        homeTeam: 'Reims',
+        awayTeam: 'Bordeaux',
+        prediction: "2",
+        odds: 3.22,
+        date: '5/23/2021',
+        result: 'Win',
+        netUnits: 2.22
+    },
+    {
+        id: 6,
+        league: 'Ligue 1',
+        homeTeam: 'Metz',
+        awayTeam: 'Marseille',
+        prediction: "X",
+        odds: 3.53,
+        date: '5/23/2021',
+        result: 'Win',
+        netUnits: 2.53
+    },
+    {
+        id: 7,
+        league: 'Premier League',
+        homeTeam: 'Wolves',
+        awayTeam: 'Man United',
+        prediction: "2",
+        odds: 2.7,
+        date: '5/23/2021',
+        result: 'Win',
+        netUnits: 1.70
+    }
+]
+
