@@ -8,9 +8,13 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
+<<<<<<< Updated upstream
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Mousewheel } from "swiper/core";
 import "swiper/swiper.min.css";
+=======
+import { ReactSmartScroller } from "react-smart-scroller";
+>>>>>>> Stashed changes
 import "./home.css";
 import homeIcons from "./icons/homeIcons";
 import logos from "../../assets/logos/logos";
@@ -321,9 +325,7 @@ export default class Home extends Component {
                       *25% off a annual subscription
                     </span>
                   </p>
-                  <div className="home-section-4-coming-soon-banner">
-                    <span>Coming Soon</span>
-                  </div>
+
                   <div className="text-center py-4">
                     <Button
                       className="home-section-4-signup-btn bold px-5 py-3"
@@ -337,6 +339,7 @@ export default class Home extends Component {
             </Row>
           </Container>
         </div>
+<<<<<<< HEAD
         {/*<div className="home-section-5">*/}
         {/*  <Container fluid className="content-container">*/}
         {/*    <Row>*/}
@@ -373,6 +376,76 @@ export default class Home extends Component {
         {/*    </Row>*/}
         {/*  </Container>*/}
         {/*</div>*/}
+=======
+        <div className="home-section-5">
+          <Container fluid className="content-container">
+            <Row>
+              <Col className="text-center pt-5" sm={12} md={12} lg={12}>
+                <h1 className="bold home-section-5-h1-text mx-auto">
+                  How it Works
+                </h1>
+              </Col>
+              <Col sm={12} md={12} lg={12}>
+<<<<<<< Updated upstream
+                <Swiper
+                  direction={"vertical"}
+                  mousewheel={true}
+                  className="mySwiper"
+                >
+                  <SwiperSlide>
+                    Slide 1
+                    <div class="scroll-indicator-container">
+                      <div class="scroll-indicator-chevron"></div>
+                      <div class="scroll-indicator-chevron"></div>
+                      <div class="scroll-indicator-chevron"></div>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    Slide 2
+                    <div class="scroll-indicator-container">
+                      <div class="scroll-indicator-chevron"></div>
+                      <div class="scroll-indicator-chevron"></div>
+                      <div class="scroll-indicator-chevron"></div>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>Slide 3</SwiperSlide>
+                </Swiper>
+=======
+                <ReactSmartScroller vertical>
+                  <div
+                    style={{
+                      width: "100%",
+                      height: 300,
+                      objectFit: "cover",
+                    }}
+                  >
+                    Step One
+                  </div>
+                  <div
+                    style={{
+                      width: "100%",
+                      height: 300,
+                      objectFit: "cover",
+                    }}
+                  >
+                    Step Two
+                  </div>
+                  <div
+                    style={{
+                      width: "100%",
+                      height: 300,
+                      objectFit: "cover",
+                    }}
+                  >
+                    Step Three
+                  </div>
+                </ReactSmartScroller>
+>>>>>>> Stashed changes
+              </Col>
+            </Row>
+          </Container>
+        </div>
+>>>>>>> main
         <div className="home-section-6">
           <Container fluid className="content-container">
             <Row>
