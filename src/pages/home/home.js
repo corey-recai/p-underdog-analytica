@@ -16,7 +16,8 @@ import homeIcons from "./icons/homeIcons";
 import logos from "../../assets/logos/logos";
 import Chart from "./components/charting/chartContainer";
 import SubscribeBtn from "../components/subscribeBtn";
-import DisplayContainer from "./components/product/displayContainer";
+import {DisplayContainer} from "./components/picks/displayContainer";
+import {GrommetGrid} from "../../components/ui-custom/grommetGrid";
 
 SwiperCore.use([Mousewheel]);
 
@@ -82,7 +83,6 @@ export default class Home extends Component {
               >
                 <div className="home-section-1-big-board-chart-container d-flex align-items-center justify-content-center mt-5">
                   <DisplayContainer />
-                  {/*<DisplayProdut />*/}
                 </div>
               </Col>
             </Row>
@@ -113,9 +113,8 @@ export default class Home extends Component {
                   Hassle Free
                 </h2>
                 <p className="home-section-2-text pt-4 mx-auto">
-                  Incorporating sports betting into your wealth management
-                  strategy is an exciting way to diversify and grow your assets.
-                  We provide tools to manage those assets throughout the season.
+                  Retweeting for free predictions that come hours later is annoying.
+                  When new picks are available, you’ll be automatically notified. Simple as that.
                 </p>
               </Col>
               <Col className="text-center pt-5" sm={12} md={12} lg={3}>

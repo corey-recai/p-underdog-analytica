@@ -1,30 +1,77 @@
-export const columns = [
+export const leagueColumns = [
     {
         dataField: 'id',
         text: 'ID',
         hidden: true
     },
     {
-        dataField: 'league',
-        text: 'League',
-    },
-    {
         dataField: 'homeTeam',
-        text: 'Home Team',
+        text: 'H',
     },
     {
         dataField: 'awayTeam',
-        text: 'Away Team',
+        text: 'A',
     },
     {
         dataField: 'prediction',
         text: 'Prediction',
-        sort: true,
         align: 'center'
     },
+    {
+        dataField: 'odds',
+        text: 'Odds',
+        align: 'center'
+    },
+    {
+        dataField: 'result',
+        text: 'Result',
+        sort: true,
+        style: (cell) => {
+            if (cell === 'Win') {
+                return {
+                    backgroundColor: '#c8e6c9',
+                    color: 'green',
+                };
+            } else if (cell === 'Loss') {
+                return {
+                    backgroundColor: 'rgba(245,124,124,0.69)',
+                    color: 'red',
+                };
+            }
+            return {
+                backgroundColor: '#94c3f3'
+            };
+        }
+    },
+    {
+        dataField: 'netUnits',
+        text: 'Units +/-',
+        sort: true,
+        style: (cell) => {
+            if (cell > 0) {
+                return {
+                    backgroundColor: '#c8e6c9',
+                    color: 'green',
+                };
+            } else if (cell < 0) {
+                return {
+                    backgroundColor: 'rgba(245,124,124,0.69)',
+                    color: 'red',
+                };
+            }
+            return {
+                backgroundColor: '#94c3f3'
+            };
+
+        }
+    },
+    {
+        dataField: 'date',
+        text: 'Date',
+    }
 ];
 
-export const may = [
+export const latestPicks = [
     {
         id: 1,
         league: 'Bundesliga',
@@ -71,7 +118,7 @@ export const may = [
     },
     {
         id: 5,
-        league: 'Ligue1',
+        league: 'Ligue 1',
         homeTeam: 'Reims',
         awayTeam: 'Bordeaux',
         prediction: "2",
@@ -82,7 +129,7 @@ export const may = [
     },
     {
         id: 6,
-        league: 'Ligue1',
+        league: 'Ligue 1',
         homeTeam: 'Metz',
         awayTeam: 'Marseille',
         prediction: "X",
@@ -103,3 +150,4 @@ export const may = [
         netUnits: 1.70
     }
 ]
+

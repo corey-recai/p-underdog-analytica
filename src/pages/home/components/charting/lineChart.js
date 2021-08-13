@@ -57,12 +57,17 @@ export default class LineGraph extends Component {
                 ]
             },
             options: {
-                //Customize chart options
-                title: {
-                    display: true,
-                    text:'Underdog Analaytica vs. S&P 500 vs STOXX 600',
-                    fontSize: 25,
-                    fontColor: 'red'
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        position: 'top',
+                    },
+                    title: {
+                        display: true,
+                        text: 'Underdog Analaytica vs. S&P 500 vs. STOXX 600',
+                        position: 'bottom'
+                    }
                 },
                 elements: {
                     line: {
@@ -70,8 +75,6 @@ export default class LineGraph extends Component {
                         tension: 0.4
                     }
                 },
-                responsive: true,
-                maintainAspectRatio: false,
                 layout: {
                     padding: {
                         top: 5,
@@ -81,7 +84,7 @@ export default class LineGraph extends Component {
                     }
                 },
                 interaction: {
-                    mode: 'x', // only works for cartesian charts
+                    mode: 'index',
                     intersect: false,
                 },
                 stacked: false,
@@ -114,9 +117,6 @@ export default class LineGraph extends Component {
                             color: 'black'
                         },
                     },
-                },
-                plugins: {
-                    legend: true
                 },
                 show: {
                     animations: {
