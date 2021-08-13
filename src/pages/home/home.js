@@ -15,8 +15,9 @@ import "./home.css";
 import homeIcons from "./icons/homeIcons";
 import logos from "../../assets/logos/logos";
 import Chart from "./components/charting/chartContainer";
-import { DisplayProdut } from "./components/picks/displayProdut";
 import SubscribeBtn from "../components/subscribeBtn";
+import {DisplayContainer} from "./components/picks/displayContainer";
+import {GrommetGrid} from "../../components/ui-custom/grommetGrid";
 
 SwiperCore.use([Mousewheel]);
 
@@ -81,8 +82,7 @@ export default class Home extends Component {
                 lg={6}
               >
                 <div className="home-section-1-big-board-chart-container d-flex align-items-center justify-content-center mt-5">
-                  {/*<Display />*/}
-                  <DisplayProdut />
+                  <DisplayContainer />
                 </div>
               </Col>
             </Row>
@@ -113,9 +113,8 @@ export default class Home extends Component {
                   Hassle Free
                 </h2>
                 <p className="home-section-2-text pt-4 mx-auto">
-                  Incorporating sports betting into your wealth management
-                  strategy is an exciting way to diversify and grow your assets.
-                  We provide tools to manage those assets throughout the season.
+                  Retweeting for free predictions that come hours later is annoying.
+                  When new picks are available, you’ll be automatically notified. Simple as that.
                 </p>
               </Col>
               <Col className="text-center pt-5" sm={12} md={12} lg={3}>
@@ -336,42 +335,42 @@ export default class Home extends Component {
             </Row>
           </Container>
         </div>
-        <div className="home-section-5">
-          <Container fluid className="content-container">
-            <Row>
-              <Col className="text-center pt-5" sm={12} md={12} lg={12}>
-                <h1 className="bold home-section-5-h1-text mx-auto">
-                  How it Works
-                </h1>
-              </Col>
-              <Col sm={12} md={12} lg={12}>
-                <Swiper
-                  direction={"vertical"}
-                  mousewheel={true}
-                  className="mySwiper"
-                >
-                  <SwiperSlide>
-                    Slide 1
-                    <div class="scroll-indicator-container">
-                      <div class="scroll-indicator-chevron"></div>
-                      <div class="scroll-indicator-chevron"></div>
-                      <div class="scroll-indicator-chevron"></div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    Slide 2
-                    <div class="scroll-indicator-container">
-                      <div class="scroll-indicator-chevron"></div>
-                      <div class="scroll-indicator-chevron"></div>
-                      <div class="scroll-indicator-chevron"></div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide>Slide 3</SwiperSlide>
-                </Swiper>
-              </Col>
-            </Row>
-          </Container>
-        </div>
+        {/*<div className="home-section-5">*/}
+        {/*  <Container fluid className="content-container">*/}
+        {/*    <Row>*/}
+        {/*      <Col className="text-center pt-5" sm={12} md={12} lg={12}>*/}
+        {/*        <h1 className="bold home-section-5-h1-text mx-auto">*/}
+        {/*          How it Works*/}
+        {/*        </h1>*/}
+        {/*      </Col>*/}
+        {/*      <Col sm={12} md={12} lg={12}>*/}
+        {/*        <Swiper*/}
+        {/*          direction={"vertical"}*/}
+        {/*          mousewheel={true}*/}
+        {/*          className="mySwiper"*/}
+        {/*        >*/}
+        {/*          <SwiperSlide>*/}
+        {/*            Slide 1*/}
+        {/*            <div class="scroll-indicator-container">*/}
+        {/*              <div class="scroll-indicator-chevron"></div>*/}
+        {/*              <div class="scroll-indicator-chevron"></div>*/}
+        {/*              <div class="scroll-indicator-chevron"></div>*/}
+        {/*            </div>*/}
+        {/*          </SwiperSlide>*/}
+        {/*          <SwiperSlide>*/}
+        {/*            Slide 2*/}
+        {/*            <div class="scroll-indicator-container">*/}
+        {/*              <div class="scroll-indicator-chevron"></div>*/}
+        {/*              <div class="scroll-indicator-chevron"></div>*/}
+        {/*              <div class="scroll-indicator-chevron"></div>*/}
+        {/*            </div>*/}
+        {/*          </SwiperSlide>*/}
+        {/*          <SwiperSlide>Slide 3</SwiperSlide>*/}
+        {/*        </Swiper>*/}
+        {/*      </Col>*/}
+        {/*    </Row>*/}
+        {/*  </Container>*/}
+        {/*</div>*/}
         <div className="home-section-6">
           <Container fluid className="content-container">
             <Row>

@@ -1,13 +1,10 @@
-import BootstrapTable from 'react-bootstrap-table-next';
-import {april16} from "../data/aprilResults";
-import {columns} from "../data/tableConfig";
+import BootstrapTable from "react-bootstrap-table-next";
 
-
-export const AccordionTable = () => {
+export const Accordion = (props) => {
     const expandRow = {
         renderer: row => (
             <div>
-                <p>{ `This Expand row is belong to rowKey ${row.homeTeam}` }</p>
+                <p>{ `This Expand row is belong to rowKey ${props.homeTeam}` }</p>
                 <p>You can render anything here, also you can add additional data on every row object</p>
                 <p>expandRow.renderer callback will pass the origin row object to you</p>
             </div>
@@ -32,14 +29,11 @@ export const AccordionTable = () => {
                 bordered={false}
                 striped
                 hover
-                keyField='homeTeam'
-                data={ april16 }
-                columns={ columns }
+                keyField='id'
+                data={ props.data }
+                columns={ props.columns }
                 expandRow={ expandRow }
             />
         </>
     );
 }
-
-
-
