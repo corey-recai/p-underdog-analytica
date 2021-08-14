@@ -16,7 +16,7 @@ function App() {
         <Route exact path={"/"} component={Home}></Route>
 
         <Route exact path={"/bet-history"} component={Results}></Route>
-          <Route exact path={"/grid"} component={ResponsiveGrid}></Route>
+          {/*<Route exact path={"/grid"} component={ResponsiveGrid}></Route>*/}
           {/*<AmplifySignOut />*/}
 
         <Route exact path={"/dashboard"} component={Dashboard}></Route>
