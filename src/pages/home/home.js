@@ -23,7 +23,6 @@ SwiperCore.use([Mousewheel]);
 
 export default class Home extends Component {
   componentDidMount() {
-    // window.addEventListener("resize", () => this.resizeCards());
     window.onscroll = () => {
       this.scrollFunction();
     };
@@ -335,6 +334,7 @@ export default class Home extends Component {
             </Row>
           </Container>
         </div>
+
         {/*<div className="home-section-5">*/}
         {/*  <Container fluid className="content-container">*/}
         {/*    <Row>*/}
@@ -371,6 +371,46 @@ export default class Home extends Component {
         {/*    </Row>*/}
         {/*  </Container>*/}
         {/*</div>*/}
+
+        <div className="home-section-5">
+          <Container fluid className="content-container">
+            <Row>
+              <Col className="text-center pt-5" sm={12} md={12} lg={12}>
+                <h1 className="bold home-section-5-h1-text mx-auto">
+                  How it Works
+                </h1>
+              </Col>
+              <Col sm={12} md={12} lg={12}>
+
+                <Swiper
+                  direction={"vertical"}
+                  mousewheel={true}
+                  className="mySwiper"
+                >
+                  <SwiperSlide>
+                    Slide 1
+                    <div class="scroll-indicator-container">
+                      <div class="scroll-indicator-chevron"></div>
+                      <div class="scroll-indicator-chevron"></div>
+                      <div class="scroll-indicator-chevron"></div>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    Slide 2
+                    <div class="scroll-indicator-container">
+                      <div class="scroll-indicator-chevron"></div>
+                      <div class="scroll-indicator-chevron"></div>
+                      <div class="scroll-indicator-chevron"></div>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>Slide 3</SwiperSlide>
+                </Swiper>
+
+              </Col>
+            </Row>
+          </Container>
+        </div>
+
         <div className="home-section-6">
           <Container fluid className="content-container">
             <Row>
