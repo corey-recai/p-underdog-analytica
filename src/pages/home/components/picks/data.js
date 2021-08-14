@@ -1,69 +1,30 @@
-export const leagueColumns = [
+export const pickColumns = [
     {
         dataField: 'id',
         text: 'ID',
         hidden: true
     },
     {
+        dataField: 'league',
+        text: 'League',
+    },
+    {
         dataField: 'homeTeam',
-        text: 'H',
+        text: 'Home Team',
     },
     {
         dataField: 'awayTeam',
-        text: 'A',
+        text: 'Away Team',
     },
     {
         dataField: 'prediction',
         text: 'Prediction',
-        align: 'center'
+        // align: 'center'
     },
     {
         dataField: 'odds',
         text: 'Odds',
-        align: 'center'
-    },
-    {
-        dataField: 'result',
-        text: 'Result',
-        sort: true,
-        style: (cell) => {
-            if (cell === 'Win') {
-                return {
-                    backgroundColor: '#c8e6c9',
-                    color: 'green',
-                };
-            } else if (cell === 'Loss') {
-                return {
-                    backgroundColor: 'rgba(245,124,124,0.69)',
-                    color: 'red',
-                };
-            }
-            return {
-                backgroundColor: '#94c3f3'
-            };
-        }
-    },
-    {
-        dataField: 'netUnits',
-        text: 'Units +/-',
-        sort: true,
-        style: (cell) => {
-            if (cell > 0) {
-                return {
-                    backgroundColor: '#c8e6c9',
-                    color: 'green',
-                };
-            } else if (cell < 0) {
-                return {
-                    backgroundColor: 'rgba(245,124,124,0.69)',
-                    color: 'red',
-                };
-            }
-            return {
-                backgroundColor: '#94c3f3'
-            };
-
-        }
+        // align: 'center'
     },
     {
         dataField: 'date',
@@ -71,83 +32,105 @@ export const leagueColumns = [
     }
 ];
 
+
+
+
+
 export const latestPicks = [
     {
         id: 1,
-        league: 'Bundesliga',
-        homeTeam: 'Stuttgart',
-        awayTeam: 'Bielefeld',
+        league: 'Ligue 1',
+        homeTeam: 'Nantes',
+        awayTeam: 'Metz',
         prediction: "1",
-        odds: 2.41,
-        date: '5/22/2021',
-        result: "Loss",
-        netUnits: -1.00
+        odds: 2.3,
+        date: '15/8/2021',
     },
     {
         id: 2,
-        league: 'Bundesliga',
-        homeTeam: 'Werder Bremen',
-        awayTeam: 'M\'gladbach',
+        league: 'La Liga',
+        homeTeam: 'Celta Vigo',
+        awayTeam: 'Atletico Madrid',
         prediction: "2",
-        odds: 2.43,
-        date: '5/22/2021',
-        result: 'Win',
-        netUnits: 1.43
+        odds: 2.003,
+        date: '15/8/2021',
     },
+
     {
         id: 3,
-        league: 'Bundesliga',
-        homeTeam: 'Union Berlin',
-        awayTeam: 'RB Leipzig',
-        prediction: "2",
-        odds: 2.21,
-        date: '5/22/2021',
-        result: 'Loss',
-        netUnits: -1.00
+        league: 'Primeria Liga',
+        homeTeam: 'Santa Clara',
+        awayTeam: 'Moreirense',
+        prediction: "1",
+        odds: 2.57,
+        date: '15/8/2021',
     },
     {
         id: 4,
-        league: 'Liga',
-        homeTeam: 'Granada',
-        awayTeam: 'Getafe',
-        prediction: "X",
-        odds: 3.37,
-        date: '5/23/2021',
-        result: 'Win',
-        netUnits: 2.37
+        league: 'Premier Division',
+        homeTeam: 'Derry City',
+        awayTeam: 'Dundalk',
+        prediction: "2",
+        odds: 2.289,
+        date: '15/8/2021',
     },
     {
         id: 5,
-        league: 'Ligue 1',
-        homeTeam: 'Reims',
-        awayTeam: 'Bordeaux',
-        prediction: "2",
-        odds: 3.22,
-        date: '5/23/2021',
-        result: 'Win',
-        netUnits: 2.22
+        league: 'Super Liga',
+        homeTeam: 'Odense',
+        awayTeam: 'Silkeborg',
+        prediction: "1",
+        odds: 2.003,
+        date: '15/8/2021',
     },
     {
         id: 6,
-        league: 'Ligue 1',
-        homeTeam: 'Metz',
-        awayTeam: 'Marseille',
-        prediction: "X",
-        odds: 3.53,
-        date: '5/23/2021',
-        result: 'Win',
-        netUnits: 2.53
+        league: 'Eliterserien',
+        homeTeam: 'Mjondalen',
+        awayTeam: 'Rosenborg',
+        prediction: "2",
+        odds: 2.03,
+        date: '15/8/2021',
     },
     {
         id: 7,
-        league: 'Premier League',
-        homeTeam: 'Wolves',
-        awayTeam: 'Man United',
+        league: 'Eliterserien',
+        homeTeam: 'Viking Stavanger',
+        awayTeam: 'Molde',
         prediction: "2",
-        odds: 2.7,
-        date: '5/23/2021',
-        result: 'Win',
-        netUnits: 1.70
+        odds: 2.153,
+        date: '15/8/2021',
+    },
+    {
+        id: 8,
+        league: 'Eliterserien',
+        homeTeam: ' Lillestrom',
+        awayTeam: 'Bodo Glimt',
+        prediction: "2",
+        odds: 2.527,
+        date: '15/8/2021',
+    },
+    {
+        id: 9,
+        league: 'Premier League',
+        homeTeam: '   Rubin Kazan',
+        awayTeam: 'Krylya Sovetov Samara',
+        prediction: "1",
+        odds: 2.133,
+        date: '15/8/2021',
+    },
+    {
+        id: 10,
+        league: 'Ekstraklasa',
+        homeTeam: 'Zaglebie Lubin',
+        awayTeam: 'Pogon Szczecin',
+        prediction: "2",
+        odds: 2.237,
+        date: '15/8/2021',
     }
 ]
+
+
+
+
 

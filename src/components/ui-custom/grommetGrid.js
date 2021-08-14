@@ -18,7 +18,7 @@ export const GrommetGrid = () => {
             ]}
         >
             <Box gridArea="header" background="brand" >
-                <Heading margin="none" textAlign="center" margin="small">Latest Picks & Data</Heading>
+                <Heading textAlign="center" margin="small">Latest Picks & Data</Heading>
             </Box>
             <Box gridArea="second1" background="light-5" >
 
