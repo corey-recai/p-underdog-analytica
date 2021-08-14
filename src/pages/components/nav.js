@@ -18,7 +18,7 @@ export default class Navigation extends Component {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav id="nav-link-list" className="ms-auto">
-                <Nav.Link className="px-3" href="#home">
+                <Nav.Link className="px-3" href="bet-history">
                   Bet History
                 </Nav.Link>
                 <Nav.Link className="px-3" href="#link">

@@ -2,6 +2,8 @@ import React, {Component} from 'react'
 import {Chart} from "chart.js";
 import classes from "./lineChart.module.css";
 
+
+
 let myLineChart;
 
 export default class LineGraph extends Component {
@@ -32,7 +34,11 @@ export default class LineGraph extends Component {
                         data: ua,
                         fill: false,
                         backgroundColor: "rgb(35, 131, 204)",
+                        borderWidth: 4,
                         borderColor: "rgba(35, 131, 204, 0.2)",
+                        // hoverBorderWidth: 3,
+                        // hoverBorderColor: '#000',
+
                     },
                     {
                         label: "S&P 500",
@@ -51,55 +57,93 @@ export default class LineGraph extends Component {
                 ]
             },
             options: {
-                //Customize chart options
                 responsive: true,
                 maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        position: 'top',
+                    },
+                    title: {
+                        display: true,
+                        text: 'Underdog Analaytica vs. S&P 500 vs. STOXX 600',
+                        position: 'bottom'
+                    }
+                },
+                elements: {
+                    line: {
+                        // TODO Review w/ UI advice
+                        tension: 0.4
+                    }
+                },
                 layout: {
                     padding: {
                         top: 5,
-                        left: 15,
+                        left: 30,
                         right: 15,
                         bottom: 15
                     }
                 },
                 interaction: {
-                    mode: 'x', // only works for cartesian charts
+                    mode: 'index',
                     intersect: false,
                 },
                 stacked: false,
-                plugins: {
-                    title: {
-                        display: true,
-                        text: 'Underdog Analytica vs S&P 500 & STOX',
-                        position: 'top'
-                    }
-                },
                 hover: {
                     mode: 'nearest',
                     intersect: true
                 },
-                // scales: {
-                //     xAxes: [
-                //         {
-                //         display: true,
-                //         scaleLabel: {
-                //             display: true,
-                //             labelString: 'Month'
-                //         }
-                //     }],
-                //     yAxes: [{
-                //         display: true,
-                //         scaleLabel: {
-                //             display: true,
-                //             labelString: 'Value'
-                //         }
-                //     }]
-                // }
+                scales: {
+                    y: {
+                        title: {
+                            display: true,
+                            text: 'ROI %',
+                            color: 'black',
+                        },
+                        type: 'linear',
+                        grace: '5%',
+                        ticks: {
+                            stepSize: 5,
+                            callback: function(value, index, values) {
+                                return value + ' %';
+                            }
+                        },
+
+                    },
+                    x: {
+                        max: '06/21',
+                        title: {
+                            display: true,
+                            text: 'Timeline',
+                            color: 'black'
+                        },
+                    },
+                },
+                show: {
+                    animations: {
+                        x: {
+                            from: 0
+                        },
+                        y: {
+                            from: 0
+                        }
+                    }
+                },
+                hide: {
+                    animations: {
+                        x: {
+                            to: 0
+                        },
+                        y: {
+                            to: 0
+                        }
+                    }
+                }
             }
         });
     }
 
     render() {
+
 
         return (
             <div className={classes.graphContainer}>
