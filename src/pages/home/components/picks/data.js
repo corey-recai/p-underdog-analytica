@@ -112,7 +112,7 @@ export const latestPicks = [
     },
     {
         id: 9,
-        league: 'Premier League',
+        league: 'Premier Legue (Russia)',
         homeTeam: '   Rubin Kazan',
         awayTeam: 'Krylya Sovetov Samara',
         prediction: "1",
