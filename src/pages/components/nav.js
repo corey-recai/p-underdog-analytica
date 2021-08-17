@@ -21,9 +21,9 @@ export default class Navigation extends Component {
                 <Nav.Link className="px-3" href="bet-history">
                   Bet History
                 </Nav.Link>
-                <Nav.Link className="px-3" href="#link">
-                  About Us
-                </Nav.Link>
+                {/*<Nav.Link className="px-3" href="#link">*/}
+                {/*  About Us*/}
+                {/*</Nav.Link>*/}
                 {/*<Nav.Link className="px-3" href="#home">*/}
                 {/*  Sign Up*/}
                 {/*</Nav.Link>*/}
