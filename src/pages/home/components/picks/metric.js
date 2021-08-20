@@ -1,4 +1,4 @@
-import {Heading, Text} from "rebass";
+import {Heading} from "rebass";
 import React from "react";
 import {Box} from "rebass";
 

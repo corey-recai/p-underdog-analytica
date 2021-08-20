@@ -1,24 +1,21 @@
 import React from 'react';
-import {Metrics} from "./metrics";
 import { Flex, Box } from "rebass";
 import {Container, Row} from "react-bootstrap";
-import {Picks} from "./picks";
-import {latestPicks} from "./data";
-import {GridRow} from "../../../../components/ui-custom/gridRow";
 import {Heading} from "grommet";
+import {Accordion} from "../../../../components/tables/accordion";
 
 export const DisplayContainer = () => {
         return (
             <Container>
                 <Row>
                     <Box gridArea="header" background="brand" >
-                        <Heading textAlign="center" margin="small" ccolor="#2383cc">Check Out our Latest Picks</Heading>
+                        <Heading textAlign="center" margin="small" ccolor="#2383cc">Latest Picks & Updates</Heading>
                     </Box>
                 </Row>
                 <Row>
                     <Flex>
                         <Box p={2}>
-                            <Picks data={latestPicks} />
+                            <Accordion />
                         </Box>
                     </Flex>
                 </Row>

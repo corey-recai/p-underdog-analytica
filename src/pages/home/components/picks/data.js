@@ -33,9 +33,6 @@ export const pickColumns = [
 ];
 
 
-
-
-
 export const latestPicks = [
     {
         id: 1,
@@ -113,7 +110,7 @@ export const latestPicks = [
     {
         id: 9,
         league: 'Premier Legue (Russia)',
-        homeTeam: '   Rubin Kazan',
+        homeTeam: 'Rubin Kazan',
         awayTeam: 'Krylya Sovetov Samara',
         prediction: "1",
         odds: 2.133,
