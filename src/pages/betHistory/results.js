@@ -6,11 +6,16 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import React from "react";
 import {MonthTitle} from "./components/monthTitle";
+import {Helmet} from "react-helmet";
 
 
 export const Results = () => {
     return (
         <>
+            <Helmet>
+                <title>Underdog Analytica | Home</title>
+                <link rel="stylesheet"></link>
+            </Helmet>
             <Nav/>
             <div className="bet-history-container pt-5">
                 <Container>
