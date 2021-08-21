@@ -166,7 +166,7 @@ export const latestPicks = [
 export const aug22 = [
     {
         id: 1,
-        league: 'Premier League',
+        league: 'Belarus Premier League',
         homeTeam: 'FC Minsk',
         awayTeam: 'Neman Grodno',
         prediction: '2',
@@ -175,7 +175,7 @@ export const aug22 = [
     },
     {
         id: 2,
-        league: 'Premier League',
+        league: 'English Premier League',
         homeTeam: 'Arsenal',
         awayTeam: 'Chelsea',
         prediction: '1',
