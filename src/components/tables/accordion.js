@@ -1,7 +1,7 @@
 import BootstrapTable from "react-bootstrap-table-next";
-import {columns} from '../../pages/betHistory/data/tableConfig';
 import {latestPicks, pickColumns} from '../../pages/home/components/picks/data';
 import {useState} from "react";
+import {LeagueMatchesPanel} from "./accordionPanel";
 
 export const Accordion = (props) => {
     const [row, setRow] = useState(props.row)
@@ -13,28 +13,23 @@ export const Accordion = (props) => {
 
     const expandRow = {
         renderer: row => (
-            <div onClick={clickHandler}>
-                <p>{ `This Expand row is belong to rowKey ${row.id}` }</p>
-                <p></p>
-                <p>expandRow.renderer callback will pass the origin row object to you</p>
+            <div onClick={clickHandler} >
+                <p>{row.id}</p>
             </div>
         ),
         showExpandColumn: true,
         onExpand: (row, isExpand, rowIndex, e) => {
             console.log(row);
             console.log(isExpand);
-            // console.log(rowIndex);
-            // console.log(e);
         },
         onExpandAll: (isExpandAll, rows, e) => {
              console.log(isExpandAll);
-            // console.log(rows);
-            // console.log(e);
         }
     };
 
     return (
         <>
+            <LeagueMatchesPanel league="Bundesliga" matches={3} showExpandColumn={true}/>
             <BootstrapTable
                 bordered={false}
                 striped
