@@ -16,7 +16,8 @@ import homeIcons from "./icons/homeIcons";
 import logos from "../../assets/logos/logos";
 import Chart from "./components/charting/chartContainer";
 import SubscribeBtn from "../components/subscribeBtn";
-import {DisplayContainer} from "./components/picks/displayContainer";
+import {LatestPicks} from "./components/picks/latestPicks";
+import {ResultsContainer} from "./components/results/resultsContainer";
 
 
 SwiperCore.use([Mousewheel]);
@@ -81,11 +82,14 @@ export default class Home extends Component {
                 lg={6}
               >
                 <div className="home-section-1-big-board-chart-container d-flex align-items-center justify-content-center mt-5">
-                  <DisplayContainer />
+                  <LatestPicks />
                 </div>
               </Col>
             </Row>
           </Container>
+        </div>
+        <div className="home-section-3">
+          <ResultsContainer />
         </div>
         <div className="home-section-2">
           <Container fluid className="content-container py-5">
@@ -157,6 +161,7 @@ export default class Home extends Component {
             </Row>
           </Container>
         </div>
+
         <div className="home-section-4">
           <Container fluid className="content-container py-5">
             <Row>

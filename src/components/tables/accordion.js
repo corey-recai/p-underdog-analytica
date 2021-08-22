@@ -1,5 +1,5 @@
 import BootstrapTable from "react-bootstrap-table-next";
-import {latestPicks, pickColumns} from '../../pages/home/components/picks/data';
+import {aug21, pickColumns} from '../../pages/home/components/picks/latestData';
 import {useState} from "react";
 import {LeagueMatchesPanel} from "./accordionPanel";
 
@@ -35,7 +35,7 @@ export const Accordion = (props) => {
                 striped
                 hover
                 keyField='id'
-                data={ latestPicks }
+                data={ aug21 }
                 columns={ pickColumns }
                 expandRow={ expandRow }
             />

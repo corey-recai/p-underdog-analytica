@@ -34,7 +34,7 @@ export const pickColumns = [
 ];
 
 
-export const latestPicks = [
+export const aug21 = [
     {
         id: 1,
         league: "Premier League",
