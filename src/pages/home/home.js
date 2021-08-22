@@ -17,7 +17,7 @@ import logos from "../../assets/logos/logos";
 import Chart from "./components/charting/chartContainer";
 import SubscribeBtn from "../components/subscribeBtn";
 import {DisplayContainer} from "./components/picks/displayContainer";
-import {GrommetGrid} from "../../components/ui-custom/grommetGrid";
+
 
 SwiperCore.use([Mousewheel]);
 

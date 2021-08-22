@@ -6,12 +6,13 @@ import {pickColumns} from "./data";
 export const Picks = (props) => {
     return (
         <div className="Picks">
+            <h4 className="pt-1">{props.date}</h4>
             <BootstrapTable
                 striped
                 bordered={false}
                 hover
                 keyField="id"
-                data={ props.data }
+                data={props.data}
                 columns = {pickColumns}
             />
         </div>
