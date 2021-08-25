@@ -1,8 +1,7 @@
 import React from "react";
 import BootstrapTable from "react-bootstrap-table-next";
-import {pickColumns} from "./latestData";
-import {PicksInfo} from "./picksInfo";
 import Row from "react-bootstrap/Row";
+import {pickColumns} from "./latestData";
 
 export const PicksTable = (props) => {
     return (
@@ -16,7 +15,6 @@ export const PicksTable = (props) => {
                 data={props.data}
                 columns = {pickColumns}
             />
-            <PicksInfo />
         </Row>
     );
 }

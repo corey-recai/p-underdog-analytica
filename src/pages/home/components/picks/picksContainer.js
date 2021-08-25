@@ -8,6 +8,5 @@ export const PicksContainer = (props) => {
         <Container className="picks-container">
             <PicksTable date={props.date} data={props.data}/>
         </Container>
-
     )
 }
