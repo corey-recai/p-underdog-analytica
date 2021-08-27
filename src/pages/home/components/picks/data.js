@@ -20,7 +20,7 @@ export const pickColumns = [
     {
         dataField: "prediction",
         text: "Prediction",
-       sort: true
+        sort: true
     },
     {
         dataField: "odds",
@@ -30,7 +30,6 @@ export const pickColumns = [
     {
         dataField: "date",
         text: "Date",
-        hidden: true
     },
 ];
 
@@ -274,16 +273,5 @@ export const aug27 = [
         prediction: '2',
         odds: '2',
         date: '8/29/21'
-    },
-    {
-        id: 25,
-        country: 'Russia',
-        league: 'Football National League',
-        homeTeam: 'Tom Tomsk',
-        awayTeam: 'Rotor Volgograd',
-        prediction: '2',
-        odds: '2',
-        date: '8/29/21'
     }
-
 ];
