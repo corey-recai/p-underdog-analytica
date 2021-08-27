@@ -6,7 +6,7 @@ import {pickColumns} from "./data";
 export const Picks = (props) => {
     return (
         <div className="Picks">
-            <h4 className="pt-1">{props.date}</h4>
+            <h4 className="pt-1">Predictions Released: {props.date}</h4>
             <BootstrapTable
                 striped
                 bordered={false}
