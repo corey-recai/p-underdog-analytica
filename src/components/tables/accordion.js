@@ -1,7 +1,8 @@
 import BootstrapTable from "react-bootstrap-table-next";
-import {aug21, pickColumns} from '../../pages/home/components/picks/latestData';
+
 import {useState} from "react";
 import {LeagueMatchesPanel} from "./accordionPanel";
+import {pickColumns, results_aug21} from "../../pages/home/components/picks/latestData";
 
 export const Accordion = (props) => {
     const [row, setRow] = useState(props.row)
@@ -13,7 +14,7 @@ export const Accordion = (props) => {
 
     const expandRow = {
         renderer: row => (
-            <div onClick={clickHandler} >
+            <div onClick={clickHandler}>
                 <p>{row.id}</p>
             </div>
         ),
@@ -29,15 +30,14 @@ export const Accordion = (props) => {
 
     return (
         <>
-            <LeagueMatchesPanel league="Bundesliga" matches={3} showExpandColumn={true}/>
             <BootstrapTable
                 bordered={false}
                 striped
                 hover
                 keyField='id'
-                data={ aug21 }
-                columns={ pickColumns }
-                expandRow={ expandRow }
+                data={results_aug21}
+                columns={pickColumns}
+                expandRow={expandRow}
             />
         </>
     );

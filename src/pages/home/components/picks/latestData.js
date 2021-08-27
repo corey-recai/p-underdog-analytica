@@ -38,10 +38,28 @@ export const pickColumns = [
     {
         dataField: "result",
         text: "Result",
+        sort: true,
+        style: (cell) => {
+            if (cell === 'Win') {
+                return {
+                    backgroundColor: '#c8e6c9',
+                    color: 'green',
+                };
+            }else if (cell === 'Loss') {
+                return {
+                    backgroundColor: 'rgba(245,124,124,0.69)',
+                    color: 'red',
+                };
+            }
+            return {
+                backgroundColor: '#94c3f3'
+            };
+        }
     },
     {
         dataField: "netUnits",
         text: "Net Units +/-",
+        sort: true
     },
 ];
 
