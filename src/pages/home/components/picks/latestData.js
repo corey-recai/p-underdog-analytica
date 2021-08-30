@@ -309,7 +309,7 @@ export const results_aug22 = [
         odds: '3.75',
         date: '22/8/21',
         result: 'Loss',
-        netUnits: '-1.00'
+        netUnits: '-1'
     },
     {
         id: 3,
@@ -333,7 +333,7 @@ export const results_aug22 = [
         odds: '2.026',
         date: '22/8/21',
         result: 'Loss',
-        netUnits: '-1.00'
+        netUnits: '-1'
     },
     {
         id: 5,
@@ -345,7 +345,7 @@ export const results_aug22 = [
         odds: '2.487',
         date: '22/8/21',
         result: 'Loss',
-        netUnits: '-1.00'
+        netUnits: '-1'
     },
     {
         id: 6,
@@ -369,7 +369,7 @@ export const results_aug22 = [
         odds: '2.213',
         date: '22/8/21',
         result: 'Loss',
-        netUnits: '-1.00'
+        netUnits: '-1'
     },
     {
         id: 8,
@@ -381,7 +381,7 @@ export const results_aug22 = [
         odds: '2.601',
         date: '22/8/21',
         result: 'Loss',
-        netUnits: '-1.00'
+        netUnits: '-1'
     },
     {
         id: 9,
@@ -393,7 +393,7 @@ export const results_aug22 = [
         odds: '2.079',
         date: '22/8/21',
         result: 'Loss',
-        netUnits: '-1.00'
+        netUnits: '-1'
     }
 ]
 

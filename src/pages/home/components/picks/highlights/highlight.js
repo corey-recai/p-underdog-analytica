@@ -5,8 +5,8 @@ import {HighlightBody} from "./highlightBody";
 
 export const Highlight = (props) => {
     return (
-       <Box gridArea={props.gridArea} background="light-5">
-           <Card  height="small" width="small" background="light-1">
+       <Box gridArea={props.gridArea}>
+           <Card  height="small" width="small" background="#17EBA0">
                <HighlightHeader className="text-center" country={props.country} />
                     <HighlightBody matchup={props.matchup} />
                <HighlightFooter odds={props.odds} unitsWon={props.unitsWon}/>

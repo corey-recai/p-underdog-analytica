@@ -19,7 +19,7 @@ export const HighlightContainer = () => {
                 { name: 'third3', start: [2, 2], end: [2, 2] },
             ]}
         >
-            <Box gridArea="header" background="brand" >
+            <Box gridArea="header">
                 <Heading textAlign="center" margin="small">Top Earners of the Week</Heading>
             </Box>
             <Highlight gridArea="second1" country="England League One" matchup="Sheffield Wednesday @ Rotherham" odds="3.42" unitsWon="2.42"/>
