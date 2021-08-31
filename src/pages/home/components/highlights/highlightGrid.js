@@ -1,5 +1,5 @@
 import React, {useContext} from "react";
-import {Box, Grid, Grommet, grommet, ResponsiveContext} from "grommet";
+import {Box, Grid, Grommet, grommet, Heading, ResponsiveContext} from "grommet";
 import {HighlightCard} from "./highlightCard";
 
 
@@ -7,6 +7,9 @@ export const HighlightGrid = () => {
     const size = useContext(ResponsiveContext)
     return (
         <Grommet theme={grommet}>
+            <Box>
+                <Heading textAlign="center" margin="small">Top Earners of the Week</Heading>
+            </Box>
             <Box pad="medium">
                 <Grid
                     columns={size !== 'small' ? 'small' : '100%'}

@@ -16,9 +16,9 @@ import homeIcons from "./icons/homeIcons";
 import logos from "../../assets/logos/logos";
 import Chart from "./components/charting/chartContainer";
 import SubscribeBtn from "../components/subscribeBtn";
-import {HighlightContainer} from "./components/highlights/highlightContainer";
 import {ResultsContainer} from "./components/picks/resultsContainer";
 import {HighlightGrid} from "./components/highlights/highlightGrid";
+import {StatsGrid} from "./components/highlights/statsGrid";
 
 
 SwiperCore.use([Mousewheel]);
@@ -83,8 +83,8 @@ export default class Home extends Component {
                 lg={6}
               >
                 <div className="home-section-1-big-board-chart-container mt-5">
-                  {/*<HighlightContainer />*/}
                   <HighlightGrid />
+                  <StatsGrid />
                 </div>
               </Col>
             </Row>

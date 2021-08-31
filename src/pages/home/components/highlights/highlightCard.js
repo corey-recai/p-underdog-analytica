@@ -6,7 +6,7 @@ export const HighlightCard = (props) => {
                <CardHeader className="text-center" pad="small" background="#17EBA0">
                    {props.country}
                </CardHeader>
-               <CardBody pad="small" className="text-center">
+               <CardBody pad="medium" className="text-center">
                    <p>{props.matchup}</p>
                </CardBody>
                <CardFooter pad={{horizontal: "small"}} background="light-5">
