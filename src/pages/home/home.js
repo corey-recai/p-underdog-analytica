@@ -16,8 +16,9 @@ import homeIcons from "./icons/homeIcons";
 import logos from "../../assets/logos/logos";
 import Chart from "./components/charting/chartContainer";
 import SubscribeBtn from "../components/subscribeBtn";
-import {HighlightContainer} from "./components/picks/highlights/highlightContainer";
+import {HighlightContainer} from "./components/highlights/highlightContainer";
 import {ResultsContainer} from "./components/picks/resultsContainer";
+import {HighlightGrid} from "./components/highlights/highlightGrid";
 
 
 SwiperCore.use([Mousewheel]);
@@ -81,8 +82,9 @@ export default class Home extends Component {
                 md={12}
                 lg={6}
               >
-                <div className="home-section-1-big-board-chart-container d-flex align-items-center justify-content-center mt-5">
-                  <HighlightContainer />
+                <div className="home-section-1-big-board-chart-container mt-5">
+                  {/*<HighlightContainer />*/}
+                  <HighlightGrid />
                 </div>
               </Col>
             </Row>
