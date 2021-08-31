@@ -1,6 +1,6 @@
 import React from 'react';
 import {Box, Grid, Heading} from "grommet";
-import {Highlight} from "./highlight";
+import {HighlightCard} from "./highlightCard";
 
 
 export const HighlightContainer = () => {
@@ -22,12 +22,18 @@ export const HighlightContainer = () => {
             <Box gridArea="header">
                 <Heading textAlign="center" margin="small">Top Earners of the Week</Heading>
             </Box>
-            <Highlight gridArea="second1" country="England League One" matchup="Sheffield Wednesday @ Rotherham" odds="3.42" unitsWon="2.42"/>
-            <Highlight grideArea="second2" />
-            <Highlight grideArea="second3" />
-            <Highlight grideArea="third1" />
-            <Highlight grideArea="third2" />
-            <Highlight grideArea="third3" />
+            <HighlightCard
+                gridArea="second1"
+                country="England League One"
+                matchup="Sheffield Wednesday @ Rotherham"
+                odds="3.42"
+                unitsWon="2.42"
+            />
+            <HighlightCard grideArea="second2" />
+            <HighlightCard grideArea="second3" />
+            <HighlightCard grideArea="third1" />
+            <HighlightCard grideArea="third2" />
+            <HighlightCard grideArea="third3" />
         </Grid>
     );
 }

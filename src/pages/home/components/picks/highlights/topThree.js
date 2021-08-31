@@ -19,7 +19,6 @@ export const TopThree = () => {
                     margin="small"
                 >
                 </Text>
-                <p>This is our pick board for the last week of matches of the previous football season.</p>
             </Box>
             <Box gridArea="second1" background="light-5">
 
