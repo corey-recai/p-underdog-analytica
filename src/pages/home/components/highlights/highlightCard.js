@@ -4,7 +4,7 @@ import {EarnerStats} from "./earnerStats";
 export const HighlightCard = (props) => {
     return (
            <Card background={props.background}>
-               <CardHeader className="justify-content-center text-white" pad="small" background="#00C8FF">
+               <CardHeader className="justify-content-center text-white" pad="small" background="#2383cc">
                    {props.country}
                </CardHeader>
                <CardBody pad="medium" className="text-center">

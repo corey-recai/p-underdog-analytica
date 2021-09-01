@@ -2,6 +2,7 @@ import React from "react";
 import BootstrapTable from "react-bootstrap-table-next";
 import Row from "react-bootstrap/Row";
 import {pickColumns} from "./latestData";
+import {defaultSorted} from "../../../betHistory/data/tableConfig";
 
 export const PicksTable = (props) => {
     return (
@@ -14,6 +15,7 @@ export const PicksTable = (props) => {
                 keyField="id"
                 data={props.data}
                 columns = {pickColumns}
+                defaultSorted={defaultSorted}
             />
         </Row>
     );

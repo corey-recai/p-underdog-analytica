@@ -5,6 +5,7 @@ import React from "react";
 import {PicksInfo} from "./picksInfo";
 import {Box, Heading} from "grommet";
 import {Row} from "react-bootstrap";
+import {aug27_29} from "../../../betHistory/data/season21_22/august";
 
 
 export const ResultsContainer = () => {
@@ -15,8 +16,7 @@ export const ResultsContainer = () => {
                     <Heading textAlign="center" margin="small" ccolor="#2383cc">Last Weeks Results</Heading>
                 </Box>
             </Row>
-            <PicksContainer data={results_aug22} date="22/08/2021"/>
-            <PicksContainer data={results_aug21} date="21/08/2021"/>
+            <PicksContainer data={aug27_29} date="August 27-29, 2021"/>
             <PicksInfo />
         </Container>
     );

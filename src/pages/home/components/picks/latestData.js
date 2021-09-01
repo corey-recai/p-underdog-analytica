@@ -31,11 +31,6 @@ export const pickColumns = [
         // align: 'center'
     },
     {
-        dataField: "date",
-        text: "Date",
-        hidden: true
-    },
-    {
         dataField: "result",
         text: "Result",
         sort: true,
@@ -60,6 +55,10 @@ export const pickColumns = [
         dataField: "netUnits",
         text: "Net Units +/-",
         sort: true
+    },
+    {
+        dataField: "date",
+        text: "Date",
     },
 ];
 
