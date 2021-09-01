@@ -1,17 +1,17 @@
 import {Card, CardBody, CardFooter, CardHeader} from "grommet";
+import {EarnerStats} from "./earnerStats";
 
 export const HighlightCard = (props) => {
     return (
-           <Card>
-               <CardHeader className="text-center" pad="small" background="#17EBA0">
+           <Card background={props.background}>
+               <CardHeader className="justify-content-center text-white" pad="small" background="#00C8FF">
                    {props.country}
                </CardHeader>
                <CardBody pad="medium" className="text-center">
                    <p>{props.matchup}</p>
                </CardBody>
-               <CardFooter pad={{horizontal: "small"}} background="light-5">
-                   <p>ODDS: {props.odds}</p>
-                   <p>NET UNITS: {props.unitsWon}</p>
+               <CardFooter pad="small" background="light-5">
+                   <EarnerStats odds={props.odds} unitsWon={props.unitsWon} />
                </CardFooter>
            </Card>
     )

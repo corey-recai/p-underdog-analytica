@@ -10,9 +10,9 @@ export const StatsGrid = () => {
                 columns={size !== 'small' ? 'small' : '100%'}
                 gap="small"
             >
-                <StatCard title="Win %" metric="41.67 %"/>
-                <StatCard title="Net Units" metric="-0.613"/>
-                <StatCard title="Overall ROI" metric="105 %"/>
+                <StatCard title="Win %" metric="41.67 %" background="#00C8FF" />
+                <StatCard title="Net Units" metric="-0.613" background="#FC6161"/>
+                <StatCard title="Overall ROI" metric="105 %" background="#00C8FF"/>
             </Grid>
         </Box>
     )

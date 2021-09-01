@@ -6,6 +6,11 @@ export const columns = [
         hidden: true
     },
     {
+        dataField: 'country',
+        text: 'Country',
+        hidden: true
+    },
+    {
         dataField: 'league',
         text: 'League',
         sort: true,
@@ -22,13 +27,11 @@ export const columns = [
         dataField: 'prediction',
         text: 'Prediction',
         sort: true,
-        align: 'center'
     },
     {
         dataField: 'odds',
         text: 'Odds',
         sort: true,
-        align: 'center'
     },
     {
         dataField: 'result',
@@ -58,17 +61,17 @@ export const columns = [
         style: (cell) => {
             if (cell > 0) {
                 return {
-                    backgroundColor: '#c8e6c9',
+                    // backgroundColor: '#c8e6c9',
                     color: 'green',
                 };
             } else if(cell < 0) {
                 return {
-                    backgroundColor: 'rgba(245,124,124,0.69)',
+                   // backgroundColor: 'rgba(245,124,124,0.69)',
                     color: 'red',
                 };
             }
             return {
-                backgroundColor: '#94c3f3'
+               // backgroundColor: '#94c3f3'
             };
 
         }
@@ -82,7 +85,7 @@ export const columns = [
 
 export const defaultSorted = [
     {
-        dataField: 'division',
+        dataField: 'date',
         order: 'desc'
     }
 ];
