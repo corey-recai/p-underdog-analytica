@@ -13,7 +13,7 @@ export const ResultsContainer = () => {
         <Container className="home-section-3">
             <Row>
                 <Box gridArea="header">
-                    <Heading textAlign="center" margin="small" ccolor="#2383cc">Last Weeks Results</Heading>
+                    <Heading textAlign="center" margin="small" ccolor="#2383cc">Last Weeks Results & Details</Heading>
                 </Box>
             </Row>
             <PicksContainer data={aug27_29} date="August 27-29, 2021"/>
