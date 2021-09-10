@@ -43,7 +43,7 @@ export const latestPicks = [
     awayTeam: 'Lille',
     prediction: '2',
     odds: '2.257',
-    date: '9/10/2021'
+    date: '10/9/2021'
   },
   {
     id: 2,
@@ -53,7 +53,7 @@ export const latestPicks = [
     awayTeam: 'Marseille',
     prediction: 'X',
     odds: '3.56',
-    date: '9/11/2021'
+    date: '11/9/2021'
   },
   {
     id: 3,
@@ -63,7 +63,7 @@ export const latestPicks = [
     awayTeam: 'Antwerp',
     prediction: 'X',
     odds: '3.55',
-    date: '9/11/2021'
+    date: '11/9/2021'
   },
   {
     id: 4,
@@ -73,7 +73,7 @@ export const latestPicks = [
     awayTeam: 'Juventus',
     prediction: 'X',
     odds: '3.46',
-    date: '9/11/2021'
+    date: '11/9/2021'
   },
   {
     id: 5,
@@ -83,7 +83,7 @@ export const latestPicks = [
     awayTeam: 'Livingston',
     prediction: 'X',
     odds: '3.21',
-    date: '9/11/2021'
+    date: '11/9/2021'
   },
   {
     id: 6,
@@ -93,7 +93,7 @@ export const latestPicks = [
     awayTeam: 'Porto',
     prediction: 'X',
     odds: '3.17',
-    date: '9/11/2021'
+    date: '11/9/2021'
   },
   {
     id: 7,
@@ -103,7 +103,7 @@ export const latestPicks = [
     awayTeam: 'Aberdeen',
     prediction: '1',
     odds: '2.9',
-    date: '9/11/2021'
+    date: '11/9/2021'
   },
   {
     id: 8,
@@ -113,7 +113,7 @@ export const latestPicks = [
     awayTeam: 'Brighton',
     prediction: '2',
     odds: '2.66',
-    date: '9/11/2021'
+    date: '11/9/2021'
   },
   {
     id: 9,
@@ -123,7 +123,7 @@ export const latestPicks = [
     awayTeam: 'Wolves',
     prediction: '2',
     odds: '2.29',
-    date: '9/11/2021'
+    date: '11/9/2021'
   },
   {
     id: 10,
@@ -133,7 +133,7 @@ export const latestPicks = [
     awayTeam: 'Dortmund',
     prediction: '2',
     odds: '2.15',
-    date: '9/11/2021'
+    date: '11/9/2021'
   },
   {
     id: 11,
@@ -143,7 +143,7 @@ export const latestPicks = [
     awayTeam: 'Vizela',
     prediction: '2',
     odds: '3.74',
-    date: '9/12/2021'
+    date: '12/9/2021'
   },
   {
     id: 12,
@@ -153,7 +153,7 @@ export const latestPicks = [
     awayTeam: 'Kortrijk',
     prediction: 'X',
     odds: '3.55',
-    date: '9/12/2021'
+    date: '12/9/2021'
   },
   {
     id: 13,
@@ -163,7 +163,7 @@ export const latestPicks = [
     awayTeam: 'St Etienne',
     prediction: 'X',
     odds: '3.45',
-    date: '9/12/2021'
+    date: '12/9/2021'
   },
   {
     id: 14,
@@ -173,7 +173,7 @@ export const latestPicks = [
     awayTeam: 'Stuttgart',
     prediction: '2',
     odds: '3.41',
-    date: '9/12/2021'
+    date: '12/9/2021'
   },
   {
     id: 15,
@@ -183,7 +183,7 @@ export const latestPicks = [
     awayTeam: 'Ath Madrid',
     prediction: 'X',
     odds: '3.32',
-    date: '9/12/2021'
+    date: '12/9/2021'
   },
   {
     id: 16,
@@ -193,7 +193,7 @@ export const latestPicks = [
     awayTeam: 'Troyes',
     prediction: 'X',
     odds: '3.26',
-    date: '9/12/2021'
+    date: '12/9/2021'
   },
   {
     id: 17,
@@ -203,7 +203,7 @@ export const latestPicks = [
     awayTeam: 'Lazio',
     prediction: '2',
     odds: '3.19',
-    date: '9/12/2021'
+    date: '12/9/2021'
   },
   {
     id: 18,
@@ -213,7 +213,7 @@ export const latestPicks = [
     awayTeam: 'Famalicao',
     prediction: 'X',
     odds: '3.15',
-    date: '9/12/2021'
+    date: '12/9/2021'
   },
   {
     id: 19,
@@ -223,7 +223,7 @@ export const latestPicks = [
     awayTeam: 'Valencia',
     prediction: 'X',
     odds: '3.12',
-    date: '9/12/2021'
+    date: '12/9/2021'
   },
   {
     id: 20,
@@ -233,7 +233,7 @@ export const latestPicks = [
     awayTeam: 'Portimonense',
     prediction: '2',
     odds: '2.87',
-    date: '9/12/2021'
+    date: '12/9/2021'
   },
   {
     id: 21,
@@ -243,7 +243,7 @@ export const latestPicks = [
     awayTeam: 'Angers',
     prediction: '1',
     odds: '2.62',
-    date: '9/12/2021'
+    date: '12/9/2021'
   },
   {
     id: 22,
@@ -253,7 +253,7 @@ export const latestPicks = [
     awayTeam: 'Hertha',
     prediction: '2',
     odds: '2.55',
-    date: '9/12/2021'
+    date: '12/9/2021'
   },
   {
     id: 23,
@@ -263,7 +263,7 @@ export const latestPicks = [
     awayTeam: 'Genoa',
     prediction: '1',
     odds: '2.12',
-    date: '9/12/2021'
+    date: '12/9/2021'
   },
   {
     id: 24,
@@ -273,7 +273,7 @@ export const latestPicks = [
     awayTeam: 'St Truiden',
     prediction: 'X',
     odds: '3.41',
-    date: '9/13/2021'
+    date: '13/9/2021'
   },
   {
     id: 25,
@@ -283,7 +283,7 @@ export const latestPicks = [
     awayTeam: 'Elche',
     prediction: 'X',
     odds: '3.32',
-    date: '9/13/2021'
+    date: '13/9/2021'
   },
   {
     id: 26,
@@ -293,6 +293,6 @@ export const latestPicks = [
     awayTeam: 'Betis',
     prediction: '2',
     odds: '2.36',
-    date: '9/13/2021'
+    date: '13/9/2021'
   },
 ]
