@@ -1,10 +1,8 @@
 import React from 'react';
-import {Metrics} from "./metrics";
-import { Flex, Box } from "rebass";
+import {Box, Flex} from "rebass";
 import {Container, Row} from "react-bootstrap";
 import {Picks} from "./picks";
 import {latestPicks} from "./data";
-import {GridRow} from "../../../../components/ui-custom/gridRow";
 import {Heading} from "grommet";
 
 export const DisplayContainer = () => {

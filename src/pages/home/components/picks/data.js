@@ -1,36 +1,38 @@
 export const pickColumns = [
-  {
-    dataField: "id",
-    text: "ID",
-    hidden: true,
-  },
-  {
-    dataField: "league",
-    text: "League",
-  },
-  {
-    dataField: "homeTeam",
-    text: "Home Team",
-  },
-  {
-    dataField: "awayTeam",
-    text: "Away Team",
-  },
-  {
-    dataField: "prediction",
-    text: "Prediction",
-    // align: 'center'
-  },
-  {
-    dataField: "odds",
-    text: "Odds",
-    // align: 'center'
-  },
-  {
-    dataField: "date",
-    text: "Date",
-  },
+    {
+        dataField: "id",
+        text: "ID",
+        hidden: true,
+    },
+    {
+        dataField: "league",
+        text: "League",
+        sort: true
+    },
+    {
+        dataField: "homeTeam",
+        text: "Home Team",
+    },
+    {
+        dataField: "awayTeam",
+        text: "Away Team",
+    },
+    {
+        dataField: "prediction",
+        text: "Prediction",
+        sort: true
+    },
+    {
+        dataField: "odds",
+        text: "Odds",
+        sort: true
+    },
+    {
+        dataField: "date",
+        text: "Date",
+    },
 ];
+
 
 export const latestPicks = [
   {
@@ -292,5 +294,5 @@ export const latestPicks = [
     prediction: '2',
     odds: '2.36',
     date: '9/13/2021'
-  }
-];
+  },
+]

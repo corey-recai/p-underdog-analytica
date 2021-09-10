@@ -17,7 +17,7 @@ import logos from "../../assets/logos/logos";
 import Chart from "./components/charting/chartContainer";
 import SubscribeBtn from "../components/subscribeBtn";
 import {DisplayContainer} from "./components/picks/displayContainer";
-import {GrommetGrid} from "../../components/ui-custom/grommetGrid";
+
 
 SwiperCore.use([Mousewheel]);
 
@@ -344,6 +344,7 @@ export default class Home extends Component {
         {/*        </h1>*/}
         {/*      </Col>*/}
         {/*      <Col sm={12} md={12} lg={12}>*/}
+
         {/*        <Swiper*/}
         {/*          direction={"vertical"}*/}
         {/*          mousewheel={true}*/}
@@ -367,49 +368,11 @@ export default class Home extends Component {
         {/*          </SwiperSlide>*/}
         {/*          <SwiperSlide>Slide 3</SwiperSlide>*/}
         {/*        </Swiper>*/}
+
         {/*      </Col>*/}
         {/*    </Row>*/}
         {/*  </Container>*/}
         {/*</div>*/}
-
-        <div className="home-section-5">
-          <Container fluid className="content-container">
-            <Row>
-              <Col className="text-center pt-5" sm={12} md={12} lg={12}>
-                <h1 className="bold home-section-5-h1-text mx-auto">
-                  How it Works
-                </h1>
-              </Col>
-              <Col sm={12} md={12} lg={12}>
-
-                <Swiper
-                  direction={"vertical"}
-                  mousewheel={true}
-                  className="mySwiper"
-                >
-                  <SwiperSlide>
-                    Slide 1
-                    <div class="scroll-indicator-container">
-                      <div class="scroll-indicator-chevron"></div>
-                      <div class="scroll-indicator-chevron"></div>
-                      <div class="scroll-indicator-chevron"></div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    Slide 2
-                    <div class="scroll-indicator-container">
-                      <div class="scroll-indicator-chevron"></div>
-                      <div class="scroll-indicator-chevron"></div>
-                      <div class="scroll-indicator-chevron"></div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide>Slide 3</SwiperSlide>
-                </Swiper>
-
-              </Col>
-            </Row>
-          </Container>
-        </div>
 
         <div className="home-section-6">
           <Container fluid className="content-container">
