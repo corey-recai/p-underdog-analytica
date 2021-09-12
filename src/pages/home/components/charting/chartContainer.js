@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import classes from "./chartContainer.module.css";
-import LineChart from "./lineChart";
+import LineGraph from "./lineChart";
 import {
     SPY500_ACTIVE_DATA,
     STOXX600_ACTIVE_DATA,
@@ -57,7 +57,7 @@ export default class ChartContainer extends Component {
                     </button>
                 </div>
 
-                <LineChart
+                <LineGraph
                     ua={ua}
                     stoxx600={stoxx600}
                     spy500={spy500}
