@@ -348,3 +348,216 @@ export const latestPicks = [
     date: '13/9/2021'
   }
 ]
+
+export const picks_9_17_21 = [
+  {
+    id: 1,
+    country: 'Belgium',
+    league: 'Belgian First',
+    homeTeam: 'Cercle Brugge',
+    awayTeam: 'Eupen',
+    prediction: 'X',
+    odds: '3.5',
+    date: '17/9/2021'
+  },
+  {
+    id: 2,
+    country: 'England',
+    league: 'National League',
+    homeTeam: 'Halifax',
+    awayTeam: 'Stockport',
+    prediction: '2',
+    odds: '2.087',
+    date: '18/9/2021'
+  },
+  {
+    id: 3,
+    country: 'England',
+    league: 'League Two',
+    homeTeam: 'Exeter',
+    awayTeam: 'Sutton United',
+    prediction: '1',
+    odds: '2.231',
+    date: '18/9/2021'
+  },
+  {
+    id: 4,
+    country: 'England',
+    league: 'League Two',
+    homeTeam: 'Colchester',
+    awayTeam: 'Crawley',
+    prediction: '1',
+    odds: '2.143',
+    date: '18/9/2021'
+  },
+  {
+    id: 5,
+    country: 'England',
+    league: 'Premier League',
+    homeTeam: 'Aston Villa',
+    awayTeam: 'Everton',
+    prediction: '2',
+    odds: '3.03',
+    date: '18/9/2021'
+  },
+  {
+    id: 6,
+    country: 'England',
+    league: 'PremierLeague',
+    homeTeam: 'Norwich',
+    awayTeam: 'Watford',
+    prediction: 'X',
+    odds: '3.33',
+    date: '18/9/2021'
+  },
+  {
+    id: 7,
+    country: 'England',
+    league: 'Premier League',
+    homeTeam: 'Burnley',
+    awayTeam: 'Arsenal',
+    prediction: '2',
+    odds: '2',
+    date: '18/9/2021'
+  },
+  {
+    id: 8,
+    country: 'Portugal',
+    league: 'Primeira Liga',
+    homeTeam: 'Famalicao',
+    awayTeam: 'Maritimo',
+    prediction: '1',
+    odds: '2.02',
+    date: '18/9/2021'
+  },
+  {
+    id: 9,
+    country: 'Portugal',
+    league: 'Primeira Liga',
+    homeTeam: 'Famalicao',
+    awayTeam: 'Maritimo',
+    prediction: '1',
+    odds: '2.08',
+    date: '18/9/2021'
+  },
+  {
+    id: 10,
+    country: 'Spain',
+    league: 'Liga',
+    homeTeam: 'Vallecano',
+    awayTeam: 'Getafe',
+    prediction: 'X',
+    odds: '2.95',
+    date: '18/9/2021'
+  },
+  {
+    id: 11,
+    country: 'Netherlands',
+    league: 'Eredivisie',
+    homeTeam: 'Willem II',
+    awayTeam: 'Groningen',
+    prediction: '2',
+    odds: '2.89',
+    date: '18/9/2021'
+  },
+  {
+    id: 12,
+    country: 'Germany',
+    league: 'Bundesliga',
+    homeTeam: 'Bielefeld',
+    awayTeam: 'Hoffenheim',
+    prediction: '1',
+    odds: '3.52',
+    date: '18/9/2021'
+  },
+  {
+    id: 13,
+    country: 'Iceland',
+    league: 'First Division',
+    homeTeam: 'Throttur Reykjavik',
+    awayTeam: 'Thor Akureyri',
+    prediction: '2',
+    odds: '2.11',
+    date: '18/9/2021'
+  },
+  {
+    id: 14,
+    country: 'Scotland',
+    league: 'ScottishPL',
+    homeTeam: 'Aberdeen',
+    awayTeam: 'St Johnstone',
+    prediction: '1',
+    odds: '2.06',
+    date: '18/9/2021'
+  },
+  {
+    id: 15,
+    country: 'Scotland',
+    league: 'Championship',
+    homeTeam: 'Greenock Morton',
+    awayTeam: 'Raith Rovers',
+    prediction: '2',
+    odds: '2.263',
+    date: '18/9/2021'
+  },
+  {
+    id: 16,
+    country: 'Scotland',
+    league: 'League Two',
+    homeTeam: 'Cowdenbeath',
+    awayTeam: 'Forfar Athletic',
+    prediction: '2',
+    odds: '2.072',
+    date: '18/9/2021'
+  },
+  {
+    id: 17,
+    country: 'France',
+    league: 'Ligue 2',
+    homeTeam: 'Pau',
+    awayTeam: 'Valenciennes',
+    prediction: '1',
+    odds: '2.007',
+    date: '18/9/2021'
+  },
+  {
+    id: 18,
+    country: 'France',
+    league: 'Ligue 2',
+    homeTeam: 'Dijon',
+    awayTeam: 'Dunkerque',
+    prediction: '1',
+    odds: '2.14',
+    date: '18/9/2021'
+  },
+  {
+    id: 19,
+    country: 'Ireland',
+    league: 'Premier Division',
+    homeTeam: 'Sligo Rovers',
+    awayTeam: 'Shamrock Rovers',
+    prediction: '2',
+    odds: '2.193',
+    date: '18/9/2021'
+  },
+  {
+    id: 20,
+    country: 'Norway',
+    league: 'Eliteserien',
+    homeTeam: 'Kristiansund',
+    awayTeam: 'Haugesund',
+    prediction: '1',
+    odds: '2.2',
+    date: '18/9/2021'
+  },
+  {
+    id: 21,
+    country: 'Slovakia',
+    league: 'Superliga',
+    homeTeam: 'MFK Ruzomberok',
+    awayTeam: 'DAC Dunajska Streda',
+    prediction: '2',
+    odds: '2.069',
+    date: '18/9/2021'
+  }
+]

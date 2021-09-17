@@ -2,7 +2,7 @@ import React from 'react';
 import {Box, Flex} from "rebass";
 import {Container, Row} from "react-bootstrap";
 import {Picks} from "./picks";
-import {latestPicks} from "./data";
+import {latestPicks, picks_9_17_21} from "./data";
 import {Heading} from "grommet";
 
 export const DisplayContainer = () => {
@@ -10,13 +10,13 @@ export const DisplayContainer = () => {
             <Container>
                 <Row>
                     <Box gridArea="header" background="brand" >
-                        <Heading textAlign="center" margin="small" ccolor="#2383cc">Check Out our Latest Picks</Heading>
+                        <Heading textAlign="center" margin="small" ccolor="#2383cc">Fixture Predictions</Heading>
                     </Box>
                 </Row>
                 <Row>
                     <Flex>
                         <Box p={2}>
-                            <Picks data={latestPicks} />
+                            <Picks data={picks_9_17_21} />
                         </Box>
                     </Flex>
                 </Row>
