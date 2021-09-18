@@ -104,15 +104,5 @@ export const latestPicks = [
     prediction: '1',
     odds: '2.72',
     date: '19/09/2021'
-  },
-  {
-    id: 8,
-    country: 'Spain',
-    league: 'Liga',
-    homeTeam: 'Mallorca',
-    awayTeam: 'Villarreal',
-    prediction: 'X',
-    odds: '3.08',
-    date: '19/09/2021'
   }
 ]
