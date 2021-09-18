@@ -37,262 +37,82 @@ export const pickColumns = [
 export const latestPicks = [
   {
     id: 1,
-    country: 'France',
-    league: 'Ligue 1',
-    homeTeam: 'Lorient',
-    awayTeam: 'Lille',
-    prediction: '2',
-    odds: '2.257',
-    date: '10/9/2021'
+    country: 'Scotland',
+    league: 'ScottishPL',
+    homeTeam: 'Dundee United',
+    awayTeam: 'Dundee',
+    prediction: '1',
+    odds: '2.52',
+    date: '19/09/2021'
   },
   {
     id: 2,
-    country: 'France',
-    league: 'Ligue1',
-    homeTeam: 'Monaco',
-    awayTeam: 'Marseille',
+    country: 'Belgium',
+    league: 'BelgianFirst',
+    homeTeam: 'Standard',
+    awayTeam: 'Anderlecht',
     prediction: 'X',
-    odds: '3.56',
-    date: '11/9/2021'
+    odds: '3.49',
+    date: '19/09/2021'
   },
   {
     id: 3,
-    country: 'Belgium',
-    league: 'BelgianFirst',
-    homeTeam: 'Eupen',
-    awayTeam: 'Antwerp',
+    country: 'France',
+    league: 'Ligue1',
+    homeTeam: 'Troyes',
+    awayTeam: 'Montpellier',
     prediction: 'X',
-    odds: '3.55',
-    date: '11/9/2021'
+    odds: '3.45',
+    date: '19/09/2021'
   },
   {
     id: 4,
-    country: 'Italy',
-    league: 'SerieA',
-    homeTeam: 'Napoli',
-    awayTeam: 'Juventus',
-    prediction: 'X',
-    odds: '3.46',
-    date: '11/9/2021'
+    country: 'France',
+    league: 'Ligue1',
+    homeTeam: 'Angers',
+    awayTeam: 'Nantes',
+    prediction: '2',
+    odds: '3.67',
+    date: '19/09/2021'
   },
   {
     id: 5,
-    country: 'Scotland',
-    league: 'ScottishPL',
-    homeTeam: 'Dundee',
-    awayTeam: 'Livingston',
+    country: 'Portugal',
+    league: 'PrimeiraLiga',
+    homeTeam: 'Vizela',
+    awayTeam: 'Pacos Ferreira',
     prediction: 'X',
-    odds: '3.21',
-    date: '11/9/2021'
+    odds: '3.15',
+    date: '19/09/2021'
   },
   {
     id: 6,
-    country: 'Portugal',
-    league: 'PrimeiraLiga',
-    homeTeam: 'Sp Lisbon',
-    awayTeam: 'Porto',
+    country: 'Italy',
+    league: 'SerieA',
+    homeTeam: 'Juventus',
+    awayTeam: 'Milan',
     prediction: 'X',
-    odds: '3.17',
-    date: '11/9/2021'
+    odds: '3.47',
+    date: '19/09/2021'
   },
   {
     id: 7,
-    country: 'Scotland',
-    league: 'ScottishPL',
-    homeTeam: 'Motherwell',
-    awayTeam: 'Aberdeen',
+    country: 'England',
+    league: 'PremierLeague',
+    homeTeam: 'Brighton',
+    awayTeam: 'Leicester',
     prediction: '1',
-    odds: '2.9',
-    date: '11/9/2021'
+    odds: '2.72',
+    date: '19/09/2021'
   },
   {
     id: 8,
-    country: 'England',
-    league: 'PremierLeague',
-    homeTeam: 'Brentford',
-    awayTeam: 'Brighton',
-    prediction: '2',
-    odds: '2.66',
-    date: '11/9/2021'
-  },
-  {
-    id: 9,
-    country: 'England',
-    league: 'PremierLeague',
-    homeTeam: 'Watford',
-    awayTeam: 'Wolves',
-    prediction: '2',
-    odds: '2.29',
-    date: '11/9/2021'
-  },
-  {
-    id: 10,
-    country: 'Germany',
-    league: 'Bundesliga',
-    homeTeam: 'Leverkusen',
-    awayTeam: 'Dortmund',
-    prediction: '2',
-    odds: '2.15',
-    date: '11/9/2021'
-  },
-  {
-    id: 11,
-    country: 'Portugal',
-    league: 'PrimeiraLiga',
-    homeTeam: 'Gil Vicente',
-    awayTeam: 'Vizela',
-    prediction: '2',
-    odds: '3.74',
-    date: '12/9/2021'
-  },
-  {
-    id: 12,
-    country: 'Belgium',
-    league: 'BelgianFirst',
-    homeTeam: 'Oud-Heverlee Leuven',
-    awayTeam: 'Kortrijk',
-    prediction: 'X',
-    odds: '3.55',
-    date: '12/9/2021'
-  },
-  {
-    id: 13,
-    country: 'France',
-    league: 'Ligue1',
-    homeTeam: 'Montpellier',
-    awayTeam: 'St Etienne',
-    prediction: 'X',
-    odds: '3.45',
-    date: '12/9/2021'
-  },
-  {
-    id: 14,
-    country: 'Germany',
-    league: 'Bundesliga',
-    homeTeam: 'Ein Frankfurt',
-    awayTeam: 'Stuttgart',
-    prediction: '2',
-    odds: '3.41',
-    date: '12/9/2021'
-  },
-  {
-    id: 15,
     country: 'Spain',
     league: 'Liga',
-    homeTeam: 'Espanol',
-    awayTeam: 'Ath Madrid',
+    homeTeam: 'Mallorca',
+    awayTeam: 'Villarreal',
     prediction: 'X',
-    odds: '3.32',
-    date: '12/9/2021'
-  },
-  {
-    id: 16,
-    country: 'France',
-    league: 'Ligue1',
-    homeTeam: 'Metz',
-    awayTeam: 'Troyes',
-    prediction: 'X',
-    odds: '3.26',
-    date: '12/9/2021'
-  },
-  {
-    id: 17,
-    country: 'Italy',
-    league: 'SerieA',
-    homeTeam: 'Milan',
-    awayTeam: 'Lazio',
-    prediction: '2',
-    odds: '3.19',
-    date: '12/9/2021'
-  },
-  {
-    id: 18,
-    country: 'Portugal',
-    league: 'PrimeiraLiga',
-    homeTeam: 'Moreirense',
-    awayTeam: 'Famalicao',
-    prediction: 'X',
-    odds: '3.15',
-    date: '12/9/2021'
-  },
-  {
-    id: 19,
-    country: 'Spain',
-    league: 'Liga',
-    homeTeam: 'Osasuna',
-    awayTeam: 'Valencia',
-    prediction: 'X',
-    odds: '3.12',
-    date: '12/9/2021'
-  },
-  {
-    id: 20,
-    country: 'Portugal',
-    league: 'PrimeiraLiga',
-    homeTeam: 'Boavista',
-    awayTeam: 'Portimonense',
-    prediction: '2',
-    odds: '2.87',
-    date: '12/9/2021'
-  },
-  {
-    id: 21,
-    country: 'France',
-    league: 'Ligue1',
-    homeTeam: 'Brest',
-    awayTeam: 'Angers',
-    prediction: '1',
-    odds: '2.62',
-    date: '12/9/2021'
-  },
-  {
-    id: 22,
-    country: 'Germany',
-    league: 'Bundesliga',
-    homeTeam: 'Bochum',
-    awayTeam: 'Hertha',
-    prediction: '2',
-    odds: '2.55',
-    date: '12/9/2021'
-  },
-  {
-    id: 23,
-    country: 'Italy',
-    league: 'SerieA',
-    homeTeam: 'Cagliari',
-    awayTeam: 'Genoa',
-    prediction: '1',
-    odds: '2.12',
-    date: '12/9/2021'
-  },
-  {
-    id: 24,
-    country: 'Belgium',
-    league: 'BelgianFirst',
-    homeTeam: 'Beerschot VA',
-    awayTeam: 'St Truiden',
-    prediction: 'X',
-    odds: '3.41',
-    date: '13/9/2021'
-  },
-  {
-    id: 25,
-    country: 'Spain',
-    league: 'Liga',
-    homeTeam: 'Getafe',
-    awayTeam: 'Elche',
-    prediction: 'X',
-    odds: '3.32',
-    date: '13/9/2021'
-  },
-  {
-    id: 26,
-    country: 'Spain',
-    league: 'Liga',
-    homeTeam: 'Granada',
-    awayTeam: 'Betis',
-    prediction: '2',
-    odds: '2.36',
-    date: '13/9/2021'
-  },
+    odds: '3.08',
+    date: '19/09/2021'
+  }
 ]
