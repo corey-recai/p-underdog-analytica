@@ -13,7 +13,7 @@ export const Picks = (props) => {
                 hover
                 keyField="id"
                 data={props.data}
-                columns = {pickColumns}
+                columns = {columns}
                 defaultSorted={defaultSorted}
             />
         </div>
