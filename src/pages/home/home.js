@@ -19,6 +19,7 @@ import SubscribeBtn from "../components/subscribeBtn";
 // import {DisplayContainer} from "./components/picks/displayContainer";
 import {HighlightGrid} from "./components/highlights/highlightGrid";
 import {StatsGrid} from "./components/highlights/statsGrid";
+import {DisplayContainer} from "./components/picks/displayContainer";
 
 
 SwiperCore.use([Mousewheel]);
@@ -100,6 +101,13 @@ export default class Home extends Component {
                             </Col>
                         </Row>
                     </Container>
+                </div>
+                <div className="home-section-2">
+                    <Row>
+                        <Col className="pt-5" sm={12} md={12} lg={12}>
+                            <DisplayContainer />
+                        </Col>
+                    </Row>
                 </div>
                 <div className="home-section-2">
                     <Container fluid className="content-container py-5">

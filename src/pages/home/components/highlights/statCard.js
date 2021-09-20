@@ -8,7 +8,7 @@ export const StatCard = (props) => {
                 {props.title}
             </CardHeader>
             <CardBody pad="medium" className="text-center">
-                <MetricsList sevenDay={props.seven} fourteenDay={props.fourteen} thirtyDay={props.thirty}/>
+                <MetricsList sevenDay={props.seven}/>
             </CardBody>
             <CardFooter pad={{horizontal: "medium"}} background="light-5">
                 {props.info}

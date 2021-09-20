@@ -8,6 +8,7 @@ export const columns = [
     {
         dataField: 'country',
         text: 'Country',
+        sort: true,
         hidden: true
     },
     {
@@ -66,14 +67,10 @@ export const columns = [
                 };
             } else if(cell < 0) {
                 return {
-                   // backgroundColor: 'rgba(245,124,124,0.69)',
+                    // backgroundColor: 'rgba(245,124,124,0.69)',
                     color: 'red',
                 };
             }
-            return {
-               // backgroundColor: '#94c3f3'
-            };
-
         }
     },
     {
@@ -86,6 +83,6 @@ export const columns = [
 export const defaultSorted = [
     {
         dataField: 'date',
-        order: 'desc'
+        order: 'asc'
     }
 ];
