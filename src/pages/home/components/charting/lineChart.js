@@ -99,7 +99,7 @@ export default class LineGraph extends Component {
                             text: 'ROI %',
                             color: 'black',
                         },
-                        type: 'linear',
+                        // type: 'linear',
                         grace: '5%',
                         ticks: {
                             stepSize: 5,
