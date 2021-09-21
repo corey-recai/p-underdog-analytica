@@ -28,7 +28,7 @@ export const StatsGrid = () => {
             </Box>
             <Box>
                 <Text>
-                    To view all details from this weekends predictions and their corresponding outcome details below.
+                    Prediction details below.
                 </Text>
             </Box>
         </Container>
