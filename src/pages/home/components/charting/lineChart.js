@@ -113,7 +113,7 @@ export default class LineGraph extends Component {
                         max: '06/21',
                         title: {
                             display: true,
-                            text: 'Week',
+                            text: 'Date',
                             color: 'black'
                         },
                     },
