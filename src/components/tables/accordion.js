@@ -2,7 +2,7 @@ import BootstrapTable from "react-bootstrap-table-next";
 
 import {useState} from "react";
 import {LeagueMatchesPanel} from "./accordionPanel";
-import {pickColumns, results_aug21} from "../../pages/home/components/picks/latestData";
+import {pickColumns, results_aug21} from "../../pages/home/components/predictions/latestData";
 
 export const Accordion = (props) => {
     const [row, setRow] = useState(props.row)
