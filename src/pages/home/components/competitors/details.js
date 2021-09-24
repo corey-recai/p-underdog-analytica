@@ -63,7 +63,7 @@ export const uaBenefits = [
         sportsMemo: 'NO',
     },
     {
-        id: 'Consistent free picks',
+        id: 'Consistent free predictions',
         ua: 'YES',
         betTwitter: 'NO',
         actionNetwork: 'NO',

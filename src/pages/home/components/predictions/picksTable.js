@@ -16,7 +16,7 @@ export const PicksTable = (props) => {
                 hover
                 keyField="id"
                 data={props.data}
-                columns={pickColumns}
+                columns={props.columns}
                 defaultSorted={defaultSorted}
             />
         </div>
