@@ -28,13 +28,11 @@ export const columns = [
         dataField: 'prediction',
         text: 'Prediction',
         sort: true,
-        align: 'center'
     },
     {
         dataField: 'odds',
         text: 'Odds',
         sort: true,
-        align: 'center'
     },
     {
         dataField: 'result',
@@ -73,9 +71,6 @@ export const columns = [
                     color: 'red',
                 };
             }
-            return {
-                // backgroundColor: '#94c3f3'
-            };
         }
     },
     {

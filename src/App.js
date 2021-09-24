@@ -6,8 +6,9 @@ import React from 'react';
 import Dashboard from "./pages/dashboard/dashboard";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-import ResponsiveGrid from "./pages/betHistory/components/responsiveGrid";
+
 import {Results} from "./pages/betHistory/results";
+import {Accordion} from "./components/tables/accordion";
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
       <Switch>
         <Route exact path={"/"} component={Home}></Route>
         <Route exact path={"/bet-history"} component={Results}></Route>
-          {/*<Route exact path={"/grid"} component={ResponsiveGrid}></Route>*/}
+          <Route exact path={"/grid"} component={Accordion}></Route>
           {/*<AmplifySignOut />*/}
         <Route exact path={"/dashboard"} component={Dashboard}></Route>
       </Switch>

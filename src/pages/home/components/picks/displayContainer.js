@@ -1,22 +1,20 @@
 import React from 'react';
 import {Box, Flex} from "rebass";
 import {Container, Row} from "react-bootstrap";
-import {Picks} from "./picks";
-import {latestPicks, picks_9_17_21} from "./data";
+import {PicksTable} from "./picksTable";
+import {latest_results} from "./data";
 import {Heading} from "grommet";
 
 export const DisplayContainer = () => {
         return (
             <Container>
-                <Row>
-                    <Box gridArea="header" background="brand" >
-                        <Heading textAlign="center" margin="small" ccolor="#2383cc">Fixture Predictions</Heading>
-                    </Box>
-                </Row>
+                <Box>
+                    <Heading textAlign="center" margin="small">Weekend Outcomes & Details</Heading>
+                </Box>
                 <Row>
                     <Flex>
                         <Box p={2}>
-                            <Picks data={latestPicks} />
+                            <PicksTable data={latest_results} />
                         </Box>
                     </Flex>
                 </Row>
