@@ -112,7 +112,7 @@ export default class footer extends Component {
                                     <Col sm={12} md={4} lg={4}>
                                         <a href="https://twitter.com/underdog_bets?lang=en">
                                             <FontAwesomeIcon
-                                                className="mx-3 small-text "
+                                                className="small-text"
                                                 icon={faTwitter}
                                                 size="lg"
                                             />
