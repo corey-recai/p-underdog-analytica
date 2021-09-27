@@ -21,6 +21,7 @@ import {HighlightGrid} from "./components/highlights/highlightGrid";
 import {StatsGrid} from "./components/highlights/statsGrid";
 import {DisplayContainer} from "./components/predictions/displayContainer";
 import {UpcomingPredictions} from "./components/predictions/upcomingPredictions";
+import {ResultsContainer} from "./components/predictions/resultsContainer";
 
 
 SwiperCore.use([Mousewheel]);
@@ -77,17 +78,6 @@ export default class Home extends Component {
                                     <SubscribeBtn />
                                 </div>
                             </Col>
-                            <Col
-                                id="home-section-1-big-board-col"
-                                className="d-flex align-items-center justify-content-center"
-                                sm={12}
-                                md={12}
-                                lg={6}
-                            >
-                                <div className="home-section-1-big-board-chart-container d-flex align-items-center justify-content-center mt-5">
-                                    <DisplayContainer />
-                                </div>
-                            </Col>
                             {/*<Col*/}
                             {/*    id="home-section-1-big-board-col"*/}
                             {/*    className="d-flex align-items-center justify-content-center"*/}
@@ -95,18 +85,29 @@ export default class Home extends Component {
                             {/*    md={12}*/}
                             {/*    lg={6}*/}
                             {/*>*/}
-                            {/*    <div className="home-section-1-big-board-chart-container mt-5">*/}
-                            {/*        <HighlightGrid/>*/}
-                            {/*        <StatsGrid/>*/}
+                            {/*    <div className="home-section-1-big-board-chart-container d-flex align-items-center justify-content-center mt-5">*/}
+                            {/*        <DisplayContainer />*/}
                             {/*    </div>*/}
                             {/*</Col>*/}
+                            <Col
+                                id="home-section-1-big-board-col"
+                                className="d-flex align-items-center justify-content-center"
+                                sm={12}
+                                md={12}
+                                lg={6}
+                            >
+                                <div className="home-section-1-big-board-chart-container mt-5">
+                                    <HighlightGrid/>
+                                    <StatsGrid/>
+                                </div>
+                            </Col>
                         </Row>
                     </Container>
                 </div>
                 <div className="home-section-2">
                     <Row>
                         <Col className="pt-5" sm={12} md={12} lg={12}>
-                            <UpcomingPredictions />
+                            <ResultsContainer />
                         </Col>
                     </Row>
                 </div>

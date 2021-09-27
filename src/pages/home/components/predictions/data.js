@@ -29,629 +29,401 @@ export const pickColumns = [
     }
 ];
 
-export const saturdayPicks = [
+export const latest_results = [
     {
         id: 1,
-        country: 'Scotland',
-        league: 'ScottishPL',
-        homeTeam: 'Hearts',
-        awayTeam: 'Livingston',
-        prediction: 'X',
-        odds: '3.66'
-    },
-    {
-        id: 2,
         country: 'Belgium',
         league: 'BelgianFirst',
         homeTeam: 'Standard',
         awayTeam: 'St Truiden',
         prediction: 'X',
-        odds: '3.54'
+        odds: '3.54',
+        result: 'Loss',
+        netUnits: '-1',
+        date: '25/9/2021'
+    },
+    {
+        id: 2,
+        country: 'Belgium',
+        league: 'First Division A',
+        homeTeam: 'Union Saint-Gilloise',
+        awayTeam: 'Royal Antwerp',
+        prediction: 'X',
+        odds: '2.53',
+        result: 'Loss',
+        netUnits: '-1',
+        date: '26/9/2021'
     },
     {
         id: 3,
-        country: 'France',
-        league: 'Ligue1',
-        homeTeam: 'St Etienne',
-        awayTeam: 'Nice',
-        prediction: 'X',
-        odds: '3.34'
+        country: 'Belgium',
+        league: 'First Division A',
+        homeTeam: 'Union Saint-Gilloise',
+        awayTeam: 'Royal Antwerp',
+        prediction: '2',
+        odds: '4.90',
+        result: 'Win',
+        netUnits: '3.9',
+        date: '26/9/2021'
     },
     {
         id: 4,
-        country: 'Portugal',
-        league: 'PrimeiraLiga',
-        homeTeam: 'Moreirense',
-        awayTeam: 'Arouca',
-        prediction: '1',
-        odds: '2.1'
-    },
-    {
-        id: 5,
-        country: 'Portugal',
-        league: 'PrimeiraLiga',
-        homeTeam: 'Tondela',
-        awayTeam: 'Famalicao',
-        prediction: '2',
-        odds: '2.23'
-    },
-    {
-        id: 6,
         country: 'England',
         league: 'PremierLeague',
         homeTeam: 'Chelsea',
         awayTeam: 'Man City',
         prediction: '2',
-        odds: '2.75'
+        odds: '2.75',
+        result: 'Win',
+        netUnits: '1.75',
+        date: '25/9/2021'
     },
     {
-        id: 7,
-        country: 'Spain',
-        league: 'Liga',
-        homeTeam: 'Valencia',
-        awayTeam: 'Ath Bilbao',
-        prediction: '2',
-        odds: '2.83'
-    },
-    {
-        id: 8,
-        country: 'Germany',
-        league: 'Bundesliga',
-        homeTeam: 'Ein Frankfurt',
-        awayTeam: 'FC Koln',
-        prediction: 'X',
-        odds: '3.74'
-    },
-    {
-        id: 9,
-        country: 'Scotland',
-        league: 'League One',
-        homeTeam: 'Montrose',
-        awayTeam: 'Falkirk',
-        prediction: '2',
-        odds: '2.169'
-    },
-    {
-        id: 10,
-        country: 'Malta',
-        league: 'Premier League',
-        homeTeam: 'Gudja United',
-        awayTeam: 'Valletta',
-        prediction: '2',
-        odds: '2.245'
-    },
-    {
-        id: 11,
-        country: 'Germany',
-        league: 'Bundesliga',
-        homeTeam: 'Eintracht Frankfurt',
-        awayTeam: 'FC Koln',
-        prediction: '1',
-        odds: '2.009'
-    },
-    {
-        id: 12,
-        country: 'Spain',
-        league: 'Segunda Division',
-        homeTeam: 'Las Palmas',
-        awayTeam: 'Ponferradina',
-        prediction: '1',
-        odds: '2.013'
-    },
-    {
-        id: 13,
-        country: 'Russia',
-        league: 'Premier League',
-        homeTeam: 'FK Khimki',
-        awayTeam: 'Lokomotiv Moskva',
-        prediction: '2',
-        odds: '2.066'
-    },
-    {
-        id: 14,
+        id: 5,
         country: 'England',
         league: 'League Two',
         homeTeam: 'Salford City',
         awayTeam: 'Northampton',
         prediction: '1',
-        odds: '2.076'
+        odds: '2.08',
+        result: 'Loss',
+        netUnits: '-1',
+        date: '25/9/2021'
     },
     {
-        id: 15,
-        country: 'Germany',
-        league: '2. Bundesliga',
-        homeTeam: 'Paderborn',
-        awayTeam: 'Holstein Kiel',
-        prediction: '1',
-        odds: '2.004'
-    },
-    {
-        id: 16,
+        id: 6,
         country: 'England',
         league: 'League One',
         homeTeam: 'Milton Keynes Dons',
         awayTeam: 'Wycombe',
         prediction: '1',
-        odds: '2.173'
-    }
-]
-
-export const sundaysPicks = [
-    {
-        id: 1,
-        country: 'France',
-        league: 'Ligue1',
-        homeTeam: 'Troyes',
-        awayTeam: 'Angers',
-        prediction: '1',
-        odds: '2.73'
-    },
-    {
-        id: 2,
-        country: 'France',
-        league: 'Ligue1',
-        homeTeam: 'Reims',
-        awayTeam: 'Nantes',
-        prediction: 'X',
-        odds: '3.13'
-    },
-    {
-        id: 3,
-        country: 'France',
-        league: 'Ligue1',
-        homeTeam: 'Bordeaux',
-        awayTeam: 'Rennes',
-        prediction: 'X',
-        odds: '3.42'
-    },
-    {
-        id: 4,
-        country: 'France',
-        league: 'Ligue1',
-        homeTeam: 'Brest',
-        awayTeam: 'Metz',
-        prediction: '1',
-        odds: '2.02'
-    },
-    {
-        id: 5,
-        country: 'Portugal',
-        league: 'PrimeiraLiga',
-        homeTeam: 'Portimonense',
-        awayTeam: 'Vizela',
-        prediction: 'X',
-        odds: '3.28'
-    },
-    {
-        id: 6,
-        country: 'Italy',
-        league: 'SerieA',
-        homeTeam: 'Empoli',
-        awayTeam: 'Bologna',
-        prediction: 'X',
-        odds: '3.62'
+        odds: '2.17',
+        result: 'Win',
+        netUnits: '1.17',
+        date: '25/9/2021'
     },
     {
         id: 7,
-        country: 'Italy',
-        league: 'SerieA',
-        homeTeam: 'Lazio',
-        awayTeam: 'Roma',
-        prediction: 'X',
-        odds: '3.49'
-    },
-    {
-        id: 8,
         country: 'England',
         league: 'PremierLeague',
         homeTeam: 'Southampton',
         awayTeam: 'Wolves',
         prediction: 'X',
-        odds: '3.2'
+        odds: '3.20',
+        result: 'Loss',
+        netUnits: '-1',
+        date: '26/9/2021'
     },
     {
-        id: 9,
+        id: 8,
         country: 'England',
         league: 'PremierLeague',
         homeTeam: 'Arsenal',
         awayTeam: 'Tottenham',
         prediction: '2',
-        odds: '3.35'
+        odds: '3.35',
+        result: 'Loss',
+        netUnits: '-1',
+        date: '26/9/2021'
+    },
+    {
+        id: 9,
+        country: 'England',
+        league: 'PremierLeague',
+        homeTeam: 'Crystal Palace',
+        awayTeam: 'Brighton',
+        prediction: '2',
+        odds: '2.50',
+        result: 'Loss',
+        netUnits: '-1',
+        date: '27/9/2021'
     },
     {
         id: 10,
-        country: 'Spain',
-        league: 'Liga',
-        homeTeam: 'Mallorca',
-        awayTeam: 'Osasuna',
-        prediction: '2',
-        odds: '2.72'
+        country: 'France',
+        league: 'Ligue1',
+        homeTeam: 'St Etienne',
+        awayTeam: 'Nice',
+        prediction: 'X',
+        odds: '3.34',
+        result: 'Loss',
+        netUnits: '-1',
+        date: '25/9/2021'
     },
     {
         id: 11,
-        country: 'Germany',
-        league: 'Bundesliga',
-        homeTeam: 'Bochum',
-        awayTeam: 'Stuttgart',
-        prediction: '2',
-        odds: '2.3'
+        country: 'France',
+        league: 'Ligue1',
+        homeTeam: 'Troyes',
+        awayTeam: 'Angers',
+        prediction: '1',
+        odds: '2.73',
+        result: 'Loss',
+        netUnits: '-1',
+        date: '26/9/2021'
     },
     {
         id: 12,
-        country: 'Belgium',
-        league: 'First Division A',
-        homeTeam: 'Union Saint-Gilloise',
-        awayTeam: 'Royal Antwerp',
-        prediction: 'X2',
-        odds: '2.529'
+        country: 'France',
+        league: 'Ligue1',
+        homeTeam: 'Reims',
+        awayTeam: 'Nantes',
+        prediction: 'X',
+        odds: '3.13',
+        result: 'Loss',
+        netUnits: '-1',
+        date: '26/9/2021'
     },
     {
         id: 13,
-        country: 'Germany',
-        league: '2. Bundesliga',
-        homeTeam: 'Dynamo Dresden',
-        awayTeam: 'Werder Bremen',
-        prediction: '2',
-        odds: '2.057'
+        country: 'France',
+        league: 'Ligue1',
+        homeTeam: 'Bordeaux',
+        awayTeam: 'Rennes',
+        prediction: 'X',
+        odds: '3.42',
+        result: 'Win',
+        netUnits: '2.42',
+        date: '26/9/2021'
     },
     {
         id: 14,
-        country: 'Switzerland',
-        league: 'Swiss Super League',
-        homeTeam: 'Luzern',
-        awayTeam: 'Lugano',
+        country: 'France',
+        league: 'Ligue1',
+        homeTeam: 'Brest',
+        awayTeam: 'Metz',
         prediction: '1',
-        odds: '2.223'
+        odds: '2.02',
+        result: 'Loss',
+        netUnits: '-1',
+        date: '26/9/2021'
     },
     {
         id: 15,
         country: 'France',
         league: 'Ligue 1',
         homeTeam: 'Bordeaux',
-        awayTeam: 'Rennais',
+        awayTeam: 'Rennes',
         prediction: '2',
-        odds: '2.151'
-    }
-
-]
-
-export const mondaysPicks = [
-    {
-        id: 1,
-        country: 'England',
-        league: 'Premier League',
-        homeTeam: 'Crystal Palace',
-        awayTeam: 'Brighton',
-        prediction: '2',
-        odds: '2.5'
-    }
-]
-
-
-export const latestPicks = [
-  {
-    id: 1,
-    country: 'Scotland',
-    league: 'ScottishPL',
-    homeTeam: 'Dundee United',
-    awayTeam: 'Dundee',
-    prediction: '1',
-    odds: '2.52',
-    date: '19/09/2021'
-  },
-  {
-    id: 2,
-    country: 'Belgium',
-    league: 'BelgianFirst',
-    homeTeam: 'Standard',
-    awayTeam: 'Anderlecht',
-    prediction: 'X',
-    odds: '3.49',
-    date: '19/09/2021'
-  },
-  {
-    id: 3,
-    country: 'France',
-    league: 'Ligue1',
-    homeTeam: 'Troyes',
-    awayTeam: 'Montpellier',
-    prediction: 'X',
-    odds: '3.45',
-    date: '19/09/2021'
-  },
-  {
-    id: 4,
-    country: 'France',
-    league: 'Ligue1',
-    homeTeam: 'Angers',
-    awayTeam: 'Nantes',
-    prediction: '2',
-    odds: '3.67',
-    date: '19/09/2021'
-  },
-  {
-    id: 5,
-    country: 'Portugal',
-    league: 'PrimeiraLiga',
-    homeTeam: 'Vizela',
-    awayTeam: 'Pacos Ferreira',
-    prediction: 'X',
-    odds: '3.15',
-    date: '19/09/2021'
-  },
-  {
-    id: 6,
-    country: 'Italy',
-    league: 'SerieA',
-    homeTeam: 'Juventus',
-    awayTeam: 'Milan',
-    prediction: 'X',
-    odds: '3.47',
-    date: '19/09/2021'
-  },
-  {
-    id: 7,
-    country: 'England',
-    league: 'PremierLeague',
-    homeTeam: 'Brighton',
-    awayTeam: 'Leicester',
-    prediction: '1',
-    odds: '2.72',
-    date: '19/09/2021'
-  }
-]
-
-export const latest_results = [
-    {
-        id: 1,
-        country: 'Belgium',
-        league: 'BelgianFirst',
-        homeTeam: 'Cercle Brugge',
-        awayTeam: 'Eupen',
-        prediction: 'X',
-        odds: '3.5',
+        odds: '2.15',
         result: 'Loss',
         netUnits: '-1',
-        date: '17/9/2021'
+        date: '26/9/2021'
     },
     {
-        id: 2,
-        country: 'Belgium',
-        league: 'BelgianFirst',
-        homeTeam: 'Standard',
-        awayTeam: 'Anderlecht',
+        id: 16,
+        country: 'Germany',
+        league: 'Bundesliga',
+        homeTeam: 'Ein Frankfurt',
+        awayTeam: 'FC Koln',
+        prediction: 'X',
+        odds: '3.74',
+        result: 'Win',
+        netUnits: '2.74',
+        date: '25/9/2021'
+    },
+    {
+        id: 17,
+        country: 'Germany',
+        league: 'Bundesliga',
+        homeTeam: 'Eintracht Frankfurt',
+        awayTeam: 'FC Koln',
+        prediction: '1',
+        odds: '2.01',
+        result: 'Loss',
+        netUnits: '-1',
+        date: '25/9/2021'
+    },
+    {
+        id: 18,
+        country: 'Germany',
+        league: '2. Bundesliga',
+        homeTeam: 'Paderborn',
+        awayTeam: 'Holstein Kiel',
+        prediction: '1',
+        odds: '2.00',
+        result: 'Loss',
+        netUnits: '-1',
+        date: '25/9/2021'
+    },
+    {
+        id: 19,
+        country: 'Germany',
+        league: 'Bundesliga',
+        homeTeam: 'Bochum',
+        awayTeam: 'Stuttgart',
+        prediction: '2',
+        odds: '2.30',
+        result: 'Loss',
+        netUnits: '-1',
+        date: '26/9/2021'
+    },
+    {
+        id: 20,
+        country: 'Germany',
+        league: '2. Bundesliga',
+        homeTeam: 'Dynamo Dresden',
+        awayTeam: 'Werder Bremen',
+        prediction: '2',
+        odds: '2.06',
+        result: 'Loss',
+        netUnits: '-1',
+        date: '26/9/2021'
+    },
+    {
+        id: 21,
+        country: 'Italy',
+        league: 'SerieA',
+        homeTeam: 'Empoli',
+        awayTeam: 'Bologna',
+        prediction: 'X',
+        odds: '3.62',
+        result: 'Loss',
+        netUnits: '-1',
+        date: '26/9/2021'
+    },
+    {
+        id: 22,
+        country: 'Italy',
+        league: 'SerieA',
+        homeTeam: 'Lazio',
+        awayTeam: 'Roma',
         prediction: 'X',
         odds: '3.49',
         result: 'Loss',
         netUnits: '-1',
-        date: '19/9/2021'
+        date: '26/9/2021'
     },
     {
-        id: 3,
-        country: 'England',
-        league: 'PremierLeague',
-        homeTeam: 'Aston Villa',
-        awayTeam: 'Everton',
+        id: 23,
+        country: 'Malta',
+        league: 'Premier League',
+        homeTeam: 'Gudja United',
+        awayTeam: 'Valletta',
         prediction: '2',
-        odds: '3.03',
+        odds: '2.25',
         result: 'Loss',
         netUnits: '-1',
-        date: '18/9/2021'
+        date: '25/9/2021'
     },
     {
-        id: 4,
-        country: 'England',
-        league: 'PremierLeague',
-        homeTeam: 'Norwich',
-        awayTeam: 'Watford',
-        prediction: 'X',
-        odds: '3.33',
-        result: 'Loss',
-        netUnits: '-1',
-        date: '18/9/2021'
-    },
-    {
-        id: 5,
-        country: 'England',
-        league: 'PremierLeague',
-        homeTeam: 'Burnley',
-        awayTeam: 'Arsenal',
-        prediction: '2',
-        odds: '2',
-        result: 'Win',
-        netUnits: '1',
-        date: '18/9/2021'
-    },
-    {
-        id: 6,
-        country: 'England',
-        league: 'PremierLeague',
-        homeTeam: 'Brighton',
-        awayTeam: 'Leicester',
-        prediction: '1',
-        odds: '2.72',
-        result: 'Win',
-        netUnits: '1.72',
-        date: '19/9/2021'
-    },
-    {
-        id: 7,
-        country: 'France',
-        league: 'Ligue1',
-        homeTeam: 'Troyes',
-        awayTeam: 'Montpellier',
-        prediction: 'X',
-        odds: '3.45',
-        result: 'Win',
-        netUnits: '2.45',
-        date: '19/9/2021'
-    },
-    {
-        id: 8,
-        country: 'France',
-        league: 'Ligue1',
-        homeTeam: 'Angers',
-        awayTeam: 'Nantes',
-        prediction: '2',
-        odds: '3.67',
-        result: 'Win',
-        netUnits: '2.67',
-        date: '19/9/2021'
-    },
-    {
-        id: 9,
-        country: 'Germany',
-        league: 'Bundesliga',
-        homeTeam: 'Bielefeld',
-        awayTeam: 'Hoffenheim',
-        prediction: '1',
-        odds: '3.52',
-        result: 'Loss',
-        netUnits: '-1',
-        date: '18/9/2021'
-    },
-    {
-        id: 10,
-        country: 'Germany',
-        league: 'Bundesliga',
-        homeTeam: 'Stuttgart',
-        awayTeam: 'Leverkusen',
-        prediction: '1',
-        odds: '3.2',
-        result: 'Loss',
-        netUnits: '-1',
-        date: '19/9/2021'
-    },
-    {
-        id: 11,
-        country: 'Italy',
-        league: 'SerieA',
-        homeTeam: 'Juventus',
-        awayTeam: 'Milan',
-        prediction: 'X',
-        odds: '3.47',
-        result: 'Win',
-        netUnits: '2.47',
-        date: '19/9/2021'
-    },
-    {
-        id: 12,
-        country: 'Italy',
-        league: 'SerieA',
-        homeTeam: 'Udinese',
-        awayTeam: 'Napoli',
-        prediction: 'X',
-        odds: '3.56',
-        result: 'Loss',
-        netUnits: '-1',
-        date: '20/9/2021'
-    },
-    {
-        id: 13,
-        country: 'Netherlands',
-        league: 'Eredivisie',
-        homeTeam: 'Willem II',
-        awayTeam: 'Groningen',
-        prediction: '2',
-        odds: '2.89',
-        result: 'Loss',
-        netUnits: '-1',
-        date: '18/9/2021'
-    },
-    {
-        id: 14,
-        country: 'Netherlands',
-        league: 'Eredivisie',
-        homeTeam: 'Vitesse',
-        awayTeam: 'Twente',
-        prediction: 'X',
-        odds: '3.6',
-        result: 'Loss',
-        netUnits: '-1',
-        date: '19/9/2021'
-    },
-    {
-        id: 15,
+        id: 24,
         country: 'Portugal',
         league: 'PrimeiraLiga',
-        homeTeam: 'Famalicao',
-        awayTeam: 'Maritimo',
+        homeTeam: 'Moreirense',
+        awayTeam: 'Arouca',
         prediction: '1',
-        odds: '2.02',
-        result: 'Loss',
-        netUnits: '-1',
-        date: '18/9/2021'
+        odds: '2.10',
+        result: 'Win',
+        netUnits: '1.1',
+        date: '25/9/2021'
     },
     {
-        id: 16,
+        id: 25,
         country: 'Portugal',
         league: 'PrimeiraLiga',
-        homeTeam: 'Vizela',
-        awayTeam: 'Pacos Ferreira',
-        prediction: 'X',
-        odds: '3.15',
-        result: 'Win',
-        netUnits: '2.15',
-        date: '19/9/2021'
-    },
-    {
-        id: 17,
-        country: 'Scotland',
-        league: 'ScottishPL',
-        homeTeam: 'Aberdeen',
-        awayTeam: 'St Johnstone',
-        prediction: '1',
-        odds: '2.06',
+        homeTeam: 'Tondela',
+        awayTeam: 'Famalicao',
+        prediction: '2',
+        odds: '2.23',
         result: 'Loss',
         netUnits: '-1',
-        date: '18/9/2021'
+        date: '25/9/2021'
     },
     {
-        id: 18,
+        id: 26,
+        country: 'Portugal',
+        league: 'PrimeiraLiga',
+        homeTeam: 'Portimonense',
+        awayTeam: 'Vizela',
+        prediction: 'X',
+        odds: '3.28',
+        result: 'Win',
+        netUnits: '2.28',
+        date: '26/9/2021'
+    },
+    {
+        id: 27,
+        country: 'Russia',
+        league: 'Premier League',
+        homeTeam: 'FK Khimki',
+        awayTeam: 'Lokomotiv Moskva',
+        prediction: '2',
+        odds: '2.07',
+        result: 'Loss',
+        netUnits: '-1',
+        date: '25/9/2021'
+    },
+    {
+        id: 28,
         country: 'Scotland',
         league: 'ScottishPL',
-        homeTeam: 'Dundee United',
-        awayTeam: 'Dundee',
-        prediction: '1',
-        odds: '2.52',
-        result: 'Win',
-        netUnits: '1.52',
-        date: '19/9/2021'
+        homeTeam: 'Hearts',
+        awayTeam: 'Livingston',
+        prediction: 'X',
+        odds: '3.66',
+        result: 'Loss',
+        netUnits: '-1',
+        date: '25/9/2021'
     },
     {
-        id: 19,
+        id: 29,
+        country: 'Scotland',
+        league: 'League One',
+        homeTeam: 'Montrose',
+        awayTeam: 'Falkirk',
+        prediction: '2',
+        odds: '2.17',
+        result: 'Loss',
+        netUnits: '-1',
+        date: '25/9/2021'
+    },
+    {
+        id: 30,
         country: 'Spain',
         league: 'Liga',
-        homeTeam: 'Vallecano',
-        awayTeam: 'Getafe',
-        prediction: 'X',
-        odds: '2.95',
+        homeTeam: 'Valencia',
+        awayTeam: 'Ath Bilbao',
+        prediction: '2',
+        odds: '2.83',
         result: 'Loss',
         netUnits: '-1',
-        date: '18/9/2021'
+        date: '25/9/2021'
     },
     {
-        id: 20,
+        id: 31,
+        country: 'Spain',
+        league: 'Segunda Division',
+        homeTeam: 'Las Palmas',
+        awayTeam: 'Ponferradina',
+        prediction: '1',
+        odds: '2.01',
+        result: 'Win',
+        netUnits: '1.01',
+        date: '25/9/2021'
+    },
+    {
+        id: 32,
         country: 'Spain',
         league: 'Liga',
         homeTeam: 'Mallorca',
-        awayTeam: 'Villarreal',
-        prediction: 'X',
-        odds: '3.08',
+        awayTeam: 'Osasuna',
+        prediction: '2',
+        odds: '2.72',
         result: 'Win',
-        netUnits: '2.08',
-        date: '19/9/2021'
+        netUnits: '1.72',
+        date: '26/9/2021'
     },
     {
-        id: 21,
-        country: 'Spain',
-        league: 'Liga',
-        homeTeam: 'Sociedad',
-        awayTeam: 'Sevilla',
-        prediction: 'X',
-        odds: '3.17',
-        result: 'Win',
-        netUnits: '2.17',
-        date: '19/9/2021'
+        id: 33,
+        country: 'Switzerland',
+        league: 'Swiss Super League',
+        homeTeam: 'Luzern',
+        awayTeam: 'Lugano',
+        prediction: '1',
+        odds: '2.22',
+        result: 'Loss',
+        netUnits: '-1',
+        date: '26/9/2021'
     }
 ]

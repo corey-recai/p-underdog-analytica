@@ -2,10 +2,10 @@ import React from 'react';
 import {Box, Flex} from "rebass";
 import {Container, Row} from "react-bootstrap";
 import {PicksTable} from "./picksTable";
-import {latest_results, latestPicks, mondaysPicks, pickColumns, saturdayPicks, sundaysPicks} from "./data";
+import {pickColumns} from "./data";
 import {Heading} from "grommet";
 
-export const DisplayContainer = () => {
+export const DisplayContainer = (props) => {
         return (
             <Container>
                 <Box>
@@ -14,7 +14,7 @@ export const DisplayContainer = () => {
                 <Row>
                     <Flex>
                         <Box p={2}>
-                            <PicksTable data={saturdayPicks} columns={pickColumns} date="Saturday 25/09/2021"/>
+                            <PicksTable data={props.data} columns={pickColumns} date="Saturday 25/09/2021"/>
                         </Box>
                     </Flex>
                 </Row>
