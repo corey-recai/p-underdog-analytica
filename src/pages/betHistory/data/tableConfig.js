@@ -1,4 +1,3 @@
-
 export const columns = [
     {
         dataField: 'id',

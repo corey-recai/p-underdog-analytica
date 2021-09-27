@@ -21,6 +21,7 @@ import {HighlightGrid} from "./components/highlights/highlightGrid";
 import {StatsGrid} from "./components/highlights/statsGrid";
 import {DisplayContainer} from "./components/predictions/displayContainer";
 import {UpcomingPredictions} from "./components/predictions/upcomingPredictions";
+import {SectionContainer} from "../../components/ui/sectionContainer";
 
 SwiperCore.use([Mousewheel]);
 
@@ -54,17 +55,17 @@ export default class Home extends Component {
                 </Helmet>
                 <Navigation />
                 <div className="home-section-1">
+                    {/*<SectionContainer />*/}
                     <Container
                         fluid
                         id="home-section-1-container"
                         className="content-container"
                     >
                         <Row>
-                            <Col className="pt-5" sm={12} md={12} lg={6}>
-                                <div className="home-section-1-cta-text mt-5">
+                            <Col className="pt-3" sm={12} md={12} lg={6}>
+                                <div className="home-section-1-cta-text mt-3">
                                     <h1 className="bold home-section-1-h1-text">
                                         Data-driven predictions and transparent results
-                                        {/*Transparent &amp; Hassle-Free Sports Betting Predictions*/}
                                     </h1>
                                     <span className="home-section-1-h2-text highlight">
                     Profit on European football by betting on underdogs. Our
@@ -84,7 +85,7 @@ export default class Home extends Component {
                                 lg={6}
                             >
                                 <div className="home-section-1-big-board-chart-container d-flex align-items-center justify-content-center mt-5">
-                                    <DisplayContainer />
+                                    <DisplayContainer title="Weekends Predictions" />
                                 </div>
                             </Col>
                             {/*<Col*/}

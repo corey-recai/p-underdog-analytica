@@ -2,8 +2,6 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import logo from "./logo.svg";
 import Home from "./pages/home/home";
 import React from 'react';
-// import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react';
-import Dashboard from "./pages/dashboard/dashboard";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
@@ -18,7 +16,6 @@ function App() {
         <Route exact path={"/bet-history"} component={Results}></Route>
           <Route exact path={"/grid"} component={Accordion}></Route>
           {/*<AmplifySignOut />*/}
-        <Route exact path={"/dashboard"} component={Dashboard}></Route>
       </Switch>
     </BrowserRouter>
 

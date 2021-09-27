@@ -1,7 +1,7 @@
 import BootstrapTable from "react-bootstrap-table-next";
 import {useState} from "react";
 import {aug13} from "../../pages/betHistory/data/season21_22/august";
-import {resultColumns} from "../../pages/home/components/predictions/data";
+import {resultColumns} from "../../pages/home/components/predictions/data/resultData";
 
 
 export const Accordion = (props) => {
