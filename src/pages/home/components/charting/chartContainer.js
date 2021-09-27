@@ -41,21 +41,21 @@ export default class ChartContainer extends Component {
         const { ua, spy500, stoxx600, labels } = this.state;
         return (
             <div className={classes.container}>
-                <div className={classes.buttonContainer}>
-                    <button
-                        value="weekly"
-                        onClick={this.handleButtonClick}
-                    >
-                        Weekly
-                    </button>
+                {/*<div className={classes.buttonContainer}>*/}
+                {/*    <button*/}
+                {/*        value="weekly"*/}
+                {/*        onClick={this.handleButtonClick}*/}
+                {/*    >*/}
+                {/*        Weekly*/}
+                {/*    </button>*/}
 
-                    <button
-                        value="monthly"
-                        onClick={this.handleButtonClick}
-                    >
-                        Monthly
-                    </button>
-                </div>
+                {/*    <button*/}
+                {/*        value="monthly"*/}
+                {/*        onClick={this.handleButtonClick}*/}
+                {/*    >*/}
+                {/*        Monthly*/}
+                {/*    </button>*/}
+                {/*</div>*/}
 
                 <LineGraph
                     ua={ua}

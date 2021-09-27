@@ -1,7 +1,7 @@
 import Container from "react-bootstrap/Container";
-import {PicksContainer} from "../predictions/picksContainer";
+import {PicksContainer} from "./picksContainer";
 import React from "react";
-import {PredictionInfo} from "../predictions/predictionInfo";
+import {PredictionInfo} from "./predictionInfo";
 import {Box, Heading} from "grommet";
 import {Row} from "react-bootstrap";
 import {aug27_29} from "../../../betHistory/data/season21_22/august";

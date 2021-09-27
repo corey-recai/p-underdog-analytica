@@ -1,7 +1,7 @@
 import {Box} from "grommet";
 import React from "react";
 
-export const PicksInfo = () => {
+export const PredictionInfo = () => {
     return (
             <div className="picks-info">
                 <Box fill='horizontal'>

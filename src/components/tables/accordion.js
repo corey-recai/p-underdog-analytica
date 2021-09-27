@@ -1,7 +1,7 @@
 import BootstrapTable from "react-bootstrap-table-next";
 import {useState} from "react";
-import {pickColumns} from "../../pages/home/components/predictions/data";
 import {aug13} from "../../pages/betHistory/data/season21_22/august";
+import {resultColumns} from "../../pages/home/components/predictions/data";
 
 
 export const Accordion = (props) => {
@@ -36,7 +36,7 @@ export const Accordion = (props) => {
                 hover
                 keyField='id'
                 data={aug13}
-                columns={pickColumns}
+                columns={resultColumns}
                 expandRow={expandRow}
             />
         </>
