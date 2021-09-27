@@ -16,10 +16,10 @@ import homeIcons from "./icons/homeIcons";
 import logos from "../../assets/logos/logos";
 import Chart from "./components/charting/chartContainer";
 import SubscribeBtn from "../components/subscribeBtn";
-// import {DisplayContainer} from "./components/picks/displayContainer";
+// import {DisplayContainer} from "./components/predictions/displayContainer";
 import {HighlightGrid} from "./components/highlights/highlightGrid";
 import {StatsGrid} from "./components/highlights/statsGrid";
-import {DisplayContainer} from "./components/picks/displayContainer";
+import {DisplayContainer} from "./components/predictions/displayContainer";
 
 
 SwiperCore.use([Mousewheel]);

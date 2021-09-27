@@ -1,113 +1,84 @@
-export const pickColumns = [
+export const resultColumns = [
     {
-        dataField: "id",
-        text: "ID",
-        hidden: true,
+        dataField: 'id',
+        text: 'ID',
+        hidden: true
     },
     {
-        dataField: "league",
-        text: "League",
-        sort: true
+        dataField: 'country',
+        text: 'Country',
+        sort: true,
+        hidden: true
     },
     {
-        dataField: "homeTeam",
-        text: "Home Team",
+        dataField: 'league',
+        text: 'League',
+        sort: true,
     },
     {
-        dataField: "awayTeam",
-        text: "Away Team",
+        dataField: 'homeTeam',
+        text: 'Home Team',
     },
     {
-        dataField: "prediction",
-        text: "Prediction",
-        sort: true
+        dataField: 'awayTeam',
+        text: 'Away Team',
     },
     {
-        dataField: "odds",
-        text: "Odds",
-        sort: true
+        dataField: 'prediction',
+        text: 'Prediction',
+        sort: true,
     },
     {
-        dataField: "date",
-        text: "Date",
+        dataField: 'odds',
+        text: 'Odds',
+        sort: true,
     },
+    {
+        dataField: 'result',
+        text: 'Result',
+        sort: true,
+        style: (cell) => {
+            if (cell === 'Win') {
+                return {
+                    backgroundColor: '#c8e6c9',
+                    color: 'green',
+                };
+            }else if (cell === 'Loss') {
+                return {
+                    backgroundColor: 'rgba(245,124,124,0.69)',
+                    color: 'red',
+                };
+            }
+            return {
+                backgroundColor: '#94c3f3'
+            };
+        }
+    },
+    {
+        dataField: 'netUnits',
+        text: 'Units +/-',
+        sort: true,
+        style: (cell) => {
+            if (cell > 0) {
+                return {
+                    // backgroundColor: '#c8e6c9',
+                    color: 'green',
+                };
+            } else if(cell < 0) {
+                return {
+                    // backgroundColor: 'rgba(245,124,124,0.69)',
+                    color: 'red',
+                };
+            }
+        }
+    },
+    {
+        dataField: 'date',
+        text: 'Date',
+    }
 ];
 
-
-export const latestPicks = [
-  {
-    id: 1,
-    country: 'Scotland',
-    league: 'ScottishPL',
-    homeTeam: 'Dundee United',
-    awayTeam: 'Dundee',
-    prediction: '1',
-    odds: '2.52',
-    date: '19/09/2021'
-  },
-  {
-    id: 2,
-    country: 'Belgium',
-    league: 'BelgianFirst',
-    homeTeam: 'Standard',
-    awayTeam: 'Anderlecht',
-    prediction: 'X',
-    odds: '3.49',
-    date: '19/09/2021'
-  },
-  {
-    id: 3,
-    country: 'France',
-    league: 'Ligue1',
-    homeTeam: 'Troyes',
-    awayTeam: 'Montpellier',
-    prediction: 'X',
-    odds: '3.45',
-    date: '19/09/2021'
-  },
-  {
-    id: 4,
-    country: 'France',
-    league: 'Ligue1',
-    homeTeam: 'Angers',
-    awayTeam: 'Nantes',
-    prediction: '2',
-    odds: '3.67',
-    date: '19/09/2021'
-  },
-  {
-    id: 5,
-    country: 'Portugal',
-    league: 'PrimeiraLiga',
-    homeTeam: 'Vizela',
-    awayTeam: 'Pacos Ferreira',
-    prediction: 'X',
-    odds: '3.15',
-    date: '19/09/2021'
-  },
-  {
-    id: 6,
-    country: 'Italy',
-    league: 'SerieA',
-    homeTeam: 'Juventus',
-    awayTeam: 'Milan',
-    prediction: 'X',
-    odds: '3.47',
-    date: '19/09/2021'
-  },
-  {
-    id: 7,
-    country: 'England',
-    league: 'PremierLeague',
-    homeTeam: 'Brighton',
-    awayTeam: 'Leicester',
-    prediction: '1',
-    odds: '2.72',
-    date: '19/09/2021'
-  }
-]
-
-export const latest_results = [
+export const predictionResults = [
     {
         id: 1,
         country: 'Belgium',

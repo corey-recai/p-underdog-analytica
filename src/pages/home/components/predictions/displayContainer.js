@@ -2,8 +2,8 @@ import React from 'react';
 import {Box, Flex} from "rebass";
 import {Container, Row} from "react-bootstrap";
 import {PicksTable} from "./picksTable";
-import {latest_results} from "./data";
 import {Heading} from "grommet";
+import {predictionResults, resultColumns} from "../resultData/resultData";
 
 export const DisplayContainer = () => {
         return (
@@ -14,7 +14,7 @@ export const DisplayContainer = () => {
                 <Row>
                     <Flex>
                         <Box p={2}>
-                            <PicksTable data={latest_results} />
+                            <PicksTable columns={resultColumns} data={predictionResults} />
                         </Box>
                     </Flex>
                 </Row>

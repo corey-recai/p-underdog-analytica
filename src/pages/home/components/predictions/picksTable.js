@@ -1,8 +1,6 @@
 import React from "react";
 import BootstrapTable from "react-bootstrap-table-next";
-
-import Row from "react-bootstrap/Row";
-import {columns, defaultSorted} from "../../../betHistory/data/tableConfig";
+import {defaultSorted} from "../../../betHistory/data/tableConfig";
 
 
 export const PicksTable = (props) => {
@@ -15,7 +13,7 @@ export const PicksTable = (props) => {
                 hover
                 keyField="id"
                 data={props.data}
-                columns={columns}
+                columns={props.columns}
                 defaultSorted={defaultSorted}
             />
         </div>

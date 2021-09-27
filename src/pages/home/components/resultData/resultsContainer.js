@@ -1,8 +1,8 @@
 import Container from "react-bootstrap/Container";
-import {results_aug21, results_aug22} from "./latestData";
-import {PicksContainer} from "./picksContainer";
+import {results_aug21, results_aug22} from "../predictions/latestData";
+import {PicksContainer} from "../predictions/picksContainer";
 import React from "react";
-import {PicksInfo} from "./picksInfo";
+import {PicksInfo} from "../predictions/picksInfo";
 import {Box, Heading} from "grommet";
 import {Row} from "react-bootstrap";
 import {aug27_29} from "../../../betHistory/data/season21_22/august";
