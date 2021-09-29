@@ -11,9 +11,6 @@ export const PredictionInfo = () => {
                     selected to win, <strong>"2"</strong> is the away team to win, and <strong>"X</strong>" means that
                     we expect a draw.
                 </p>
-                <p>
-                    Remaining fixture predictions listed below.
-                </p>
             </Box>
         </div>
     );
