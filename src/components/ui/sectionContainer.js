@@ -5,7 +5,7 @@ import {DisplayContainer} from "../../pages/home/components/predictions/displayC
 import Row from "react-bootstrap/Row";
 import React from "react";
 
-export const SectionContainer = () => {
+export const SectionContainer = (props) => {
     return(
         <Container
             fluid
