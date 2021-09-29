@@ -77,18 +77,6 @@ export default class Home extends Component {
                                     <SubscribeBtn />
                                 </div>
                             </Col>
-
-                            {/*<Col*/}
-                            {/*    id="home-section-1-big-board-col"*/}
-                            {/*    className="d-flex align-items-center justify-content-center"*/}
-                            {/*    sm={12}*/}
-                            {/*    md={12}*/}
-                            {/*    lg={6}*/}
-                            {/*>*/}
-                            {/*    <div className="home-section-1-big-board-chart-container d-flex align-items-center justify-content-center mt-5">*/}
-                            {/*        <DisplayContainer title="Weekends Predictions" />*/}
-                            {/*    </div>*/}
-                            {/*</Col>*/}
                             <Col
                                 id="home-section-1-big-board-col"
                                 className="d-flex align-items-center justify-content-center"

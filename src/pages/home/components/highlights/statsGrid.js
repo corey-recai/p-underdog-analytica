@@ -28,7 +28,7 @@ export const StatsGrid = () => {
             </Box>
             <Box>
                 <Text>
-                    Prediction details below.
+                    Prediction results outlined below.
                 </Text>
             </Box>
         </Container>

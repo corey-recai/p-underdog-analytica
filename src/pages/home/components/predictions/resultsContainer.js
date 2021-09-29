@@ -9,7 +9,7 @@ import {resultColumns, weekend_results} from "./data/resultData";
 
 export const ResultsContainer = () => {
     return (
-        <Container className="home-section-3">
+        <Container className="home-section-2">
             <Row>
                 <Box gridArea="header">
                     <Heading textAlign="center" margin="small" ccolor="#2383cc">Last Weeks Results & Details</Heading>
