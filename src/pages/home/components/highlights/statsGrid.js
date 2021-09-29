@@ -32,6 +32,5 @@ export const StatsGrid = () => {
                 </Text>
             </Box>
         </Container>
-
     )
 }

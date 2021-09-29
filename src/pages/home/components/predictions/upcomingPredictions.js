@@ -16,14 +16,14 @@ export const UpcomingPredictions = () => {
             <Row>
                 <Flex>
                     <Box p={2}>
-                        <PicksTable columns={pickColumns} date="26/09/2021"/>
+
                     </Box>
                 </Flex>
             </Row>
             <Row>
                 <Flex>
                     <Box p={2}>
-                        <PicksTable columns={pickColumns} date="27/09/2021"/>
+
                     </Box>
                 </Flex>
             </Row>

@@ -1,12 +1,11 @@
 import Container from "react-bootstrap/Container";
-import {PicksContainer} from "./picksContainer";
 import React from "react";
-import {PicksInfo} from "./picksInfo";
+import {PredictionInfo} from "./predictionInfo";
 import {Box, Heading} from "grommet";
 import {Row} from "react-bootstrap";
-import {latest_results} from "./data";
-import {PicksTable} from "./picksTable";
-import {columns} from "../../../betHistory/data/tableConfig";
+import {CustomTable} from "./customTable";
+import {resultColumns, weekend_results} from "./data/resultData";
+
 
 export const ResultsContainer = () => {
     return (
@@ -16,8 +15,8 @@ export const ResultsContainer = () => {
                     <Heading textAlign="center" margin="small" ccolor="#2383cc">Last Weeks Results & Details</Heading>
                 </Box>
             </Row>
-            <PicksTable data={latest_results} columns={columns} date="September 25-27, 2021"/>
-            <PicksInfo />
+            <CustomTable columns={resultColumns} data={weekend_results} date="August 27-29, 2021"/>
+            <PredictionInfo />
         </Container>
     );
 }

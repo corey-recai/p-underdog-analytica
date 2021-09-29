@@ -77,4 +77,3 @@ export const uaBenefits = [
         sportsMemo: 'YES',
     }
 ]
-

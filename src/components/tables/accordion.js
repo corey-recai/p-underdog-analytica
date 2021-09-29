@@ -1,8 +1,8 @@
 import BootstrapTable from "react-bootstrap-table-next";
-
 import {useState} from "react";
-import {LeagueMatchesPanel} from "./accordionPanel";
-import {pickColumns, results_aug21} from "../../pages/home/components/predictions/latestData";
+import {aug13} from "../../pages/betHistory/data/season21_22/august";
+import {resultColumns} from "../../pages/home/components/predictions/data/resultData";
+
 
 export const Accordion = (props) => {
     const [row, setRow] = useState(props.row)
@@ -35,8 +35,8 @@ export const Accordion = (props) => {
                 striped
                 hover
                 keyField='id'
-                data={results_aug21}
-                columns={pickColumns}
+                data={aug13}
+                columns={resultColumns}
                 expandRow={expandRow}
             />
         </>

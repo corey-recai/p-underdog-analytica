@@ -136,9 +136,8 @@ export default class footer extends Component {
                                             className="footer-signup-input-btn"
                                             variant="outline-secondary"
                                             id="button-addon2"
-                                            disabled="true"
                                         >
-                                            <span className="bold">&#8594;</span>
+                                            <a href="#"><span className="bold">&#8594;</span></a>
                                         </Button>
                                     </InputGroup>
                                 </div>

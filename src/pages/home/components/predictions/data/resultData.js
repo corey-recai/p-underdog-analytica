@@ -1,35 +1,85 @@
-export const pickColumns = [
+export const resultColumns = [
     {
-        dataField: "id",
-        text: "ID",
-        hidden: true,
+        dataField: 'id',
+        text: 'ID',
+        hidden: true
     },
     {
-        dataField: "league",
-        text: "League",
-        sort: true
+        dataField: 'country',
+        text: 'Country',
+        sort: true,
+        hidden: true
     },
     {
-        dataField: "homeTeam",
-        text: "Home Team",
+        dataField: 'league',
+        text: 'League',
+        sort: true,
     },
     {
-        dataField: "awayTeam",
-        text: "Away Team",
+        dataField: 'homeTeam',
+        text: 'Home Team',
     },
     {
-        dataField: "prediction",
-        text: "Prediction",
-        sort: true
+        dataField: 'awayTeam',
+        text: 'Away Team',
     },
     {
-        dataField: "odds",
-        text: "Odds",
-        sort: true
+        dataField: 'prediction',
+        text: 'Prediction',
+        sort: true,
+    },
+    {
+        dataField: 'odds',
+        text: 'Odds',
+        sort: true,
+    },
+    {
+        dataField: 'result',
+        text: 'Result',
+        sort: true,
+        style: (cell) => {
+            if (cell === 'Win') {
+                return {
+                    backgroundColor: '#c8e6c9',
+                    color: 'green',
+                };
+            }else if (cell === 'Loss') {
+                return {
+                    backgroundColor: 'rgba(245,124,124,0.69)',
+                    color: 'red',
+                };
+            }
+            return {
+                backgroundColor: '#94c3f3'
+            };
+        }
+    },
+    {
+        dataField: 'netUnits',
+        text: 'Units +/-',
+        sort: true,
+        style: (cell) => {
+            if (cell > 0) {
+                return {
+                    // backgroundColor: '#c8e6c9',
+                    color: 'green',
+                };
+            } else if(cell < 0) {
+                return {
+                    // backgroundColor: 'rgba(245,124,124,0.69)',
+                    color: 'red',
+                };
+            }
+        }
+    },
+    {
+        dataField: 'date',
+        text: 'Date',
+        hidden: true
     }
 ];
 
-export const latest_results = [
+export const weekend_results = [
     {
         id: 1,
         country: 'Belgium',
