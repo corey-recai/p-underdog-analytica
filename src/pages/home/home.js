@@ -17,11 +17,11 @@ import logos from "../../assets/logos/logos";
 import Chart from "./components/charting/chartContainer";
 import SubscribeBtn from "../components/subscribeBtn";
 // import {DisplayContainer} from "./components/predictions/displayContainer";
-import {HighlightGrid} from "./components/highlights/highlightGrid";
 import {StatsGrid} from "./components/highlights/statsGrid";
 import {DisplayContainer} from "./components/predictions/displayContainer";
 import {ResultsContainer} from "./components/predictions/resultsContainer";
 import {TwoColGrid} from "../../components/ui/twoColGrid";
+import {SubscribeSection} from "./components/intro/subscribeSection";
 
 
 SwiperCore.use([Mousewheel]);
@@ -55,52 +55,8 @@ export default class Home extends Component {
                     <link rel="stylesheet"></link>
                 </Helmet>
                 <Navigation />
-                <TwoColGrid
-                    titleOne="Data-driven predictions and transparent results"
-                    contentOne="Profit on European football by betting on underdogs. Our
-                    algorithm makes the calculations, you make the cash. Start for free today."
-                    titleTwo="Data-driven predictions and transparent results"
-                    contentTwo="Profit on European football by betting on underdogs. Our
-                    algorithm makes the calculations, you make the cash. Start for free today."
-                />
-                {/*<div className="home-section-1">*/}
-                {/*    /!*<SectionContainer />*!/*/}
-                {/*    <Container*/}
-                {/*        fluid*/}
-                {/*        id="home-section-1-container"*/}
-                {/*        className="content-container"*/}
-                {/*    >*/}
-                {/*        <Row>*/}
-                {/*            <Col className="pt-3" sm={12} md={12} lg={6}>*/}
-                {/*                <div className="home-section-1-cta-text mt-3">*/}
-                {/*                    <h1 className="bold home-section-1-h1-text">*/}
-                {/*                        Data-driven predictions and transparent results*/}
-                {/*                    </h1>*/}
-                {/*                    <span className="home-section-1-h2-text highlight">*/}
-                {/*    Profit on European football by betting on underdogs. Our*/}
-                {/*    algorithm makes the calculations, you make the cash. Start*/}
-                {/*    for free today.*/}
-                {/*  </span>*/}
-                {/*                </div>*/}
-                {/*                <div className="py-3">*/}
-                {/*                    <SubscribeBtn />*/}
-                {/*                </div>*/}
-                {/*            </Col>*/}
-                {/*            <Col*/}
-                {/*                id="home-section-1-big-board-col"*/}
-                {/*                className="d-flex align-items-center justify-content-center"*/}
-                {/*                sm={12}*/}
-                {/*                md={12}*/}
-                {/*                lg={6}*/}
-                {/*            >*/}
-                {/*                <div className="home-section-1-big-board-chart-container mt-5">*/}
-                {/*                    <HighlightGrid/>*/}
-                {/*                    <StatsGrid/>*/}
-                {/*                </div>*/}
-                {/*            </Col>*/}
-                {/*        </Row>*/}
-                {/*    </Container>*/}
-                {/*</div>*/}
+                <SubscribeSection />
+
                 <div className="home-section-2">
                     <Row>
                         <Col className="pt-5" sm={12} md={12} lg={12}>
