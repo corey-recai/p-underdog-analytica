@@ -85,20 +85,21 @@ export default class Home extends Component {
                                 lg={6}
                             >
                                 <div className="home-section-1-big-board-chart-container mt-5">
-                                    <HighlightGrid/>
-                                    <StatsGrid/>
+                                    {/*<HighlightGrid/>*/}
+                                    {/*<StatsGrid/>*/}
+                                    <DisplayContainer title="Underdog's Predictions"/>
                                 </div>
                             </Col>
                         </Row>
                     </Container>
                 </div>
-                <div className="home-section-2">
-                    <Row>
-                        <Col className="pt-5" sm={12} md={12} lg={12}>
-                            <ResultsContainer />
-                        </Col>
-                    </Row>
-                </div>
+                {/*<div className="home-section-2">*/}
+                {/*    <Row>*/}
+                {/*        <Col className="pt-5" sm={12} md={12} lg={12}>*/}
+                {/*            <ResultsContainer />*/}
+                {/*        </Col>*/}
+                {/*    </Row>*/}
+                {/*</div>*/}
                 <div className="home-section-2">
                     <Container fluid className="content-container py-5">
                         <Row>
