@@ -3,7 +3,7 @@ import {Box, Flex} from "rebass";
 import {Container, Row} from "react-bootstrap";
 import {CustomTable} from "./customTable";
 import {Heading} from "grommet";
-import {predictionColumns} from "./data/predictionData";
+import {predictionColumns, saturday, sunday} from "./data/predictionData";
 import {PredictionInfo} from "./predictionInfo";
 import {weekend_results} from "./data/resultData";
 
@@ -16,7 +16,14 @@ export const DisplayContainer = (props) => {
             <Row>
                 <Flex>
                     <Box p={2}>
-                        <CustomTable columns={predictionColumns} data={weekend_results} date="Saturday 25/09/2021"/>
+                        <CustomTable columns={predictionColumns} data={saturday} date="02/10/2021"/>
+                    </Box>
+                </Flex>
+            </Row>
+            <Row>
+                <Flex>
+                    <Box p={2}>
+                        <CustomTable columns={predictionColumns} data={sunday} date="03/10/2021"/>
                     </Box>
                 </Flex>
             </Row>
