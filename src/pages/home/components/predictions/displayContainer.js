@@ -3,9 +3,9 @@ import {Box, Flex} from "rebass";
 import {Container, Row} from "react-bootstrap";
 import {CustomTable} from "./customTable";
 import {Heading} from "grommet";
-import {predictionColumns, saturdayPreds, sundayPreds} from "./data/predictionData";
+import {predictionColumns, saturday, sunday} from "./data/predictionData";
 import {PredictionInfo} from "./predictionInfo";
-import {weekend_results} from "./data/resultData";
+
 
 export const DisplayContainer = (props) => {
     return (
@@ -16,14 +16,14 @@ export const DisplayContainer = (props) => {
             <Row>
                 <Flex>
                     <Box p={2}>
-                        <CustomTable columns={predictionColumns} data={saturdayPreds} date="2/10/21"/>
+                        <CustomTable columns={predictionColumns} data={saturday} date="02/10/2021"/>
                     </Box>
                 </Flex>
             </Row>
             <Row>
                 <Flex>
                     <Box p={2}>
-                        <CustomTable columns={predictionColumns} data={sundayPreds} date="3/10/21"/>
+                        <CustomTable columns={predictionColumns} data={sunday} date="03/10/2021"/>
                     </Box>
                 </Flex>
             </Row>
