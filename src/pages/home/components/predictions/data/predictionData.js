@@ -96,26 +96,6 @@ export const saturday = [
         date: '2/10/2021'
     },
     {
-        id: 7,
-        country: 'Spain',
-        league: 'Liga',
-        homeTeam: 'Mallorca',
-        awayTeam: 'Levante',
-        prediction: '2',
-        odds: '3.44',
-        date: '2/10/2021'
-    },
-    {
-        id: 7,
-        country: 'Spain',
-        league: 'Liga',
-        homeTeam: 'Mallorca',
-        awayTeam: 'Levante',
-        prediction: '2',
-        odds: '3.44',
-        date: '2/10/2021'
-    },
-    {
         id: 8,
         country: 'Germany',
         league: 'Bundesliga',
