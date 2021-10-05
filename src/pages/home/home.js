@@ -3,6 +3,7 @@ import { Helmet } from "react-helmet";
 import Navigation from "../components/nav";
 import CompetitionComparison from "./components/competitors/competitionComparison";
 import Footer from "../components/footer";
+import LineChart from "./components/lineChart";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -15,7 +16,13 @@ import homeIcons from "./icons/homeIcons";
 import logos from "../../assets/logos/logos";
 import Chart from "./components/charting/chartContainer";
 import SubscribeBtn from "../components/subscribeBtn";
+// import {DisplayContainer} from "./components/predictions/displayContainer";
+import {StatsGrid} from "./components/highlights/statsGrid";
 import {DisplayContainer} from "./components/predictions/displayContainer";
+import {ResultsContainer} from "./components/predictions/resultsContainer";
+import {TwoColGrid} from "../../components/ui/twoColGrid";
+import {SubscribeSection} from "./components/intro/subscribeSection";
+
 
 SwiperCore.use([Mousewheel]);
 
