@@ -3,7 +3,7 @@ import React from "react";
 
 export const GridCard = (props) => {
     return (
-        <Card >
+        <Card>
             <CardHeader className="justify-content-center bold home-section-2-h1-text mx-auto"  pad="small">
                 {props.title}
             </CardHeader>
