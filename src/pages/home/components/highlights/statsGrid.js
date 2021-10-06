@@ -14,15 +14,15 @@ export const StatsGrid = () => {
                 >
                     <StatCard
                         title="NET UNITS"
-                        seven="-5.91"
+                        seven="-12.01"
                     />
                     <StatCard
                         title="ROI"
-                        seven="-18 %"
+                        seven="-57 %"
                     />
                     <StatCard
                         title="WIN/LOSS %"
-                        seven="27 %"
+                        seven="14 %"
                     />
                 </Grid>
             </Box>

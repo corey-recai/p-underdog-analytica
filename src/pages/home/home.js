@@ -85,12 +85,20 @@ export default class Home extends Component {
                                 lg={6}
                             >
                                 <div className="home-section-1-big-board-chart-container mt-5">
-                                    <DisplayContainer title="Weekend's Fixture Predictions" />
+                                    <h1 className="bold home-section-2-h1-text mx-auto">
+                                       Predictions Metrics
+                                    </h1>
+                                    <StatsGrid />
                                 </div>
                             </Col>
                         </Row>
                     </Container>
                 </div>
+
+                <div className="home-section-2">
+                    <ResultsContainer />
+                </div>
+
                 <div className="home-section-2">
                     <Container fluid className="content-container py-5">
                         <Row>
