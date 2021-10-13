@@ -96,6 +96,7 @@ export default class Home extends Component {
                 {/*<TwoColGrid />*/}
                 {/*<FullRowContainer/>*/}
                 <SubscribeSection />
+                <ResultsContainer />
 
 
                 <div className="home-section-2">

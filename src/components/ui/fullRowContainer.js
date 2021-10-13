@@ -4,10 +4,12 @@ import {ResultsContainer} from "../../pages/home/components/predictions/resultsC
 
 export const FullRowContainer = () => {
     return (
-        <Container>
-            <Box pad="large">
-                <ResultsContainer />
-            </Box>
-        </Container>
+        <div className="row-container">
+            <Container>
+                <Box pad="large">
+                    <ResultsContainer />
+                </Box>
+            </Container>
+        </div>
     )
 }
