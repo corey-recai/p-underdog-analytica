@@ -1,7 +1,6 @@
 import {useContext} from "react";
-import {Box, Grid, ResponsiveContext, Text} from "grommet";
+import {Box, Grid, ResponsiveContext} from "grommet";
 import {StatCard} from "./statCard";
-import {Container} from "react-bootstrap";
 
 export const StatsGrid = () => {
     const size = useContext(ResponsiveContext)
