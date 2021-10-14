@@ -5,10 +5,10 @@ import {StatCard} from "./statCard";
 export const StatsGrid = () => {
     const size = useContext(ResponsiveContext)
     return (
-        <Box pad="medium">
+        <Box pad="xsmall">
             <Grid
                 columns={size !== 'small' ? 'small' : '100%'}
-                gap="small"
+                gap="xsmall"
             >
                 <StatCard
                     title="NET UNITS"

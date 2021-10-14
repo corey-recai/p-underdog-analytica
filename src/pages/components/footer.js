@@ -7,6 +7,7 @@ import FormControl from "react-bootstrap/FormControl";
 import Button from "react-bootstrap/Button";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faFacebook, faInstagram, faTwitter,} from "@fortawesome/free-brands-svg-icons";
+import SubscribeBtn from "./subscribeBtn";
 
 export default class footer extends Component {
     componentDidMount() {
@@ -121,31 +122,27 @@ export default class footer extends Component {
                                 </Row>
                             </Col>
                             <Col sm={12} md={12} lg={5}>
-                <span className="bold highlight">
-                    Sign Up for Our Newsletter
-                </span>
-                                <div className="footer-signup-section">
-                                    <InputGroup className="my-3">
-                                        <FormControl
-                                            className="footer-signup-input"
-                                            placeholder="Enter your email"
-                                            aria-label="Enter your email"
-                                            aria-describedby="basic-addon2"
-                                        />
-                                        <Button
-                                            className="footer-signup-input-btn"
-                                            variant="outline-secondary"
-                                            id="button-addon2"
-                                        >
-                                            <a href="#"><span className="bold">&#8594;</span></a>
-                                        </Button>
-                                    </InputGroup>
-                                </div>
-                                <p className="footer-signup-text">
-                                    By signing up you agree to Underdog Analytica's{" "}
-                                    <a href="#">Privacy Policy</a> and{" "}
-                                    <a href="#">Terms of Service</a>{" "}
-                                </p>
+                {/*<span className="bold highlight">*/}
+                {/*    Sign Up for Our Newsletter*/}
+                {/*</span>*/}
+                {/*                <div className="footer-signup-section">*/}
+                {/*                    <InputGroup className="my-3">*/}
+                {/*                        <FormControl*/}
+                {/*                            className="footer-signup-input"*/}
+                {/*                            placeholder="Enter your email"*/}
+                {/*                            aria-label="Enter your email"*/}
+                {/*                            aria-describedby="basic-addon2"*/}
+                {/*                        />*/}
+                {/*                        <Button*/}
+                {/*                            className="footer-signup-input-btn"*/}
+                {/*                            variant="outline-secondary"*/}
+                {/*                            id="button-addon2"*/}
+                {/*                        >*/}
+                {/*                            <a href="#"><span className="bold">&#8594;</span></a>*/}
+                {/*                        </Button>*/}
+                {/*                    </InputGroup>*/}
+                {/*                </div>*/}
+                                <SubscribeBtn />
                             </Col>
                         </Row>
                     </Container>

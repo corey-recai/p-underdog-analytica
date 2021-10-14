@@ -7,7 +7,7 @@ export const StatCard = (props) => {
             <CardHeader className="justify-content-center text-white" pad="small" background="#2383cc">
                 {props.title}
             </CardHeader>
-            <CardBody pad="small" className="text-center">
+            <CardBody pad="xsmall" className="text-center">
                 <MetricsList sevenDay={props.seven}/>
             </CardBody>
             <CardFooter pad={{horizontal: "small"}} background="light-5">
