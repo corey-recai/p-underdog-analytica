@@ -56,6 +56,7 @@ export default class Home extends Component {
                     <link rel="stylesheet"></link>
                 </Helmet>
                 <Navigation />
+
                 {/*<div className="home-section-1">*/}
                 {/*    /!*<SectionContainer />*!/*/}
                 {/*    <Container*/}
