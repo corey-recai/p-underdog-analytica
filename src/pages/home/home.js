@@ -56,48 +56,8 @@ export default class Home extends Component {
                     <link rel="stylesheet"></link>
                 </Helmet>
                 <Navigation />
-
-                {/*<div className="home-section-1">*/}
-                {/*    /!*<SectionContainer />*!/*/}
-                {/*    <Container*/}
-                {/*        fluid*/}
-                {/*        id="home-section-1-container"*/}
-                {/*        className="content-container"*/}
-                {/*    >*/}
-                {/*        <Row>*/}
-                {/*            <Col className="pt-3" sm={12} md={12} lg={6}>*/}
-                {/*                <div className="home-section-1-cta-text mt-3">*/}
-                {/*                    <h1 className="bold home-section-1-h1-text">*/}
-                {/*                        Data-driven predictions and transparent results*/}
-                {/*                    </h1>*/}
-                {/*                    <span className="home-section-1-h2-text highlight">*/}
-                {/*    Profit on European football by betting on underdogs. Our*/}
-                {/*    algorithm makes the calculations, you make the cash. Start*/}
-                {/*    for free today.*/}
-                {/*  </span>*/}
-                {/*                </div>*/}
-                {/*                <div className="py-3">*/}
-                {/*                    <SubscribeBtn />*/}
-                {/*                </div>*/}
-                {/*            </Col>*/}
-                {/*            <Col*/}
-                {/*                id="home-section-1-big-board-col"*/}
-                {/*                className="d-flex align-items-center justify-content-center"*/}
-                {/*                sm={12}*/}
-                {/*                md={12}*/}
-                {/*                lg={6}*/}
-                {/*            >*/}
-                {/*                <div className="home-section-1-big-board-chart-container mt-5">*/}
-                {/*                    <DisplayContainer title="Weekend's Fixture Predictions" />*/}
-                {/*                </div>*/}
-                {/*            </Col>*/}
-                {/*        </Row>*/}
-                {/*    </Container>*/}
-                {/*</div>*/}
-                {/*<TwoColGrid />*/}
-                {/*<FullRowContainer/>*/}
                 <SubscribeSection />
-                <ResultsContainer />
+                <FullRowContainer />
 
 
                 <div className="home-section-2">

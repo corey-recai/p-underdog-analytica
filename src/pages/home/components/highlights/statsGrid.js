@@ -7,7 +7,7 @@ export const StatsGrid = () => {
     const size = useContext(ResponsiveContext)
     return (
         <Container>
-            <Box pad="large">
+            <Box pad="xsmall">
                 <Grid
                     columns={size !== 'small' ? 'small' : '100%'}
                     gap="small"
