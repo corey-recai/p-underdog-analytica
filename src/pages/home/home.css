@@ -201,17 +201,8 @@ h1 {
   background-image: linear-gradient(transparent 90%, rgba(35, 131, 204, 0.2) 90%) !important;
 }
 
-/*.home-section-1-big-board-chart-container {*/
-/*  height: auto !important;*/
-/*  width: 100% !important;*/
-/*  border-radius: 10px !important;*/
-/*  padding: 1rem !important;*/
-/*  -webkit-box-shadow: rgba(35, 131, 204, 0.12) 0px 1px 3px, rgba(35, 131, 204, 0.24) 0px 1px 2px !important;*/
-/*          box-shadow: rgba(35, 131, 204, 0.12) 0px 1px 3px, rgba(35, 131, 204, 0.24) 0px 1px 2px !important;*/
-/*}*/
-
 .home-section-2-h1-text {
-  font-size: 2.5rem !important;
+  font-size: 1.5rem !important;
 }
 
 .home-section-2-icon {
@@ -575,7 +566,7 @@ footer {
     width: auto !important;
   }
   .home-section-2-h1-text {
-    font-size: 5rem !important;
+    font-size: 2.5rem !important;
     width: 50% !important;
   }
   .home-section-3-h1-text {
