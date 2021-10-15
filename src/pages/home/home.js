@@ -23,6 +23,7 @@ import {ResultsContainer} from "./components/predictions/resultsContainer";
 import {TwoColGrid} from "../../components/ui/twoColGrid";
 import {SubscribeSection} from "./components/intro/subscribeSection";
 import {FullRowContainer} from "../../components/ui/fullRowContainer";
+import {UpcomingPredictions} from "./components/predictions/upcomingPredictions";
 
 
 SwiperCore.use([Mousewheel]);
@@ -57,8 +58,7 @@ export default class Home extends Component {
                 </Helmet>
                 <Navigation />
                 <SubscribeSection />
-                <FullRowContainer />
-
+                <UpcomingPredictions />
 
                 <div className="home-section-2">
                     <Container fluid className="content-container py-5">

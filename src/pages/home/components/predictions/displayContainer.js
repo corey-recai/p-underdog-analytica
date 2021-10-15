@@ -16,13 +16,6 @@ export const DisplayContainer = () => {
                     </Box>
                 </Flex>
             </Row>
-            {/*<Row>*/}
-            {/*    <Flex>*/}
-            {/*        <Box p={2}>*/}
-            {/*            <CustomTable columns={predictionColumns} data={sunday} date="17/10/2021"/>*/}
-            {/*        </Box>*/}
-            {/*    </Flex>*/}
-            {/*</Row>*/}
             <PredictionInfo />
         </Container>
     );
