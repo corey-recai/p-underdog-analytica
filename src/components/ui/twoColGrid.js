@@ -25,7 +25,7 @@ export const TwoColGrid = (props) => {
                         footer={<SubscribeBtn />}
                     />
                     <GridCard
-                        title="Weekend Predictions"
+                        title="Weekend's Predictions"
                         content={<DisplayContainer />}
                     />
                 </Grid>
