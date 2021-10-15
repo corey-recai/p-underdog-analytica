@@ -16,17 +16,17 @@ export const DisplayContainer = (props) => {
             <Row>
                 <Flex>
                     <Box p={2}>
-                        <CustomTable columns={predictionColumns} data={saturday} date="02/10/2021"/>
+                        <CustomTable columns={predictionColumns} data={saturday} date="16/10/2021"/>
                     </Box>
                 </Flex>
             </Row>
-            <Row>
-                <Flex>
-                    <Box p={2}>
-                        <CustomTable columns={predictionColumns} data={sunday} date="03/10/2021"/>
-                    </Box>
-                </Flex>
-            </Row>
+            {/*<Row>*/}
+            {/*    <Flex>*/}
+            {/*        <Box p={2}>*/}
+            {/*            <CustomTable columns={predictionColumns} data={sunday} date="03/10/2021"/>*/}
+            {/*        </Box>*/}
+            {/*    </Flex>*/}
+            {/*</Row>*/}
             <PredictionInfo />
         </Container>
     );
