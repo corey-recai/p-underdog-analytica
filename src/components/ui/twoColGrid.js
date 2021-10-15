@@ -5,6 +5,7 @@ import {GridCard} from "./gridCard";
 import SubscribeBtn from "../../pages/components/subscribeBtn";
 import {ResultsContainer} from "../../pages/home/components/predictions/resultsContainer";
 import {StatsGrid} from "../../pages/home/components/highlights/statsGrid";
+import {DisplayContainer} from "../../pages/home/components/predictions/displayContainer";
 
 
 export const TwoColGrid = (props) => {
@@ -24,8 +25,8 @@ export const TwoColGrid = (props) => {
                         footer={<SubscribeBtn />}
                     />
                     <GridCard
-                        title="Predicton Metrics"
-                        content={<StatsGrid />}
+                        title="Weekend's Predictions"
+                        content={<DisplayContainer />}
                     />
                 </Grid>
             </Box>
