@@ -177,7 +177,7 @@ export default class Home extends Component {
                                             className="home-section-4-signup-btn bold px-5 py-3"
                                             size="lg"
                                         >
-                                            Bet Smarter
+                                            <a href="#" className="text-white">Bet Smarter</a>
                                         </Button>
                                     </div>
                                 </div>
