@@ -2,12 +2,9 @@ import React, {Component} from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import InputGroup from "react-bootstrap/InputGroup";
-import FormControl from "react-bootstrap/FormControl";
-import Button from "react-bootstrap/Button";
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faFacebook, faInstagram, faTwitter,} from "@fortawesome/free-brands-svg-icons";
 import SubscribeBtn from "./subscribeBtn";
+import {SocialIcon} from "./socialIcon";
 
 export default class footer extends Component {
     componentDidMount() {
@@ -62,87 +59,58 @@ export default class footer extends Component {
                             {/*  </p>*/}
                             {/*</Col>*/}
                             {/*<Col sm={12} md={12} lg={2}>*/}
-                                {/*<p>More Info Coming Soon</p>*/}
-                                {/*<p>*/}
-                                {/*  <a className="footer-link" href="#">*/}
-                                {/*    About Us*/}
-                                {/*  </a>*/}
-                                {/*</p>*/}
-                                {/*<p>*/}
-                                {/*  <a className="footer-link" href="#">*/}
-                                {/*    How it works*/}
-                                {/*  </a>*/}
-                                {/*</p>*/}
-                                {/*<p>*/}
-                                {/*  <a className="footer-link" href="#">*/}
-                                {/*    Privacy*/}
-                                {/*  </a>*/}
-                                {/*</p>*/}
-                                {/*<p>*/}
-                                {/*  <a className="footer-link" href="#">*/}
-                                {/*    Terms*/}
-                                {/*  </a>*/}
-                                {/*</p>*/}
-                                {/*<p>*/}
-                                {/*  <a className="footer-link" href="#">*/}
-                                {/*    Do Not Sell My Info*/}
-                                {/*  </a>*/}
-                                {/*</p>*/}
+                            {/*<p>More Info Coming Soon</p>*/}
+                            {/*<p>*/}
+                            {/*  <a className="footer-link" href="#">*/}
+                            {/*    About Us*/}
+                            {/*  </a>*/}
+                            {/*</p>*/}
+                            {/*<p>*/}
+                            {/*  <a className="footer-link" href="#">*/}
+                            {/*    How it works*/}
+                            {/*  </a>*/}
+                            {/*</p>*/}
+                            {/*<p>*/}
+                            {/*  <a className="footer-link" href="#">*/}
+                            {/*    Privacy*/}
+                            {/*  </a>*/}
+                            {/*</p>*/}
+                            {/*<p>*/}
+                            {/*  <a className="footer-link" href="#">*/}
+                            {/*    Terms*/}
+                            {/*  </a>*/}
+                            {/*</p>*/}
+                            {/*<p>*/}
+                            {/*  <a className="footer-link" href="#">*/}
+                            {/*    Do Not Sell My Info*/}
+                            {/*  </a>*/}
+                            {/*</p>*/}
                             {/*</Col>*/}
                             <Col sm={12} md={12} lg={5}>
                                 <p>Social</p>
-                              <Row>
+                                <Row>
                                     <Col sm={12} md={4} lg={4}>
-                                        <a href="https://www.facebook.com/underdoganalytica">
-                                            <FontAwesomeIcon
-                                                className="small-text "
-                                                icon={faFacebook}
-                                                size="lg"
-                                            />
-                                        </a>
+                                        <SocialIcon
+                                            link="https://www.facebook.com/underdoganalytica"
+                                            social={faFacebook}
+                                        />
                                     </Col>
                                     <Col sm={12} md={4} lg={4}>
-                                        <a href="https://www.instagram.com/underdog_analytica/?hl=en">
-                                            <FontAwesomeIcon
-                                                className="small-text "
-                                                icon={faInstagram}
-                                                size="lg"
-                                            />
-                                        </a>
+                                        <SocialIcon
+                                            link="https://www.instagram.com/underdog_analytica/?hl=en"
+                                            social={faInstagram}
+                                        />
                                     </Col>
                                     <Col sm={12} md={4} lg={4}>
-                                        <a href="https://twitter.com/underdog_bets?lang=en">
-                                            <FontAwesomeIcon
-                                                className="small-text"
-                                                icon={faTwitter}
-                                                size="lg"
-                                            />
-                                        </a>
+                                        <SocialIcon
+                                            link="https://twitter.com/underdog_bets?lang=en"
+                                            social={faTwitter}
+                                        />
                                     </Col>
                                 </Row>
                             </Col>
                             <Col sm={12} md={12} lg={5}>
-                {/*<span className="bold highlight">*/}
-                {/*    Sign Up for Our Newsletter*/}
-                {/*</span>*/}
-                {/*                <div className="footer-signup-section">*/}
-                {/*                    <InputGroup className="my-3">*/}
-                {/*                        <FormControl*/}
-                {/*                            className="footer-signup-input"*/}
-                {/*                            placeholder="Enter your email"*/}
-                {/*                            aria-label="Enter your email"*/}
-                {/*                            aria-describedby="basic-addon2"*/}
-                {/*                        />*/}
-                {/*                        <Button*/}
-                {/*                            className="footer-signup-input-btn"*/}
-                {/*                            variant="outline-secondary"*/}
-                {/*                            id="button-addon2"*/}
-                {/*                        >*/}
-                {/*                            <a href="#"><span className="bold">&#8594;</span></a>*/}
-                {/*                        </Button>*/}
-                {/*                    </InputGroup>*/}
-                {/*                </div>*/}
-                                <SubscribeBtn />
+                                <SubscribeBtn/>
                             </Col>
                         </Row>
                     </Container>
