@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Athletics";
+  src: local("Athletics"), url("/fonts/Athletics-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Athletics";
+  src: local("Athletics"), url("/fonts/Athletics-Bold.woff2") format("woff2");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Glyphicons Halflings";
+  src: local("Glyphicons Halflings"), url("/fonts/glyphicons-halflings-regular.woff") format("woff");
+}
+
+body {
+  font-family: "Athletics";
+  overflow-x: hidden;
+}

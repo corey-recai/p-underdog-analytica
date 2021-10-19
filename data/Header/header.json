@@ -1,0 +1,29 @@
+{
+  "logo": {
+    "src": "/img/logos/hd-logo.png",
+    "alt": "Underdog Analytica Logo."
+  },
+
+  "header_links": [
+    {
+      "slug": "/bet-history",
+      "text": "Bet History"
+    },
+    {
+      "slug": "/about-us",
+      "text": "About Us"
+    },
+    {
+      "slug": "/sign-up",
+      "text": "Sign Up"
+    },
+    {
+      "slug": "/login",
+      "text": "Login"
+    }
+  ],
+  "mobile_nav_icon": {
+    "src": "/icons/bars-solid.svg",
+    "alt": "Site navigation menu list open button."
+  }
+}
