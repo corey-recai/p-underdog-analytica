@@ -24,7 +24,6 @@ const Header = () => {
     });
 
     window.addEventListener('resize', () => {
-      console.log(window.innerWidth);
       if (
         window.innerWidth > 1190 &&
         navLinksWrapperRef.current.children.length <= 2
@@ -37,8 +36,6 @@ const Header = () => {
   }, [navLinksWrapperRef]);
 
   const toggleMobileNav = () => {
-    console.log(navLinksRef.current.classList);
-    console.log(navLinksWrapperRef.current);
     if (
       navLinksRef.current.classList.contains(`${styles.ua_nav_links_active}`)
     ) {
@@ -60,12 +57,8 @@ const Header = () => {
             alt={data.logo.alt}
           />
         </div>
-        <div ref={navLinksWrapperRef} id='ua-nav-links-wrapper'>
-          <ul
-            ref={navLinksRef}
-            className={styles.ua_nav_links}
-            id='ua-nav-links'
-          >
+        <div ref={navLinksWrapperRef}>
+          <ul ref={navLinksRef} className={styles.ua_nav_links}>
             {data.header_links.map(({ slug, text }, idx) => (
               <li key={idx}>
                 <a href={slug}>{text}</a>
@@ -74,7 +67,6 @@ const Header = () => {
           </ul>
           <button
             className={styles.ua_nav_links_mobile_toggle}
-            id='ua-nav-links-mobile-toggle'
             onClick={toggleMobileNav}
           >
             <img
