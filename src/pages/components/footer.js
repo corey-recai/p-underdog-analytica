@@ -5,6 +5,8 @@ import Col from "react-bootstrap/Col";
 import {faFacebook, faInstagram, faTwitter,} from "@fortawesome/free-brands-svg-icons";
 import SubscribeBtn from "./subscribeBtn";
 import {SocialIcon} from "./socialIcon";
+import {faEnvelope} from "@fortawesome/free-solid-svg-icons";
+import {EmailBtn} from "./emailBtn";
 
 export default class footer extends Component {
     componentDidMount() {
@@ -31,61 +33,24 @@ export default class footer extends Component {
                     <Container fluid className="content-container">
                         <Row>
                             <Col sm={12} md={4} lg={2}>
-                                <p>
-                                    <a className="footer-link" mailto="muhammeta7@gmail.com">
-                                        Email Us
-                                    </a>
-                                </p>
-                                <p>
-                                    info@underdoganalytica.com
-                                </p>
+                                {/*<p>*/}
+                                {/*    <a className="footer-link" mailto="muhammeta7@gmail.com">*/}
+                                {/*        Email Us*/}
+                                {/*    </a>*/}
+                                {/*</p>*/}
+                                {/*<p>*/}
+                                {/*    info@underdoganalytica.com*/}
+                                {/*</p>*/}
                                 {/*<p>*/}
                                 {/*  <a className="footer-link" href="#">*/}
                                 {/*    Text Us*/}
                                 {/*  </a>*/}
                                 {/*</p>*/}
+                                <p>Email Us</p>
+                                <EmailBtn disabled="true"/>
+
                             </Col>
-                            {/*<Col sm={12} md={12} lg={2}>*/}
-                            {/*  <p>Customer Service</p>*/}
-                            {/*  <p>*/}
-                            {/*    <a className="footer-link" href="#">*/}
-                            {/*      FAQ*/}
-                            {/*    </a>*/}
-                            {/*  </p>*/}
-                            {/*  <p>*/}
-                            {/*    <a className="footer-link" href="#">*/}
-                            {/*      Contact*/}
-                            {/*    </a>*/}
-                            {/*  </p>*/}
-                            {/*</Col>*/}
-                            {/*<Col sm={12} md={12} lg={2}>*/}
-                            {/*<p>More Info Coming Soon</p>*/}
-                            {/*<p>*/}
-                            {/*  <a className="footer-link" href="#">*/}
-                            {/*    About Us*/}
-                            {/*  </a>*/}
-                            {/*</p>*/}
-                            {/*<p>*/}
-                            {/*  <a className="footer-link" href="#">*/}
-                            {/*    How it works*/}
-                            {/*  </a>*/}
-                            {/*</p>*/}
-                            {/*<p>*/}
-                            {/*  <a className="footer-link" href="#">*/}
-                            {/*    Privacy*/}
-                            {/*  </a>*/}
-                            {/*</p>*/}
-                            {/*<p>*/}
-                            {/*  <a className="footer-link" href="#">*/}
-                            {/*    Terms*/}
-                            {/*  </a>*/}
-                            {/*</p>*/}
-                            {/*<p>*/}
-                            {/*  <a className="footer-link" href="#">*/}
-                            {/*    Do Not Sell My Info*/}
-                            {/*  </a>*/}
-                            {/*</p>*/}
-                            {/*</Col>*/}
+
                             <Col sm={12} md={12} lg={5}>
                                 <p>Social</p>
                                 <Row>

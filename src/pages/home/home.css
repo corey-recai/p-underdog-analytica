@@ -163,7 +163,7 @@ body {
 }
 
 .home-section-1-h1-text {
-  font-size: 4rem !important;
+  font-size: 2.75rem !important;
 }
 
 .signup-btn-logo {
@@ -188,11 +188,10 @@ body {
 }
 
 .home-section-1-h2-text {
-  font-size: 2rem !important;
+  font-size: 1.75rem !important;
 }
 
 .highlight {
-  padding-top: 6rem !important;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(90%, transparent), color-stop(90%, rgba(35, 131, 204, 0.2))) !important;
   background-image: linear-gradient(transparent 90%, rgba(35, 131, 204, 0.2) 90%) !important;
 }
