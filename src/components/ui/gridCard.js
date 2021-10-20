@@ -7,14 +7,12 @@ export const GridCard = (props) => {
             <CardHeader className="justify-content-center home-section-1-h1-text bold mx-auto"  pad="medium">
                 {props.title}
             </CardHeader>
-            <CardBody pad="medium" className={props.styling}>
-                <div>
-                    {props.content}
-                </div>
-                <div className="py-6">
-                    {props.other}
-                </div>
+            <CardBody pad="small" className={props.styling}>
+                {props.content}
             </CardBody>
+            <CardFooter pad={{horizontal: "medium"}} background="light-5">
+                {props.footer}
+            </CardFooter>
         </Card>
     )
 }
