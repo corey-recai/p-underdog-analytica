@@ -8,7 +8,7 @@ import {StatsGrid} from "../../pages/home/components/highlights/statsGrid";
 import {DisplayContainer} from "../../pages/home/components/predictions/displayContainer";
 
 
-export const TwoColGrid = (props) => {
+export const TwoColGrid = () => {
     const size = useContext(ResponsiveContext)
     return (
         <Container>
@@ -22,7 +22,8 @@ export const TwoColGrid = (props) => {
                         content="Profit on European football by betting on underdogs. Our
                     algorithm makes the calculations, you make the cash. Start
                     for free today."
-                        footer={<SubscribeBtn />}
+                        styling="text-left home-section-1-h2-text p-2"
+                        other={<SubscribeBtn />}
                     />
                     <GridCard
                         title="Weekend's Predictions"

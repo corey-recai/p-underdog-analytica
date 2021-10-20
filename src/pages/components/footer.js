@@ -47,7 +47,7 @@ export default class footer extends Component {
                                 {/*  </a>*/}
                                 {/*</p>*/}
                                 <p>Email Us</p>
-                                <EmailBtn mailto="muhammeta7@gmail.com"/>
+                                <EmailBtn disabled="true"/>
 
                             </Col>
 

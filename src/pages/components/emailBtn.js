@@ -6,12 +6,12 @@ export const EmailBtn = (mailto) => {
     return (
         <Link
             to='#'
-            onClick={(e) => {
-                window.location = mailto;
-                e.preventDefault();
-            }}
+            // onClick={(e) => {
+            //     window.location = mailto;
+            //     e.preventDefault();
+            // }}
         >
-            <SocialIcon social={faEnvelope} />
+            <SocialIcon social={faEnvelope} link="#"/>
         </Link>
     )
 }
