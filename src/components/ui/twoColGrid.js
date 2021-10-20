@@ -23,7 +23,7 @@ export const TwoColGrid = () => {
                     algorithm makes the calculations, you make the cash. Start
                     for free today."
                         styling="text-left home-section-1-h2-text p-2"
-                        other={<SubscribeBtn />}
+                        footer={<SubscribeBtn />}
                     />
                     <GridCard
                         title="Weekend's Predictions"
