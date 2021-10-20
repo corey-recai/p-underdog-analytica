@@ -26,6 +26,7 @@ import {FullRowContainer} from "../../components/ui/fullRowContainer";
 import {UpcomingPredictions} from "./components/predictions/upcomingPredictions";
 
 
+
 SwiperCore.use([Mousewheel]);
 
 export default class Home extends Component {
@@ -59,6 +60,7 @@ export default class Home extends Component {
                 <Navigation />
                 <SubscribeSection />
                 <UpcomingPredictions />
+
 
                 <div className="home-section-2">
                     <Container fluid className="content-container py-5">

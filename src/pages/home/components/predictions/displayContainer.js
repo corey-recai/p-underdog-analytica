@@ -5,7 +5,6 @@ import {CustomTable} from "./customTable";
 import {predictionColumns, saturday, sunday} from "./data/predictionData";
 import {PredictionInfo} from "./predictionInfo";
 
-
 export const DisplayContainer = () => {
     return (
         <Container>

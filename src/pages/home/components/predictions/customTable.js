@@ -5,10 +5,10 @@ import {defaultSorted} from "../../../betHistory/data/tableConfig";
 export const CustomTable = (props) => {
     return (
         <div className="Picks">
-            <h4 className="pt-1">{props.date}</h4>
+            <h5 className="pt-1">{props.date}</h5>
             <BootstrapTable
                 striped
-                bordered={false}
+                bordered={true}
                 hover
                 keyField="id"
                 data={props.data}

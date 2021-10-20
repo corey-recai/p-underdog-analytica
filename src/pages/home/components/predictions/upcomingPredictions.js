@@ -11,7 +11,7 @@ export const UpcomingPredictions = () => {
     return (
         <Container>
             <Box>
-                <Heading textAlign="center" className="justify-content-center home-section-1-h1-text bold mx-auto">Sunday's Predictions</Heading>
+                <Heading textAlign="center" className="justify-content-center gridcard-title bold mx-auto">Sunday's Predictions</Heading>
             </Box>
             <Row>
                 <Flex>

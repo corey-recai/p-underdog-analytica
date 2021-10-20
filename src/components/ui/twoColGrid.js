@@ -14,20 +14,25 @@ export const TwoColGrid = () => {
         <Container>
             <Box pad="large">
                 <Grid
-                    columns={size !== 'small' ? 'medium' : '100%'}
-                    gap="large"
+                    columns={['33%', '67%']}
+                    gap="small"
                 >
                     <GridCard
-                        title="Data-driven predictions and transparent results"
-                        content="Profit on European football by betting on underdogs. Our
-                    algorithm makes the calculations, you make the cash. Start
-                    for free today."
+                        title="The future of sports: Investing."
+                        //title="Data-driven predictions and transparent results"
+                        subtitle="Welcome to your honest, realiable, mathematically proven handicapper."
+                        par1="Our algorithm makes the calculations, you make the cash. "
+                        par2="We apply a Machine Learning approach to produce European football predictions that are mathematically supported."
+                        par3="Our algorithm discovers Underdogs, or teams who are underperforming according to our model. This means that all of the predictions we provide pay out at least +2 odds."
+                        par4="Sign up to receive alerts for when we produce our weekend picks"
+
                         styling="text-left home-section-1-h2-text p-2"
                         other={<SubscribeBtn />}
                     />
                     <GridCard
                         title="Weekend's Predictions"
-                        content={<DisplayContainer />}
+
+                        par1={<DisplayContainer />}
                     />
                 </Grid>
             </Box>

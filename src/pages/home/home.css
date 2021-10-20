@@ -188,7 +188,7 @@ body {
 }
 
 .home-section-1-h2-text {
-  font-size: 1.75rem !important;
+  font-size: 1rem !important;
 }
 
 .highlight {
@@ -562,8 +562,20 @@ footer {
 }
 
 @media (min-width: 1400px) {
-  .home-section-1-h1-text {
-    font-size: 5rem !important;
+  .gridcard-title {
+    font-size: 2.5rem !important;
+    line-height: 80%;
+  }
+  .gridcard-subtitle {
+    font-size: 1.5rem !important;
+    line-height: 100%;
+  }
+  .gridcard-text{
+    font-size: 1rem !important;
+    line-height: 100%;
+  }
+  .gridcard-content-area{
+    padding: 0.45rem;
   }
   .home-section-1-big-board-img {
     height: 60% !important;
