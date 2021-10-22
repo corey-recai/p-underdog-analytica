@@ -58,7 +58,6 @@ export default class Home extends Component {
                 </Helmet>
                 <Navigation />
                 <TwoColGrid />
-                <UpcomingPredictions />
 
                 <div className="home-section-2">
                     <Container fluid className="content-container py-5">

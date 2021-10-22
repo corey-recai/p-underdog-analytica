@@ -38,7 +38,7 @@ export const saturday = [
     {
         id: 1,
         country: 'Scotland',
-        league: 'ScottishPL',
+        league: 'Scottish PL',
         homeTeam: 'Ross County',
         awayTeam: 'Livingston',
         prediction: 'X',
@@ -48,7 +48,7 @@ export const saturday = [
     {
         id: 2,
         country: 'Scotland',
-        league: 'ScottishPL',
+        league: 'Scottish PL',
         homeTeam: 'Aberdeen',
         awayTeam: 'Hibernian',
         prediction: 'X',
@@ -58,7 +58,7 @@ export const saturday = [
     {
         id: 3,
         country: 'Scotland',
-        league: 'ScottishPL',
+        league: 'Scottish PL',
         homeTeam: 'Dundee United',
         awayTeam: 'Motherwell',
         prediction: '1',
@@ -68,7 +68,7 @@ export const saturday = [
     {
         id: 4,
         country: 'Belgium',
-        league: 'BelgianFirst',
+        league: 'Belgian First',
         homeTeam: 'Cercle Brugge',
         awayTeam: 'Standard',
         prediction: 'X',
@@ -78,7 +78,7 @@ export const saturday = [
     {
         id: 5,
         country: 'Belgium',
-        league: 'BelgianFirst',
+        league: 'Belgian First',
         homeTeam: 'Kortrijk',
         awayTeam: 'Oostende',
         prediction: 'X',
@@ -88,7 +88,7 @@ export const saturday = [
     {
         id: 6,
         country: 'Portugal',
-        league: 'PrimeiraLiga',
+        league: 'Primeira Liga',
         homeTeam: 'Santa Clara',
         awayTeam: 'Famalicao',
         prediction: '2',
@@ -98,7 +98,7 @@ export const saturday = [
     {
         id: 7,
         country: 'Italy',
-        league: 'SerieA',
+        league: 'Serie A',
         homeTeam: 'Salernitana',
         awayTeam: 'Empoli',
         prediction: '2',
@@ -108,7 +108,7 @@ export const saturday = [
     {
         id: 8,
         country: 'Italy',
-        league: 'SerieA',
+        league: 'Serie A',
         homeTeam: 'Bologna',
         awayTeam: 'Milan',
         prediction: 'X',
@@ -118,7 +118,7 @@ export const saturday = [
     {
         id: 9,
         country: 'England',
-        league: 'PremierLeague',
+        league: 'Premier League',
         homeTeam: 'Crystal Palace',
         awayTeam: 'Newcastle',
         prediction: 'X',
@@ -128,7 +128,7 @@ export const saturday = [
     {
         id: 10,
         country: 'England',
-        league: 'PremierLeague',
+        league: 'Premier League',
         homeTeam: 'Leeds',
         awayTeam: 'Wolves',
         prediction: 'X',
@@ -171,7 +171,7 @@ export const sunday = [
     {
         id: 14,
         country: 'Belgium',
-        league: 'BelgianFirst',
+        league: 'Belgian First',
         homeTeam: 'Genk',
         awayTeam: 'Gent',
         prediction: 'X',
@@ -181,7 +181,7 @@ export const sunday = [
     {
         id: 15,
         country: 'Belgium',
-        league: 'BelgianFirst',
+        league: 'Belgian First',
         homeTeam: 'Oud-Heverlee Leuven',
         awayTeam: 'St Truiden',
         prediction: 'X',
@@ -191,7 +191,7 @@ export const sunday = [
     {
         id: 16,
         country: 'France',
-        league: 'Ligue1',
+        league: 'Ligue 1',
         homeTeam: 'Reims',
         awayTeam: 'Troyes',
         prediction: 'X',
@@ -201,7 +201,7 @@ export const sunday = [
     {
         id: 17,
         country: 'France',
-        league: 'Ligue1',
+        league: 'Ligue 1',
         homeTeam: 'Nice',
         awayTeam: 'Lyon',
         prediction: 'X',
@@ -211,7 +211,7 @@ export const sunday = [
     {
         id: 18,
         country: 'Portugal',
-        league: 'PrimeiraLiga',
+        league: 'Primeira Liga',
         homeTeam: 'Portimonense',
         awayTeam: 'Estoril',
         prediction: '1',
@@ -221,7 +221,7 @@ export const sunday = [
     {
         id: 19,
         country: 'Italy',
-        league: 'SerieA',
+        league: 'Serie A',
         homeTeam: 'Roma',
         awayTeam: 'Napoli',
         prediction: 'X',
@@ -231,7 +231,7 @@ export const sunday = [
     {
         id: 20,
         country: 'Italy',
-        league: 'SerieA',
+        league: 'Serie A',
         homeTeam: 'Inter',
         awayTeam: 'Juventus',
         prediction: 'X',
@@ -241,7 +241,7 @@ export const sunday = [
     {
         id: 21,
         country: 'England',
-        league: 'PremierLeague',
+        league: 'Premier League',
         homeTeam: 'West Ham',
         awayTeam: 'Tottenham',
         prediction: '1',
@@ -251,7 +251,7 @@ export const sunday = [
     {
         id: 22,
         country: 'England',
-        league: 'PremierLeague',
+        league: 'Premier League',
         homeTeam: 'Man United',
         awayTeam: 'Liverpool',
         prediction: '2',

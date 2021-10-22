@@ -15,21 +15,14 @@ export const TwoColGrid = () => {
         <Container>
             <Box pad="large">
                 <Grid
-                    columns={size !== 'small' ? 'medium' : '100%'}
-                    gap="large"
-                >
-                    {/*<GridCard*/}
-                    {/*    title="The future of sports:Investing"*/}
-                    {/*    content="Profit on European football by betting on underdogs. Our*/}
-                    {/*algorithm makes the calculations, you make the cash. Start*/}
-                    {/*for free today."*/}
-                    {/*    styling="text-left home-section-1-h2-text p-2"*/}
-                    {/*    footer={<SubscribeBtn />}*/}
-                    {/*/>*/}
-                    <CustomCard />
-                    <div>
+                    columns={[size]}
+                    gap="medium">
+                    <div class="center">
+                      <CustomCard />
+                    </div>
+                    <div class="center">
                         <GridCard
-                            title="Weekend's Predictions"
+                            title="Weekend Predictions"
                             content={<DisplayContainer />}
                         />
                     </div>

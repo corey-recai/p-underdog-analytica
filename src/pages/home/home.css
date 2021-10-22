@@ -579,8 +579,13 @@ footer {
   .gridcard-content-area{
     padding: 0.45rem;
   }
+  .center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
   .home-section-1-h1-text {
-    font-size: 5rem !important;
+    font-size: 3rem !important;
   }
   .home-section-1-big-board-img {
     height: 60% !important;
