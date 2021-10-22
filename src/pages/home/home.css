@@ -154,6 +154,7 @@ body {
   width: 100% !important;
 }
 
+
 .content-container {
   width: 90% !important;
 }
@@ -163,8 +164,9 @@ body {
 }
 
 .home-section-1-h1-text {
-  font-size: 2.75rem !important;
+  font-size: 2.5rem !important;
 }
+
 
 .signup-btn-logo {
   width: 20%;
@@ -562,6 +564,21 @@ footer {
 }
 
 @media (min-width: 1400px) {
+  .gridcard-title {
+    font-size: 2.5rem !important;
+    line-height: 80%;
+  }
+  .gridcard-subtitle {
+    font-size: 1.5rem !important;
+    line-height: 100%;
+  }
+  .gridcard-text{
+    font-size: 1rem !important;
+    line-height: 100%;
+  }
+  .gridcard-content-area{
+    padding: 0.45rem;
+  }
   .home-section-1-h1-text {
     font-size: 5rem !important;
   }
