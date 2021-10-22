@@ -57,7 +57,7 @@ export default class Home extends Component {
                     <link rel="stylesheet"></link>
                 </Helmet>
                 <Navigation />
-                <SubscribeSection />
+                <TwoColGrid />
                 <UpcomingPredictions />
 
                 <div className="home-section-2">

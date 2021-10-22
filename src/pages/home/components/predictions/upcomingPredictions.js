@@ -20,13 +20,6 @@ export const UpcomingPredictions = () => {
                     </Box>
                 </Flex>
             </Row>
-            {/*<Row>*/}
-            {/*    <Flex>*/}
-            {/*        <Box p={2}>*/}
-
-            {/*        </Box>*/}
-            {/*    </Flex>*/}
-            {/*</Row>*/}
         </Container>
     )
 }
