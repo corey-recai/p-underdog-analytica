@@ -15,8 +15,8 @@ export const ResultsContainer = () => {
                     <Heading className="justify-content-center home-section-1-h1-text bold mx-auto" textAlign="center" margin="large" ccolor="#2383cc">Last Weeks Results & Details</Heading>
                 </Box>
             </Row>
-            <CustomTable columns={resultColumns} data={saturdayResults} date="16/10/2021"/>
-            <CustomTable columns={resultColumns} data={sundayResults} date="17/10/2021"/>
+            <CustomTable columns={resultColumns} data={saturdayResults} date="23/10/2021"/>
+            <CustomTable columns={resultColumns} data={sundayResults} date="24/10/2021"/>
             <PredictionInfo />
         </Container>
     );

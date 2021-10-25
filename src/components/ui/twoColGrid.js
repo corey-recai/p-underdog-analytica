@@ -23,7 +23,7 @@ export const TwoColGrid = () => {
                     <div class="center">
                         <GridCard
                             title="Weekend Predictions"
-                            content={<DisplayContainer />}
+                            content={<StatsGrid />}
                         />
                     </div>
                 </Grid>
