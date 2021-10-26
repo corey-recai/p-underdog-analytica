@@ -13,7 +13,7 @@ export const TwoColGrid = () => {
     const size = useContext(ResponsiveContext)
     return (
         <Container>
-            <Box pad="large">
+            <Box pad="small">
                 <Grid
                     columns={[size]}
                     gap="medium">
@@ -22,7 +22,7 @@ export const TwoColGrid = () => {
                     </div>
                     <div class="center">
                         <GridCard
-                            title="Weekend Predictions"
+                            title="Model Performance Indicators"
                             content={<StatsGrid />}
                         />
                     </div>

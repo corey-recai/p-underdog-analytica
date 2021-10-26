@@ -13,6 +13,9 @@ export const resultColumns = [
     {
         dataField: 'league',
         text: 'League',
+        headerStyle: (colum, colIndex) => {
+         return { width: '20%', textAlign: 'center' };
+       },
         sort: true,
     },
     {
@@ -23,16 +26,25 @@ export const resultColumns = [
     {
         dataField: 'awayTeam',
         text: 'Match',
+        headerStyle: (colum, colIndex) => {
+         return { width: '40%', textAlign: 'center' };
+       },
     },
     {
         dataField: 'prediction',
         text: 'Prediction',
         sort: true,
+        headerStyle: (colum, colIndex) => {
+         return { width: '20%', textAlign: 'center' };
+       },
     },
     {
         dataField: 'odds',
         text: 'Odds',
         sort: true,
+        headerStyle: (colum, colIndex) => {
+         return { width: '10%', textAlign: 'center' };
+       },
     },
     {
         dataField: 'result',
@@ -58,8 +70,11 @@ export const resultColumns = [
     },
     {
         dataField: 'netUnits',
-        text: 'Units +/-',
+        text: 'Units (+/-)',
         sort: true,
+        headerStyle: (colum, colIndex) => {
+         return { width: '10%', textAlign: 'center' };
+       },
         style: (cell) => {
             if (cell > 0) {
                 return {
