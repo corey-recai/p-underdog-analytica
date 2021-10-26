@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Helmet } from "react-helmet";
 import Navigation from "../components/nav";
-import CompetitionComparison from "./components/competitors/competitionComparison";
+import {CompetitionComparisonTable} from "./components/predictions/competitionComparison";
 import Footer from "../components/footer";
 import LineChart from "./components/lineChart";
 import Container from "react-bootstrap/Container";
@@ -346,21 +346,7 @@ export default class Home extends Component {
                 {/*    </Row>*/}
                 {/*  </Container>*/}
                 {/*</div>*/}
-
-                <div className="home-section-6">
-                    <Container fluid className="content-container">
-                        <Row>
-                            <Col className="text-center pt-5" sm={12} md={12} lg={12}>
-                                <h1 className="bold home-section-6-h1-text mx-auto">
-                                    Underdog Analytica vs The Competition
-                                </h1>
-                            </Col>
-                            <Col className="py-4" sm={12} md={12} lg={12}>
-                                <CompetitionComparison />
-                            </Col>
-                        </Row>
-                    </Container>
-                </div>
+                <CompetitionComparisonTable />
                 <Footer />
             </>
         );

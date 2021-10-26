@@ -8,21 +8,33 @@ export const competitionColumns = [
         dataField: 'ua',
         text: 'Underdog Analytica',
         align:'center',
+        headerStyle: (colum, colIndex) => {
+         return { width: '15%', textAlign: 'center' };
+       }
     },
     {
         dataField: 'betTwitter',
         text: '#BettingTwitter',
         align:'center',
+        headerStyle: (colum, colIndex) => {
+         return { width: '25%', textAlign: 'center' };
+       }
     },
     {
         dataField: 'actionNetwork',
-        text: 'Action Network(Football)',
+        text: 'Action Network (Football) ',
         align:'center',
+        headerStyle: (colum, colIndex) => {
+         return { width: '20%', textAlign: 'center' };
+       }
     },
     {
         dataField: 'sportsMemo',
         text: '"Experts" @ Sportsmemo.com',
         align:'center',
+        headerStyle: (colum, colIndex) => {
+         return { width: '25%', textAlign: 'center' };
+       }
     },
 ]
 
