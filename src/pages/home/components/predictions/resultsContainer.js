@@ -11,13 +11,17 @@ export const ResultsContainer = () => {
     return (
         <Container>
             <Row>
-                <Box gridArea="header">
-                    <Heading className="justify-content-center home-section-1-h1-text bold mx-auto" textAlign="center" margin="large" ccolor="#2383cc">Last Weeks Results & Details</Heading>
+                <Box gridArea="header" fluid>
+                    <Heading className="justify-content-center home-section-1-h1-text bold mx-auto" textAlign="center" margin="xxsmall" ccolor="#2383cc">Last Weeks Results & Details</Heading>
                 </Box>
             </Row>
-            <CustomTable columns={resultColumns} data={saturdayResults} date="23/10/2021"/>
-            <CustomTable columns={resultColumns} data={sundayResults} date="24/10/2021"/>
-            <PredictionInfo />
+            <Row>
+              <Box fluid>
+                <CustomTable columns={resultColumns} data={saturdayResults} date="23/10/2021"/>
+                <CustomTable columns={resultColumns} data={sundayResults} date="24/10/2021"/>
+                <PredictionInfo />
+              </Box>
+            </Row>
         </Container>
     );
 }
