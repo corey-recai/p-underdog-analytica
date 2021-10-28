@@ -14,7 +14,7 @@ export const ResultsContainer = () => {
         <Container>
           <Box pad="xsmall">
             <Grid gap="small" columns={[size]} alignContent="center">
-              <div class="center">
+              <div className="center">
                 <Row>
                     <Box>
                       <GridCard

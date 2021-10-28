@@ -212,12 +212,12 @@ body {
 }
 
 .home-section-2-icon {
-  height: auto !important;
-  width: 40% !important;
+  width: 10rem !important;
 }
 
 .home-section-2-subtitle {
   text-shadow: 5px 4px rgba(35, 131, 204, 0.3) !important;
+  font-size: 2.5rem !important;
 }
 
 .home-section-2-text {

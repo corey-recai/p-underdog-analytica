@@ -21,6 +21,7 @@ import {StatsGrid} from "./components/highlights/statsGrid";
 import {DisplayContainer} from "./components/predictions/displayContainer";
 import {ResultsContainer} from "./components/predictions/resultsContainer";
 import {TwoColGrid} from "../../components/ui/twoColGrid";
+import {ValueProps} from "../../components/ui/valueProps";
 import {SubscribeSection} from "./components/intro/subscribeSection";
 import {FullRowContainer} from "../../components/ui/fullRowContainer";
 import {UpcomingPredictions} from "./components/predictions/upcomingPredictions";
@@ -58,62 +59,10 @@ export default class Home extends Component {
                 </Helmet>
                 <Navigation />
                 <TwoColGrid />
+                {/*<DisplayContainer />*/}
                 <ResultsContainer />
+                <ValueProps />
 
-                <div className="home-section-2">
-                    <Container fluid className="content-container py-5">
-                        <Row>
-                            <Col className="text-center pt-3" sm={12} md={12} lg={12}>
-                                <h1 className="bold home-section-2-h1-text mx-auto">
-                                    Why Underdog Analytica?
-                                </h1>
-                            </Col>
-                            <Col className="text-center pt-5" sm={12} md={12} lg={3}>
-                                <img className="home-section-2-icon" src={homeIcons.honesty} />
-                                <h2 className="pt-4 bold home-section-2-subtitle">
-                                    Transparency
-                                </h2>
-                                <p className="home-section-2-text pt-4 mx-auto">
-                                    All of our previous recommendation data available for review
-                                    in <a href="#">BET HISTORY</a> before you even make an account
-                                    because you deserve a handicapper with integrity.
-                                </p>
-                            </Col>
-                            <Col className="text-center pt-5" sm={12} md={12} lg={3}>
-                                <img className="home-section-2-icon" src={homeIcons.wealth} />
-                                <h2 className="pt-4 bold home-section-2-subtitle">
-                                    Hassle Free
-                                </h2>
-                                <p className="home-section-2-text pt-4 mx-auto">
-                                    Retweeting for free predictions that come hours later is annoying.
-                                    When new picks are available, you’ll be automatically notified. Simple as that.
-                                </p>
-                            </Col>
-                            <Col className="text-center pt-5" sm={12} md={12} lg={3}>
-                                <img className="home-section-2-icon" src={homeIcons.data} />
-                                <h2 className="pt-4 bold home-section-2-subtitle">
-                                    Data Driven
-                                </h2>
-                                <p className="home-section-2-text pt-4 mx-auto">
-                                    Our machine learning algorithm generates emotionless
-                                    predictions based on historical performance and key metrics.
-                                    Select your next winners with data, not “feeling!”
-                                </p>
-                            </Col>
-                            <Col className="text-center pt-5" sm={12} md={12} lg={3}>
-                                <img className="home-section-2-icon" src={homeIcons.access} />
-                                <h2 className="pt-4 bold home-section-2-subtitle">
-                                    Accessibility
-                                </h2>
-                                <p className="home-section-2-text pt-4 mx-auto">
-                                    High-quality picks and outstanding customer service now come
-                                    in free and paid tiers, so sports bettors with any size
-                                    bankroll can bet with more confidence.
-                                </p>
-                            </Col>
-                        </Row>
-                    </Container>
-                </div>
                 <div className="home-section-3">
                     <Container fluid className="content-container py-5">
                         <Row>
