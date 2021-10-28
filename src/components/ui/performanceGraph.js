@@ -12,9 +12,8 @@ export const PerformanceGraph = () => {
         <Container>
             <Box pad="small">
                 <Grid
-                    alignContent="center"
                     columns={[size]}
-                    gap="medium">
+                    gap="small">
                     <div className="center">
                         <GridCard
                             title="How do we compare to other investing options?"

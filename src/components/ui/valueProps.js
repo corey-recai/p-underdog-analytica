@@ -11,7 +11,7 @@ export const ValueProps = () => {
 
               <Container>
                 <Box pad="small">
-                  <Grid gap="small" columns={[size]} alignContent="center">
+                  <Grid gap="small" columns={[size]}>
                     <div className="center">
                       <GridCard title="Why Underdog Analytica?"
                                 content={[

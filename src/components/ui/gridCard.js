@@ -4,7 +4,7 @@ import React from "react";
 export const GridCard = (props) => {
     return (
         <Card width="large">
-            <CardHeader className="justify-content-center home-section-1-h1-text bold mx-auto"  pad="small">
+            <CardHeader className="justify-content-center gridcard-title home-section-1-h1-text bold mx-auto"  pad="small">
                 {props.title}
             </CardHeader>
             <CardBody pad="small" className={props.styling}>
