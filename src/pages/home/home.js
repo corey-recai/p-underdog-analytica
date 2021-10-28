@@ -22,6 +22,7 @@ import {DisplayContainer} from "./components/predictions/displayContainer";
 import {ResultsContainer} from "./components/predictions/resultsContainer";
 import {TwoColGrid} from "../../components/ui/twoColGrid";
 import {ValueProps} from "../../components/ui/valueProps";
+import {PerformanceGraph} from "../../components/ui/performanceGraph";
 import {SubscribeSection} from "./components/intro/subscribeSection";
 import {FullRowContainer} from "../../components/ui/fullRowContainer";
 import {UpcomingPredictions} from "./components/predictions/upcomingPredictions";
@@ -62,23 +63,9 @@ export default class Home extends Component {
                 {/*<DisplayContainer />*/}
                 <ResultsContainer />
                 <ValueProps />
+                <PerformanceGraph />
+                <CompetitionComparisonTable />
 
-                <div className="home-section-3">
-                    <Container fluid className="content-container py-5">
-                        <Row>
-                            <Col className="text-center pt-3" sm={12} md={12} lg={12}>
-                                <h1 className="bold home-section-3-h1-text mx-auto">
-                                    Underdog Analytica vs Stock Market
-                                </h1>
-                            </Col>
-                            <Col className="text-center" sm={12} md={12} lg={12}>
-                                <div className="home-section-3-chart-container">
-                                    <Chart />
-                                </div>
-                            </Col>
-                        </Row>
-                    </Container>
-                </div>
                 <div className="home-section-4">
                     <Container fluid className="content-container py-5">
                         <Row>
@@ -295,7 +282,7 @@ export default class Home extends Component {
                 {/*    </Row>*/}
                 {/*  </Container>*/}
                 {/*</div>*/}
-                <CompetitionComparisonTable />
+
                 <Footer />
             </>
         );
