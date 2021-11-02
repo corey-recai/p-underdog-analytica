@@ -1,7 +1,6 @@
 import {useContext} from "react";
 import {Box, Grid, ResponsiveContext, Text} from "grommet";
 import {StatCard} from "./statCard";
-import {Row} from "react-bootstrap";
 import Container from "react-bootstrap/Container";
 
 export const StatsGrid = () => {
@@ -29,19 +28,19 @@ export const StatsGrid = () => {
                     <Box gridArea='first' />
                     <StatCard
                         title="NET UNITS"
-                        seven="+ 11.41"
+                        seven="- 1.82"
                     />
 
                     <Box gridArea='second'/>
                     <StatCard
                         title="ROI"
-                        seven="46 %"
+                        seven="-10 %"
                     />
 
                     <Box gridArea='third'/>
                     <StatCard
                         title="WIN/LOSS %"
-                        seven="48 %"
+                        seven="28 %"
                         />
                 </Grid>
 

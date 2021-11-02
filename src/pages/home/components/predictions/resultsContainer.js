@@ -4,8 +4,9 @@ import {PredictionInfo} from "./predictionInfo";
 import {Box, Grid, ResponsiveContext, Heading} from "grommet";
 import {Row} from "react-bootstrap";
 import {CustomTable} from "./customTable";
-import {resultColumns, saturdayResults, sundayResults} from "./data/resultData";
+import {mondayResults, resultColumns, saturdayResults, sundayResults} from "./data/resultData";
 import {GridCard} from "../../../../components/ui/gridCard.js";
+
 
 
 export const ResultsContainer = () => {
@@ -20,8 +21,9 @@ export const ResultsContainer = () => {
                       <GridCard
                         title="Last Week's Results & Details"
                         content={
-                          [<CustomTable columns={resultColumns} data={saturdayResults} date="23/10/2021"/>,
-                          <CustomTable columns={resultColumns} data={sundayResults} date="24/10/2021"/>,
+                          [<CustomTable columns={resultColumns} data={saturdayResults} date="30/10/2021"/>,
+                          <CustomTable columns={resultColumns} data={sundayResults} date="31/10/2021"/>,
+                          <CustomTable columns={resultColumns} data={mondayResults} date="01/11/2021"/>,
                           <PredictionInfo />]
                         }
                         />
