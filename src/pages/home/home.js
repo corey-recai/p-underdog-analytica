@@ -21,6 +21,7 @@ import {DisplayContainer} from "./components/predictions/displayContainer";
 import {ResultsContainer} from "./components/predictions/resultsContainer";
 import {TwoColGrid} from "../../components/ui/twoColGrid";
 import {ValueProps} from "../../components/ui/valueProps";
+import {ServiceTiers} from "../../components/ui/serviceTiers";
 import {PerformanceGraph} from "../../components/ui/performanceGraph";
 import {SubscribeSection} from "./components/intro/subscribeSection";
 import {UpcomingPredictions} from "./components/predictions/upcomingPredictions";
@@ -63,8 +64,9 @@ export default class Home extends Component {
                 <ValueProps />
                 <PerformanceGraph />
                 <CompetitionComparisonTable />
+                {/* <ServiceTiers /> */}
 
-                <div className="home-section-4">
+                {/* <div className="home-section-4">
                     <Container fluid className="content-container py-5">
                         <Row>
                             <Col className="text-center pt-3" sm={12} md={12} lg={12}>
@@ -241,7 +243,7 @@ export default class Home extends Component {
                         </Row>
                     </Container>
                 </div>
-
+ */}
                 {/*<div className="home-section-5">*/}
                 {/*  <Container fluid className="content-container">*/}
                 {/*    <Row>*/}
