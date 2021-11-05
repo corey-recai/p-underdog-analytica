@@ -34,193 +34,187 @@ export const predictionColumns = [
     },
 ];
 
-export const saturday = [
+export const saturdayPicks = [
     {
         id: 1,
-        country: 'Scotland',
-        league: 'Scottish PL',
-        homeTeam: 'Ross County',
-        awayTeam: 'Hibernian',
+        country: 'Belgium',
+        league: 'Belgian First',
+        homeTeam: 'Mechelen',
+        awayTeam: 'St Truiden',
         prediction: 'X',
-        odds: '3.42',
-        date: '10/30/2021'
+        odds: '3.75',
+        date: '11/6/2021'
     },
     {
         id: 2,
-        country: 'Scotland',
-        league: 'Scottish PL',
-        homeTeam: 'Aberdeen',
-        awayTeam: 'Hearts',
-        prediction: '1',
-        odds: '2.66',
-        date: '10/30/2021'
+        country: 'France',
+        league: 'Ligue 1',
+        homeTeam: 'Lille',
+        awayTeam: 'Angers',
+        prediction: 'X',
+        odds: '3.58',
+        date: '11/6/2021'
     },
     {
         id: 3,
-        country: 'Scotland',
-        league: 'Scottish PL',
-        homeTeam: 'St Mirren',
-        awayTeam: 'Dundee',
+        country: 'Portugal',
+        league: 'Primeira Liga',
+        homeTeam: 'Vizela',
+        awayTeam: 'Estoril',
         prediction: 'X',
-        odds: '3.49',
-        date: '10/30/2021'
+        odds: '3.11',
+        date: '11/6/2021'
     },
     {
         id: 4,
-        country: 'Belgium',
-        league: 'Belgian First',
-        homeTeam: 'Standard',
-        awayTeam: 'Kortrijk',
+        country: 'Italy',
+        league: 'Seria A',
+        homeTeam: 'Spezia',
+        awayTeam: 'Torino',
         prediction: '2',
-        odds: '3.43',
-        date: '10/30/2021'
+        odds: '2.04',
+        date: '11/6/2021'
     },
     {
         id: 5,
-        country: 'England',
-        league: 'Premier League',
-        homeTeam: 'Watford',
-        awayTeam: 'Southampton',
-        prediction: 'X',
-        odds: '3.35',
-        date: '10/30/2021'
+        country: 'Spain',
+        league: 'La Liga',
+        homeTeam: 'Alaves',
+        awayTeam: 'Levante',
+        prediction: '1',
+        odds: '2.45',
+        date: '11/6/2021'
     },
     {
         id: 6,
-        country: 'England',
-        league: 'Premier League',
-        homeTeam: 'Burnley',
-        awayTeam: 'Brentford',
+        country: 'Netherlands',
+        league: 'Eredivisie',
+        homeTeam: 'Willem II',
+        awayTeam: 'Sparta Rotterdam',
         prediction: 'X',
-        odds: '3.21',
-        date: '10/30/2021'
+        odds: '3.48',
+        date: '11/6/2021'
     },
     {
         id: 7,
-        country: 'Spain',
-        league: 'La Liga',
-        homeTeam: 'Valencia',
-        awayTeam: 'Villarreal',
+        country: 'Netherlands',
+        league: 'Eredivisie',
+        homeTeam: 'Nijmegen',
+        awayTeam: 'Heerenveen',
         prediction: 'X',
-        odds: '3.43',
-        date: '10/30/2021'
+        odds: '3.4',
+        date: '11/6/2021'
     },
-    {
-        id: 8,
-        country: 'Germany',
-        league: 'Bundesliga',
-        homeTeam: 'Leverkusen',
-        awayTeam: 'Wolfsburg',
-        prediction: 'X',
-        odds: '3.61',
-        date: '10/30/2021'
-    },
-
 ]
 
-export const sunday = [
+export const sundayPicks = [
     {
-        id: 9,
+        id: 8,
         country: 'Belgium',
         league: 'Belgian First',
-        homeTeam: 'Gent',
-        awayTeam: 'St. Gilloise',
+        homeTeam: 'Antwerp',
+        awayTeam: 'Anderlecht',
         prediction: 'X',
-        odds: '3.43',
-        date: '10/31/2021'
+        odds: '3.6',
+        date: '11/7/2021'
+    },
+    {
+        id: 9,
+        country: 'France',
+        league: 'Ligue 1',
+        homeTeam: 'Nantes',
+        awayTeam: 'Strasbourg',
+        prediction: 'X',
+        odds: '3.28',
+        date: '11/7/2021'
     },
     {
         id: 10,
         country: 'France',
         league: 'Ligue 1',
-        homeTeam: 'Clermont',
-        awayTeam: 'Marseille',
+        homeTeam: 'Reims',
+        awayTeam: 'Monaco',
         prediction: 'X',
-        odds: '3.57',
-        date: '10/31/2021'
+        odds: '3.42',
+        date: '11/7/2021'
     },
     {
         id: 11,
-        country: 'Portugal',
-        league: 'Primeira Liga',
-        homeTeam: 'Maritimo',
-        awayTeam: 'Gil Vicente',
-        prediction: '2',
-        odds: '2.64',
-        date: '10/31/2021'
+        country: 'France',    league: 'Ligue 1',
+        homeTeam: 'St Etienne',
+        awayTeam: 'Clermont',
+        prediction: 'X',
+        odds: '3.35',
+        date: '11/7/2021'
     },
     {
         id: 12,
-        country: 'Italy',
-        league: 'Seria A',
-        homeTeam: 'Genoa',
-        awayTeam: 'Venezia',
+        country: 'France',
+        league: 'Ligue 1',
+        homeTeam: 'Rennes',
+        awayTeam: 'Lyon',
         prediction: 'X',
-        odds: '3.45',
-        date: '10/31/2021'
+        odds: '3.55',
+        date: '11/7/2021'
     },
     {
         id: 13,
-        country: 'Spain',
-        league: 'La Liga',
-        homeTeam: 'Sociedad',
-        awayTeam: 'Ath Bilbao',
+        country: 'France',
+        league: 'Ligue 1',
+        homeTeam: 'Lorient',
+        awayTeam: 'Brest',
         prediction: 'X',
-        odds: '3.19',
-        date: '10/31/2021'
+        odds: '3.28',
+        date: '11/7/2021'
     },
     {
         id: 14,
-        country: 'Netherlands',
-        league: 'Eredivisie',
-        homeTeam: 'Nijmegen',
-        awayTeam: 'Groningen',
-        prediction: 'X',
-        odds: '3.3',
-        date: '10/31/2021'
+        country: 'Italy',
+        league: 'Seria A',
+        homeTeam: 'Sampdoria',
+        awayTeam: 'Bologna',
+        prediction: '2',
+        odds: '2.9',
+        date: '11/7/2021'
     },
     {
         id: 15,
-        country: 'Germany',
-        league: 'Bundesliga',
-        homeTeam: 'Augsburg',
-        awayTeam: 'Stuttgart',
-        prediction: '2',
-        odds: '2.48',
-        date: '10/31/2021'
-    }
-]
-
-export const monday = [
+        country: 'Spain',
+        league: 'La Liga',
+        homeTeam: 'Valencia',
+        awayTeam: 'Ath Madrid',
+        prediction: 'X',
+        odds: '3.25',
+        date: '11/7/2021'
+    },
     {
         id: 16,
-        country: 'Portugal',
-        league: 'Primeira Liga',
-        homeTeam: 'Moreirense',
-        awayTeam: 'Pacos Ferreira',
-        prediction: 'X',
-        odds: '3.24',
-        date: '11/1/2021'
+        country: 'Spain',
+        league: 'La Liga',
+        homeTeam: 'Betis',
+        awayTeam: 'Sevilla',
+        prediction: '1',
+        odds: '2.92',
+        date: '11/7/2021'
     },
     {
         id: 17,
-        country: 'Italy',
-        league: 'Seria A',
-        homeTeam: 'Bologna',
-        awayTeam: 'Cagliari',
+        country: 'Netherlands',
+        league: 'Eredivisie',
+        homeTeam: 'Vitesse',
+        awayTeam: 'Utrecht',
         prediction: 'X',
-        odds: '3.69',
-        date: '11/1/2021'
+        odds: '3.57',
+        date: '11/7/2021'
     },
     {
         id: 18,
-        country: 'England',
-        league: 'Premier League',
-        homeTeam: 'Wolves',
-        awayTeam: 'Everton',
-        prediction: '2',
-        odds: '3.4',
-        date: '11/1/2021'
+        country: 'Germany',
+        league: 'Bundesliga',
+        homeTeam: 'Hertha',
+        awayTeam: 'Leverkusen',
+        prediction: 'X',
+        odds: '3.61',
+        date: '11/7/2021'
     },
-
 ]

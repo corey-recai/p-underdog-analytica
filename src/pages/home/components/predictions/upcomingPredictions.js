@@ -4,7 +4,7 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import {Row} from "react-bootstrap";
 import {CustomTable} from "./customTable";
-import {predictionColumns, sunday} from "./data/predictionData";
+import {predictionColumns, sundayPicks} from "./data/predictionData";
 
 
 export const UpcomingPredictions = () => {
@@ -16,7 +16,7 @@ export const UpcomingPredictions = () => {
             <Row>
                 <Flex>
                     <Box p={2}>
-                        <CustomTable columns={predictionColumns} data={sunday} date="24/10/2021"/>
+                        <CustomTable columns={predictionColumns} data={sundayPicks} date="24/10/2021"/>
                     </Box>
                 </Flex>
             </Row>

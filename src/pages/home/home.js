@@ -16,7 +16,6 @@ import homeIcons from "./icons/homeIcons";
 import logos from "../../assets/logos/logos";
 import Chart from "./components/charting/chartContainer";
 import SubscribeBtn from "../components/subscribeBtn";
-// import {DisplayContainer} from "./components/predictions/displayContainer";
 import {StatsGrid} from "./components/highlights/statsGrid";
 import {DisplayContainer} from "./components/predictions/displayContainer";
 import {ResultsContainer} from "./components/predictions/resultsContainer";
@@ -24,7 +23,6 @@ import {TwoColGrid} from "../../components/ui/twoColGrid";
 import {ValueProps} from "../../components/ui/valueProps";
 import {PerformanceGraph} from "../../components/ui/performanceGraph";
 import {SubscribeSection} from "./components/intro/subscribeSection";
-import {FullRowContainer} from "../../components/ui/fullRowContainer";
 import {UpcomingPredictions} from "./components/predictions/upcomingPredictions";
 
 
@@ -60,8 +58,8 @@ export default class Home extends Component {
                 </Helmet>
                 <Navigation />
                 <TwoColGrid />
-                {/*<DisplayContainer />*/}
-                <ResultsContainer />
+                <DisplayContainer />
+                {/*<ResultsContainer />*/}
                 <ValueProps />
                 <PerformanceGraph />
                 <CompetitionComparisonTable />

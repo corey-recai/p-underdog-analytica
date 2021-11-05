@@ -7,10 +7,10 @@ export const StatsGrid = () => {
     const size = useContext(ResponsiveContext)
     return (
         <Container>
-
             <Box pad="xsmall">
                 <Text>
-                  Below you can see our most recent results. The great certainty that we have in our model gives us the confidence to provide you with 100% transparent performance metrics.
+                    Below you can see our most recent results. The great certainty that we have in our model gives us
+                    the confidence to provide you with 100% transparent performance metrics.
                 </Text>
                 <Grid
                     pad='medium'
@@ -18,14 +18,14 @@ export const StatsGrid = () => {
                     rows={[size]}
                     gap="small"
                     areas={[
-                      {
-                        name: 'first', start: [0,0], end: [1,0],
-                        name: 'second', start: [0,1], end: [1,0],
-                        name: 'third', start: [0,2], end: [1,0]
-                      }
+                        {
+                            name: 'first', start: [0, 0], end: [1, 0],
+                            name: 'second', start: [0, 1], end: [1, 0],
+                            name: 'third', start: [0, 2], end: [1, 0]
+                        }
                     ]}
                 >
-                    <Box gridArea='first' />
+                    <Box gridArea='first'/>
                     <StatCard
                         title="NET UNITS"
                         seven="- 1.82"
@@ -41,9 +41,8 @@ export const StatsGrid = () => {
                     <StatCard
                         title="WIN/LOSS %"
                         seven="28 %"
-                        />
+                    />
                 </Grid>
-
             </Box>
             <Box>
                 <Text>
