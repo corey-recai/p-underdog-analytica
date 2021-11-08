@@ -109,7 +109,7 @@ export const saturdayResults = [
         odds: '3.58',
         result: 'Win',
         netUnits: '2.58',
-        date: '6/11/2021\r'
+        date: '6/11/2021'
     },
     {
         id: 3,
@@ -121,7 +121,7 @@ export const saturdayResults = [
         odds: '2.04',
         result: 'Loss',
         netUnits: '-1',
-        date: '6/11/2021\r'
+        date: '6/11/2021'
     },
     {
         id: 4,
@@ -133,7 +133,7 @@ export const saturdayResults = [
         odds: '3.48',
         result: 'Loss',
         netUnits: '-1',
-        date: '6/11/2021\r'
+        date: '6/11/2021'
     },
     {
         id: 5,
@@ -145,7 +145,7 @@ export const saturdayResults = [
         odds: '3.4',
         result: 'Win',
         netUnits: '2.4',
-        date: '6/11/2021\r'
+        date: '6/11/2021'
     },
     {
         id: 6,
@@ -157,7 +157,7 @@ export const saturdayResults = [
         odds: '3.11',
         result: 'Win',
         netUnits: '2.11',
-        date: '6/11/2021\r'
+        date: '6/11/2021'
     },
     {
         id: 7,
@@ -169,7 +169,7 @@ export const saturdayResults = [
         odds: '2.45',
         result: 'Win',
         netUnits: '1.45',
-        date: '6/11/2021\r'
+        date: '6/11/2021'
     },
 ]
 export const sundayResults = [
@@ -183,7 +183,7 @@ export const sundayResults = [
         odds: '3.6',
         result: 'Loss',
         netUnits: '-1',
-        date: '7/11/2021\r'
+        date: '7/11/2021'
     },
     {
         id: 9,
@@ -195,7 +195,7 @@ export const sundayResults = [
         odds: '3.28',
         result: 'Win',
         netUnits: '2.28',
-        date: '7/11/2021\r'
+        date: '7/11/2021'
     },
     {
         id: 10,
@@ -207,7 +207,7 @@ export const sundayResults = [
         odds: '3.42',
         result: 'Win',
         netUnits: '2.42',
-        date: '7/11/2021\r'
+        date: '7/11/2021'
     },
     {
         id: 11,
@@ -219,7 +219,7 @@ export const sundayResults = [
         odds: '3.35',
         result: 'Loss',
         netUnits: '-1',
-        date: '7/11/2021\r'
+        date: '7/11/2021'
     },
     {
         id: 12,
@@ -231,7 +231,7 @@ export const sundayResults = [
         odds: '3.55',
         result: 'Loss',
         netUnits: '-1',
-        date: '7/11/2021\r'
+        date: '7/11/2021'
     },
     {
         id: 13,
@@ -243,7 +243,7 @@ export const sundayResults = [
         odds: '3.28',
         result: 'Loss',
         netUnits: '-1',
-        date: '7/11/2021\r'
+        date: '7/11/2021'
     },
     {
         id: 14,
@@ -255,7 +255,7 @@ export const sundayResults = [
         odds: '3.61',
         result: 'Win',
         netUnits: '2.61',
-        date: '7/11/2021\r'
+        date: '7/11/2021'
     },
     {
         id: 15,
@@ -267,7 +267,7 @@ export const sundayResults = [
         odds: '2.9',
         result: 'Win',
         netUnits: '1.9',
-        date: '7/11/2021\r'
+        date: '7/11/2021'
     },
     {
         id: 16,
@@ -279,7 +279,7 @@ export const sundayResults = [
         odds: '3.57',
         result: 'Loss',
         netUnits: '-1',
-        date: '7/11/2021\r'
+        date: '7/11/2021'
     },
     {
         id: 17,
@@ -291,7 +291,7 @@ export const sundayResults = [
         odds: '3.25',
         result: 'Win',
         netUnits: '2.25',
-        date: '7/11/2021\r'
+        date: '7/11/2021'
     },
     {
         id: 18,
