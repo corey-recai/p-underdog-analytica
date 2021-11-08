@@ -100,234 +100,209 @@ export const resultColumns = [
 
 export const saturdayResults = [
     {
-        id: 1,
-        country: 'Belgium',
-        league: 'Belgian First',
-        homeTeam: 'Standard',
-        awayTeam: 'Kortrijk',
-        prediction: '2',
-        odds: '3.43',
-        results: 'Loss',
-        netUnits: '-1',
-        date: '30/10/2021'
-    },
-
-    {
         id: 2,
-        country: 'England',
-        league: 'Premier League',
-        homeTeam: 'Watford',
-        awayTeam: 'Southampton',
+        country: 'France',
+        league: 'Ligue 1',
+        homeTeam: 'Lille',
+        awayTeam: 'Angers',
         prediction: 'X',
-        odds: '3.35',
-        results: 'Loss',
-        netUnits: '-1',
-        date: '30/10/2021'
+        odds: '3.58',
+        result: 'Win',
+        netUnits: '2.58',
+        date: '6/11/2021\r'
     },
-
     {
         id: 3,
-        country: 'England',
-        league: 'Premier League',
-        homeTeam: 'Burnley',
-        awayTeam: 'Brentford',
-        prediction: 'X',
-        odds: '3.21',
-        results: 'Loss',
+        country: 'Italy',
+        league: 'Seria A',
+        homeTeam: 'Spezia',
+        awayTeam: 'Torino',
+        prediction: '2',
+        odds: '2.04',
+        result: 'Loss',
         netUnits: '-1',
-        date: '30/10/2021'
+        date: '6/11/2021\r'
     },
-
     {
         id: 4,
-        country: 'Germany',
-        league: 'Bundesliga',
-        homeTeam: 'Leverkusen',
-        awayTeam: 'Wolfsburg',
+        country: 'Netherlands',
+        league: 'Eredivisie',
+        homeTeam: 'Willem II',
+        awayTeam: 'Sparta Rotterdam',
         prediction: 'X',
-        odds: '3.61',
-        results: 'Loss',
+        odds: '3.48',
+        result: 'Loss',
         netUnits: '-1',
-        date: '30/10/2021'
+        date: '6/11/2021\r'
     },
     {
         id: 5,
-        country: 'Scotland',
-        league: 'Scottish PL',
-        homeTeam: 'Aberdeen',
-        awayTeam: 'Hearts',
-        prediction: '1',
-        odds: '2.66',
-        results: 'Win',
-        netUnits: '1.66',
-        date: '30/10/2021'
+        country: 'Netherlands',
+        league: 'Eredivisie',
+        homeTeam: 'Nijmegen',
+        awayTeam: 'Heerenveen',
+        prediction: 'X',
+        odds: '3.4',
+        result: 'Win',
+        netUnits: '2.4',
+        date: '6/11/2021\r'
     },
     {
         id: 6,
-        country: 'Scotland',
-        league: 'Scottish PL',
-        homeTeam: 'St Mirren',
-        awayTeam: 'Dundee',
+        country: 'Portugal',
+        league: 'Primeira Liga',
+        homeTeam: 'Vizela',
+        awayTeam: 'Estoril',
         prediction: 'X',
-        odds: '3.49',
-        results: 'Loss',
-        netUnits: '-1',
-        date: '30/10/2021'
+        odds: '3.11',
+        result: 'Win',
+        netUnits: '2.11',
+        date: '6/11/2021\r'
     },
-
     {
         id: 7,
-        country: 'Scotland',
-        league: 'Scottish PL',
-        homeTeam: 'Ross County',
-        awayTeam: 'Hibernian',
-        prediction: 'X',
-        odds: '3.42',
-        results: 'Canceled',
-        netUnits: '0',
-        date: '30/10/2021'
-    },
-
-    {
-        id: 8,
         country: 'Spain',
         league: 'La Liga',
-        homeTeam: 'Valencia',
-        awayTeam: 'Villarreal',
-        prediction: 'X',
-        odds: '3.43',
-        results: 'Loss',
-        netUnits: '-1',
-        date: '30/10/2021'
-    }
+        homeTeam: 'Alaves',
+        awayTeam: 'Levante',
+        prediction: '1',
+        odds: '2.45',
+        result: 'Win',
+        netUnits: '1.45',
+        date: '6/11/2021\r'
+    },
 ]
 export const sundayResults = [
     {
-        id: 9,
+        id: 8,
         country: 'Belgium',
         league: 'Belgian First',
-        homeTeam: 'Gent',
-        awayTeam: 'St. Gilloise',
+        homeTeam: 'Antwerp',
+        awayTeam: 'Anderlecht',
         prediction: 'X',
-        odds: '3.43',
-        results: 'Loss',
+        odds: '3.6',
+        result: 'Loss',
         netUnits: '-1',
-        date: '31/10/2021'
+        date: '7/11/2021\r'
     },
-
+    {
+        id: 9,
+        country: 'France',
+        league: 'Ligue 1',
+        homeTeam: 'Nantes',
+        awayTeam: 'Strasbourg',
+        prediction: 'X',
+        odds: '3.28',
+        result: 'Win',
+        netUnits: '2.28',
+        date: '7/11/2021\r'
+    },
     {
         id: 10,
         country: 'France',
         league: 'Ligue 1',
-        homeTeam: 'Clermont',
-        awayTeam: 'Marseille',
+        homeTeam: 'Reims',
+        awayTeam: 'Monaco',
         prediction: 'X',
-        odds: '3.57',
-        results: 'Loss',
-        netUnits: '-1',
-        date: '31/10/2021'
+        odds: '3.42',
+        result: 'Win',
+        netUnits: '2.42',
+        date: '7/11/2021\r'
     },
     {
         id: 11,
-        country: 'Germany',
-        league: 'Bundesliga',
-        homeTeam: 'Augsburg',
-        awayTeam: 'Stuttgart',
-        prediction: '2',
-        odds: '2.48',
-        results: 'Loss',
+        country: 'France',
+        league: 'Ligue 1',
+        homeTeam: 'St Etienne',
+        awayTeam: 'Clermont',
+        prediction: 'X',
+        odds: '3.35',
+        result: 'Loss',
         netUnits: '-1',
-        date: '31/10/2021'
+        date: '7/11/2021\r'
     },
     {
         id: 12,
-        country: 'Italy',
-        league: 'Seria A',
-        homeTeam: 'Genoa',
-        awayTeam: 'Venezia',
+        country: 'France',
+        league: 'Ligue 1',
+        homeTeam: 'Rennes',
+        awayTeam: 'Lyon',
         prediction: 'X',
-        odds: '3.45',
-        results: 'Win',
-        netUnits: '2.45',
-        date: '31/10/2021'
+        odds: '3.55',
+        result: 'Loss',
+        netUnits: '-1',
+        date: '7/11/2021\r'
     },
-
     {
         id: 13,
-        country: 'Netherlands',
-        league: 'Eredivisie',
-        homeTeam: 'Nijmegen',
-        awayTeam: 'Groningen',
+        country: 'France',
+        league: 'Ligue 1',
+        homeTeam: 'Lorient',
+        awayTeam: 'Brest',
         prediction: 'X',
-        odds: '3.3',
-        results: 'Loss',
+        odds: '3.28',
+        result: 'Loss',
         netUnits: '-1',
-        date: '31/10/2021'
+        date: '7/11/2021\r'
     },
     {
         id: 14,
-        country: 'Portugal',
-        league: 'Primeira Liga',
-        homeTeam: 'Maritimo',
-        awayTeam: 'Gil Vicente',
-        prediction: '2',
-        odds: '2.64',
-        results: 'Win',
-        netUnits: '1.64',
-        date: '31/10/2021'
+        country: 'Germany',
+        league: 'Bundesliga',
+        homeTeam: 'Hertha',
+        awayTeam: 'Leverkusen',
+        prediction: 'X',
+        odds: '3.61',
+        result: 'Win',
+        netUnits: '2.61',
+        date: '7/11/2021\r'
     },
     {
         id: 15,
-        country: 'Spain',
-        league: 'La Liga',
-        homeTeam: 'Sociedad',
-        awayTeam: 'Ath Bilbao',
-        prediction: 'X',
-        odds: '3.19',
-        results: 'Win',
-        netUnits: '2.19',
-        date: '31/10/2021'
-    }
-]
-
-
-
-export const mondayResults = [
+        country: 'Italy',
+        league: 'Seria A',
+        homeTeam: 'Sampdoria',
+        awayTeam: 'Bologna',
+        prediction: '2',
+        odds: '2.9',
+        result: 'Win',
+        netUnits: '1.9',
+        date: '7/11/2021\r'
+    },
     {
         id: 16,
-        country: 'England',
-        league: 'Premier League',
-        homeTeam: 'Wolves',
-        awayTeam: 'Everton',
-        prediction: '2',
-        odds: '3.4',
-        results: 'Loss',
+        country: 'Netherlands',
+        league: 'Eredivisie',
+        homeTeam: 'Vitesse',
+        awayTeam: 'Utrecht',
+        prediction: 'X',
+        odds: '3.57',
+        result: 'Loss',
         netUnits: '-1',
-        date: '1/11/2021'
+        date: '7/11/2021\r'
     },
     {
         id: 17,
-        country: 'Italy',
-        league: 'Seria A',
-        homeTeam: 'Bologna',
-        awayTeam: 'Cagliari',
+        country: 'Spain',
+        league: 'La Liga',
+        homeTeam: 'Valencia',
+        awayTeam: 'Ath Madrid',
         prediction: 'X',
-        odds: '3.69',
-        results: 'Loss',
-        netUnits: '-1',
-        date: '1/11/2021'
+        odds: '3.25',
+        result: 'Win',
+        netUnits: '2.25',
+        date: '7/11/2021\r'
     },
     {
         id: 18,
-        country: 'Portugal',
-        league: 'Primeira Liga',
-        homeTeam: 'Moreirense',
-        awayTeam: 'Pacos Ferreira',
-        prediction: 'X',
-        odds: '3.24',
-        results: 'Win',
-        netUnits: '2.24',
-        date: '1/11/2021'
+        country: 'Spain',
+        league: 'La Liga',
+        homeTeam: 'Betis',
+        awayTeam: 'Sevilla',
+        prediction: '1',
+        odds: '2.92',
+        result: 'Loss',
+        netUnits: '-1',
+        date: '7/11/2021'
     }
 ]
-
