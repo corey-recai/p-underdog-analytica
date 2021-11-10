@@ -65,8 +65,8 @@ export default class LineGraph extends Component {
                     },
                     title: {
                         display: true,
-                        text: 'Underdog Analaytica vs. S&P 500 vs. STOXX 600',
-                        position: 'bottom'
+                        text: '2020-2021 Underdog Analaytica vs. S&P 500 vs. STOXX 600',
+                        position: 'top'
                     }
                 },
                 elements: {
@@ -84,7 +84,7 @@ export default class LineGraph extends Component {
                     }
                 },
                 interaction: {
-                    mode: 'index',
+                    mode: 'x',
                     intersect: false,
                 },
                 stacked: false,
@@ -96,7 +96,7 @@ export default class LineGraph extends Component {
                     y: {
                         title: {
                             display: true,
-                            text: 'ROI %',
+                            text: 'NET UNITS (% ROI)',
                             color: 'black',
                         },
                         // type: 'linear',
@@ -104,13 +104,12 @@ export default class LineGraph extends Component {
                         ticks: {
                             stepSize: 5,
                             callback: function(value, index, values) {
-                                return value + ' %';
+                                return value + ' (%)';
                             }
                         },
 
                     },
                     x: {
-                        max: '06/21',
                         title: {
                             display: true,
                             text: 'Date',
