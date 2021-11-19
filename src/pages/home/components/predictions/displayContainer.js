@@ -20,8 +20,8 @@ export const DisplayContainer = () => {
                       <GridCard
                         title="Weekend Fixture Predictions"
                         content={
-                          [<CustomTable columns={predictionColumns} data={saturdayPicks} date="06/11/2021"/>,
-                          <CustomTable columns={predictionColumns} data={sundayPicks} date="07/11/2021"/>,
+                          [<CustomTable columns={predictionColumns} data={saturdayPicks} date="19/11/2021"/>,
+                          <CustomTable columns={predictionColumns} data={sundayPicks} date="20/11/2021"/>,
                           <PredictionInfo />]
                         }
                         />
