@@ -23,8 +23,7 @@ export const ResultsContainer = () => {
                                         <CustomTable columns={resultColumns} data={saturdayResults} date="20/11/2021"/>,
                                         <CustomTable columns={resultColumns} data={sundayResults} date="21/11/2021"/>,
                                         <CustomTable columns={resultColumns} data={mondayResults} date="22/11/2021"/>,
-                                        <PredictionInfo
-                                        />
+                                        <PredictionInfo />
                                     ]}
                                 />
                             </Box>
