@@ -98,9 +98,6 @@ export const resultColumns = [
     }
 ];
 
-
-
-
 export const mondayResults = [
     {
         id: 17,
