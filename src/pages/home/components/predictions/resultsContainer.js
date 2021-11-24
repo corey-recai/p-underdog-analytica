@@ -21,8 +21,9 @@ export const ResultsContainer = () => {
                       <GridCard
                         title="Last Week's Results & Details"
                         content={
-                          [<CustomTable columns={resultColumns} data={saturdayResults} date="06/11/2021"/>,
-                          <CustomTable columns={resultColumns} data={sundayResults} date="07/11/2021"/>,
+                          [<CustomTable columns={resultColumns} data={saturdayResults} date="20/11/2021"/>,
+                          <CustomTable columns={resultColumns} data={sundayResults} date="21/11/2021"/>,
+                          <CustomTable columns={resultColumns} data={mondayResults} date="22/11/2021"/>,
                           <PredictionInfo />]
                         }
                         />
