@@ -27,6 +27,7 @@ SwiperCore.use([Mousewheel]);
 
 export default class Home extends Component {
     componentDidMount() {
+
         window.onscroll = () => {
             this.scrollFunction();
         };

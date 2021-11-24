@@ -4,9 +4,9 @@ import Home from "./pages/home/home";
 import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-
 import {Results} from "./pages/betHistory/results";
 import {Accordion} from "./components/tables/accordion";
+
 
 function App() {
   return (
