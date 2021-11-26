@@ -34,6 +34,20 @@ export const predictionColumns = [
     },
 ];
 
+
+export const mondayPicks = [
+    {
+        id: 24,
+        country: 'Spain',
+        league: 'La Liga',
+        homeTeam: 'Osasuna',
+        awayTeam: 'Elche',
+        prediction: 'X',
+        odds: '3.41',
+        date: '11/29/2021'
+    }
+]
+
 export const saturdayPicks = [
     {
         id: 1,
@@ -268,15 +282,5 @@ export const sundayPicks = [
         prediction: 'X',
         odds: '3.5',
         date: '11/28/2021'
-    },
-    {
-        id: 24,
-        country: 'Spain',
-        league: 'La Liga',
-        homeTeam: 'Osasuna',
-        awayTeam: 'Elche',
-        prediction: 'X',
-        odds: '3.41',
-        date: '11/29/2021'
     },
 ]

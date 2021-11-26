@@ -1,4 +1,4 @@
-import {monday, predictionColumns, saturday, saturdayPicks, sunday, sundayPicks} from "./data/predictionData";
+import {mondayPicks, predictionColumns, saturdayPicks, sundayPicks} from "./data/predictionData";
 import {PredictionInfo} from "./predictionInfo";
 import Container from "react-bootstrap/Container";
 import React, {useContext} from "react";
@@ -22,6 +22,7 @@ export const DisplayContainer = () => {
                         content={
                           [<CustomTable columns={predictionColumns} data={saturdayPicks} date="27/11/2021"/>,
                           <CustomTable columns={predictionColumns} data={sundayPicks} date="28/11/2021"/>,
+                          <CustomTable columns={predictionColumns} data={mondayPicks} date="29/11/2021"/>,
                           <PredictionInfo />]
                         }
                         />
