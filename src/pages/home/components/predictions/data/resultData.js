@@ -90,7 +90,7 @@ export const resultColumns = [
                 };
             }
             return {
-                backgroundColor: '#94c3f3'
+                backgroundColor: '#94c3f3',
             };
         }
     },
