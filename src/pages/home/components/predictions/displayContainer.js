@@ -6,6 +6,7 @@ import {Box, Grid, ResponsiveContext, Heading} from "grommet";
 import {Row} from "react-bootstrap";
 import {CustomTable} from "./customTable";
 import {GridCard} from "../../../../components/ui/gridCard.js";
+import {resultColumns} from "./data/resultData";
 
 
 export const DisplayContainer = () => {
@@ -20,9 +21,9 @@ export const DisplayContainer = () => {
                       <GridCard
                         title="Weekend Fixture Predictions"
                         content={
-                          [<CustomTable columns={predictionColumns} data={saturdayPicks} date="27/11/2021"/>,
-                          <CustomTable columns={predictionColumns} data={sundayPicks} date="28/11/2021"/>,
-                          <CustomTable columns={predictionColumns} data={mondayPicks} date="29/11/2021"/>,
+                          [<CustomTable columns={resultColumns} data={saturdayPicks} date="27/11/2021"/>,
+                          <CustomTable columns={resultColumns} data={sundayPicks} date="28/11/2021"/>,
+                          <CustomTable columns={resultColumns} data={mondayPicks} date="29/11/2021"/>,
                           <PredictionInfo />]
                         }
                         />
