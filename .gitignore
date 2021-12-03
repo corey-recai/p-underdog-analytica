@@ -151,5 +151,9 @@ amplifytools.xcconfig
 amplify/
 *amplify/*
 
+.idea
+.vscode
+package-lock.json
+
 venv/
 env/

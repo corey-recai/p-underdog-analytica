@@ -1,4 +1,4 @@
-import {monday, predictionColumns, saturday, saturdayPicks, sunday, sundayPicks} from "./data/predictionData";
+import {mondayPicks, predictionColumns, saturdayPicks, sundayPicks} from "./data/predictionData";
 import {PredictionInfo} from "./predictionInfo";
 import Container from "react-bootstrap/Container";
 import React, {useContext} from "react";
@@ -6,6 +6,7 @@ import {Box, Grid, ResponsiveContext, Heading} from "grommet";
 import {Row} from "react-bootstrap";
 import {CustomTable} from "./customTable";
 import {GridCard} from "../../../../components/ui/gridCard.js";
+import {resultColumns} from "./data/resultData";
 
 
 export const DisplayContainer = () => {
@@ -20,8 +21,9 @@ export const DisplayContainer = () => {
                       <GridCard
                         title="Weekend Fixture Predictions"
                         content={
-                          [<CustomTable columns={predictionColumns} data={saturdayPicks} date="06/11/2021"/>,
-                          <CustomTable columns={predictionColumns} data={sundayPicks} date="07/11/2021"/>,
+                          [<CustomTable columns={predictionColumns} data={saturdayPicks} date="04/12/2021"/>,
+                          <CustomTable columns={predictionColumns} data={sundayPicks} date="05/12/2021"/>,
+                          <CustomTable columns={predictionColumns} data={mondayPicks} date="06/12/2021"/>,
                           <PredictionInfo />]
                         }
                         />

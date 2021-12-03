@@ -47,6 +47,7 @@ export const columns = [
                 return {
                     backgroundColor: 'rgba(245,124,124,0.69)',
                     color: 'red',
+                    fontWeight: 'bold'
                 };
             }
             return {
