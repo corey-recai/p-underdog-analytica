@@ -185,16 +185,6 @@ export const sundayPicks = [
     },
     {
         id: 12,
-        country: 'Belgium',
-        league: 'Belgian First',
-        homeTeam: 'Mechelen',
-        awayTeam: 'Genk',
-        prediction: '2',
-        odds: '2.28',
-        date: '05/12/2021'
-    },
-    {
-        id: 13,
         country: 'France',
         league: 'Ligue 1',
         homeTeam: 'Reims',
@@ -204,7 +194,7 @@ export const sundayPicks = [
         date: '05/12/2021'
     },
     {
-        id: 14,
+        id: 13,
         country: 'France',
         league: 'Ligue 1',
         homeTeam: 'Nice',
@@ -214,7 +204,7 @@ export const sundayPicks = [
         date: '05/12/2021'
     },
     {
-        id: 15,
+        id: 14,
         country: 'Italy',
         league: 'Seria A',
         homeTeam: 'Venezia',
@@ -224,7 +214,7 @@ export const sundayPicks = [
         date: '05/12/2021'
     },
     {
-        id: 16,
+        id: 15,
         country: 'Italy',
         league: 'Seria A',
         homeTeam: 'Bologna',
@@ -234,7 +224,7 @@ export const sundayPicks = [
         date: '05/12/2021'
     },
     {
-        id: 17,
+        id: 16,
         country: 'England',
         league: 'Premier League',
         homeTeam: 'Leeds',
@@ -244,7 +234,7 @@ export const sundayPicks = [
         date: '05/12/2021'
     },
     {
-        id: 18,
+        id: 17,
         country: 'Spain',
         league: 'La Liga',
         homeTeam: 'Celta',
@@ -254,7 +244,7 @@ export const sundayPicks = [
         date: '05/12/2021'
     },
     {
-        id: 19,
+        id: 18,
         country: 'Spain',
         league: 'La Liga',
         homeTeam: 'Elche',
@@ -264,7 +254,7 @@ export const sundayPicks = [
         date: '05/12/2021'
     },
     {
-        id: 20,
+        id: 19,
         country: 'Spain',
         league: 'La Liga',
         homeTeam: 'Vallecano',
@@ -274,7 +264,7 @@ export const sundayPicks = [
         date: '05/12/2021'
     },
     {
-        id: 21,
+        id: 20,
         country: 'Germany',
         league: 'Bundesliga',
         homeTeam: 'Stuttgart',
