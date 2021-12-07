@@ -277,18 +277,6 @@ export const sundayResults = [
         date: '05/12/2021'
     },
     {
-        id: 12,
-        country: 'Belgium',
-        league: 'Belgian First',
-        homeTeam: 'Mechelen',
-        awayTeam: 'Genk',
-        prediction: '2',
-        odds: '2.28',
-        result: 'Loss',
-        netUnits: '-1',
-        date: '05/12/2021'
-    },
-    {
         id: 13,
         country: 'England',
         league: 'Premier League',
