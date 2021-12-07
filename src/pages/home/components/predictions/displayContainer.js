@@ -6,7 +6,7 @@ import {Box, Grid, ResponsiveContext, Heading} from "grommet";
 import {Row} from "react-bootstrap";
 import {CustomTable} from "./customTable";
 import {GridCard} from "../../../../components/ui/gridCard.js";
-import {resultColumns} from "./data/resultData";
+
 
 
 export const DisplayContainer = () => {
