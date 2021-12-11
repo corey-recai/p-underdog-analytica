@@ -233,103 +233,93 @@ export const saturdayPicks = [
 
 export const sundayPicks = [
     {
-        id: 11,
-        country: 'Belgium',
-        league: 'Belgian First',
-        homeTeam: 'Mechelen',
-        awayTeam: 'Genk',
-        prediction: 'X',
-        odds: '3.66',
-        date: '05/12/2021'
-    },
-    {
-        id: 12,
-        country: 'France',
-        league: 'Ligue 1',
-        homeTeam: 'Reims',
-        awayTeam: 'Angers',
-        prediction: 'X',
-        odds: '3.02',
-        date: '05/12/2021'
-    },
-    {
-        id: 13,
-        country: 'France',
-        league: 'Ligue 1',
-        homeTeam: 'Nice',
-        awayTeam: 'Strasbourg',
-        prediction: 'X',
-        odds: '3.6',
-        date: '05/12/2021'
-    },
-    {
-        id: 14,
-        country: 'Italy',
-        league: 'Seria A',
-        homeTeam: 'Venezia',
-        awayTeam: 'Verona',
-        prediction: '2',
-        odds: '2.08',
-        date: '05/12/2021'
-    },
-    {
-        id: 15,
-        country: 'Italy',
-        league: 'Seria A',
-        homeTeam: 'Bologna',
-        awayTeam: 'Fiorentina',
-        prediction: '2',
-        odds: '2.56',
-        date: '05/12/2021'
-    },
-    {
-        id: 16,
-        country: 'England',
-        league: 'Premier League',
-        homeTeam: 'Leeds',
-        awayTeam: 'Brentford',
-        prediction: 'X',
-        odds: '3.55',
-        date: '05/12/2021'
-    },
-    {
-        id: 17,
-        country: 'Spain',
-        league: 'La Liga',
-        homeTeam: 'Celta',
-        awayTeam: 'Valencia',
-        prediction: '2',
-        odds: '3.64',
-        date: '05/12/2021'
-    },
-    {
         id: 18,
-        country: 'Spain',
-        league: 'La Liga',
-        homeTeam: 'Elche',
-        awayTeam: 'Cadiz',
-        prediction: '1',
-        odds: '2.02',
-        date: '05/12/2021'
+        country: 'France',
+        league: 'Ligue 1',
+        homeTeam: 'Angers',
+        awayTeam: 'Clermont',
+        prediction: 'X',
+        odds: '3.36',
+        date: '12/12/2021'
     },
     {
         id: 19,
         country: 'Spain',
         league: 'La Liga',
-        homeTeam: 'Vallecano',
-        awayTeam: 'Espanol',
-        prediction: 'X',
-        odds: '3.19',
-        date: '05/12/2021'
+        homeTeam: 'Betis',
+        awayTeam: 'Sociedad',
+        prediction: '1',
+        odds: '2.3',
+        date: '12/12/2021'
     },
     {
         id: 20,
         country: 'Germany',
         league: 'Bundesliga',
-        homeTeam: 'Stuttgart',
-        awayTeam: 'Hertha',
+        homeTeam: 'Ein Frankfurt',
+        awayTeam: 'Leverkusen',
         prediction: 'X',
-        odds: '3.36',
-        date: '05/12/2021'
+        odds: '3.75',
+        date: '12/12/2021'
+    },
+    {
+        id: 21,
+        country: 'France',
+        league: 'Ligue 1',
+        homeTeam: 'Lille',
+        awayTeam: 'Lyon',
+        prediction: 'X',
+        odds: '3.58',
+        date: '12/12/2021'
+    },
+    {
+        id: 22,
+        country: 'France',
+        league: 'Ligue 1',
+        homeTeam: 'Metz',
+        awayTeam: 'Lorient',
+        prediction: 'X',
+        odds: '3.2',
+        date: '12/12/2021'
+    },
+    {
+        id: 23,
+        country: 'Italy',
+        league: 'Seria A',
+        homeTeam: 'Sassuolo',
+        awayTeam: 'Lazio',
+        prediction: 'X',
+        odds: '3.55',
+        date: '12/12/2021'
+    },
+    {
+        id: 24,
+        country: 'Italy',
+        league: 'Seria A',
+        homeTeam: 'Torino',
+        awayTeam: 'Bologna',
+        prediction: 'X',
+        odds: '3.2',
+        date: '12/12/2021'
+    },
+    {
+        id: 25,
+        country: 'France',
+        league: 'Ligue 1',
+        homeTeam: 'Troyes',
+        awayTeam: 'Bordeaux',
+        prediction: 'X',
+        odds: '3.47',
+        date: '12/12/2021'
+    },
+    {
+        id: 26,
+        country: 'Spain',
+        league: 'La Liga',
+        homeTeam: 'Villarreal',
+        awayTeam: 'Vallecano',
+        prediction: 'X',
+        odds: '3.74',
+        date: '12/12/2021'
     },
 ]
