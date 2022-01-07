@@ -20,12 +20,12 @@ export const DisplayContainer = () => {
                     <Box>
                       <GridCard
                         title="Weekend Fixture Predictions"
-                        content={
-                          [<CustomTable columns={predictionColumns} data={saturdayPicks} date="18/12/2021"/>,
-                          <CustomTable columns={predictionColumns} data={sundayPicks} date="19/12/2021"/>,
-                          // <CustomTable columns={predictionColumns} data={mondayPicks} date="13/12/2021"/>,
-                          <PredictionInfo />]
-                        }
+                        content={[
+                            <CustomTable columns={predictionColumns} data={saturdayPicks} date="08/01/2022"/>,
+                          <CustomTable columns={predictionColumns} data={sundayPicks} date="09/01/2022"/>,
+                          <CustomTable columns={predictionColumns} data={mondayPicks} date="10/01/2022"/>,
+                          <PredictionInfo />
+                        ]}
                         />
                     </Box>
                 </Row>
