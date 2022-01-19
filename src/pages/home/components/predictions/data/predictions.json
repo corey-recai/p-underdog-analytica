@@ -1,102 +1,117 @@
 {
     "2022-01-15": [{
-            "League": "Belgian First",
-            "HomeTeam": "Oud-Heverlee Leuven",
-            "AwayTeam": "Mechelen",
-            "Prediction": "X",
-            "Odds": "3.68"
-        }, {
-            "League": "Primeira Liga",
-            "HomeTeam": "Boavista",
-            "AwayTeam": "Gil Vicente",
-            "Prediction": "2",
-            "Odds": "2.38"
-        }, {
-            "League": "Seria A",
-            "HomeTeam": "Sampdoria",
-            "AwayTeam": "Torino",
-            "Prediction": "X",
-            "Odds": "3.18"
-        }, {
-            "League": "Premier League",
-            "HomeTeam": "Wolves",
-            "AwayTeam": "Southampton",
-            "Prediction": "X",
-            "Odds": "3.13"
-        }, {
-            "League": "Premier League",
-            "HomeTeam": "Aston Villa",
-            "AwayTeam": "Man United",
-            "Prediction": "2",
-            "Odds": "2.37"
-        }, {
-            "League": "Eredivisie",
-            "HomeTeam": "Go Ahead Eagles",
-            "AwayTeam": "Waalwijk",
-            "Prediction": "1",
-            "Odds": "2.08"
-        }, {
-            "League": "Eredivisie",
-            "HomeTeam": "Nijmegen",
-            "AwayTeam": "Heracles",
-            "Prediction": "X",
-            "Odds": "3.38"
-        }, {
-            "League": "Bundesliga",
-            "HomeTeam": "Wolfsburg",
-            "AwayTeam": "Hertha",
-            "Prediction": "X",
-            "Odds": "3.48"
-        }, {
-            "League": "Bundesliga",
-            "HomeTeam": "Union Berlin",
-            "AwayTeam": "Hoffenheim",
-            "Prediction": "X",
-            "Odds": "3.46"
-        }
-    ],
+        "League": "Belgian First",
+        "HomeTeam": "Oud-Heverlee Leuven",
+        "AwayTeam": "Mechelen",
+        "Prediction": "X",
+        "Odds": "3.68",
+        "Win": "TBD"
+    }, {
+        "League": "Primeira Liga",
+        "HomeTeam": "Boavista",
+        "AwayTeam": "Gil Vicente",
+        "Prediction": "2",
+        "Odds": "2.38",
+        "Win": -1.0
+    }, {
+        "League": "Seria A",
+        "HomeTeam": "Sampdoria",
+        "AwayTeam": "Torino",
+        "Prediction": "X",
+        "Odds": "3.18",
+        "Win": -1.0
+    }, {
+        "League": "Premier League",
+        "HomeTeam": "Wolves",
+        "AwayTeam": "Southampton",
+        "Prediction": "X",
+        "Odds": "3.13",
+        "Win": -1.0
+    }, {
+        "League": "Premier League",
+        "HomeTeam": "Aston Villa",
+        "AwayTeam": "Man United",
+        "Prediction": "2",
+        "Odds": "2.37",
+        "Win": -1.0
+    }, {
+        "League": "Eredivisie",
+        "HomeTeam": "Go Ahead Eagles",
+        "AwayTeam": "Waalwijk",
+        "Prediction": "1",
+        "Odds": "2.08",
+        "Win": -1.0
+    }, {
+        "League": "Eredivisie",
+        "HomeTeam": "Nijmegen",
+        "AwayTeam": "Heracles",
+        "Prediction": "X",
+        "Odds": "3.38",
+        "Win": 2.38
+    }, {
+        "League": "Bundesliga",
+        "HomeTeam": "Wolfsburg",
+        "AwayTeam": "Hertha",
+        "Prediction": "X",
+        "Odds": "3.48",
+        "Win": 2.48
+    }, {
+        "League": "Bundesliga",
+        "HomeTeam": "Union Berlin",
+        "AwayTeam": "Hoffenheim",
+        "Prediction": "X",
+        "Odds": "3.46",
+        "Win": -1.0
+    }],
     "2022-01-16": [{
         "League": "Belgian First",
         "HomeTeam": "Eupen",
         "AwayTeam": "Cercle Brugge",
         "Prediction": "X",
-        "Odds": "3.45"
+        "Odds": "3.45",
+        "Win": -1.0
     }, {
         "League": "Ligue 1",
         "HomeTeam": "Lorient",
         "AwayTeam": "Angers",
         "Prediction": "X",
-        "Odds": "3.23"
+        "Odds": "3.23",
+        "Win": 2.23
     }, {
         "League": "Primeira Liga",
         "HomeTeam": "Santa Clara",
         "AwayTeam": "Tondela",
         "Prediction": "X",
-        "Odds": "3.4"
+        "Odds": "3.4",
+        "Win": 2.4
     }, {
         "League": "Primeira Liga",
         "HomeTeam": "Famalicao",
         "AwayTeam": "Pacos Ferreira",
         "Prediction": "1",
-        "Odds": "2.01"
+        "Odds": "2.01",
+        "Win": -1.0
     }, {
         "League": "Seria A",
         "HomeTeam": "Sassuolo",
         "AwayTeam": "Verona",
         "Prediction": "1",
-        "Odds": "2.2"
+        "Odds": "2.2",
+        "Win": -1.0
     }, {
         "League": "Bundesliga",
         "HomeTeam": "Augsburg",
         "AwayTeam": "Ein Frankfurt",
         "Prediction": "X",
-        "Odds": "3.47"
+        "Odds": "3.47",
+        "Win": 2.47
     }],
     "2022-01-17": [{
         "League": "Primeira Liga",
         "HomeTeam": "Portimonense",
         "AwayTeam": "Guimaraes",
         "Prediction": "X",
-        "Odds": "3.17"
+        "Odds": "3.17",
+        "Win": 2.17
     }]
 }
