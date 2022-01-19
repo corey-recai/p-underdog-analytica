@@ -116,8 +116,7 @@ export const saturdayResults = [
         date: '15-01-22'
     },
     {
-        id: 2,
-        country: 'England',
+        id: 2,            country: 'England',
         league: 'Premier League',
         homeTeam: 'Wolves',
         awayTeam: 'Southampton',

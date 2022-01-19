@@ -23,7 +23,7 @@ export const ResultsContainer = () => {
                                         <CustomTable columns={resultColumns} data={saturdayResults} date="15/01/2022"/>,
                                         <h5>PPD* --> Match Postponed</h5>,
                                         <CustomTable columns={resultColumns} data={sundayResults} date="16/01/2022"/>,
-                                        <CustomTable columns={resultColumns} data={sundayResults} date="17/01/2022"/>,
+                                        <CustomTable columns={resultColumns} data={mondayResults} date="17/01/2022"/>,
                                         <PredictionInfo />
                                     ]}
                                 />
