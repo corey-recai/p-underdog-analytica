@@ -105,130 +105,202 @@ export const resultColumns = [
 export const saturdayResults = [
     {
         id: 1,
-        country: 'Germany',
-        league: 'Bundesliga',
-        homeTeam: 'Leverkusen',
-        awayTeam: 'Union Berlin',
+        country: 'Belgium',
+        league: 'Belgian First',
+        homeTeam: 'Oud-Heverlee Leuven',
+        awayTeam: 'Mechelen',
         prediction: 'X',
-        odds: '3.74',
-        result: 'Win',
-        netUnits: '2.74',
-        date: '8-01-22'
+        odds: '3.68',
+        result: 'PPD',
+        netUnits: 'PPD',
+        date: '15-01-22'
     },
     {
         id: 2,
-        country: 'Portugal',
-        league: 'Primeira Liga',
-        homeTeam: 'Boavista',
-        awayTeam: 'Tondela',
+        country: 'England',
+        league: 'Premier League',
+        homeTeam: 'Wolves',
+        awayTeam: 'Southampton',
         prediction: 'X',
-        odds: '3.39',
-        result: 'Win',
-        netUnits: '2.39',
-        date: '8-01-22'
+        odds: '3.13',
+        result: 'Loss',
+        netUnits: '-1',
+        date: '15-01-22'
     },
     {
         id: 3,
-        country: 'Portugal',
-        league: 'Primeira Liga',
-        homeTeam: 'Vizela',
-        awayTeam: 'Moreirense',
-        prediction: 'X',
-        odds: '3.19',
+        country: 'England',
+        league: 'Premier League',
+        homeTeam: 'Aston Villa',
+        awayTeam: 'Man United',
+        prediction: '2',
+        odds: '2.37',
         result: 'Loss',
         netUnits: '-1',
-        date: '8-01-22'
+        date: '15-01-22'
     },
-]
-
-export const mondayResults = [
     {
-        id: 10,
-        country: 'Portugal',
-        league: 'Primeira Liga',
-        homeTeam: 'Gil Vicente',
-        awayTeam: 'Guimaraes',
+        id: 4,
+        country: 'Germany',
+        league: 'Bundesliga',
+        homeTeam: 'Wolfsburg',
+        awayTeam: 'Hertha',
+        prediction: 'X',
+        odds: '3.48',
+        result: 'Win',
+        netUnits: '2.48',
+        date: '15-01-22'
+    },
+    {
+        id: 5,
+        country: 'Germany',
+        league: 'Bundesliga',
+        homeTeam: 'Union Berlin',
+        awayTeam: 'Hoffenheim',
+        prediction: 'X',
+        odds: '3.46',
+        result: 'Loss',
+        netUnits: '-1',
+        date: '15-01-22'
+    },
+    {
+        id: 6,
+        country: 'Italy',
+        league: 'Seria A',
+        homeTeam: 'Sampdoria',
+        awayTeam: 'Torino',
         prediction: 'X',
         odds: '3.18',
         result: 'Loss',
         netUnits: '-1',
-        date: '10-01-22'
+        date: '15-01-22'
+    },
+    {
+        id: 7,
+        country: 'Netherlands',
+        league: 'Eredivisie',
+        homeTeam: 'Go Ahead Eagles',
+        awayTeam: 'Waalwijk',
+        prediction: '1',
+        odds: '2.08',
+        result: 'Loss',
+        netUnits: '-1',
+        date: '15-01-22'
+    },
+    {
+        id: 8,
+        country: 'Netherlands',
+        league: 'Eredivisie',
+        homeTeam: 'Nijmegen',
+        awayTeam: 'Heracles',
+        prediction: 'X',
+        odds: '3.38',
+        result: 'Win',
+        netUnits: '2.38',
+        date: '15-01-22'
+    },
+    {
+        id: 9,
+        country: 'Portugal',
+        league: 'Primeira Liga',
+        homeTeam: 'Boavista',
+        awayTeam: 'Gil Vicente',
+        prediction: '2',
+        odds: '2.38',
+        result: 'Loss',
+        netUnits: '-1',
+        date: '15-01-22'
+    },
+
+]
+
+export const mondayResults = [
+    {
+        id: 16,
+        country: 'Portugal',
+        league: 'Primeira Liga',
+        homeTeam: 'Portimonense',
+        awayTeam: 'Guimaraes',
+        prediction: 'X',
+        odds: '3.17',
+        result: 'Win',
+        netUnits: '2.17',
+        date: '17-01-22'
     }
 ]
 
 
 export const sundayResults = [
     {
-        id: 4,
-        country: 'France',
-        league: 'Ligue 1',
-        homeTeam: 'Clermont',
-        awayTeam: 'Reims',
+        id: 10,
+        country: 'Belgium',
+        league: 'Belgian First',
+        homeTeam: 'Eupen',
+        awayTeam: 'Cercle Brugge',
         prediction: 'X',
-        odds: '3.11',
-        result: 'Win',
-        netUnits: '2.11',
-        date: '9-01-22'
-    },
-    {
-        id: 5,
-        country: 'France',
-        league: 'Ligue 1',
-        homeTeam: 'Brest',
-        awayTeam: 'Nice',
-        prediction: 'X',
-        odds: '3.43',
+        odds: '3.45',
         result: 'Loss',
         netUnits: '-1',
-        date: '9-01-22'
+        date: '16-01-22'
     },
     {
-        id: 6,
+        id: 11,
+        country: 'France',
+        league: 'Ligue 1',
+        homeTeam: 'Lorient',
+        awayTeam: 'Angers',
+        prediction: 'X',
+        odds: '3.23',
+        result: 'Win',
+        netUnits: '2.23',
+        date: '16-01-22'
+    },
+    {
+        id: 12,
         country: 'Germany',
         league: 'Bundesliga',
-        homeTeam: 'Bochum',
-        awayTeam: 'Wolfsburg',
-        prediction: '2',
-        odds: '2.11',
-        result: 'Loss',
-        netUnits: '-1',
-        date: '9-01-22'
+        homeTeam: 'Augsburg',
+        awayTeam: 'Ein Frankfurt',
+        prediction: 'X',
+        odds: '3.47',
+        result: 'Win',
+        netUnits: '2.47',
+        date: '16-01-22'
     },
     {
-        id: 7,
+        id: 13,
         country: 'Italy',
         league: 'Seria A',
-        homeTeam: 'Genoa',
-        awayTeam: 'Spezia',
-        prediction: 'X',
-        odds: '3.26',
+        homeTeam: 'Sassuolo',
+        awayTeam: 'Verona',
+        prediction: '1',
+        odds: '2.2',
         result: 'Loss',
         netUnits: '-1',
-        date: '9-01-22'
+        date: '16-01-22'
     },
     {
-        id: 8,
+        id: 14,
         country: 'Portugal',
         league: 'Primeira Liga',
-        homeTeam: 'Belenenses',
-        awayTeam: 'Arouca',
-        prediction: '2',
-        odds: '2.64',
-        result: 'Loss',
-        netUnits: '-1',
-        date: '9-01-22'
+        homeTeam: 'Santa Clara',
+        awayTeam: 'Tondela',
+        prediction: 'X',
+        odds: '3.4',
+        result: 'Win',
+        netUnits: '2.4',
+        date: '16-01-22'
     },
     {
-        id: 9,
-        country: 'Spain',
-        league: 'La Liga',
-        homeTeam: 'Vallecano',
-        awayTeam: 'Betis',
-        prediction: '2',
-        odds: '2.74',
+        id: 15,
+        country: 'Portugal',
+        league: 'Primeira Liga',
+        homeTeam: 'Famalicao',
+        awayTeam: 'Pacos Ferreira',
+        prediction: '1',
+        odds: '2.01',
         result: 'Loss',
         netUnits: '-1',
-        date: '9-01-22'
+        date: '16-01-22'
     },
-
 ]
