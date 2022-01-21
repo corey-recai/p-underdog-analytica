@@ -1,4 +1,3 @@
-import sys
 import sqlite3
 import pandas as pd
 import json
@@ -40,3 +39,5 @@ print(j)
 #export JSON here
 with open ('predictions.json', 'w') as outfile:
     outfile.write(j)
+
+conn.close()
