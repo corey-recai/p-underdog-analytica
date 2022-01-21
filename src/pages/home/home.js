@@ -20,8 +20,6 @@ import {TwoColGrid} from "../../components/ui/twoColGrid";
 import {ValueProps} from "../../components/ui/valueProps";
 import {PerformanceGraph} from "../../components/ui/performanceGraph";
 import {SubscribeSection} from "./components/intro/subscribeSection";
-import {UpcomingPredictions} from "./components/predictions/upcomingPredictions";
-
 
 SwiperCore.use([Mousewheel]);
 
