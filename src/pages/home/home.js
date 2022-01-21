@@ -56,8 +56,8 @@ export default class Home extends Component {
                 </Helmet>
                 <Navigation />
                 <TwoColGrid />
-                <DisplayContainer />
-                {/*<ResultsContainer />*/}
+                {/*<DisplayContainer />*/}
+                <ResultsContainer />
                 <ValueProps />
                 <PerformanceGraph />
                 <CompetitionComparisonTable />
