@@ -1,1 +1,172 @@
-{"2022-01-22": [{"League": "Belgian First", "HomeTeam": "Kortrijk", "AwayTeam": "Eupen", "Prediction": "X", "Odds": "3.5", "Win": "TBD"}, {"League": "Belgian First", "HomeTeam": "Charleroi", "AwayTeam": "Gent", "Prediction": "X", "Odds": "3.49", "Win": "TBD"}, {"League": "Ligue 1", "HomeTeam": "Brest", "AwayTeam": "Lille", "Prediction": "X", "Odds": "3.46", "Win": "TBD"}, {"League": "Ligue 1", "HomeTeam": "Lens", "AwayTeam": "Marseille", "Prediction": "X", "Odds": "3.46", "Win": "TBD"}, {"League": "Primeira Liga", "HomeTeam": "Moreirense", "AwayTeam": "Santa Clara", "Prediction": "X", "Odds": "3.13", "Win": "TBD"}, {"League": "Primeira Liga", "HomeTeam": "Tondela", "AwayTeam": "Vizela", "Prediction": "X", "Odds": "3.27", "Win": "TBD"}, {"League": "Seria A", "HomeTeam": "Genoa", "AwayTeam": "Udinese", "Prediction": "2", "Odds": "2.19", "Win": "TBD"}, {"League": "Premier League", "HomeTeam": "Everton", "AwayTeam": "Aston Villa", "Prediction": "X", "Odds": "3.25", "Win": "TBD"}, {"League": "Premier League", "HomeTeam": "Brentford", "AwayTeam": "Wolves", "Prediction": "X", "Odds": "2.99", "Win": "TBD"}, {"League": "La Liga", "HomeTeam": "Levante", "AwayTeam": "Cadiz", "Prediction": "X", "Odds": "3.58", "Win": "TBD"}, {"League": "Bundesliga", "HomeTeam": "Bochum", "AwayTeam": "FC Koln", "Prediction": "2", "Odds": "2.23", "Win": "TBD"}, {"League": "Bundesliga", "HomeTeam": "M'gladbach", "AwayTeam": "Union Berlin", "Prediction": "X", "Odds": "3.41", "Win": "TBD"}], "2022-01-23": [{"League": "Belgian First", "HomeTeam": "St. Gilloise", "AwayTeam": "Genk", "Prediction": "X", "Odds": "3.75", "Win": "TBD"}, {"League": "Ligue 1", "HomeTeam": "Angers", "AwayTeam": "Troyes", "Prediction": "X", "Odds": "3.15", "Win": "TBD"}, {"League": "Ligue 1", "HomeTeam": "Nantes", "AwayTeam": "Lorient", "Prediction": "X", "Odds": "3.09", "Win": "TBD"}, {"League": "Primeira Liga", "HomeTeam": "Guimaraes", "AwayTeam": "Estoril", "Prediction": "X", "Odds": "3.35", "Win": "TBD"}, {"League": "Primeira Liga", "HomeTeam": "Gil Vicente", "AwayTeam": "Portimonense", "Prediction": "1", "Odds": "2.02", "Win": "TBD"}, {"League": "Seria A", "HomeTeam": "Spezia", "AwayTeam": "Sampdoria", "Prediction": "X", "Odds": "3.19", "Win": "TBD"}, {"League": "Seria A", "HomeTeam": "Torino", "AwayTeam": "Sassuolo", "Prediction": "2", "Odds": "3.41", "Win": "TBD"}, {"League": "La Liga", "HomeTeam": "Vallecano", "AwayTeam": "Ath Bilbao", "Prediction": "X", "Odds": "2.89", "Win": "TBD"}, {"League": "La Liga", "HomeTeam": "Sociedad", "AwayTeam": "Getafe", "Prediction": "X", "Odds": "3.47", "Win": "TBD"}, {"League": "La Liga", "HomeTeam": "Granada", "AwayTeam": "Osasuna", "Prediction": "X", "Odds": "3.09", "Win": "TBD"}, {"League": "Eredivisie", "HomeTeam": "Waalwijk", "AwayTeam": "For Sittard", "Prediction": "X", "Odds": "3.41", "Win": "TBD"}, {"League": "Eredivisie", "HomeTeam": "PSV Eindhoven", "AwayTeam": "Ajax", "Prediction": "X", "Odds": "3.71", "Win": "TBD"}]}
+{
+    "2022-01-22": [{
+        "League": "Belgian First",
+        "HomeTeam": "Kortrijk",
+        "AwayTeam": "Eupen",
+        "Prediction": "X",
+        "Odds": "3.5",
+        "Win": "2.5"
+    }, {
+        "League": "Belgian First",
+        "HomeTeam": "Charleroi",
+        "AwayTeam": "Gent",
+        "Prediction": "X",
+        "Odds": "3.49",
+        "Win": "2.49"
+    }, {
+        "League": "Ligue 1",
+        "HomeTeam": "Brest",
+        "AwayTeam": "Lille",
+        "Prediction": "X",
+        "Odds": "3.46",
+        "Win": "-1"
+    }, {
+        "League": "Ligue 1",
+        "HomeTeam": "Lens",
+        "AwayTeam": "Marseille",
+        "Prediction": "X",
+        "Odds": "3.46",
+        "Win": "-1"
+    }, {
+        "League": "Primeira Liga",
+        "HomeTeam": "Moreirense",
+        "AwayTeam": "Santa Clara",
+        "Prediction": "X",
+        "Odds": "3.13",
+        "Win": "-1"
+    }, {
+        "League": "Primeira Liga",
+        "HomeTeam": "Tondela",
+        "AwayTeam": "Vizela",
+        "Prediction": "X",
+        "Odds": "3.27",
+        "Win": "-1"
+    }, {
+        "League": "Seria A",
+        "HomeTeam": "Genoa",
+        "AwayTeam": "Udinese",
+        "Prediction": "2",
+        "Odds": "2.19",
+        "Win": "-1"
+    }, {
+        "League": "Premier League",
+        "HomeTeam": "Everton",
+        "AwayTeam": "Aston Villa",
+        "Prediction": "X",
+        "Odds": "3.25",
+        "Win": "-1"
+    }, {
+        "League": "Premier League",
+        "HomeTeam": "Brentford",
+        "AwayTeam": "Wolves",
+        "Prediction": "X",
+        "Odds": "2.99",
+        "Win": "-1"
+    }, {
+        "League": "La Liga",
+        "HomeTeam": "Levante",
+        "AwayTeam": "Cadiz",
+        "Prediction": "X",
+        "Odds": "3.58",
+        "Win": "-1"
+    }, {
+        "League": "Bundesliga",
+        "HomeTeam": "Bochum",
+        "AwayTeam": "FC Koln",
+        "Prediction": "2",
+        "Odds": "2.23",
+        "Win": "-1"
+    }, {
+        "League": "Bundesliga",
+        "HomeTeam": "M'gladbach",
+        "AwayTeam": "Union Berlin",
+        "Prediction": "X",
+        "Odds": "3.41",
+        "Win": "-1"
+    }],
+    "2022-01-23": [{
+        "League": "Belgian First",
+        "HomeTeam": "St. Gilloise",
+        "AwayTeam": "Genk",
+        "Prediction": "X",
+        "Odds": "3.75",
+        "Win": "TBD"
+    }, {
+        "League": "Ligue 1",
+        "HomeTeam": "Angers",
+        "AwayTeam": "Troyes",
+        "Prediction": "X",
+        "Odds": "3.15",
+        "Win": "TBD"
+    }, {
+        "League": "Ligue 1",
+        "HomeTeam": "Nantes",
+        "AwayTeam": "Lorient",
+        "Prediction": "X",
+        "Odds": "3.09",
+        "Win": "TBD"
+    }, {
+        "League": "Primeira Liga",
+        "HomeTeam": "Guimaraes",
+        "AwayTeam": "Estoril",
+        "Prediction": "X",
+        "Odds": "3.35",
+        "Win": "TBD"
+    }, {
+        "League": "Primeira Liga",
+        "HomeTeam": "Gil Vicente",
+        "AwayTeam": "Portimonense",
+        "Prediction": "1",
+        "Odds": "2.02",
+        "Win": "TBD"
+    }, {
+        "League": "Seria A",
+        "HomeTeam": "Spezia",
+        "AwayTeam": "Sampdoria",
+        "Prediction": "X",
+        "Odds": "3.19",
+        "Win": "TBD"
+    }, {
+        "League": "Seria A",
+        "HomeTeam": "Torino",
+        "AwayTeam": "Sassuolo",
+        "Prediction": "2",
+        "Odds": "3.41",
+        "Win": "TBD"
+    }, {
+        "League": "La Liga",
+        "HomeTeam": "Vallecano",
+        "AwayTeam": "Ath Bilbao",
+        "Prediction": "X",
+        "Odds": "2.89",
+        "Win": "TBD"
+    }, {
+        "League": "La Liga",
+        "HomeTeam": "Sociedad",
+        "AwayTeam": "Getafe",
+        "Prediction": "X",
+        "Odds": "3.47",
+        "Win": "TBD"
+    }, {
+        "League": "La Liga",
+        "HomeTeam": "Granada",
+        "AwayTeam": "Osasuna",
+        "Prediction": "X",
+        "Odds": "3.09",
+        "Win": "TBD"
+    }, {
+        "League": "Eredivisie",
+        "HomeTeam": "Waalwijk",
+        "AwayTeam": "For Sittard",
+        "Prediction": "X",
+        "Odds": "3.41",
+        "Win": "TBD"
+    }, {
+        "League": "Eredivisie",
+        "HomeTeam": "PSV Eindhoven",
+        "AwayTeam": "Ajax",
+        "Prediction": "X",
+        "Odds": "3.71",
+        "Win": "TBD"
+    }]
+}
