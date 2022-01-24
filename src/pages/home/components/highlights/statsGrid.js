@@ -28,25 +28,25 @@ export const StatsGrid = () => {
                     <Box gridArea='first'/>
                     <StatCard
                         title="NET UNITS"
-                        seven="+5.13"
+                        seven="-11.52"
                     />
 
                     <Box gridArea='second'/>
                     <StatCard
                         title="ROI"
-                        seven="34 %"
+                        seven="-48 %"
                     />
 
                     <Box gridArea='third'/>
                     <StatCard
                         title="WIN/LOSS %"
-                        seven="40 %"
+                        seven="17 %"
                     />
                 </Grid>
             </Box>
             <Box>
                 <Text>
-                    * Above stats correspond to this previous weekend's results. (Updated 18/01/2022)
+                    * Above stats correspond to this previous weekend's results. (Updated 24/01/2022)
                 </Text>
                 <Text>
                     * See below for exact match results.
