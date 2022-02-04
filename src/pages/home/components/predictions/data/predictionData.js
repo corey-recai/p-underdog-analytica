@@ -31,11 +31,11 @@ export const predictionColumns = [
     },
     {
         dataField: "Prediction",
-        text: "Prediction",
+        text: "Recommendation",
         sort: true,
         style: { textAlign: 'center' },
         headerStyle: () => {
-            return { width: '15%', textAlign: 'center' };
+            return { width: '25%', textAlign: 'center' };
         },
     },
     {
@@ -44,7 +44,7 @@ export const predictionColumns = [
         sort: true,
         style: { textAlign: 'center' },
         headerStyle: () => {
-            return { width: '12%', textAlign: 'center' };
+            return { width: '10%', textAlign: 'center' };
         },
     },
     {
@@ -52,7 +52,7 @@ export const predictionColumns = [
         text: "Win",
         style: { textAlign: 'center' },
         headerStyle: () => {
-            return { width: '12%', textAlign: 'center' };
+            return { width: '10%', textAlign: 'center' };
         },
         style: (cell) => {
             if (cell > 0) {
