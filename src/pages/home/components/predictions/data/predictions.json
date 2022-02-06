@@ -140,55 +140,55 @@
         "AwayTeam": "Gent",
         "Prediction": "X",
         "Odds": "3.51",
-        "Win": "TBD"
+        "Win": "-1"
     }, {
         "League": "Ligue 1",
         "HomeTeam": "Reims",
         "AwayTeam": "Bordeaux",
         "Prediction": "X",
         "Odds": "3.44",
-        "Win": "TBD"
+        "Win": "-1"
     }, {
         "League": "Primeira Liga",
         "HomeTeam": "Gil Vicente",
         "AwayTeam": "Santa Clara",
         "Prediction": "1",
         "Odds": "2.0",
-        "Win": "TBD"
+        "Win": "-1"
     }, {
         "League": "Primeira Liga",
         "HomeTeam": "Boavista",
         "AwayTeam": "Vizela",
         "Prediction": "X",
         "Odds": "3.21",
-        "Win": "TBD"
+        "Win": "2.21"
     }, {
         "League": "Seria A",
         "HomeTeam": "Bologna",
         "AwayTeam": "Empoli",
         "Prediction": "2",
         "Odds": "3.58",
-        "Win": "TBD"
+        "Win": "-1"
     }, {
         "League": "Seria A",
         "HomeTeam": "Udinese",
         "AwayTeam": "Torino",
         "Prediction": "X",
         "Odds": "3.21",
-        "Win": "TBD"
+        "Win": "-1"
     }, {
         "League": "La Liga",
         "HomeTeam": "Betis",
         "AwayTeam": "Villarreal",
         "Prediction": "X",
         "Odds": "3.53",
-        "Win": "TBD"
+        "Win": "-1"
     }, {
         "League": "La Liga",
         "HomeTeam": "Valencia",
         "AwayTeam": "Sociedad",
         "Prediction": "X",
         "Odds": "3.22",
-        "Win": "TBD"
+        "Win": "2.22"
     }]
 }
