@@ -1,1 +1,25 @@
-{"2022-02-09": [{"League": "Scottish PL", "HomeTeam": "Ross County", "AwayTeam": "Livingston", "Prediction": "X", "Odds": "3.13", "Win": "TBD"}, {"League": "Scottish PL", "HomeTeam": "Dundee United", "AwayTeam": "Motherwell", "Prediction": "1", "Odds": "2.39", "Win": "TBD"}], "2022-02-10": [{"League": "Premier League", "HomeTeam": "Wolves", "AwayTeam": "Arsenal", "Prediction": "2", "Odds": "2.18", "Win": "TBD"}]}
+{
+    "2022-02-09": [{
+        "League": "Scottish PL",
+        "HomeTeam": "Ross County",
+        "AwayTeam": "Livingston",
+        "Prediction": "X",
+        "Odds": "3.13",
+        "Win": "2.13"
+    }, {
+        "League": "Scottish PL",
+        "HomeTeam": "Dundee United",
+        "AwayTeam": "Motherwell",
+        "Prediction": "1",
+        "Odds": "2.39",
+        "Win": "1.39"
+    }],
+    "2022-02-10": [{
+        "League": "Premier League",
+        "HomeTeam": "Wolves",
+        "AwayTeam": "Arsenal",
+        "Prediction": "2",
+        "Odds": "2.18",
+        "Win": "TBD"
+    }]
+}
