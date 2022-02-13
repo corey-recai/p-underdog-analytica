@@ -1,1 +1,131 @@
-{"2022-02-12": [{"League": "Belgian First", "HomeTeam": "Oud-Heverlee Leuven", "AwayTeam": "Cercle Brugge", "Prediction": "X", "Odds": "3.42", "Win": "TBD"}, {"League": "Ligue 1", "HomeTeam": "Lyon", "AwayTeam": "Nice", "Prediction": "X", "Odds": "3.67", "Win": "TBD"}, {"League": "Primeira Liga", "HomeTeam": "Estoril", "AwayTeam": "Tondela", "Prediction": "1", "Odds": "2.0", "Win": "TBD"}, {"League": "Primeira Liga", "HomeTeam": "Portimonense", "AwayTeam": "Boavista", "Prediction": "X", "Odds": "3.12", "Win": "TBD"}, {"League": "Premier League", "HomeTeam": "Watford", "AwayTeam": "Brighton", "Prediction": "X", "Odds": "3.26", "Win": "TBD"}, {"League": "Premier League", "HomeTeam": "Brentford", "AwayTeam": "Crystal Palace", "Prediction": "X", "Odds": "3.06", "Win": "TBD"}, {"League": "Bundesliga", "HomeTeam": "Freiburg", "AwayTeam": "Mainz", "Prediction": "X", "Odds": "3.42", "Win": "TBD"}, {"League": "Bundesliga", "HomeTeam": "Ein Frankfurt", "AwayTeam": "Wolfsburg", "Prediction": "X", "Odds": "3.44", "Win": "TBD"}], "2022-02-13": [{"League": "Ligue 1", "HomeTeam": "Brest", "AwayTeam": "Troyes", "Prediction": "X", "Odds": "3.45", "Win": "TBD"}, {"League": "Ligue 1", "HomeTeam": "Nantes", "AwayTeam": "Reims", "Prediction": "X", "Odds": "3.09", "Win": "TBD"}, {"League": "Ligue 1", "HomeTeam": "Clermont", "AwayTeam": "St Etienne", "Prediction": "X", "Odds": "3.28", "Win": "TBD"}, {"League": "Primeira Liga", "HomeTeam": "Vizela", "AwayTeam": "Gil Vicente", "Prediction": "2", "Odds": "2.53", "Win": "TBD"}, {"League": "Seria A", "HomeTeam": "Verona", "AwayTeam": "Udinese", "Prediction": "X", "Odds": "3.56", "Win": "TBD"}, {"League": "Premier League", "HomeTeam": "Newcastle", "AwayTeam": "Aston Villa", "Prediction": "X", "Odds": "3.41", "Win": "TBD"}, {"League": "La Liga", "HomeTeam": "Alaves", "AwayTeam": "Valencia", "Prediction": "X", "Odds": "3.23", "Win": "TBD"}, {"League": "Eredivisie", "HomeTeam": "Sparta Rotterdam", "AwayTeam": "Willem II", "Prediction": "X", "Odds": "3.4", "Win": "TBD"}, {"League": "Eredivisie", "HomeTeam": "Sparta Rotterdam", "AwayTeam": "Willem II", "Prediction": "1", "Odds": "2.05", "Win": "TBD"}], "2022-02-14": [{"League": "Primeira Liga", "HomeTeam": "Arouca", "AwayTeam": "Maritimo", "Prediction": "X", "Odds": "3.14", "Win": "TBD"}]}
+{
+    "2022-02-12": [{
+        "League": "Belgian First",
+        "HomeTeam": "Oud-Heverlee Leuven",
+        "AwayTeam": "Cercle Brugge",
+        "Prediction": "X",
+        "Odds": "3.42",
+        "Win": "-1"
+    }, {
+        "League": "Ligue 1",
+        "HomeTeam": "Lyon",
+        "AwayTeam": "Nice",
+        "Prediction": "X",
+        "Odds": "3.67",
+        "Win": "-1"
+    }, {
+        "League": "Primeira Liga",
+        "HomeTeam": "Estoril",
+        "AwayTeam": "Tondela",
+        "Prediction": "1",
+        "Odds": "2.0",
+        "Win": "1.0"
+    }, {
+        "League": "Primeira Liga",
+        "HomeTeam": "Portimonense",
+        "AwayTeam": "Boavista",
+        "Prediction": "X",
+        "Odds": "3.12",
+        "Win": "2.12"
+    }, {
+        "League": "Premier League",
+        "HomeTeam": "Watford",
+        "AwayTeam": "Brighton",
+        "Prediction": "X",
+        "Odds": "3.26",
+        "Win": "-1"
+    }, {
+        "League": "Premier League",
+        "HomeTeam": "Brentford",
+        "AwayTeam": "Crystal Palace",
+        "Prediction": "X",
+        "Odds": "3.06",
+        "Win": "2.06"
+    }, {
+        "League": "Bundesliga",
+        "HomeTeam": "Freiburg",
+        "AwayTeam": "Mainz",
+        "Prediction": "X",
+        "Odds": "3.42",
+        "Win": "2.42"
+    }, {
+        "League": "Bundesliga",
+        "HomeTeam": "Ein Frankfurt",
+        "AwayTeam": "Wolfsburg",
+        "Prediction": "X",
+        "Odds": "3.44",
+        "Win": "-1"
+    }],
+    "2022-02-13": [{
+        "League": "Ligue 1",
+        "HomeTeam": "Brest",
+        "AwayTeam": "Troyes",
+        "Prediction": "X",
+        "Odds": "3.45",
+        "Win": "TBD"
+    }, {
+        "League": "Ligue 1",
+        "HomeTeam": "Nantes",
+        "AwayTeam": "Reims",
+        "Prediction": "X",
+        "Odds": "3.09",
+        "Win": "TBD"
+    }, {
+        "League": "Ligue 1",
+        "HomeTeam": "Clermont",
+        "AwayTeam": "St Etienne",
+        "Prediction": "X",
+        "Odds": "3.28",
+        "Win": "TBD"
+    }, {
+        "League": "Primeira Liga",
+        "HomeTeam": "Vizela",
+        "AwayTeam": "Gil Vicente",
+        "Prediction": "2",
+        "Odds": "2.53",
+        "Win": "TBD"
+    }, {
+        "League": "Seria A",
+        "HomeTeam": "Verona",
+        "AwayTeam": "Udinese",
+        "Prediction": "X",
+        "Odds": "3.56",
+        "Win": "TBD"
+    }, {
+        "League": "Premier League",
+        "HomeTeam": "Newcastle",
+        "AwayTeam": "Aston Villa",
+        "Prediction": "X",
+        "Odds": "3.41",
+        "Win": "TBD"
+    }, {
+        "League": "La Liga",
+        "HomeTeam": "Alaves",
+        "AwayTeam": "Valencia",
+        "Prediction": "X",
+        "Odds": "3.23",
+        "Win": "TBD"
+    }, {
+        "League": "Eredivisie",
+        "HomeTeam": "Sparta Rotterdam",
+        "AwayTeam": "Willem II",
+        "Prediction": "X",
+        "Odds": "3.4",
+        "Win": "TBD"
+    }, {
+        "League": "Eredivisie",
+        "HomeTeam": "Sparta Rotterdam",
+        "AwayTeam": "Willem II",
+        "Prediction": "1",
+        "Odds": "2.05",
+        "Win": "TBD"
+    }],
+    "2022-02-14": [{
+        "League": "Primeira Liga",
+        "HomeTeam": "Arouca",
+        "AwayTeam": "Maritimo",
+        "Prediction": "X",
+        "Odds": "3.14",
+        "Win": "TBD"
+    }]
+}
