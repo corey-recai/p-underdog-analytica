@@ -197,20 +197,20 @@
         "AwayTeam": "Portimonense",
         "Prediction": "2",
         "Odds": "3.78",
-        "Win": "TBD"
+        "Win": "-1"
     }, {
         "League": "Seria A",
         "HomeTeam": "Bologna",
         "AwayTeam": "Spezia",
         "Prediction": "X",
         "Odds": "3.69",
-        "Win": "TBD"
+        "Win": "-1"
     }, {
         "League": "La Liga",
         "HomeTeam": "Celta",
         "AwayTeam": "Levante",
         "Prediction": "X",
         "Odds": "3.99",
-        "Win": "TBD"
+        "Win": "2.99"
     }]
 }
