@@ -46,10 +46,7 @@ export const StatsGrid = () => {
             </Box>
             <Box>
                 <Text>
-                    * Above stats correspond to this previous weekend's results. (Updated 21/02/2022)
-                </Text>
-                <Text>
-                    * See below for exact match results.
+                    * Above stats correspond to our most recent results. (Updated 21/02/2022)
                 </Text>
             </Box>
 

@@ -1,1 +1,17 @@
-{"2022-02-23": [{"League": "Scottish PL", "HomeTeam": "Dundee", "AwayTeam": "St Mirren", "Prediction": "X", "Odds": "3.12", "Win": "TBD"}, {"League": "Premier League", "HomeTeam": "Watford", "AwayTeam": "Crystal Palace", "Prediction": "X", "Odds": "3.19", "Win": "TBD"}]}
+{
+    "2022-02-23": [{
+        "League": "Scottish PL",
+        "HomeTeam": "Dundee",
+        "AwayTeam": "St Mirren",
+        "Prediction": "X",
+        "Odds": "3.12",
+        "Win": "PPD"
+    }, {
+        "League": "Premier League",
+        "HomeTeam": "Watford",
+        "AwayTeam": "Crystal Palace",
+        "Prediction": "X",
+        "Odds": "3.19",
+        "Win": "-1"
+    }]
+}
