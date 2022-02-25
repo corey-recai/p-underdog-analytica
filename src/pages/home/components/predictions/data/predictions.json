@@ -1,1 +1,82 @@
-{"2022-02-25": [{"League": "Primeira Liga", "HomeTeam": "Belenenses", "AwayTeam": "Pacos Ferreira", "Prediction": "X", "Odds": "3.0", "Win": "TBD"}, {"League": "La Liga", "HomeTeam": "Levante", "AwayTeam": "Elche", "Prediction": "X", "Odds": "3.4", "Win": "TBD"}], "2022-02-26": [{"League": "Scottish PL", "HomeTeam": "Dundee", "AwayTeam": "Livingston", "Prediction": "X", "Odds": "3.18", "Win": "TBD"}, {"League": "Scottish PL", "HomeTeam": "Ross County", "AwayTeam": "St Johnstone", "Prediction": "X", "Odds": "3.2", "Win": "TBD"}, {"League": "Primeira Liga", "HomeTeam": "Arouca", "AwayTeam": "Moreirense", "Prediction": "X", "Odds": "3.25", "Win": "TBD"}, {"League": "Premier League", "HomeTeam": "Brentford", "AwayTeam": "Newcastle", "Prediction": "X", "Odds": "3.2", "Win": "TBD"}, {"League": "La Liga", "HomeTeam": "Getafe", "AwayTeam": "Alaves", "Prediction": "X", "Odds": "3.14", "Win": "TBD"}, {"League": "Bundesliga", "HomeTeam": "Union Berlin", "AwayTeam": "Mainz", "Prediction": "2", "Odds": "2.91", "Win": "TBD"}], "2022-02-27": [{"League": "Ligue 1", "HomeTeam": "Brest", "AwayTeam": "Lorient", "Prediction": "X", "Odds": "3.35", "Win": "TBD"}, {"League": "Ligue 1", "HomeTeam": "Metz", "AwayTeam": "Nantes", "Prediction": "X", "Odds": "3.2", "Win": "TBD"}, {"League": "Primeira Liga", "HomeTeam": "Estoril", "AwayTeam": "Boavista", "Prediction": "X", "Odds": "3.41", "Win": "TBD"}]}
+{
+    "2022-02-25": [{
+        "League": "Primeira Liga",
+        "HomeTeam": "Belenenses",
+        "AwayTeam": "Pacos Ferreira",
+        "Prediction": "X",
+        "Odds": "3.0",
+        "Win": "-1"
+    }, {
+        "League": "La Liga",
+        "HomeTeam": "Levante",
+        "AwayTeam": "Elche",
+        "Prediction": "X",
+        "Odds": "3.4",
+        "Win": "-1"
+    }],
+    "2022-02-26": [{
+        "League": "Scottish PL",
+        "HomeTeam": "Dundee",
+        "AwayTeam": "Livingston",
+        "Prediction": "X",
+        "Odds": "3.18",
+        "Win": "TBD"
+    }, {
+        "League": "Scottish PL",
+        "HomeTeam": "Ross County",
+        "AwayTeam": "St Johnstone",
+        "Prediction": "X",
+        "Odds": "3.2",
+        "Win": "TBD"
+    }, {
+        "League": "Primeira Liga",
+        "HomeTeam": "Arouca",
+        "AwayTeam": "Moreirense",
+        "Prediction": "X",
+        "Odds": "3.25",
+        "Win": "TBD"
+    }, {
+        "League": "Premier League",
+        "HomeTeam": "Brentford",
+        "AwayTeam": "Newcastle",
+        "Prediction": "X",
+        "Odds": "3.2",
+        "Win": "TBD"
+    }, {
+        "League": "La Liga",
+        "HomeTeam": "Getafe",
+        "AwayTeam": "Alaves",
+        "Prediction": "X",
+        "Odds": "3.14",
+        "Win": "TBD"
+    }, {
+        "League": "Bundesliga",
+        "HomeTeam": "Union Berlin",
+        "AwayTeam": "Mainz",
+        "Prediction": "2",
+        "Odds": "2.91",
+        "Win": "TBD"
+    }],
+    "2022-02-27": [{
+        "League": "Ligue 1",
+        "HomeTeam": "Brest",
+        "AwayTeam": "Lorient",
+        "Prediction": "X",
+        "Odds": "3.35",
+        "Win": "TBD"
+    }, {
+        "League": "Ligue 1",
+        "HomeTeam": "Metz",
+        "AwayTeam": "Nantes",
+        "Prediction": "X",
+        "Odds": "3.2",
+        "Win": "TBD"
+    }, {
+        "League": "Primeira Liga",
+        "HomeTeam": "Estoril",
+        "AwayTeam": "Boavista",
+        "Prediction": "X",
+        "Odds": "3.41",
+        "Win": "TBD"
+    }]
+}
