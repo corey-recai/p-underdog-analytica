@@ -63,20 +63,20 @@
         "AwayTeam": "Lorient",
         "Prediction": "X",
         "Odds": "3.35",
-        "Win": "TBD"
+        "Win": "-1"
     }, {
         "League": "Ligue 1",
         "HomeTeam": "Metz",
         "AwayTeam": "Nantes",
         "Prediction": "X",
         "Odds": "3.2",
-        "Win": "TBD"
+        "Win": "2.2"
     }, {
         "League": "Primeira Liga",
         "HomeTeam": "Estoril",
         "AwayTeam": "Boavista",
         "Prediction": "X",
         "Odds": "3.41",
-        "Win": "TBD"
+        "Win": "-1"
     }]
 }
