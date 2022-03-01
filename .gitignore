@@ -1,3 +1,6 @@
+# db
+underdog-analytica\src\pages\home\components\predictions\data\clean.db
+
 # Logs
 logs
 *.log

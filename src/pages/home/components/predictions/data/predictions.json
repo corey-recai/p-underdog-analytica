@@ -1,82 +1,25 @@
 {
-    "2022-02-25": [{
-        "League": "Primeira Liga",
-        "HomeTeam": "Belenenses",
-        "AwayTeam": "Pacos Ferreira",
-        "Prediction": "X",
-        "Odds": "3.0",
-        "Win": "-1"
-    }, {
-        "League": "La Liga",
-        "HomeTeam": "Levante",
-        "AwayTeam": "Elche",
-        "Prediction": "X",
-        "Odds": "3.4",
-        "Win": "-1"
-    }],
-    "2022-02-26": [{
+    "2022-03-02": [
+        {
         "League": "Scottish PL",
-        "HomeTeam": "Dundee",
-        "AwayTeam": "Livingston",
+        "HomeTeam": "Motherwell",
+        "AwayTeam": "Ross County",
         "Prediction": "X",
-        "Odds": "3.18",
-        "Win": "-1"
+        "Odds": "3.36",
+        "Win": "TBD"
     }, {
         "League": "Scottish PL",
-        "HomeTeam": "Ross County",
-        "AwayTeam": "St Johnstone",
+        "HomeTeam": "Hearts",
+        "AwayTeam": "Aberdeen",
         "Prediction": "X",
-        "Odds": "3.2",
-        "Win": "-1"
-    }, {
-        "League": "Primeira Liga",
-        "HomeTeam": "Arouca",
-        "AwayTeam": "Moreirense",
-        "Prediction": "X",
-        "Odds": "3.25",
-        "Win": "2.25"
-    }, {
-        "League": "Premier League",
-        "HomeTeam": "Brentford",
-        "AwayTeam": "Newcastle",
-        "Prediction": "X",
-        "Odds": "3.2",
-        "Win": "-1"
+        "Odds": "3.32",
+        "Win": "TBD"
     }, {
         "League": "La Liga",
-        "HomeTeam": "Getafe",
-        "AwayTeam": "Alaves",
+        "HomeTeam": "Mallorca",
+        "AwayTeam": "Sociedad",
         "Prediction": "X",
-        "Odds": "3.14",
-        "Win": "2.14"
-    }, {
-        "League": "Bundesliga",
-        "HomeTeam": "Union Berlin",
-        "AwayTeam": "Mainz",
-        "Prediction": "2",
-        "Odds": "2.91",
-        "Win": "-1"
-    }],
-    "2022-02-27": [{
-        "League": "Ligue 1",
-        "HomeTeam": "Brest",
-        "AwayTeam": "Lorient",
-        "Prediction": "X",
-        "Odds": "3.35",
-        "Win": "-1"
-    }, {
-        "League": "Ligue 1",
-        "HomeTeam": "Metz",
-        "AwayTeam": "Nantes",
-        "Prediction": "X",
-        "Odds": "3.2",
-        "Win": "2.2"
-    }, {
-        "League": "Primeira Liga",
-        "HomeTeam": "Estoril",
-        "AwayTeam": "Boavista",
-        "Prediction": "X",
-        "Odds": "3.41",
-        "Win": "-1"
+        "Odds": "3.3",
+        "Win": "TBD"
     }]
 }

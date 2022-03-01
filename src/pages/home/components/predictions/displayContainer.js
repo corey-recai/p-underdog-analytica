@@ -25,7 +25,7 @@ export const DisplayContainer = () => {
                 <Row>
                     <Box>
                       <GridCard
-                        title="Weekend Fixture Predictions"
+                        title="Upcoming Recommendations"
                         content={[tables, <PredictionInfo/>]}
                         />
                     </Box>
