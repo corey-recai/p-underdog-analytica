@@ -1,1 +1,117 @@
-{"2022-03-04": [{"League": "Bundesliga", "HomeTeam": "Bielefeld", "AwayTeam": "Augsburg", "Prediction": "X", "Odds": "3.25", "Win": "TBD"}], "2022-03-05": [{"League": "Scottish PL", "HomeTeam": "Motherwell", "AwayTeam": "Dundee", "Prediction": "X", "Odds": "3.4", "Win": "TBD"}, {"League": "Scottish PL", "HomeTeam": "Dundee United", "AwayTeam": "Hearts", "Prediction": "X", "Odds": "3.4", "Win": "TBD"}, {"League": "Scottish PL", "HomeTeam": "Ross County", "AwayTeam": "St Mirren", "Prediction": "X", "Odds": "3.37", "Win": "TBD"}, {"League": "Seria A", "HomeTeam": "Roma", "AwayTeam": "Atalanta", "Prediction": "X", "Odds": "3.5", "Win": "TBD"}, {"League": "Premier League", "HomeTeam": "Newcastle", "AwayTeam": "Brighton", "Prediction": "X", "Odds": "3.25", "Win": "TBD"}, {"League": "Premier League", "HomeTeam": "Aston Villa", "AwayTeam": "Southampton", "Prediction": "2", "Odds": "3.1", "Win": "TBD"}, {"League": "Premier League", "HomeTeam": "Wolves", "AwayTeam": "Crystal Palace", "Prediction": "X", "Odds": "3.1", "Win": "TBD"}, {"League": "La Liga", "HomeTeam": "Espanol", "AwayTeam": "Getafe", "Prediction": "X", "Odds": "3.2", "Win": "TBD"}, {"League": "Eredivisie", "HomeTeam": "Willem II", "AwayTeam": "Heerenveen", "Prediction": "2", "Odds": "2.93", "Win": "TBD"}, {"League": "Bundesliga", "HomeTeam": "Wolfsburg", "AwayTeam": "Union Berlin", "Prediction": "X", "Odds": "3.3", "Win": "TBD"}], "2022-03-06": [{"League": "Ligue 1", "HomeTeam": "Reims", "AwayTeam": "Strasbourg", "Prediction": "X", "Odds": "3.2", "Win": "TBD"}, {"League": "Primeira Liga", "HomeTeam": "Moreirense", "AwayTeam": "Maritimo", "Prediction": "X", "Odds": "3.2", "Win": "TBD"}, {"League": "Primeira Liga", "HomeTeam": "Santa Clara", "AwayTeam": "Vizela", "Prediction": "2", "Odds": "3.21", "Win": "TBD"}, {"League": "Seria A", "HomeTeam": "Bologna", "AwayTeam": "Torino", "Prediction": "2", "Odds": "2.8", "Win": "TBD"}, {"League": "La Liga", "HomeTeam": "Betis", "AwayTeam": "Ath Madrid", "Prediction": "X", "Odds": "3.4", "Win": "TBD"}]}
+{
+    "2022-03-04": [{
+        "League": "Bundesliga",
+        "HomeTeam": "Bielefeld",
+        "AwayTeam": "Augsburg",
+        "Prediction": "X",
+        "Odds": "3.25",
+        "Win": "-1"
+    }],
+    "2022-03-05": [{
+        "League": "Scottish PL",
+        "HomeTeam": "Motherwell",
+        "AwayTeam": "Dundee",
+        "Prediction": "X",
+        "Odds": "3.4",
+        "Win": "2.4"
+    }, {
+        "League": "Scottish PL",
+        "HomeTeam": "Dundee United",
+        "AwayTeam": "Hearts",
+        "Prediction": "X",
+        "Odds": "3.4",
+        "Win": "2.4"
+    }, {
+        "League": "Scottish PL",
+        "HomeTeam": "Ross County",
+        "AwayTeam": "St Mirren",
+        "Prediction": "X",
+        "Odds": "3.37",
+        "Win": "-1"
+    }, {
+        "League": "Seria A",
+        "HomeTeam": "Roma",
+        "AwayTeam": "Atalanta",
+        "Prediction": "X",
+        "Odds": "3.5",
+        "Win": "-1"
+    }, {
+        "League": "Premier League",
+        "HomeTeam": "Newcastle",
+        "AwayTeam": "Brighton",
+        "Prediction": "X",
+        "Odds": "3.25",
+        "Win": "-1"
+    }, {
+        "League": "Premier League",
+        "HomeTeam": "Aston Villa",
+        "AwayTeam": "Southampton",
+        "Prediction": "2",
+        "Odds": "3.1",
+        "Win": "-1"
+    }, {
+        "League": "Premier League",
+        "HomeTeam": "Wolves",
+        "AwayTeam": "Crystal Palace",
+        "Prediction": "X",
+        "Odds": "3.1",
+        "Win": "-1"
+    }, {
+        "League": "La Liga",
+        "HomeTeam": "Espanol",
+        "AwayTeam": "Getafe",
+        "Prediction": "X",
+        "Odds": "3.2",
+        "Win": "-1"
+    }, {
+        "League": "Eredivisie",
+        "HomeTeam": "Willem II",
+        "AwayTeam": "Heerenveen",
+        "Prediction": "2",
+        "Odds": "2.93",
+        "Win": "-1"
+    }, {
+        "League": "Bundesliga",
+        "HomeTeam": "Wolfsburg",
+        "AwayTeam": "Union Berlin",
+        "Prediction": "X",
+        "Odds": "3.3",
+        "Win": "-1"
+    }],
+    "2022-03-06": [{
+        "League": "Ligue 1",
+        "HomeTeam": "Reims",
+        "AwayTeam": "Strasbourg",
+        "Prediction": "X",
+        "Odds": "3.2",
+        "Win": "2.2"
+    }, {
+        "League": "Primeira Liga",
+        "HomeTeam": "Moreirense",
+        "AwayTeam": "Maritimo",
+        "Prediction": "X",
+        "Odds": "3.2",
+        "Win": "-1"
+    }, {
+        "League": "Primeira Liga",
+        "HomeTeam": "Santa Clara",
+        "AwayTeam": "Vizela",
+        "Prediction": "2",
+        "Odds": "3.21",
+        "Win": "TBD"
+    }, {
+        "League": "Seria A",
+        "HomeTeam": "Bologna",
+        "AwayTeam": "Torino",
+        "Prediction": "2",
+        "Odds": "2.8",
+        "Win": "-1"
+    }, {
+        "League": "La Liga",
+        "HomeTeam": "Betis",
+        "AwayTeam": "Ath Madrid",
+        "Prediction": "X",
+        "Odds": "3.4",
+        "Win": "-1"
+    }]
+}
