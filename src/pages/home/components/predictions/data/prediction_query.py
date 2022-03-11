@@ -8,9 +8,9 @@ sqlite_file = './clean.db'
 # Connecting to the database file
 conn = sqlite3.connect(sqlite_file)
 c = conn.cursor()
-c.execute("""SELECT match_date as date, league as league, home_team as home, away_team as away, prediction as prediction, sel_odds as odds, win as win FROM predictions WHERE live == 1 ORDER BY date;""")
+c.execute("""SELECT match_date as date, league as league, home_team as home, away_team as away, prediction as prediction, sel_odds as odds, win as win, book as book FROM predictions WHERE live == 1 ORDER BY date;""")
 bets = c.fetchall()
-df = pd.DataFrame(bets, columns=["Date", "League", "HomeTeam", "AwayTeam", "Prediction", "Odds", "Win"])
+df = pd.DataFrame(bets, columns=["Date", "League", "HomeTeam", "AwayTeam", "Prediction", "Odds", "Win", "Book"])
 
 days = sorted(set(df.Date.values))
 weekend_predictions = {}
@@ -30,7 +30,8 @@ for bet in bets:
         "AwayTeam": bet[3],
         "Prediction": bet[4],
         "Odds": bet[5],
-        "Win": win
+        "Win": win,
+        "Book": bet[7]
     })
 
 j = json.dumps(weekend_predictions)

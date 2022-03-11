@@ -70,5 +70,14 @@ export const predictionColumns = [
                 backgroundColor: '#94c3f3',
             };
         }
-    }
+    },
+    {
+        dataField: "Book",
+        text: "Book",
+        sort: true,
+        style: { textAlign: 'center' },
+        headerStyle: () => {
+            return { width: '15%', textAlign: 'center' };
+        },
+    },
 ];
