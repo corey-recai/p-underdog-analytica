@@ -22,7 +22,7 @@
         "AwayTeam": "Motherwell",
         "Prediction": "X",
         "Odds": "3.05",
-        "Win": "TBD",
+        "Win": "-1",
         "Book": "Pinnacle"
     }, {
         "League": "Belgian First",
@@ -30,7 +30,7 @@
         "AwayTeam": "Cercle Brugge",
         "Prediction": "X",
         "Odds": "3.5",
-        "Win": "TBD",
+        "Win": "-1",
         "Book": "Bet365"
     }, {
         "League": "Premier League",
@@ -38,7 +38,7 @@
         "AwayTeam": "Arsenal",
         "Prediction": "X",
         "Odds": "3.5",
-        "Win": "TBD",
+        "Win": "-1",
         "Book": "Bet&Win"
     }, {
         "League": "La Liga",
@@ -46,7 +46,7 @@
         "AwayTeam": "Valencia",
         "Prediction": "2",
         "Odds": "2.86",
-        "Win": "TBD",
+        "Win": "-1",
         "Book": "Pinnacle"
     }, {
         "League": "La Liga",
@@ -54,7 +54,7 @@
         "AwayTeam": "Granada",
         "Prediction": "X",
         "Odds": "3.32",
-        "Win": "TBD",
+        "Win": "-1",
         "Book": "Pinnacle"
     }],
     "2022-03-20": [{
@@ -63,7 +63,7 @@
         "AwayTeam": "Anderlecht",
         "Prediction": "X",
         "Odds": "3.4",
-        "Win": "TBD",
+        "Win": "-1",
         "Book": "Bet365"
     }, {
         "League": "Ligue 1",
@@ -71,7 +71,7 @@
         "AwayTeam": "Strasbourg",
         "Prediction": "X",
         "Odds": "3.4",
-        "Win": "TBD",
+        "Win": "2.4",
         "Book": "Bet&Win"
     }, {
         "League": "Ligue 1",
@@ -79,7 +79,7 @@
         "AwayTeam": "Brest",
         "Prediction": "X",
         "Odds": "3.3",
-        "Win": "TBD",
+        "Win": "-1",
         "Book": "Interwetten"
     }, {
         "League": "Primeira Liga",
@@ -87,7 +87,7 @@
         "AwayTeam": "Moreirense",
         "Prediction": "X",
         "Odds": "3.3",
-        "Win": "TBD",
+        "Win": "-1",
         "Book": "Bet365"
     }, {
         "League": "Seria A",
@@ -95,7 +95,7 @@
         "AwayTeam": "Lazio",
         "Prediction": "X",
         "Odds": "3.47",
-        "Win": "TBD",
+        "Win": "-1",
         "Book": "Pinnacle"
     }, {
         "League": "La Liga",
@@ -103,7 +103,7 @@
         "AwayTeam": "Betis",
         "Prediction": "2",
         "Odds": "3.45",
-        "Win": "TBD",
+        "Win": "-1",
         "Book": "Pinnacle"
     }]
 }
