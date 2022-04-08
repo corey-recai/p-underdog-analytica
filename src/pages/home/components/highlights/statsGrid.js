@@ -46,7 +46,7 @@ export const StatsGrid = () => {
             </Box>
             <Box>
                 <Text>
-                    * Above stats reflect results of portfolio released on 03/18/2022
+                    * Above stats reflect results of portfolio released on 04/01/2022
                 </Text>
             </Box>
 
