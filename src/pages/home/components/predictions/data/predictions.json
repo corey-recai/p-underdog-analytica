@@ -5,7 +5,7 @@
         "AwayTeam": "Monaco",
         "Prediction": "1",
         "Odds": "2.15",
-        "Win": "TBD",
+        "Win": "-1",
         "Book": "Interwetten"
     }, {
         "League": "Primeira Liga",
@@ -21,7 +21,7 @@
         "AwayTeam": "Betis",
         "Prediction": "X",
         "Odds": "3.55",
-        "Win": "TBD",
+        "Win": "2.55",
         "Book": "Pinnacle"
     }, {
         "League": "La Liga",
@@ -29,7 +29,7 @@
         "AwayTeam": "Betis",
         "Prediction": "2",
         "Odds": "3.57",
-        "Win": "TBD",
+        "Win": "-1",
         "Book": "Pinnacle"
     }],
     "2022-04-16": [{
