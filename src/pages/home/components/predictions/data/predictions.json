@@ -38,7 +38,7 @@
         "AwayTeam": "Lens",
         "Prediction": "X",
         "Odds": "3.55",
-        "Win": "TBD",
+        "Win": "-1",
         "Book": "Pinnacle"
     }, {
         "League": "Ligue 1",
@@ -46,7 +46,7 @@
         "AwayTeam": "Brest",
         "Prediction": "X",
         "Odds": "3.42",
-        "Win": "TBD",
+        "Win": "-1",
         "Book": "Pinnacle"
     }, {
         "League": "Primeira Liga",
@@ -54,7 +54,7 @@
         "AwayTeam": "Tondela",
         "Prediction": "1",
         "Odds": "2.1",
-        "Win": "TBD",
+        "Win": "1.1",
         "Book": "Bet&Win"
     }, {
         "League": "Primeira Liga",
@@ -62,7 +62,7 @@
         "AwayTeam": "Vizela",
         "Prediction": "2",
         "Odds": "2.54",
-        "Win": "TBD",
+        "Win": "-1",
         "Book": "Pinnacle"
     }, {
         "League": "Primeira Liga",
@@ -70,7 +70,7 @@
         "AwayTeam": "Boavista",
         "Prediction": "X",
         "Odds": "3.1",
-        "Win": "TBD",
+        "Win": "-1",
         "Book": "Bet&Win"
     }, {
         "League": "Seria A",
@@ -78,7 +78,7 @@
         "AwayTeam": "Sassuolo",
         "Prediction": "2",
         "Odds": "2.39",
-        "Win": "TBD",
+        "Win": "-1",
         "Book": "Pinnacle"
     }, {
         "League": "Premier League",
@@ -86,7 +86,7 @@
         "AwayTeam": "Brentford",
         "Prediction": "X",
         "Odds": "3.33",
-        "Win": "TBD",
+        "Win": "-1",
         "Book": "Pinnacle"
     }, {
         "League": "Premier League",
@@ -94,7 +94,7 @@
         "AwayTeam": "Arsenal",
         "Prediction": "X",
         "Odds": "3.79",
-        "Win": "TBD",
+        "Win": "-1",
         "Book": "Pinnacle"
     }, {
         "League": "La Liga",
@@ -102,7 +102,7 @@
         "AwayTeam": "Villarreal",
         "Prediction": "2",
         "Odds": "2.56",
-        "Win": "TBD",
+        "Win": "1.56",
         "Book": "Pinnacle"
     }, {
         "League": "La Liga",
@@ -110,7 +110,7 @@
         "AwayTeam": "Mallorca",
         "Prediction": "2",
         "Odds": "3.0",
-        "Win": "TBD",
+        "Win": "-1",
         "Book": "Pinnacle"
     }, {
         "League": "La Liga",
@@ -118,7 +118,7 @@
         "AwayTeam": "Vallecano",
         "Prediction": "X",
         "Odds": "3.21",
-        "Win": "TBD",
+        "Win": "-1",
         "Book": "Pinnacle"
     }, {
         "League": "Eredivisie",
@@ -126,7 +126,7 @@
         "AwayTeam": "Sparta Rotterdam",
         "Prediction": "X",
         "Odds": "3.34",
-        "Win": "TBD",
+        "Win": "-1",
         "Book": "Pinnacle"
     }, {
         "League": "Bundesliga",
@@ -134,7 +134,7 @@
         "AwayTeam": "FC Koln",
         "Prediction": "X",
         "Odds": "3.86",
-        "Win": "TBD",
+        "Win": "-1",
         "Book": "Pinnacle"
     }],
     "2022-04-17": [{
@@ -143,7 +143,7 @@
         "AwayTeam": "Lorient",
         "Prediction": "X",
         "Odds": "3.9",
-        "Win": "TBD",
+        "Win": "-1",
         "Book": "Bet&Win"
     }, {
         "League": "Ligue 1",
@@ -151,7 +151,7 @@
         "AwayTeam": "Angers",
         "Prediction": "X",
         "Odds": "3.57",
-        "Win": "TBD",
+        "Win": "2.57",
         "Book": "Pinnacle"
     }, {
         "League": "Ligue 1",
@@ -159,7 +159,7 @@
         "AwayTeam": "Reims",
         "Prediction": "X",
         "Odds": "3.25",
-        "Win": "TBD",
+        "Win": "2.25",
         "Book": "VC"
     }, {
         "League": "Ligue 1",
@@ -167,7 +167,7 @@
         "AwayTeam": "Clermont",
         "Prediction": "X",
         "Odds": "3.22",
-        "Win": "TBD",
+        "Win": "2.22",
         "Book": "Pinnacle"
     }, {
         "League": "Primeira Liga",
@@ -175,7 +175,7 @@
         "AwayTeam": "Benfica",
         "Prediction": "X",
         "Odds": "3.5",
-        "Win": "TBD",
+        "Win": "-1",
         "Book": "William Hill"
     }, {
         "League": "La Liga",
@@ -183,7 +183,7 @@
         "AwayTeam": "Levante",
         "Prediction": "X",
         "Odds": "3.65",
-        "Win": "TBD",
+        "Win": "-1",
         "Book": "Pinnacle"
     }, {
         "League": "La Liga",
@@ -191,7 +191,7 @@
         "AwayTeam": "Real Madrid",
         "Prediction": "2",
         "Odds": "2.49",
-        "Win": "TBD",
+        "Win": "1.49",
         "Book": "Pinnacle"
     }, {
         "League": "Bundesliga",
@@ -199,7 +199,7 @@
         "AwayTeam": "RB Leipzig",
         "Prediction": "X",
         "Odds": "3.73",
-        "Win": "TBD",
+        "Win": "-1",
         "Book": "Pinnacle"
     }, {
         "League": "Bundesliga",
@@ -207,7 +207,7 @@
         "AwayTeam": "Ein Frankfurt",
         "Prediction": "1",
         "Odds": "2.25",
-        "Win": "TBD",
+        "Win": "1.25",
         "Book": "Interwetten"
     }]
 }
