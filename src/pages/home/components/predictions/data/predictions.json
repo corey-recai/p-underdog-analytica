@@ -1,1 +1,190 @@
-{"2022-04-20": [{"League": "Ligue 1", "HomeTeam": "Troyes", "AwayTeam": "Clermont", "Prediction": "X", "Odds": "3.41", "Win": "TBD", "Book": "Pinnacle"}, {"League": "Ligue 1", "HomeTeam": "Reims", "AwayTeam": "Lille", "Prediction": "X", "Odds": "3.23", "Win": "TBD", "Book": "Pinnacle"}, {"League": "Ligue 1", "HomeTeam": "Strasbourg", "AwayTeam": "Rennes", "Prediction": "2", "Odds": "2.81", "Win": "TBD", "Book": "Pinnacle"}, {"League": "Ligue 1", "HomeTeam": "Lens", "AwayTeam": "Montpellier", "Prediction": "X", "Odds": "3.9", "Win": "TBD", "Book": "Interwetten"}, {"League": "Premier League", "HomeTeam": "Chelsea", "AwayTeam": "Arsenal", "Prediction": "X", "Odds": "3.77", "Win": "TBD", "Book": "Pinnacle"}, {"League": "La Liga", "HomeTeam": "Celta", "AwayTeam": "Getafe", "Prediction": "X", "Odds": "3.12", "Win": "TBD", "Book": "Pinnacle"}], "2022-04-21": [{"League": "La Liga", "HomeTeam": "Cadiz", "AwayTeam": "Ath Bilbao", "Prediction": "2", "Odds": "2.37", "Win": "TBD", "Book": "Pinnacle"}, {"League": "La Liga", "HomeTeam": "Espanol", "AwayTeam": "Vallecano", "Prediction": "X", "Odds": "3.2", "Win": "TBD", "Book": "Bet365"}]}
+{
+    "2022-04-22": [{
+        "League": "Primeira Liga",
+        "HomeTeam": "Vizela",
+        "AwayTeam": "Arouca",
+        "Prediction": "X",
+        "Odds": "3.5",
+        "Win": "TBD",
+        "Book": "Bet&Win"
+    }, {
+        "League": "Bundesliga",
+        "HomeTeam": "Wolfsburg",
+        "AwayTeam": "Mainz",
+        "Prediction": "X",
+        "Odds": "3.46",
+        "Win": "TBD",
+        "Book": "Pinnacle"
+    }],
+    "2022-04-23": [{
+        "League": "Scottish PL",
+        "HomeTeam": "Aberdeen",
+        "AwayTeam": "Livingston",
+        "Prediction": "1",
+        "Odds": "2.09",
+        "Win": "TBD",
+        "Book": "Pinnacle"
+    }, {
+        "League": "Scottish PL",
+        "HomeTeam": "St Mirren",
+        "AwayTeam": "Hibernian",
+        "Prediction": "X",
+        "Odds": "3.2",
+        "Win": "TBD",
+        "Book": "Bet365"
+    }, {
+        "League": "Scottish PL",
+        "HomeTeam": "Dundee",
+        "AwayTeam": "St Johnstone",
+        "Prediction": "X",
+        "Odds": "3.1",
+        "Win": "TBD",
+        "Book": "Bet365"
+    }, {
+        "League": "Premier League",
+        "HomeTeam": "Leicester",
+        "AwayTeam": "Aston Villa",
+        "Prediction": "X",
+        "Odds": "3.43",
+        "Win": "TBD",
+        "Book": "Pinnacle"
+    }, {
+        "League": "Premier League",
+        "HomeTeam": "Arsenal",
+        "AwayTeam": "Man United",
+        "Prediction": "X",
+        "Odds": "3.64",
+        "Win": "TBD",
+        "Book": "Pinnacle"
+    }, {
+        "League": "Eredivisie",
+        "HomeTeam": "Waalwijk",
+        "AwayTeam": "Zwolle",
+        "Prediction": "X",
+        "Odds": "3.44",
+        "Win": "TBD",
+        "Book": "Pinnacle"
+    }, {
+        "League": "Bundesliga",
+        "HomeTeam": "Freiburg",
+        "AwayTeam": "M'gladbach",
+        "Prediction": "X",
+        "Odds": "4.0",
+        "Win": "TBD",
+        "Book": "Bet365"
+    }],
+    "2022-04-24": [{
+        "League": "Ligue 1",
+        "HomeTeam": "Clermont",
+        "AwayTeam": "Angers",
+        "Prediction": "X",
+        "Odds": "3.3",
+        "Win": "TBD",
+        "Book": "Bet365"
+    }, {
+        "League": "Ligue 1",
+        "HomeTeam": "Reims",
+        "AwayTeam": "Marseille",
+        "Prediction": "X",
+        "Odds": "3.35",
+        "Win": "TBD",
+        "Book": "Interwetten"
+    }, {
+        "League": "Ligue 1",
+        "HomeTeam": "Lille",
+        "AwayTeam": "Strasbourg",
+        "Prediction": "X",
+        "Odds": "3.38",
+        "Win": "TBD",
+        "Book": "Pinnacle"
+    }, {
+        "League": "Ligue 1",
+        "HomeTeam": "Metz",
+        "AwayTeam": "Brest",
+        "Prediction": "X",
+        "Odds": "3.3",
+        "Win": "TBD",
+        "Book": "Bet&Win"
+    }, {
+        "League": "Seria A",
+        "HomeTeam": "Bologna",
+        "AwayTeam": "Udinese",
+        "Prediction": "2",
+        "Odds": "2.6",
+        "Win": "TBD",
+        "Book": "Bet365"
+    }, {
+        "League": "Seria A",
+        "HomeTeam": "Genoa",
+        "AwayTeam": "Cagliari",
+        "Prediction": "X",
+        "Odds": "3.25",
+        "Win": "TBD",
+        "Book": "Bet365"
+    }, {
+        "League": "Premier League",
+        "HomeTeam": "Brighton",
+        "AwayTeam": "Southampton",
+        "Prediction": "X",
+        "Odds": "3.4",
+        "Win": "TBD",
+        "Book": "Bet365"
+    }, {
+        "League": "Premier League",
+        "HomeTeam": "Burnley",
+        "AwayTeam": "Wolves",
+        "Prediction": "X",
+        "Odds": "3.15",
+        "Win": "TBD",
+        "Book": "Pinnacle"
+    }, {
+        "League": "Eredivisie",
+        "HomeTeam": "For Sittard",
+        "AwayTeam": "Go Ahead Eagles",
+        "Prediction": "X",
+        "Odds": "3.49",
+        "Win": "TBD",
+        "Book": "Pinnacle"
+    }, {
+        "League": "Eredivisie",
+        "HomeTeam": "Willem II",
+        "AwayTeam": "Vitesse",
+        "Prediction": "2",
+        "Odds": "2.1",
+        "Win": "TBD",
+        "Book": "Interwetten"
+    }, {
+        "League": "Eredivisie",
+        "HomeTeam": "Groningen",
+        "AwayTeam": "Heracles",
+        "Prediction": "X",
+        "Odds": "3.49",
+        "Win": "TBD",
+        "Book": "Pinnacle"
+    }, {
+        "League": "Bundesliga",
+        "HomeTeam": "Bochum",
+        "AwayTeam": "Augsburg",
+        "Prediction": "X",
+        "Odds": "3.31",
+        "Win": "TBD",
+        "Book": "Pinnacle"
+    }, {
+        "League": "Bundesliga",
+        "HomeTeam": "Hertha",
+        "AwayTeam": "Stuttgart",
+        "Prediction": "2",
+        "Odds": "2.5",
+        "Win": "TBD",
+        "Book": "Bet&Win"
+    }],
+    "2022-04-25": [{
+        "League": "Premier League",
+        "HomeTeam": "Crystal Palace",
+        "AwayTeam": "Leeds",
+        "Prediction": "1",
+        "Odds": "2.11",
+        "Win": "TBD",
+        "Book": "Pinnacle"
+    }]
+}
