@@ -151,7 +151,7 @@
         "AwayTeam": "Rangers",
         "Prediction": "X",
         "Odds": "3.83",
-        "Win": "TBD",
+        "Win": "2.83",
         "Book": "Pinnacle"
     }, {
         "League": "Ligue 1",
@@ -159,7 +159,7 @@
         "AwayTeam": "Lille",
         "Prediction": "X",
         "Odds": "3.35",
-        "Win": "TBD",
+        "Win": "-1",
         "Book": "Interwetten"
     }, {
         "League": "Ligue 1",
@@ -167,7 +167,7 @@
         "AwayTeam": "Nice",
         "Prediction": "X",
         "Odds": "3.6",
-        "Win": "TBD",
+        "Win": "-1",
         "Book": "Bet365"
     }, {
         "League": "Ligue 1",
@@ -175,7 +175,7 @@
         "AwayTeam": "Lyon",
         "Prediction": "X",
         "Odds": "3.7",
-        "Win": "TBD",
+        "Win": "-1",
         "Book": "Pinnacle"
     }, {
         "League": "Ligue 1",
@@ -183,7 +183,7 @@
         "AwayTeam": "Clermont",
         "Prediction": "X",
         "Odds": "3.5",
-        "Win": "TBD",
+        "Win": "-1",
         "Book": "Bet&Win"
     }, {
         "League": "Primeira Liga",
@@ -191,7 +191,7 @@
         "AwayTeam": "Boavista",
         "Prediction": "X",
         "Odds": "3.3",
-        "Win": "TBD",
+        "Win": "-1",
         "Book": "Bet365"
     }, {
         "League": "Primeira Liga",
@@ -199,7 +199,7 @@
         "AwayTeam": "Santa Clara",
         "Prediction": "1",
         "Odds": "2.02",
-        "Win": "TBD",
+        "Win": "-1",
         "Book": "Pinnacle"
     }, {
         "League": "Seria A",
@@ -207,7 +207,7 @@
         "AwayTeam": "Torino",
         "Prediction": "2",
         "Odds": "2.56",
-        "Win": "TBD",
+        "Win": "1.56",
         "Book": "Pinnacle"
     }, {
         "League": "Premier League",
@@ -215,7 +215,7 @@
         "AwayTeam": "Arsenal",
         "Prediction": "X",
         "Odds": "3.92",
-        "Win": "TBD",
+        "Win": "-1",
         "Book": "Pinnacle"
     }, {
         "League": "La Liga",
@@ -223,7 +223,7 @@
         "AwayTeam": "Sociedad",
         "Prediction": "2",
         "Odds": "2.45",
-        "Win": "TBD",
+        "Win": "-1",
         "Book": "Bet&Win"
     }, {
         "League": "La Liga",
@@ -231,7 +231,7 @@
         "AwayTeam": "Celta",
         "Prediction": "X",
         "Odds": "3.31",
-        "Win": "TBD",
+        "Win": "2.31",
         "Book": "Pinnacle"
     }, {
         "League": "Eredivisie",
@@ -239,7 +239,7 @@
         "AwayTeam": "Vitesse",
         "Prediction": "2",
         "Odds": "2.48",
-        "Win": "TBD",
+        "Win": "1.48",
         "Book": "Pinnacle"
     }, {
         "League": "Eredivisie",
@@ -247,7 +247,7 @@
         "AwayTeam": "Groningen",
         "Prediction": "X",
         "Odds": "3.4",
-        "Win": "TBD",
+        "Win": "-1",
         "Book": "Bet365"
     }],
     "2022-05-02": [{
@@ -256,7 +256,7 @@
         "AwayTeam": "Tondela",
         "Prediction": "X",
         "Odds": "3.35",
-        "Win": "TBD",
+        "Win": "2.35",
         "Book": "Interwetten"
     }, {
         "League": "La Liga",
@@ -264,7 +264,7 @@
         "AwayTeam": "Betis",
         "Prediction": "2",
         "Odds": "2.77",
-        "Win": "TBD",
+        "Win": "-1",
         "Book": "Pinnacle"
     }]
 }
