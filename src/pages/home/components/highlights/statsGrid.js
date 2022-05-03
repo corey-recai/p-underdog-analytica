@@ -28,13 +28,13 @@ export const StatsGrid = () => {
                     <Box gridArea='first'/>
                     <StatCard
                         title="NET UNITS"
-                        seven="+7.26"
+                        seven="+6.26"
                     />
 
                     <Box gridArea='second'/>
                     <StatCard
                         title="ROI"
-                        seven="+22%"
+                        seven="+19%"
                     />
 
                     <Box gridArea='third'/>
