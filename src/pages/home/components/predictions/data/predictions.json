@@ -1,1 +1,85 @@
-{"2022-05-10": [{"League": "La Liga", "HomeTeam": "Valencia", "AwayTeam": "Betis", "Prediction": "2", "Odds": "2.36", "Win": "TBD", "Book": "Pinnacle"}, {"League": "La Liga", "HomeTeam": "Granada", "AwayTeam": "Ath Bilbao", "Prediction": "2", "Odds": "2.32", "Win": "TBD", "Book": "Pinnacle"}], "2022-05-11": [{"League": "Scottish PL", "HomeTeam": "St Mirren", "AwayTeam": "Livingston", "Prediction": "X", "Odds": "3.12", "Win": "TBD", "Book": "Pinnacle"}, {"League": "Scottish PL", "HomeTeam": "St Johnstone", "AwayTeam": "Aberdeen", "Prediction": "2", "Odds": "2.43", "Win": "TBD", "Book": "Pinnacle"}, {"League": "Premier League", "HomeTeam": "Watford", "AwayTeam": "Everton", "Prediction": "X", "Odds": "3.73", "Win": "TBD", "Book": "Pinnacle"}, {"League": "La Liga", "HomeTeam": "Osasuna", "AwayTeam": "Getafe", "Prediction": "X", "Odds": "2.98", "Win": "TBD", "Book": "Pinnacle"}, {"League": "La Liga", "HomeTeam": "Alaves", "AwayTeam": "Espanol", "Prediction": "X", "Odds": "3.6", "Win": "TBD", "Book": "Pinnacle"}, {"League": "Eredivisie", "HomeTeam": "Waalwijk", "AwayTeam": "Heracles", "Prediction": "X", "Odds": "3.59", "Win": "TBD", "Book": "Pinnacle"}, {"League": "Eredivisie", "HomeTeam": "Sparta Rotterdam", "AwayTeam": "Zwolle", "Prediction": "X", "Odds": "3.44", "Win": "TBD", "Book": "Pinnacle"}], "2022-05-12": [{"League": "Premier League", "HomeTeam": "Tottenham", "AwayTeam": "Arsenal", "Prediction": "X", "Odds": "3.75", "Win": "TBD", "Book": "Bet365"}]}
+{
+    "2022-05-10": [{
+        "League": "La Liga",
+        "HomeTeam": "Valencia",
+        "AwayTeam": "Betis",
+        "Prediction": "2",
+        "Odds": "2.36",
+        "Win": "1.36",
+        "Book": "Pinnacle"
+    }, {
+        "League": "La Liga",
+        "HomeTeam": "Granada",
+        "AwayTeam": "Ath Bilbao",
+        "Prediction": "2",
+        "Odds": "2.32",
+        "Win": "-1",
+        "Book": "Pinnacle"
+    }],
+    "2022-05-11": [{
+        "League": "Scottish PL",
+        "HomeTeam": "St Mirren",
+        "AwayTeam": "Livingston",
+        "Prediction": "X",
+        "Odds": "3.12",
+        "Win": "2.12",
+        "Book": "Pinnacle"
+    }, {
+        "League": "Scottish PL",
+        "HomeTeam": "St Johnstone",
+        "AwayTeam": "Aberdeen",
+        "Prediction": "2",
+        "Odds": "2.43",
+        "Win": "-1",
+        "Book": "Pinnacle"
+    }, {
+        "League": "Premier League",
+        "HomeTeam": "Watford",
+        "AwayTeam": "Everton",
+        "Prediction": "X",
+        "Odds": "3.73",
+        "Win": "2.73",
+        "Book": "Pinnacle"
+    }, {
+        "League": "La Liga",
+        "HomeTeam": "Osasuna",
+        "AwayTeam": "Getafe",
+        "Prediction": "X",
+        "Odds": "2.98",
+        "Win": "1.98",
+        "Book": "Pinnacle"
+    }, {
+        "League": "La Liga",
+        "HomeTeam": "Alaves",
+        "AwayTeam": "Espanol",
+        "Prediction": "X",
+        "Odds": "3.6",
+        "Win": "-1",
+        "Book": "Pinnacle"
+    }, {
+        "League": "Eredivisie",
+        "HomeTeam": "Waalwijk",
+        "AwayTeam": "Heracles",
+        "Prediction": "X",
+        "Odds": "3.59",
+        "Win": "-1",
+        "Book": "Pinnacle"
+    }, {
+        "League": "Eredivisie",
+        "HomeTeam": "Sparta Rotterdam",
+        "AwayTeam": "Zwolle",
+        "Prediction": "X",
+        "Odds": "3.44",
+        "Win": "-1",
+        "Book": "Pinnacle"
+    }],
+    "2022-05-12": [{
+        "League": "Premier League",
+        "HomeTeam": "Tottenham",
+        "AwayTeam": "Arsenal",
+        "Prediction": "X",
+        "Odds": "3.75",
+        "Win": "TBD",
+        "Book": "Bet365"
+    }]
+}
