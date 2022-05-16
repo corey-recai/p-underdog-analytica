@@ -5,7 +5,7 @@
         "AwayTeam": "Rangers",
         "Prediction": "2",
         "Odds": "2.25",
-        "Win": "TBD",
+        "Win": "1.25",
         "Book": "Interwetten"
     }, {
         "League": "Ligue 1",
@@ -13,7 +13,7 @@
         "AwayTeam": "Marseille",
         "Prediction": "1",
         "Odds": "2.1",
-        "Win": "TBD",
+        "Win": "1.1",
         "Book": "Interwetten"
     }, {
         "League": "Primeira Liga",
@@ -21,7 +21,7 @@
         "AwayTeam": "Belenenses",
         "Prediction": "1",
         "Odds": "2.4",
-        "Win": "TBD",
+        "Win": "-1",
         "Book": "Interwetten"
     }, {
         "League": "Primeira Liga",
@@ -29,7 +29,7 @@
         "AwayTeam": "Portimonense",
         "Prediction": "X",
         "Odds": "3.5",
-        "Win": "TBD",
+        "Win": "-1",
         "Book": "Bet&Win"
     }, {
         "League": "Primeira Liga",
@@ -37,7 +37,7 @@
         "AwayTeam": "Belenenses",
         "Prediction": "X",
         "Odds": "3.53",
-        "Win": "TBD",
+        "Win": "2.53",
         "Book": "Pinnacle"
     }, {
         "League": "Seria A",
@@ -45,7 +45,7 @@
         "AwayTeam": "Torino",
         "Prediction": "X",
         "Odds": "3.5",
-        "Win": "TBD",
+        "Win": "-1",
         "Book": "Bet365"
     }, {
         "League": "Seria A",
@@ -53,7 +53,7 @@
         "AwayTeam": "Salernitana",
         "Prediction": "1",
         "Odds": "3.35",
-        "Win": "TBD",
+        "Win": "-1",
         "Book": "Interwetten"
     }, {
         "League": "La Liga",
@@ -61,7 +61,7 @@
         "AwayTeam": "Valencia",
         "Prediction": "X",
         "Odds": "3.4",
-        "Win": "TBD",
+        "Win": "2.4",
         "Book": "Bet365"
     }],
     "2022-05-15": [{
@@ -70,7 +70,7 @@
         "AwayTeam": "Dundee",
         "Prediction": "X",
         "Odds": "3.46",
-        "Win": "TBD",
+        "Win": "-1",
         "Book": "Pinnacle"
     }, {
         "League": "Scottish PL",
@@ -78,7 +78,7 @@
         "AwayTeam": "St Johnstone",
         "Prediction": "1",
         "Odds": "2.0",
-        "Win": "TBD",
+        "Win": "1.0",
         "Book": "Interwetten"
     }, {
         "League": "Primeira Liga",
@@ -86,7 +86,7 @@
         "AwayTeam": "Gil Vicente",
         "Prediction": "2",
         "Odds": "3.2",
-        "Win": "TBD",
+        "Win": "-1",
         "Book": "Bet365"
     }, {
         "League": "Seria A",
@@ -94,7 +94,7 @@
         "AwayTeam": "Sassuolo",
         "Prediction": "2",
         "Odds": "2.73",
-        "Win": "TBD",
+        "Win": "1.73",
         "Book": "Pinnacle"
     }, {
         "League": "Premier League",
@@ -102,7 +102,7 @@
         "AwayTeam": "Crystal Palace",
         "Prediction": "X",
         "Odds": "3.56",
-        "Win": "TBD",
+        "Win": "2.56",
         "Book": "Pinnacle"
     }, {
         "League": "Premier League",
@@ -110,7 +110,7 @@
         "AwayTeam": "Brighton",
         "Prediction": "2",
         "Odds": "2.75",
-        "Win": "TBD",
+        "Win": "-1",
         "Book": "Interwetten"
     }, {
         "League": "La Liga",
@@ -118,7 +118,7 @@
         "AwayTeam": "Sociedad",
         "Prediction": "X",
         "Odds": "3.74",
-        "Win": "TBD",
+        "Win": "-1",
         "Book": "Pinnacle"
     }, {
         "League": "La Liga",
@@ -126,7 +126,7 @@
         "AwayTeam": "Vallecano",
         "Prediction": "X",
         "Odds": "3.97",
-        "Win": "TBD",
+        "Win": "-1",
         "Book": "Pinnacle"
     }, {
         "League": "La Liga",
@@ -134,7 +134,7 @@
         "AwayTeam": "Real Madrid",
         "Prediction": "2",
         "Odds": "2.26",
-        "Win": "TBD",
+        "Win": "-1",
         "Book": "Pinnacle"
     }, {
         "League": "Eredivisie",
@@ -142,7 +142,7 @@
         "AwayTeam": "Sparta Rotterdam",
         "Prediction": "1",
         "Odds": "2.56",
-        "Win": "TBD",
+        "Win": "-1",
         "Book": "Pinnacle"
     }, {
         "League": "Eredivisie",
@@ -150,7 +150,7 @@
         "AwayTeam": "Utrecht",
         "Prediction": "2",
         "Odds": "3.03",
-        "Win": "TBD",
+        "Win": "-1",
         "Book": "Pinnacle"
     }, {
         "League": "Eredivisie",
@@ -158,7 +158,7 @@
         "AwayTeam": "For Sittard",
         "Prediction": "1",
         "Odds": "2.22",
-        "Win": "TBD",
+        "Win": "-1",
         "Book": "Pinnacle"
     }]
 }
